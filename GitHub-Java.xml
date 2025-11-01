@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub-Java</title>
+    <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml</link>
+    <description>Summarized RSS feed for GitHub-Java</description>
+    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-Java.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title/>
+      <link/>
+      <description>概要:  
+RuoYi-Vue Pro 是一款基于 Spring Boot + MyBatis Plus + Vue 全栈开发的开源后台管理系统，集成微信小程序与多端适配方案，提供 RBAC 动态权限、SaaS 多租户、Flowable 工作流、三方登录、支付、商城、CRM、ERP、AI 大模型等企业级功能，支持 JDK 8/17 双版本架构和 Vue2/Vue3 多前端技术栈，通过 MIT 协议完全开源免费，代码规范与单元测试保障高质量，同时具备项目外包服务以满足企业定制化需求。
+
+核心要点:  
+- **全功能开源平台**：提供完整的系统管理、工作流引擎、支付系统、商城、CRM、ERP、AI 模块，支持 SaaS 多租户及动态权限配置，代码100%开源且无商业版本。  
+- **技术架构先进**：采用 Spring Boot 多模块设计，兼容主流数据库（含国产信创数据库）与消息队列，支持 Vue2/Vue3 双端开发及 uni-app 多终端适配方案。  
+- **开发效率与运维保障**：集成代码生成器、Swagger 接口文档、Screw 数据库文档工具，支持 Redis 缓存、链路追踪、分布式锁等高并发场景解决方案。  
+- **功能灵活性与扩展性**：工作流提供仿钉钉/飞书 + BPMN 双设计器，支持超时审批、自动提醒、父子流程等复杂场景；支付系统兼容多渠道并支持实战接入示例。  
+- **社区与生态支持**：遵循阿里巴巴开发规范，代码注释完整（11.3万余行 Java 代码+4.2万行注释），集成单元测试与监控体系（Spring Boot Admin、SkyWalking），并提供外包服务团队。</description>
+      <pubDate>R</pubDate>
+      <guid/>
+    </item>
+  </channel>
+</rss>
