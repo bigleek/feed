@@ -4,20 +4,20 @@
     <title>GitHub-Java</title>
     <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml</link>
     <description>Summarized RSS feed for GitHub-Java</description>
-    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-Java.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title/>
-      <link/>
-      <description>概要: Checker Framework 是一个为 Java 提供可插拔类型检查的工具，允许开发者通过扩展机制实现定制化的类型验证功能，其核心价值在于通过模块化设计提升代码安全性和可维护性，相关文档包括用户手册、版本历史记录和开发者指南，便于不同角色快速获取所需信息。  
+      <title>typetools/checker-framework</title>
+      <link>https://github.com/typetools/checker-framework</link>
+      <description>概要: Checker Framework 是一个为 Java 提供可插拔类型检查的工具，支持通过插件扩展类型检查功能，提升代码的可靠性和安全性，相关文档与版本历史信息可分别在手册和变更日志文件中查阅。
 
 核心要点:  
-- Checker Framework 支持 Java 的可插拔类型检查，提供灵活的扩展能力以满足不同安全需求。  
-- 用户手册（HTML/PDF 格式）是入门和操作的权威参考，涵盖功能说明和使用案例。  
-- 版本历史记录存储于 CHANGELOG.md 文件，便于追踪更新和变更。  
-- 开发者文档集中于 docs/developer 目录，针对框架实现和定制提供技术细节。  
-- 通过模块化架构，Checker Framework 实现类型检查功能的解耦与复用。</description>
-      <pubDate>R</pubDate>
-      <guid/>
+- Checker Framework 实现了 Java 的可插拔类型检查机制，允许灵活扩展类型检查功能。  
+- 提供详细的用户手册，以 HTML 和 PDF 格式呈现，便于查阅和使用。  
+- 版本变更记录保存在 docs/CHANGELOG.md 文件中，方便跟踪更新内容。  
+- 开发者文档位于 docs/developer 目录下，为框架的构建与维护提供指导。  
+- 该框架旨在提高代码质量和安全性，适用于需要严格类型检查的 Java 项目。</description>
+      <pubDate>Mon, 03 Nov 2025 11:39:49 +0800</pubDate>
+      <guid>https://github.com/typetools/checker-framework</guid>
     </item>
   </channel>
 </rss>
