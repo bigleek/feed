@@ -4,20 +4,20 @@
     <title>GitHub-All</title>
     <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
     <description>Summarized RSS feed for GitHub-All</description>
-    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-All.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title/>
-      <link/>
-      <description>概要: OpenCode 是一个专为终端环境设计的 AI 编码代理工具，支持多种安装方式，包括通过包管理器和自定义安装路径，并具备开源、跨模型支持、终端用户界面（TUI）优化及客户端/服务器架构等特性，旨在为开发者提供高效、灵活的终端编码体验。
+      <title>sst/opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>概要: OpenCode是一款专为终端环境设计的开源AI编码代理，提供灵活的安装方式与跨平台兼容性，支持Anthropic、OpenAI、Google及本地模型，具备开箱即用的LSP功能与终端用户界面（TUI）优化，同时采用客户端/服务器架构实现远程操控，通过社区资源与文档支持构建完整开发生态。  
 
 核心要点:  
-- OpenCode 是专为终端环境设计的 AI 编码辅助工具，适合开发者在命令行界面中进行高效编码。  
-- 支持多种安装方式，包括通过 npm、scoop、choco、brew 和 paru 等包管理器进行全局安装。  
-- 支持自定义安装路径，并遵循 XDG Base Directory Specification 标准，确保兼容性和灵活性。  
-- 与 Claude Code 相比，OpenCode 是 100% 开源，并且不依赖特定模型提供商，支持多种模型如 Anthropic、OpenAI、Google 和本地模型。  
-- 提供终端用户界面（TUI）优化支持，并具备客户端/服务器架构，允许远程控制编码代理，提升使用场景的多样性与便捷性。</description>
-      <pubDate>R</pubDate>
-      <guid/>
+- **完全开源**：基于开放源代码，确保技术透明与自主可控。  
+- **多模型兼容性**：脱离单一服务提供商限制，支持主流AI模型及本地部署。  
+- **终端优先设计**：针对终端用户优化，融合Neovim社区与terminal.shop开发经验。  
+- **LSP无缝集成**：内置语言服务器协议支持，提升代码编辑与调试效率。  
+- **架构灵活性**：客户端/服务器模式允许本地运行与移动端远程控制。</description>
+      <pubDate>Mon, 03 Nov 2025 11:36:30 +0800</pubDate>
+      <guid>https://github.com/sst/opencode</guid>
     </item>
   </channel>
 </rss>
