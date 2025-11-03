@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title/>\n    <link/>\n    <description>Summarized RSS feed for null</description>\n    <atom:link rel="self" type="application/rss+xml"/>\n    <item>\n      <title>sst/opencode</title>\n      <link>https://github.com/sst/opencode</link>\n      <description>&lt;p&gt;概要: OpenCode 是一款专为终端环境设计的开源AI编码代理，支持多种安装方式并具备灵活的安装路径选择，同时强调终端用户界面（TUI）的优化与跨平台兼容性，提供开箱即用的LSP支持和去供应商依赖的架构，使用户能够自由选择模型提供商并远程操控。&lt;/p&gt;\n\n&lt;h3&gt;核心要点:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;完全开源且跨平台兼容&lt;/strong&gt;: OpenCode 是 100% 开源项目，支持 Windows、macOS、Linux 以及通过不同包管理工具进行安装。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;去供应商依赖架构&lt;/strong&gt;: 可以使用多种模型提供商（如 Anthropic、OpenAI、Google 等），甚至支持本地模型，实现灵活部署。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;终端用户界面（TUI）为核心&lt;/strong&gt;: 针对终端优化，由 Neovim 用户及终端.shop 的创建者开发，旨在提升终端编码体验。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;内置 LSP 支持&lt;/strong&gt;: 提供开箱即用的语言服务器协议支持，便于集成与开发。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;支持远程操控&lt;/strong&gt;: 采用客户端/服务器架构，允许用户在移动设备上远程控制本地运行的 OpenCode 实例。&lt;/li&gt;\n&lt;/ul&gt;</description>\n      <pubDate>Mon, 03 Nov 2025 19:00:09 +0800</pubDate>\n      <guid>https://github.com/sst/opencode</guid>\n    </item>\n  </channel>\n</rss>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub-Scala</title>
+    <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/scala.xml</link>
+    <description>Summarized RSS feed for GitHub-Scala</description>
+    <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/scala.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ucb-bar/berkeley-hardfloat</title>
+      <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
+      <description>&lt;p&gt;概要: 该仓库提供使用Chisel编写的可参数化硬件浮点运算单元，支持融合乘加、整数与浮点数转换以及不同精度浮点数间的转换，并采用内部重编码格式提升微处理器处理子规范数效率，但目前仍处于开发阶段，可能存在性能与稳定性问题。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;提供Chisel实现的可参数化浮点运算单元&lt;/strong&gt;，涵盖融合乘加、整数-浮点转换、不同精度浮点数转换。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;采用内部重编码浮点格式&lt;/strong&gt;，通过增加指数位提升子规范数处理效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;当前处于开发阶段&lt;/strong&gt;，可能存在bug且未完全优化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;需berkeley-testfloat-3包进行单元测试&lt;/strong&gt;，并通过C模拟器执行测试。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持通过命令$ make进行测试&lt;/strong&gt;，提供快速验证流程。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Mon, 03 Nov 2025 19:21:04 +0800</pubDate>
+      <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
+    </item>
+  </channel>
+</rss>
