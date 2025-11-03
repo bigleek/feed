@@ -4,20 +4,20 @@
     <title>GitHub-Scala</title>
     <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/scala.xml</link>
     <description>Summarized RSS feed for GitHub-Scala</description>
-    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-Scala.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/scala.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title/>
-      <link/>
-      <description>概要: 该仓库提供了基于Chisel实现的参数化硬件浮点运算单元，支持融合乘加(FMA)、整数与浮点转换及不同精度浮点转换，采用自定义的重新编码格式（含额外指数位）提升微处理器对亚正常数的处理效率，但需注意当前版本仍处于开发阶段，可能存在未修复的bug和未优化的性能问题。
+      <title>ucb-bar/berkeley-hardfloat</title>
+      <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
+      <description>概要: 该仓库提供用Chisel编写的Berkeley硬件浮点单元，支持融合乘加运算、整数与浮点数之间的转换以及不同精度浮点数之间的转换，采用了一种内部重编码格式，通过增加指数位来更高效地处理微处理器中的次正规数。然而，这些单元仍处于开发阶段，可能存在bug且未完全优化，需配合特定测试工具进行验证。
 
 核心要点:  
-- 采用Chisel实现的参数化浮点运算单元，支持FMA、整数-浮点转换及跨精度浮点转换  
-- 自定义重新编码格式通过增加指数位位宽优化亚正常数处理效率  
-- 项目处于开发阶段，存在潜在bug和性能优化空间  
-- 需依赖berkeley-testfloat-3测试包进行验证  
-- 提供C模拟器测试指令：`$ make`</description>
-      <pubDate>R</pubDate>
-      <guid/>
+- 提供基于Chisel的硬件浮点运算单元，支持多种关键功能如融合乘加、整数-浮点转换与不同精度浮点转换。  
+- 采用内部重编码浮点格式，通过增加指数位提升对次正规数的处理效率。  
+- 当前版本为开发中的原型，存在潜在bug且未完全优化。  
+- 需要安装berkeley-testfloat-3包进行单元测试。  
+- 可使用C模拟器并通过执行"$ make"命令进行测试。</description>
+      <pubDate>Mon, 03 Nov 2025 11:45:12 +0800</pubDate>
+      <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
     </item>
   </channel>
 </rss>
