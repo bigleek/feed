@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub-Scala</title>
+    <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/scala.xml</link>
+    <description>Summarized RSS feed for GitHub-Scala</description>
+    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-Scala.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title/>
+      <link/>
+      <description>概要: 该仓库提供了基于Chisel实现的参数化硬件浮点运算单元，支持融合乘加(FMA)、整数与浮点转换及不同精度浮点转换，采用自定义的重新编码格式（含额外指数位）提升微处理器对亚正常数的处理效率，但需注意当前版本仍处于开发阶段，可能存在未修复的bug和未优化的性能问题。
+
+核心要点:  
+- 采用Chisel实现的参数化浮点运算单元，支持FMA、整数-浮点转换及跨精度浮点转换  
+- 自定义重新编码格式通过增加指数位位宽优化亚正常数处理效率  
+- 项目处于开发阶段，存在潜在bug和性能优化空间  
+- 需依赖berkeley-testfloat-3测试包进行验证  
+- 提供C模拟器测试指令：`$ make`</description>
+      <pubDate>R</pubDate>
+      <guid/>
+    </item>
+  </channel>
+</rss>
