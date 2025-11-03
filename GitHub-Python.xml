@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub-Python</title>
+    <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml</link>
+    <description>Summarized RSS feed for GitHub-Python</description>
+    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-Python.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title/>
+      <link/>
+      <description>概要: 该文本介绍了一套完全开源的基于AI的自动化交易代理系统，涵盖从策略研究、回测、风险管理到市场分析及社交媒体内容创建等多个方面，旨在通过AI提升交易效率和决策质量，并强调所有策略需用户自行研究、测试与验证，不提供任何保证盈利的解决方案。
+
+核心要点:  
+- 提供100%开源的AI交易代理系统，涵盖策略研究、回测、风险管理及市场分析等模块。  
+- 强调必须通过回测验证策略后方可用于实盘，不提供直接可操作的交易策略。  
+- 系统使用多AI模型进行综合分析与决策，支持多种市场数据源和交易模式。  
+- 所有代理需要用户自行配置API密钥和环境变量，并注意安全以避免泄露敏感信息。  
+- 项目为实验性质，不承诺盈利，且强调交易存在高风险，需用户具备专业判断与策略制定能力。</description>
+      <pubDate>R</pubDate>
+      <guid/>
+    </item>
+  </channel>
+</rss>
