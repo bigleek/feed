@@ -8,15 +8,16 @@
     <item>
       <title>typetools/checker-framework</title>
       <link>https://github.com/typetools/checker-framework</link>
-      <description>&lt;p&gt;概要: Checker Framework 是一种为 Java 提供可插拔类型检查的工具，允许开发者通过扩展机制实现定制化类型验证，提升代码安全性与可靠性，其文档资源包括用户手册、版本变更记录及开发者指南。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Checker Framework 是一种为 Java 提供可插拔类型检查的工具，通过灵活扩展机制增强代码安全性和可靠性，配套完整的用户手册、版本变更记录及开发者文档，支持 HTML 和 PDF 格式，便于不同用户群体快速获取所需信息。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;可插拔类型检查架构&lt;/strong&gt;：支持通过插件形式扩展 Java 类型系统，实现灵活的静态分析功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多格式文档支持&lt;/strong&gt;：提供 HTML 与 PDF 格式的用户手册，便于不同场景下的查阅与使用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本管理透明化&lt;/strong&gt;：通过 CHANGELOG.md 文件清晰记录所有发布版本及变更细节。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开发者专属文档&lt;/strong&gt;：为开发人员提供独立目录（docs/developer）的深入技术文档。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可插拔类型检查架构&lt;/strong&gt;：允许开发者通过插件形式自定义类型验证规则，扩展 Java 类型系统功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多格式文档支持&lt;/strong&gt;：提供 HTML 和 PDF 格式的用户手册，兼顾易读性与离线查阅需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本追踪透明化&lt;/strong&gt;：通过 CHANGELOG.md 文件清晰记录发布历史与变更内容，便于维护与升级。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发者专属资源&lt;/strong&gt;：独立目录(docs/developer/)提供深度开发文档，支持定制化开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全性与可靠性提升&lt;/strong&gt;：通过类型检查机制帮助识别潜在错误，优化代码质量。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:43:59 +0800</pubDate>
+      <pubDate>Tue, 04 Nov 2025 07:56:29 +0800</pubDate>
       <guid>https://github.com/typetools/checker-framework</guid>
     </item>
   </channel>
