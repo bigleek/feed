@@ -4,20 +4,20 @@
     <title>GitHub-Python</title>
     <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml</link>
     <description>Summarized RSS feed for GitHub-Python</description>
-    <atom:link href="https://raw.githubusercontent.com/bigleek/feed/main/GitHub-Python.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title/>
-      <link/>
-      <description>概要: 该文本介绍了一套完全开源的基于AI的自动化交易代理系统，涵盖从策略研究、回测、风险管理到市场分析及社交媒体内容创建等多个方面，旨在通过AI提升交易效率和决策质量，并强调所有策略需用户自行研究、测试与验证，不提供任何保证盈利的解决方案。
+      <title>moondevonyt/moon-dev-ai-agents</title>
+      <link>https://github.com/moondevonyt/moon-dev-ai-agents</link>
+      <description>概要: 该项目提供了一套完全开源的Python自主AI交易代理系统，涵盖回测研究、实时交易、市场分析、内容生成等多维度功能，集成DeepSeek、GPT-5等AI模型及20+数据源，通过并行计算、Web界面和自动优化提升效率，但明确强调其为实验性研究项目，不保证盈利且需用户自行验证策略有效性，所有交易决策均依赖用户自身风险管理和市场判断能力。
 
 核心要点:  
-- 提供100%开源的AI交易代理系统，涵盖策略研究、回测、风险管理及市场分析等模块。  
-- 强调必须通过回测验证策略后方可用于实盘，不提供直接可操作的交易策略。  
-- 系统使用多AI模型进行综合分析与决策，支持多种市场数据源和交易模式。  
-- 所有代理需要用户自行配置API密钥和环境变量，并注意安全以避免泄露敏感信息。  
-- 项目为实验性质，不承诺盈利，且强调交易存在高风险，需用户具备专业判断与策略制定能力。</description>
-      <pubDate>R</pubDate>
-      <guid/>
+- 提供100%开源的AI交易代理集合，支持回测研究、实时交易、市场分析、内容生成等场景，覆盖加密货币与Solana生态，包含RBI代理（自动策略回测）、Swarm代理（多模型共识决策）及风险管理模块等核心组件。  
+- 系统通过并行计算（18线程）、多AI模型（Claude 4.5、GPT-5、Gemini等）和Web界面实现高效策略生成与测试，但需依赖用户自定义策略和严格回测验证，无现成盈利方案。  
+- 重点强调风险提示：AI代理仅作为工具，不提供交易策略，需用户自行构建交易逻辑、管理风险，并承担所有交易损失责任，明确声明无财务担保且不符合CFTC合规要求。  
+- 支持定制化数据源扩展（如添加自定义代币），并提供详细配置指南（含Python版本、API密钥获取与环境变量设置），强调代码自主性与技术可控性。  
+- 项目通过Discord和YouTube提供更新支持，但警惕用户误入诈骗陷阱，特别申明无任何关联代币，禁止资金转移，所有功能基于个人研究而非投资建议。</description>
+      <pubDate>Mon, 03 Nov 2025 11:42:54 +0800</pubDate>
+      <guid>https://github.com/moondevonyt/moon-dev-ai-agents</guid>
     </item>
   </channel>
 </rss>
