@@ -8,15 +8,16 @@
     <item>
       <title>moondevonyt/moon-dev-ai-agents</title>
       <link>https://github.com/moondevonyt/moon-dev-ai-agents</link>
-      <description>概要: 该文本介绍了一系列使用Python构建的自主AI交易代理，涵盖策略研究、回测、实时交易、市场分析以及内容生成等多个方面。这些AI代理致力于推动交易自动化，并利用多种AI模型实现策略优化与多源数据测试，但所有操作均基于回测结果，且项目为开源、非盈利性质，明确声明无盈利保证，需用户自行负责策略开发与风险控制。
-
-核心要点:  
-- 项目提供多种自主AI交易代理，集成用于回测、市场分析、策略执行与内容生成，旨在推动AI在交易领域的应用。  
-- RBI代理利用DeepSeek等AI模型自动分析文本并生成回测代码，支持多数据源测试与策略优化。  
-- 所有交易代理需在充分回测后使用，项目本身不提供盈利保证，仅为研究与实验用途。  
-- 用户需自行配置API密钥、环境变量及数据源，系统具备高度可定制性。  
-- 强调风险管理与策略验证的重要性，AI仅作为辅助工具，交易结果取决于用户自身决策与执行。</description>
-      <pubDate>Mon, 03 Nov 2025 15:31:05 +0800</pubDate>
+      <description>&lt;p&gt;概要: 该项目提供一套完全开源的PythonAI交易代理框架，通过RBI Agent等核心工具实现从策略研究、回测到实时交易的全流程自动化，涵盖市场分析、风险控制、Solana生态适配及内容创作等多场景功能，但明确强调其为实验性研究项目，不承诺盈利且需用户自行承担策略开发、风险管理和验证责任。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;开源自动化交易体系&lt;/strong&gt;: 提供10+专用AI代理，支持YouTube/文本策略研究、多数据源回测（20+市场）、实时交易决策及风险监控，且所有代码免费开放。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化功能覆盖&lt;/strong&gt;: 包含市场情绪分析、资金费率监控、清算事件追踪、Solana链上数据挖掘（如新Token识别）及跨平台内容生成（如TikTok/YouTube视频制作）等差异化场景工具。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高风险明确警示&lt;/strong&gt;: 项目定位为实验性研究而非交易系统，拒绝提供盈利保证，所有策略需用户自行开发并严格验证，强调交易的潜在损失风险。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;分层验证流程&lt;/strong&gt;: 强制要求先通过RBI Agent进行多数据源回测（1%阈值筛选），再部署至实际交易，确保策略经历史数据验证。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活配置能力&lt;/strong&gt;: 支持自定义数据源接入（如Solana合约地址），提供多模型并行计算（Claude、GPT-5等）及参数化调试（如线程数、回测阈值），适应不同用户需求。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Tue, 04 Nov 2025 07:44:13 +0800</pubDate>
       <guid>https://github.com/moondevonyt/moon-dev-ai-agents</guid>
     </item>
   </channel>
