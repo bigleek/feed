@@ -8,15 +8,17 @@
     <item>
       <title>ucb-bar/berkeley-hardfloat</title>
       <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
-      <description>概要: 该仓库提供了基于Chisel实现的可参数化浮点运算单元，重点支持融合乘加、整数与浮点转换以及多精度浮点转换功能，采用独特的重编码格式（指数位扩展）优化微处理器中子规范数的处理效率，但需注意当前版本仍处于开发阶段，存在潜在Bug和优化空间，并依赖特定测试工具包进行验证。
+      <description>&lt;p&gt;概要: 该仓库提供了基于Chisel实现的硬件浮点运算单元，支持融合乘加、整数与浮点数转换以及不同精度浮点数之间的转换，但目前仍处于开发阶段，存在潜在的错误和优化空间。&lt;/p&gt;  
 
-核心要点: 
-- 采用Chisel开发的可配置浮点运算模块，支持FMA、整浮转换及多精度转换三大核心功能
-- 创新性使用重编码格式（指数位扩展1位）提升子规范数处理效率，附带单精度示例映射表
-- 当前版本为持续开发状态，尚未完全消除Bug且性能优化有待完善
-- 测试需依赖berkeley-testfloat-3工具包及C模拟器的make命令流程
-- 提供IEEE与重编码格式的对照表，展示特殊数值处理的差异化设计</description>
-      <pubDate>Mon, 03 Nov 2025 15:36:27 +0800</pubDate>
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;提供参数化的浮点运算单元&lt;/strong&gt;，支持多种常用操作，包括融合乘加、整数-浮点转换及不同精度浮点转换。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;采用内部重编码浮点格式&lt;/strong&gt;，通过增加指数位来提高处理次正规数的效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;当前版本仍处于开发阶段&lt;/strong&gt;，可能存在错误且未完全优化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;需要berkeley-testfloat-3包&lt;/strong&gt;进行单元测试，支持使用C模拟器进行验证。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;测试命令为“$ make”&lt;/strong&gt;，可快速启动相关测试流程。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Tue, 04 Nov 2025 07:44:22 +0800</pubDate>
       <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
     </item>
   </channel>
