@@ -8,16 +8,16 @@
     <item>
       <title>sst/opencode</title>
       <link>https://github.com/sst/opencode</link>
-      <description>&lt;p&gt;概要: OpenCode 是一款专为终端设计的 AI 编码代理，提供开源、跨平台安装方式以及灵活的安装路径选择，支持多种包管理器，并强调终端用户界面（TUI）和客户端/服务端架构，使其不仅限于终端使用，还可通过移动应用远程操控。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: OpenCode是一款专为终端环境打造的开源AI编码代理，支持多模型兼容（如Anthropic、OpenAI、Google及本地模型）与跨平台安装，采用客户端/服务器架构实现远程控制，并通过终端用户界面（TUI）和内置LSP支持提升开发效率，同时提供灵活的安装路径配置选项。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;100% 开源&lt;/strong&gt;，确保透明度和可定制性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多种模型和提供商&lt;/strong&gt;，可使用 Anthropic、OpenAI、Google 或本地模型，具备 provider-agnostic 的灵活性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;终端用户界面（TUI）为核心&lt;/strong&gt;，专为 neovim 用户和终端.shop 创作者设计，注重在终端环境中的功能扩展。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供客户端/服务端架构&lt;/strong&gt;，支持在本地运行并远程控制，拓展使用场景。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安装方式灵活&lt;/strong&gt;，提供多种包管理器命令以及自定义安装路径选项。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与多模型兼容&lt;/strong&gt;：完全开源且不绑定特定服务商，可适配多种AI模型（含本地部署），适应技术迭代与成本变化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;终端优化设计&lt;/strong&gt;：聚焦TUI界面开发，由NeoVim用户及terminal.shop团队打造，最大化终端环境功能潜力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活安装方案&lt;/strong&gt;：支持自定义路径、XDG规范路径、标准用户目录及默认回退路径，适配不同操作系统与系统配置。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;客户端/服务器架构&lt;/strong&gt;：允许本地运行与移动端远程操控，实现多终端协同开发的灵活性与扩展性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;差异化定位&lt;/strong&gt;：与Claude Code相比，强调独立模型适配能力、终端深度集成及社区驱动的开发模式。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:41:31 +0800</pubDate>
+      <pubDate>Tue, 04 Nov 2025 07:43:38 +0800</pubDate>
       <guid>https://github.com/sst/opencode</guid>
     </item>
   </channel>
