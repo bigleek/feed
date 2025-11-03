@@ -8,16 +8,16 @@
     <item>
       <title>sst/opencode</title>
       <link>https://github.com/sst/opencode</link>
-      <description>&lt;p&gt;概要: OpenCode是一款专为终端环境设计的开源AI编码代理，提供灵活的安装方式及跨平台支持，允许用户通过多种包管理器快速部署，并具备与Claude Code相似的编码能力，但通过无提供商依赖、内置LSP支持、终端UI优化及客户端/服务器架构等差异化设计，实现更开放、可扩展的开发体验。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: OpenCode是一款专为终端环境设计的开源AI编程代理，支持多种安装方式和灵活的安装路径配置，提供终端用户界面（TUI）和内置语言服务器协议（LSP）功能，采用客户端/服务器架构实现跨平台操作，与Claude Code相比具备独立于模型提供者的特性，可通过不同包管理器快速部署。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;开源与跨提供商兼容&lt;/strong&gt;：完全开源且支持Anthropic、OpenAI、Google及本地模型，避免单一服务依赖。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;终端优先设计&lt;/strong&gt;：专注终端界面（TUI）体验，通过Neovim用户社区和terminal.shop开发团队打造高效终端工具链。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活安装路径管理&lt;/strong&gt;：按优先级自动适配用户自定义目录、XDG规范路径、标准用户目录及默认fallback路径。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;内置LSP支持&lt;/strong&gt;：开箱即用的语言服务器协议（LSP）功能，提升代码交互效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多客户端架构&lt;/strong&gt;：支持本地运行与远程移动端控制，TUI仅为其中之一种前端形态。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;完全开源且跨模型提供者&lt;/strong&gt;：独立于Anthropic、OpenAI、Google等平台，支持本地模型，避免供应商锁定。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;终端优先设计&lt;/strong&gt;：专为终端环境优化，提供TUI界面并整合neovim用户生态，强化终端交互体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活安装路径配置&lt;/strong&gt;：按优先级自动适配用户指定目录（如$OPENCODE_INSTALL_DIR）、XDG规范路径、标准用户目录或默认路径。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;内置LSP支持&lt;/strong&gt;：无需额外配置即可实现语言服务器协议功能，提升代码编辑效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多客户端架构&lt;/strong&gt;：支持本地运行与远程移动端控制，突破传统终端界面局限。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Mon, 03 Nov 2025 19:42:41 +0800</pubDate>
+      <pubDate>Mon, 03 Nov 2025 19:51:17 +0800</pubDate>
       <guid>https://github.com/sst/opencode</guid>
     </item>
   </channel>
