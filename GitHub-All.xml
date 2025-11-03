@@ -8,16 +8,16 @@
     <item>
       <title>sst/opencode</title>
       <link>https://github.com/sst/opencode</link>
-      <description>&lt;p&gt;概要: OpenCode是一款专为终端环境打造的开源AI编码代理，支持多模型兼容（如Anthropic、OpenAI、Google及本地模型）与跨平台安装，采用客户端/服务器架构实现远程控制，并通过终端用户界面（TUI）和内置LSP支持提升开发效率，同时提供灵活的安装路径配置选项。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: OpenCode是一款专为终端环境设计的开源AI编码代理，通过灵活的安装方式和路径配置支持多平台部署，具备与Claude Code相似的代码生成功能但具有显著差异化优势，包括完全开源特性、跨服务提供商兼容性（支持Anthropic、OpenAI、Google及本地模型）、内置LSP支持、终端界面优化及客户端/服务器架构，允许多端协同操作并提供社区资源对接。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;开源与多模型兼容&lt;/strong&gt;：完全开源且不绑定特定服务商，可适配多种AI模型（含本地部署），适应技术迭代与成本变化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;终端优化设计&lt;/strong&gt;：聚焦TUI界面开发，由NeoVim用户及terminal.shop团队打造，最大化终端环境功能潜力。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活安装方案&lt;/strong&gt;：支持自定义路径、XDG规范路径、标准用户目录及默认回退路径，适配不同操作系统与系统配置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;客户端/服务器架构&lt;/strong&gt;：允许本地运行与移动端远程操控，实现多终端协同开发的灵活性与扩展性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;差异化定位&lt;/strong&gt;：与Claude Code相比，强调独立模型适配能力、终端深度集成及社区驱动的开发模式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;：支持Windows、macOS、Linux及Arch Linux等系统的多种包管理器安装方式，且提供自定义安装路径优先级配置。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;完全开源特性&lt;/strong&gt;：与Claude Code相比，OpenCode采用100%开源架构，并可脱离任何特定模型供应商独立运行。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;终端界面优化&lt;/strong&gt;：专为终端用户设计，内置TUI（终端用户界面）支持，兼容Neovim及terminal.shop开发者生态。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;弹性架构设计&lt;/strong&gt;：采用客户端/服务器模式，支持本地运行与远程控制（如移动端App操作），拓展应用边界。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多模型适配能力&lt;/strong&gt;：除推荐使用Anthropic模型外，兼容OpenAI、Google及本地模型，适应未来模型演进与成本变化。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:43:38 +0800</pubDate>
+      <pubDate>Tue, 04 Nov 2025 07:48:20 +0800</pubDate>
       <guid>https://github.com/sst/opencode</guid>
     </item>
   </channel>
