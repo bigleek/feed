@@ -8,57 +8,14 @@
     <item>
       <title/>
       <link/>
-      <description>概要: Ventoy是一款开源工具，通过将ISO/WIM/IMG/VHD(x)/EFI文件直接复制到USB设备即可创建多系统启动盘，无需反复格式化，支持主流操作系统及多种分区方式，并提供灵活的启动菜单、持久化功能、安全启动和自定义主题等特性，兼容1200+测试过的ISO文件及90%以上的Linux发行版，适用于从简单启动到系统安装的全方位需求。  
+      <description>概要: OpenCode 是一个专为终端环境设计的 AI 编码代理工具，支持多种安装方式，包括通过包管理器和自定义安装路径，并具备开源、跨模型支持、终端用户界面（TUI）优化及客户端/服务器架构等特性，旨在为开发者提供高效、灵活的终端编码体验。
 
 核心要点:  
-- **一键多系统启动**：支持直接复制多种镜像文件至USB/本地磁盘，通过动态生成启动菜单实现无需格式化即可启动多个操作系统。  
-- **全平台兼容性**：覆盖x86 Legacy BIOS、ARM64、MIPS64EL等架构，兼容Windows、Linux、Unix、ChromeOS及VMware ESXi等主流系统，支持MBR和GPT分区格式。  
-- **高效稳定性**：1200+ ISO文件验证通过，90%+ Linux发行版支持，且无需更新Ventoy即可适配新发行版，版本升级数据无损。  
-- **高级功能集成**：支持安全启动（Secure Boot）、系统安装自动化、变量扩展、持久化存储及写保护功能，满足复杂部署场景需求。  
-- **灵活定制与扩展**：提供图形化插件配置器（VentoyPlugson）、主题自定义、菜单分类与动态切换（List/TreeView模式）等高度可定制化选项。</description>
-      <pubDate>R</pubDate>
-      <guid/>
-    </item>
-    <item>
-      <title/>
-      <link/>
-      <description>概要: Social Analyzer 是一款功能强大的开源 OSINT 工具，提供 API、CLI 和 Web App 三种形式，支持跨1000多个社交平台查找和分析个人资料，通过多层检测机制与评分系统提高准确性，适用于调查可疑或恶意行为，已被部分资源有限的执法机构采用。
-
-核心要点:  
-- Social Analyzer 支持跨1000多个社交平台查找和分析个人资料，提供 API、CLI 和 Web App 三种使用方式。  
-- 采用多层级检测技术与评分机制（0-100分），减少误报，提升检测结果的可靠性。  
-- 可用于调查与网络欺凌、网络诱骗、网络跟踪及虚假信息传播相关的行为，具备丰富的分析与提取功能。  
-- 工具支持多种自定义选项，包括搜索类型、国家、网站过滤、输出格式等，并提供截图、元数据提取与可视化功能。  
-- 适用于 Linux、Windows、MacOS 以及 Raspberry Pi 等多种操作系统，且需安装特定依赖项如 Chrome、NodeJS、Python 等。</description>
-      <pubDate>R</pubDate>
-      <guid/>
-    </item>
-    <item>
-      <title/>
-      <link/>
-      <description>概要:  
-eShop 是一个基于 .NET 9 和 .NET Aspire 服务化架构的参考电商平台应用，支持本地开发与 Azure 部署，提供多种配置方式（包括 Docker、Visual Studio 和 Visual Studio Code）以快速搭建环境。其集成 Azure Open AI 的功能需通过修改配置文件与代码实现，并包含通过 Azure Developer CLI 快速部署的流程，同时样本数据由 GPT-35-Turbo 和 DALL·E 3 生成。
-
-核心要点:  
-- **基于 .NET 9 与 .NET Aspire 服务化架构**：采用微服务设计，支持高扩展性与模块化开发，需确保 Docker 运行环境。  
-- **多平台配置方案**：Windows 用户可选 Visual Studio 或 PowerShell 脚本自动配置，Mac/Linux 用户需安装 .NET 9 SDK 及 Visual Studio Code 并配合扩展。  
-- **Azure Open AI 集成方法**：需在 `appsettings.json` 配置连接字符串，并在 `Program.cs` 中启用 Open AI 功能。  
-- **Azure Developer CLI 部署流程**：通过 `azd init` 和 `azd up` 命令快速初始化并部署到 Azure，支持环境自定义与自动化更新。  
-- **虚构样本数据来源**：产品信息及图像由 GPT-35-Turbo 与 DALL·E 3 生成，需注意数据仅用于示例，非真实业务数据。</description>
-      <pubDate>R</pubDate>
-      <guid/>
-    </item>
-    <item>
-      <title/>
-      <link/>
-      <description>概要: “微舆”是一个从零开发的多智能体舆情分析系统，通过自动抓取国内外30+主流社交媒体及数百万条评论，实现舆情监控、多模态分析、论坛协作、公私域数据融合和轻量化部署，为用户提供深度洞察与预测功能，助其突破信息茧房、优化决策。
-
-核心要点:  
-- 多Agent协同分析机制，结合反思、论坛辩论与整合，提升分析深度与准确性。  
-- 支持多模态内容解析，如短视频、天气、日历、股票等结构化信息，全面覆盖舆情动态。  
-- 采用纯Python模块化设计，实现轻量化部署与高可扩展性，便于集成与定制。  
-- 提供公私域数据无缝融合，支持内部业务数据库与舆情数据联合分析。  
-- 项目目标是构建一个通用的数据分析引擎，适用于多场景业务需求，不仅限于舆情分析。</description>
+- OpenCode 是专为终端环境设计的 AI 编码辅助工具，适合开发者在命令行界面中进行高效编码。  
+- 支持多种安装方式，包括通过 npm、scoop、choco、brew 和 paru 等包管理器进行全局安装。  
+- 支持自定义安装路径，并遵循 XDG Base Directory Specification 标准，确保兼容性和灵活性。  
+- 与 Claude Code 相比，OpenCode 是 100% 开源，并且不依赖特定模型提供商，支持多种模型如 Anthropic、OpenAI、Google 和本地模型。  
+- 提供终端用户界面（TUI）优化支持，并具备客户端/服务器架构，允许远程控制编码代理，提升使用场景的多样性与便捷性。</description>
       <pubDate>R</pubDate>
       <guid/>
     </item>
