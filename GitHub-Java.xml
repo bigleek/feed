@@ -8,15 +8,15 @@
     <item>
       <title>typetools/checker-framework</title>
       <link>https://github.com/typetools/checker-framework</link>
-      <description>概要: Checker Framework 是一个为 Java 提供可插拔类型检查的工具，支持通过插件扩展类型检查功能，提升代码的可靠性和安全性，相关文档与版本历史信息可分别在手册和变更日志文件中查阅。
+      <description>概要: Checker Framework 是一种为 Java 提供可插拔类型检查的工具，它允许开发者通过插件方式扩展类型系统，以实现更严格的静态分析与错误检测，提升代码质量和安全性。
 
 核心要点:  
-- Checker Framework 实现了 Java 的可插拔类型检查机制，允许灵活扩展类型检查功能。  
-- 提供详细的用户手册，以 HTML 和 PDF 格式呈现，便于查阅和使用。  
-- 版本变更记录保存在 docs/CHANGELOG.md 文件中，方便跟踪更新内容。  
-- 开发者文档位于 docs/developer 目录下，为框架的构建与维护提供指导。  
-- 该框架旨在提高代码质量和安全性，适用于需要严格类型检查的 Java 项目。</description>
-      <pubDate>Mon, 03 Nov 2025 11:39:49 +0800</pubDate>
+- Checker Framework 提供可插拔的类型检查机制，增强 Java 语言的类型系统。  
+- 开发者可通过插件形式定制类型检查规则，实现灵活的静态分析。  
+- 官方手册以 HTML 和 PDF 格式提供，便于查阅使用说明。  
+- 版本更新与变更记录保存在 CHANGELOG.md 文件中，方便跟踪发展历史。  
+- 开发者文档位于 docs/developer/ 目录，支持框架内部开发与扩展。</description>
+      <pubDate>Mon, 03 Nov 2025 15:28:03 +0800</pubDate>
       <guid>https://github.com/typetools/checker-framework</guid>
     </item>
   </channel>
