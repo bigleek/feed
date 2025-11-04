@@ -8,16 +8,16 @@
     <item>
       <title>moondevonyt/moon-dev-ai-agents</title>
       <link>https://github.com/moondevonyt/moon-dev-ai-agents</link>
-      <description>&lt;p&gt;概要: 该项目提供一套完全开源的PythonAI交易代理框架，通过RBI Agent等核心工具实现从策略研究、回测到实时交易的全流程自动化，涵盖市场分析、风险控制、Solana生态适配及内容创作等多场景功能，但明确强调其为实验性研究项目，不承诺盈利且需用户自行承担策略开发、风险管理和验证责任。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 本文介绍了一套基于Python的开源自主AI交易代理系统，涵盖回测、实时交易、市场分析及内容生成等多维度功能模块，通过整合DeepSeek、GPT、Gemini等AI模型实现策略自动化与多模型共识决策，但明确警示该系统为实验性研究项目，不承诺盈利且需用户自行承担策略开发、风险管理和市场验证责任。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;开源自动化交易体系&lt;/strong&gt;: 提供10+专用AI代理，支持YouTube/文本策略研究、多数据源回测（20+市场）、实时交易决策及风险监控，且所有代码免费开放。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化功能覆盖&lt;/strong&gt;: 包含市场情绪分析、资金费率监控、清算事件追踪、Solana链上数据挖掘（如新Token识别）及跨平台内容生成（如TikTok/YouTube视频制作）等差异化场景工具。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高风险明确警示&lt;/strong&gt;: 项目定位为实验性研究而非交易系统，拒绝提供盈利保证，所有策略需用户自行开发并严格验证，强调交易的潜在损失风险。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;分层验证流程&lt;/strong&gt;: 强制要求先通过RBI Agent进行多数据源回测（1%阈值筛选），再部署至实际交易，确保策略经历史数据验证。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活配置能力&lt;/strong&gt;: 支持自定义数据源接入（如Solana合约地址），提供多模型并行计算（Claude、GPT-5等）及参数化调试（如线程数、回测阈值），适应不同用户需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全栈AI交易代理体系&lt;/strong&gt;: 包含RBI回测代理（支持多数据源与AI策略生成）、Swarm模式多模型共识交易、市场情绪分析、资金流监控及Solana链特定工具等模块，覆盖从策略研究到实时执行的全流程。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源免费与技术架构&lt;/strong&gt;: 代码完全开源，提供详细部署文档与API集成指南，需配置AI模型密钥（如Claude、GPT-5、DeepSeek等）及市场数据接口，支持Python 3.10.9环境与conda/pip两种依赖安装方式。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;用户自主责任声明&lt;/strong&gt;: 强调无盈利保证，所有交易策略需用户自行验证，系统仅作为研究工具，不提供直接交易方案，且明确禁止任何资金投入，所有操作需严格遵守风险控制原则。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;高性能并行处理能力&lt;/strong&gt;: RBI平行代理支持18线程并发测试，Websearch代理可自动解析网络资源生成策略文件，Chart Agent与Funding Agent等模块提供实时市场洞察及技术分析辅助功能。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多场景适配与扩展性&lt;/strong&gt;: 支持自定义数据源配置、视频生成（Sora 2 API）、TikTok社交数据抓取等差异化功能，未来计划集成Polymarket预测市场、L2网络支持等新模块以增强系统覆盖范围。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:44:13 +0800</pubDate>
+      <pubDate>Tue, 04 Nov 2025 08:00:33 +0800</pubDate>
       <guid>https://github.com/moondevonyt/moon-dev-ai-agents</guid>
     </item>
   </channel>
