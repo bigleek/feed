@@ -8,17 +8,16 @@
     <item>
       <title>ucb-bar/berkeley-hardfloat</title>
       <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
-      <description>&lt;p&gt;概要: 该仓库提供了基于Chisel实现的硬件浮点运算单元，支持融合乘加、整数与浮点数转换以及不同精度浮点数之间的转换，但目前仍处于开发阶段，存在潜在的错误和优化空间。&lt;/p&gt;  
-
+      <description>&lt;p&gt;概要: 该仓库提供了用Chisel编写的可参数化硬件浮点运算单元，支持融合乘加操作、整数与浮点数转换以及不同精度浮点数之间的转换，但目前仍处于开发阶段，可能存在缺陷和未优化之处。这些运算单元采用了一种内部重编码格式，通过增加指数位来更高效地处理微处理器中的次正规数。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;提供参数化的浮点运算单元&lt;/strong&gt;，支持多种常用操作，包括融合乘加、整数-浮点转换及不同精度浮点转换。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;采用内部重编码浮点格式&lt;/strong&gt;，通过增加指数位来提高处理次正规数的效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;当前版本仍处于开发阶段&lt;/strong&gt;，可能存在错误且未完全优化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;需要berkeley-testfloat-3包&lt;/strong&gt;进行单元测试，支持使用C模拟器进行验证。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;测试命令为“$ make”&lt;/strong&gt;，可快速启动相关测试流程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种浮点运算功能&lt;/strong&gt;: 包括融合乘加、整数与浮点转换及不同精度之间的转换。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;采用重编码格式处理次正规数&lt;/strong&gt;: 增加指数位以提升次正规数处理效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;当前仍为开发中版本&lt;/strong&gt;: 可能存在bug且未完全优化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;依赖测试包进行单元测试&lt;/strong&gt;: 需安装berkeley-testfloat-3以进行测试。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;测试可通过C模拟器执行&lt;/strong&gt;: 通过命令“$ make”启动测试流程。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:44:22 +0800</pubDate>
+      <pubDate>Tue, 04 Nov 2025 08:04:54 +0800</pubDate>
       <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
     </item>
   </channel>
