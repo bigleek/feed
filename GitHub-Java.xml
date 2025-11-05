@@ -6,19 +6,19 @@
     <description>Summarized RSS feed for GitHub-Java</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>typetools/checker-framework</title>
-      <link>https://github.com/typetools/checker-framework</link>
-      <description>&lt;p&gt;概要: Checker Framework 是一种为 Java 提供可插拔类型检查的工具，通过灵活扩展机制增强代码安全性和可靠性，配套完整的用户手册、版本变更记录及开发者文档，支持 HTML 和 PDF 格式，便于不同用户群体快速获取所需信息。&lt;/p&gt;  
+      <title>alibaba/spring-cloud-alibaba</title>
+      <link>https://github.com/alibaba/spring-cloud-alibaba</link>
+      <description>&lt;p&gt;概要: Spring Cloud Alibaba 是由阿里巴巴维护的分布式应用开发一站式解决方案，通过添加少量注解和配置即可将 Spring Cloud 应用与阿里中间件集成，构建高可用、高扩展的分布式系统，并提供包括流控、服务注册发现、分布式配置、事务处理、云存储、消息调度等在内的多种核心功能。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;可插拔类型检查架构&lt;/strong&gt;：允许开发者通过插件形式自定义类型验证规则，扩展 Java 类型系统功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多格式文档支持&lt;/strong&gt;：提供 HTML 和 PDF 格式的用户手册，兼顾易读性与离线查阅需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本追踪透明化&lt;/strong&gt;：通过 CHANGELOG.md 文件清晰记录发布历史与变更内容，便于维护与升级。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开发者专属资源&lt;/strong&gt;：独立目录(docs/developer/)提供深度开发文档，支持定制化开发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安全性与可靠性提升&lt;/strong&gt;：通过类型检查机制帮助识别潜在错误，优化代码质量。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;一站式分布式解决方案&lt;/strong&gt;: 集成多项阿里中间件功能，简化分布式应用开发流程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;低代码集成能力&lt;/strong&gt;: 通过注解和配置即可快速接入阿里分布式服务，降低开发复杂度。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;企业级治理能力&lt;/strong&gt;: 企业版本提供灰度发布、服务预热、无损上下线、异常排除等高级治理功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多版本适配&lt;/strong&gt;: 提供多个分支版本以适配不同 Spring Cloud 和 Spring Boot 版本，兼容 JDK 1.7 及以上。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;标准化 Maven 依赖管理&lt;/strong&gt;: 提供 BOM 管理方式，方便开发人员统一引入依赖。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:56:29 +0800</pubDate>
-      <guid>https://github.com/typetools/checker-framework</guid>
+      <pubDate>Thu, 06 Nov 2025 07:08:07 +0800</pubDate>
+      <guid>https://github.com/alibaba/spring-cloud-alibaba</guid>
     </item>
   </channel>
 </rss>
