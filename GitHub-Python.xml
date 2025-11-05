@@ -6,19 +6,20 @@
     <description>Summarized RSS feed for GitHub-Python</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>moondevonyt/moon-dev-ai-agents</title>
-      <link>https://github.com/moondevonyt/moon-dev-ai-agents</link>
-      <description>&lt;p&gt;概要: 本文介绍了一套基于Python的开源自主AI交易代理系统，涵盖回测、实时交易、市场分析及内容生成等多维度功能模块，通过整合DeepSeek、GPT、Gemini等AI模型实现策略自动化与多模型共识决策，但明确警示该系统为实验性研究项目，不承诺盈利且需用户自行承担策略开发、风险管理和市场验证责任。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;全栈AI交易代理体系&lt;/strong&gt;: 包含RBI回测代理（支持多数据源与AI策略生成）、Swarm模式多模型共识交易、市场情绪分析、资金流监控及Solana链特定工具等模块，覆盖从策略研究到实时执行的全流程。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源免费与技术架构&lt;/strong&gt;: 代码完全开源，提供详细部署文档与API集成指南，需配置AI模型密钥（如Claude、GPT-5、DeepSeek等）及市场数据接口，支持Python 3.10.9环境与conda/pip两种依赖安装方式。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;用户自主责任声明&lt;/strong&gt;: 强调无盈利保证，所有交易策略需用户自行验证，系统仅作为研究工具，不提供直接交易方案，且明确禁止任何资金投入，所有操作需严格遵守风险控制原则。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;高性能并行处理能力&lt;/strong&gt;: RBI平行代理支持18线程并发测试，Websearch代理可自动解析网络资源生成策略文件，Chart Agent与Funding Agent等模块提供实时市场洞察及技术分析辅助功能。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多场景适配与扩展性&lt;/strong&gt;: 支持自定义数据源配置、视频生成（Sora 2 API）、TikTok社交数据抓取等差异化功能，未来计划集成Polymarket预测市场、L2网络支持等新模块以增强系统覆盖范围。&lt;/li&gt;  
+      <title>coleam00/ottomator-agents</title>
+      <link>https://github.com/coleam00/ottomator-agents</link>
+      <description>&lt;p&gt;概要: oTTomator Live Agent Studio 是一个由社区驱动的开放源代码平台，旨在让用户探索和学习如何应用前沿的AI代理技术，通过提供丰富多样的代理工具以及教育资源，推动AI在实际业务中的创新与实践，目前平台仍处于测试阶段，将持续扩展代理库并通过YouTube渠道发布相关内容。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;strong&gt;社区驱动的开放源代码AI代理平台&lt;/strong&gt;：由oTTomator开发，用户可在此探索并学习使用最新的AI代理。&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;教育与实用价值并重&lt;/strong&gt;：提供学习资源与实际应用价值，鼓励用户将AI技术应用于自身或企业场景。&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;平台仍处于测试阶段&lt;/strong&gt;：存在响应延迟、代理库将持续增长及内容将通过YouTube更新。&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;开源代码与工作流JSON存储于仓库&lt;/strong&gt;：所有代理的源代码和流程配置均开放，支持社区协作与技术交流。&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;基于Tokens的使用模式&lt;/strong&gt;：用户首次登录获得免费Tokens，后续需购买以支持LLM运行成本。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 08:00:33 +0800</pubDate>
-      <guid>https://github.com/moondevonyt/moon-dev-ai-agents</guid>
+      <pubDate>Thu, 06 Nov 2025 07:11:14 +0800</pubDate>
+      <guid>https://github.com/coleam00/ottomator-agents</guid>
     </item>
   </channel>
 </rss>
