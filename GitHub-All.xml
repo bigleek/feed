@@ -6,19 +6,19 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>sst/opencode</title>
-      <link>https://github.com/sst/opencode</link>
-      <description>&lt;p&gt;概要: OpenCode是一款专为终端环境设计的开源AI编码代理，通过灵活的安装方式和路径配置支持多平台部署，具备与Claude Code相似的代码生成功能但具有显著差异化优势，包括完全开源特性、跨服务提供商兼容性（支持Anthropic、OpenAI、Google及本地模型）、内置LSP支持、终端界面优化及客户端/服务器架构，允许多端协同操作并提供社区资源对接。&lt;/p&gt;  
+      <title>sst/opentui</title>
+      <link>https://github.com/sst/opentui</link>
+      <description>&lt;p&gt;概要: OpenTUI 是一个基于 TypeScript 的终端用户界面（TUI）开发库，当前处于开发阶段尚未适合生产环境，将作为 opencode 和 terminaldotshop 的基础框架。该开源项目包含多个绑定库，如 React、SolidJS 和 Vue（其中 Vue 和 Go 绑定已停更），并通过 bun 工具链实现快速初始化。开发人员可通过脚本在本地项目中建立符号链接或复制目录，支持热重载、构建产物测试及跨平台兼容性调整，但需依赖 Zig 编译器进行构建。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;：支持Windows、macOS、Linux及Arch Linux等系统的多种包管理器安装方式，且提供自定义安装路径优先级配置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完全开源特性&lt;/strong&gt;：与Claude Code相比，OpenCode采用100%开源架构，并可脱离任何特定模型供应商独立运行。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;终端界面优化&lt;/strong&gt;：专为终端用户设计，内置TUI（终端用户界面）支持，兼容Neovim及terminal.shop开发者生态。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;弹性架构设计&lt;/strong&gt;：采用客户端/服务器模式，支持本地运行与远程控制（如移动端App操作），拓展应用边界。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多模型适配能力&lt;/strong&gt;：除推荐使用Anthropic模型外，兼容OpenAI、Google及本地模型，适应未来模型演进与成本变化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;未发布状态&lt;/strong&gt;: OpenTUI 尚未稳定，仅适用于开发测试，不推荐用于正式生产环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多框架绑定&lt;/strong&gt;: 提供 React、SolidJS 和 Vue 等主流框架的集成方案，但 Vue 和 Go 绑定已停止维护。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;依赖构建工具&lt;/strong&gt;: 必须安装 Zig 编译器才能构建项目，且通过 bun 安装核心库 @opentui/core。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活开发链接&lt;/strong&gt;: 通过 link-opentui-dev.sh 脚本实现本地开发的符号链接或复制功能，支持热重载和跨环境适配。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;平台兼容性&lt;/strong&gt;: 针对不支持符号链接的环境（如 Docker、Windows），可启用 --copy 模式复制构建目录。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 07:48:20 +0800</pubDate>
-      <guid>https://github.com/sst/opencode</guid>
+      <pubDate>Thu, 06 Nov 2025 07:03:51 +0800</pubDate>
+      <guid>https://github.com/sst/opentui</guid>
     </item>
   </channel>
 </rss>
