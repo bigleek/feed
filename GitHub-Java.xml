@@ -8,16 +8,16 @@
     <item>
       <title>alibaba/spring-cloud-alibaba</title>
       <link>https://github.com/alibaba/spring-cloud-alibaba</link>
-      <description>&lt;p&gt;概要: Spring Cloud Alibaba 是由阿里巴巴维护的分布式应用开发一站式解决方案，通过添加少量注解和配置即可将 Spring Cloud 应用与阿里中间件集成，构建高可用、高扩展的分布式系统，并提供包括流控、服务注册发现、分布式配置、事务处理、云存储、消息调度等在内的多种核心功能。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Spring Cloud Alibaba 是阿里巴巴维护的分布式应用开发一站式解决方案，通过集成阿里云中间件组件，企业开发者可借助少量注解与配置快速实现微服务架构，涵盖流量控制、服务注册发现、分布式事务等核心功能，并提供企业级治理中心增强系统稳定性与运维效率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;一站式分布式解决方案&lt;/strong&gt;: 集成多项阿里中间件功能，简化分布式应用开发流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;低代码集成能力&lt;/strong&gt;: 通过注解和配置即可快速接入阿里分布式服务，降低开发复杂度。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;企业级治理能力&lt;/strong&gt;: 企业版本提供灰度发布、服务预热、无损上下线、异常排除等高级治理功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多版本适配&lt;/strong&gt;: 提供多个分支版本以适配不同 Spring Cloud 和 Spring Boot 版本，兼容 JDK 1.7 及以上。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;标准化 Maven 依赖管理&lt;/strong&gt;: 提供 BOM 管理方式，方便开发人员统一引入依赖。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全栈式分布式开发工具集&lt;/strong&gt;：整合阿里云核心中间件组件（如Sentinel、Nacos、RocketMQ等），简化微服务系统构建流程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;企业级微服务治理能力&lt;/strong&gt;：通过Microservices Engine（MSE）提供灰度发布、服务熔断、无损上下线等高级运维功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;动态配置与流量管理&lt;/strong&gt;：支持实时刷新配置、自定义流量控制规则，并通过注解实现服务降级策略动态调整。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本兼容性覆盖广泛&lt;/strong&gt;：适配Spring Cloud与Spring Boot多个版本，并明确JDK要求（1.8及以上或17+），确保技术栈灵活性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;一键式部署支持&lt;/strong&gt;：基于Maven构建，提供标准化依赖管理与示例项目，通过简单命令快速初始化开发环境。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Thu, 06 Nov 2025 07:08:07 +0800</pubDate>
+      <pubDate>Fri, 07 Nov 2025 07:07:16 +0800</pubDate>
       <guid>https://github.com/alibaba/spring-cloud-alibaba</guid>
     </item>
   </channel>
