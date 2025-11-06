@@ -6,19 +6,19 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>sst/opentui</title>
-      <link>https://github.com/sst/opentui</link>
-      <description>&lt;p&gt;概要: OpenTUI 是一个基于 TypeScript 的终端用户界面（TUI）开发库，当前处于开发阶段尚未适合生产环境，将作为 opencode 和 terminaldotshop 的基础框架。该开源项目包含多个绑定库，如 React、SolidJS 和 Vue（其中 Vue 和 Go 绑定已停更），并通过 bun 工具链实现快速初始化。开发人员可通过脚本在本地项目中建立符号链接或复制目录，支持热重载、构建产物测试及跨平台兼容性调整，但需依赖 Zig 编译器进行构建。&lt;/p&gt;  
+      <title>GopeedLab/gopeed</title>
+      <link>https://github.com/GopeedLab/gopeed</link>
+      <description>&lt;p&gt;概要: Gopeed 是一款基于 Golang 和 Flutter 构建的跨平台高速下载管理器，支持 HTTP、BitTorrent 和 Magnet 协议，并具备高度可定制性，可通过 API 集成或扩展开发实现更多功能，适用于 Windows、MacOS、Linux、Android、iOS、Web 和 Docker 等多种环境。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;未发布状态&lt;/strong&gt;: OpenTUI 尚未稳定，仅适用于开发测试，不推荐用于正式生产环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多框架绑定&lt;/strong&gt;: 提供 React、SolidJS 和 Vue 等主流框架的集成方案，但 Vue 和 Go 绑定已停止维护。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;依赖构建工具&lt;/strong&gt;: 必须安装 Zig 编译器才能构建项目，且通过 bun 安装核心库 @opentui/core。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活开发链接&lt;/strong&gt;: 通过 link-opentui-dev.sh 脚本实现本地开发的符号链接或复制功能，支持热重载和跨环境适配。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;平台兼容性&lt;/strong&gt;: 针对不支持符号链接的环境（如 Docker、Windows），可启用 --copy 模式复制构建目录。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台支持&lt;/strong&gt;: Gopeed 支持 Windows、MacOS、Linux、Android、iOS、Web、Docker 和 Qnap 等多种操作系统与平台。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;双技术架构&lt;/strong&gt;: 前端采用 Flutter 实现，后端基于 Golang，通过 HTTP 协议或 Unix Socket 通信，实现高效下载管理。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多功能与可扩展性&lt;/strong&gt;: 支持 HTTP、BitTorrent 和 Magnet 协议，提供 API 集成与扩展开发能力，满足个性化需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源协议&lt;/strong&gt;: 项目采用 GPLv3 协议开源，确保代码的自由使用与再分发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;贡献与构建指南&lt;/strong&gt;: 提供详细的构建流程和贡献文档，方便开发者参与和部署。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Thu, 06 Nov 2025 07:03:51 +0800</pubDate>
-      <guid>https://github.com/sst/opentui</guid>
+      <pubDate>Fri, 07 Nov 2025 07:04:00 +0800</pubDate>
+      <guid>https://github.com/GopeedLab/gopeed</guid>
     </item>
   </channel>
 </rss>
