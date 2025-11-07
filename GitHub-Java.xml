@@ -6,19 +6,20 @@
     <description>Summarized RSS feed for GitHub-Java</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>alibaba/spring-cloud-alibaba</title>
-      <link>https://github.com/alibaba/spring-cloud-alibaba</link>
-      <description>&lt;p&gt;概要: Spring Cloud Alibaba 是阿里巴巴维护的分布式应用开发一站式解决方案，通过集成阿里云中间件组件，企业开发者可借助少量注解与配置快速实现微服务架构，涵盖流量控制、服务注册发现、分布式事务等核心功能，并提供企业级治理中心增强系统稳定性与运维效率。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;全栈式分布式开发工具集&lt;/strong&gt;：整合阿里云核心中间件组件（如Sentinel、Nacos、RocketMQ等），简化微服务系统构建流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;企业级微服务治理能力&lt;/strong&gt;：通过Microservices Engine（MSE）提供灰度发布、服务熔断、无损上下线等高级运维功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;动态配置与流量管理&lt;/strong&gt;：支持实时刷新配置、自定义流量控制规则，并通过注解实现服务降级策略动态调整。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本兼容性覆盖广泛&lt;/strong&gt;：适配Spring Cloud与Spring Boot多个版本，并明确JDK要求（1.8及以上或17+），确保技术栈灵活性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;一键式部署支持&lt;/strong&gt;：基于Maven构建，提供标准化依赖管理与示例项目，通过简单命令快速初始化开发环境。&lt;/li&gt;  
+      <title>binarywang/WxJava</title>
+      <link>https://github.com/binarywang/WxJava</link>
+      <description>&lt;p&gt;概要: WxJava 是一个功能全面的微信后端开发 Java SDK，支持微信支付、开放平台、小程序、企业微信、视频号、公众号等核心模块，帮助开发者高效构建微信生态应用。项目于2024年12月30日发布4.7.0正式版，并支持Quarkus/GraalVM Native Image，同时提供丰富的文档、技术交流群及开源案例供开发者参考和使用。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;支持多微信功能模块&lt;/strong&gt;：包括微信支付、开放平台、小程序、公众号、企业微信、视频号等，适用于后端开发需求。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2024年12月30日发布4.7.0正式版&lt;/strong&gt;：并支持Quarkus/GraalVM Native Image，提升性能与兼容性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;文档与交流资源丰富&lt;/strong&gt;：提供开发文档Wiki、技术交流群及微信公众号，便于获取最新信息和社区支持。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;依赖管理与版本说明明确&lt;/strong&gt;：最低支持JDK 8，区分正式版与测试版，方便开发者选择合适的版本。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源项目与应用案例广泛&lt;/strong&gt;：涵盖公众号、小程序、企业微信等多个应用场景，可作为参考与学习资源。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 07:07:16 +0800</pubDate>
-      <guid>https://github.com/alibaba/spring-cloud-alibaba</guid>
+      <pubDate>Fri, 07 Nov 2025 15:21:30 +0800</pubDate>
+      <guid>https://github.com/binarywang/WxJava</guid>
     </item>
   </channel>
 </rss>
