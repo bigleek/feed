@@ -8,63 +8,63 @@
     <item>
       <title>ad-on-is/rachoon</title>
       <link>https://github.com/ad-on-is/rachoon</link>
-      <description>&lt;p&gt;概要: Rachoon 是一款面向自由职业者和小型企业的自托管发票管理平台，提供简便的发票创建与跟踪功能，结合高度可定制的品牌模板与多货币及税务支持，使用户能够灵活高效地处理全球账务，同时通过直观的仪表盘获取关键业务洞察。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;自托管解决方案&lt;/strong&gt; — 提供完全的控制权，适用于希望自主管理账务的用户。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高度可定制品牌模板&lt;/strong&gt; — 支持使用 nunjucks 模板引擎创建专业发票样式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多货币与税务支持&lt;/strong&gt; — 支持全球业务，具备灵活的税务设置和多货币处理能力。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;直观仪表盘与数据洞察&lt;/strong&gt; — 提供实时收入、待付款项及客户统计的汇总视图。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;技术栈灵活部署&lt;/strong&gt; — 基于 Docker 技术，前端使用 Nuxt.js，后端采用 adonisJS，数据库为 PostgreSQL。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Rachoon 是一款现代的自托管发票管理平台，专为自由职业者和小型企业设计，提供全掌控的账单处理体验，支持快速创建和追踪发票、客户管理、多货币和税务设置，以及高度可定制的品牌模板，辅以可爱的浣熊形象，使发票管理既高效又富有魅力。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;自托管发票平台&lt;/strong&gt;：允许用户在自己的服务器上部署，确保数据安全与隐私控制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高度可定制的品牌模板&lt;/strong&gt;：利用 nunjucks 模板引擎实现灵活的发票设计与个性化。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;多语言与多货币支持&lt;/strong&gt;：支持全球业务需求，具备灵活的税务配置与货币选项。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;便捷的发票与报价创建&lt;/strong&gt;：无需复杂步骤，即可快速生成并管理发票及报价。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;专业 PDF 导出与仪表盘洞察&lt;/strong&gt;：支持一键下载专业格式的 PDF 发票，并提供直观的财务数据概览。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 23:01:40 +0800</pubDate>
+      <pubDate>Fri, 07 Nov 2025 23:10:38 +0800</pubDate>
       <guid>https://github.com/ad-on-is/rachoon</guid>
     </item>
     <item>
       <title>modelcontextprotocol/go-sdk</title>
       <link>https://github.com/modelcontextprotocol/go-sdk</link>
-      <description>&lt;p&gt;概要: 该文本介绍了官方的Go语言Model Context Protocol (MCP)软件开发工具包（SDK），由Google联合维护，包含多个可导入包用于构建MCP服务器和客户端，并提供OAuth支持及完整MCP规范的实现，旨在为开发者提供便捷的工具以实现MCP协议功能，同时鼓励社区贡献和第三方SDK的使用。&lt;/p&gt;  
-
+      <description>&lt;p&gt;概要: 本项目是Google维护的Model Context Protocol（MCP）官方Go语言软件开发工具包，提供用于构建和运行MCP服务器与客户端的核心API、传输层支持、OAuth认证功能及完整规范实现，配套详细文档和示例代码，并采用MIT许可证开放源代码，鼓励社区参与共建。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;官方Go SDK&lt;/strong&gt;：专为Model Context Protocol（MCP）设计，由Google联合维护。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化结构&lt;/strong&gt;：包含多个可导入的包，分别处理MCP核心功能、自定义传输、OAuth支持及OAuth扩展。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完整规范支持&lt;/strong&gt;：SDK致力于实现MCP协议的全部规范，并提供文档映射。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;示例代码引导&lt;/strong&gt;：提供创建MCP服务器和客户端的具体示例代码，便于快速上手。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源与社区协作&lt;/strong&gt;：采用MIT许可证，鼓励社区贡献，并感谢第三方SDK的启发与支持。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;官方维护与协作&lt;/strong&gt;：由Google官方主导开发，并与社区合作维护。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;模块化功能架构&lt;/strong&gt;：包含mcp（核心API）、jsonrpc（自定义传输）、auth（OAuth基础）和oauthex（协议扩展）四大功能模块。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全规范支持&lt;/strong&gt;：完整实现MCP协议规范，文档目录提供规范与模块的映射说明。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;示例驱动开发&lt;/strong&gt;：通过examples目录提供服务器和客户端代码示例，简化实践门槛。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源授权与生态共建&lt;/strong&gt;：基于MIT许可证开放源代码，同时认可第三方SDK对生态发展的贡献。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 23:01:40 +0800</pubDate>
+      <pubDate>Fri, 07 Nov 2025 23:10:38 +0800</pubDate>
       <guid>https://github.com/modelcontextprotocol/go-sdk</guid>
     </item>
     <item>
       <title>mudler/LocalAI</title>
       <link>https://github.com/mudler/LocalAI</link>
-      <description>&lt;p&gt;概要: LocalAI 是一个开源、免费的本地优先人工智能平台，可作为 OpenAI、Claude 等服务的替代方案，支持在消费级硬件上运行，无需 GPU。它提供多种模型和功能，包括文本、音频、视频、图像生成与语音克隆，并支持分布式和去中心化推理，同时集成 P2P、WebUI 等创新特性，带来更灵活、可扩展的本地 AI 解决方案。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;&lt;spaqn&gt;LocalAI&lt;/spaqn&gt;&lt;/strong&gt; 是一款开源的 OpenAI 替代方案，提供本地优先、无需 GPU 的轻量级 AI 推理平台，支持文本、音频、图像、视频及语音克隆生成，并兼容 OpenAI 等主流 API 规范。其通过自动后端检测和 OCI 图像技术实现多硬件加速适配，集成分布式与点对点推理能力，并构建了包括本地智能代理管理（LocalAGI）、知识库系统(LocalRecall)在内的完整 AI 工具栈，支持跨平台部署与社区生态扩展，旨在降低企业 AI 应用的依赖成本与提升数据控制能力。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;本地优先、无需 GPU 的开源 AI 替代方案&lt;/strong&gt;：LocalAI 提供与 OpenAI 兼容的 REST API，可在普通消费者硬件上运行，支持多种模型格式如 GGUF、Transformers、Diffusers 等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持多模态任务与多样化模型家族&lt;/strong&gt;：涵盖文本生成、语音合成、音频识别、图像及视频生成、对象检测、向量数据库等，兼容包括 LLaMA、Gemma、Phi-2、Bark 等多种模型。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;去中心化与分布式推理能力&lt;/strong&gt;：支持 P2P 模式、AI Swarms 和 Federated 推理，通过 MCP 协议实现与外部工具的智能协作。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;跨平台和硬件加速支持&lt;/strong&gt;：提供 CUDA、ROCm、Intel oneAPI、Apple Metal、Vulkan 等多种加速选项，覆盖 NVIDIA、AMD、Intel 和 Apple 硅晶芯片。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;社区驱动与丰富的集成生态&lt;/strong&gt;：集成 WebUI、各种 AI 工具（如 LocalAGI、LocalRecall）、第三方平台（如 GitHub、Home Assistant、VSCode）和开发资源，支持自定义容器部署与 CI 资助。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;无 GPU 依赖的本地化部署&lt;/strong&gt;：可在消费级硬件上运行，支持 CPU 优化及多加速方案（CUDA/ROCｍ/intｅｌ／Apple Metal／Cross-platform GPUs），适配 ARM64 框架（如 Jetson Nano）。 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全栈式 AI 可视化与分布式能力&lt;/strong&gt;：集成 WebUI 接口，支持 P2P 点对点推理、全局社区模型池及分布式推理架构，提升协作效率与系统扩展性。 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;多模型兼容与动态管理&lt;/strong&gt;：兼容 llama.cpp、transformers、diffusers 等主流框架，通过 OCI 后端库实现一键安装/卸载，并自动匹配硬件加速选项。 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开放生态与技术集成&lt;/strong&gt;：联合 HuggingFace、Ollama 等平台，支持语音活动检测、嵌入式生成、向量数据库等功能，同时兼容 Slack、Discord 等主流工具的定制化集成。 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;社区驱动与商业化支持&lt;/strong&gt;：由 Ettore Di Giacinto 主导开发，依托开源协作模式，提供 sponsors 支持、MIT 许可协议及专业文档，强化可持续发展能力。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 23:01:40 +0800</pubDate>
+      <pubDate>Fri, 07 Nov 2025 23:10:38 +0800</pubDate>
       <guid>https://github.com/mudler/LocalAI</guid>
     </item>
     <item>
       <title>Skyvern-AI/skyvern</title>
       <link>https://github.com/Skyvern-AI/skyvern</link>
-      <description>&lt;p&gt;概要: Skyvern 通过结合大型语言模型（LLMs）和计算机视觉技术，实现了对浏览器端工作流的智能化自动化，能够无需定制代码、抗网站布局变化，并支持复杂场景下的任务执行与数据处理，相较传统XPath脚本方案显著提升灵活性与可靠性，同时提供云服务部署、多平台兼容性及与主流工具的集成能力，适用于企业级自动化需求。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Skyvern通过结合大语言模型（LLMs）与计算机视觉技术，实现了对浏览器工作流的自动化，突破了传统依赖XPath和DOM解析的脆弱性局限，能够智能识别网站元素并执行复杂任务，支持跨平台部署、多LLM模型兼容及2FA认证，显著提升自动化效率与稳定性，尤其在RPA场景中表现出卓越的性能与适应性。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;LLM+视觉驱动的自动化&lt;/strong&gt;: 利用Vision LLMs解析网页视觉元素，替代传统XPath脚本，实现无代码适配新网站及抵御布局变更。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;卓越性能表现&lt;/strong&gt;: 在WebBench基准测试中达到64.4%准确率，是WRITE类任务（如表单填写、登录）的最佳执行工具。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多模式部署与扩展性&lt;/strong&gt;: 支持Skyvern Cloud云端服务及本地安装，兼容Windows/WSL/macOS/Linux，并可通过CDP连接远程浏览器。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级功能集成&lt;/strong&gt;: 内置2FA支持、密码管理器联动（Bitwarden/1Password/LastPass）、Zapier/Make.com/N8N等第三方工具对接能力。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;可视化与调试增强&lt;/strong&gt;: 提供实时浏览器 viewport 直播、工作流UI构建器、Prompt缓存及反事实调试模式，提升操作可控性与效率。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;视觉驱动交互&lt;/strong&gt;: 基于Vision LLMs解析网页视觉元素，无需依赖XPath等易失效的代码定义选择器，实现对未知网站的自适应操作。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;高鲁棒性&lt;/strong&gt;: 免除对网页布局变化的敏感性，通过语义理解和上下文推理处理复杂场景（如保险报价推断、产品竞品分析等）。 &lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多场景适用性&lt;/strong&gt;: 支持表单填写、文件下载、数据提取、认证流程等多样化操作，并兼容Zapier、Make.com等第三方工具集成。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;灵活部署方案&lt;/strong&gt;: 提供Skyvern Cloud云端服务（含反爬虫机制）与本地安装（支持Docker/WSL/Windows/macOS），满足不同企业需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;性能标杆&lt;/strong&gt;: 在WebBench基准测试中达成64.4%准确率，是当前WRITE任务（如RPA）中表现最优的自动化工具。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 23:01:40 +0800</pubDate>
+      <pubDate>Fri, 07 Nov 2025 23:10:38 +0800</pubDate>
       <guid>https://github.com/Skyvern-AI/skyvern</guid>
     </item>
   </channel>
