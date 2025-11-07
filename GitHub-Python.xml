@@ -6,20 +6,20 @@
     <description>Summarized RSS feed for GitHub-Python</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>coleam00/ottomator-agents</title>
-      <link>https://github.com/coleam00/ottomator-agents</link>
-      <description>&lt;p&gt;概要: oTTomator Live Agent Studio 是一个由社区驱动的开放源代码平台，旨在让用户探索和学习如何应用前沿的AI代理技术，通过提供丰富多样的代理工具以及教育资源，推动AI在实际业务中的创新与实践，目前平台仍处于测试阶段，将持续扩展代理库并通过YouTube渠道发布相关内容。&lt;/p&gt;
+      <title>HKUDS/DeepCode</title>
+      <link>https://github.com/HKUDS/DeepCode</link>
+      <description>&lt;p&gt;概要: DeepCode 是一个基于多智能体系统的代码生成平台，通过 Paper2Code、Text2Web 和 Text2Backend 三大功能，将学术论文、自然语言描述和文档自动转化为高质量的生产代码，显著提升了代码实现效率与准确性，并在多个基准测试中超越了人类专家和现有代码生成工具，标志着自主科学软件工程的重要突破。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
- &lt;li&gt;&lt;strong&gt;社区驱动的开放源代码AI代理平台&lt;/strong&gt;：由oTTomator开发，用户可在此探索并学习使用最新的AI代理。&lt;/li&gt;
- &lt;li&gt;&lt;strong&gt;教育与实用价值并重&lt;/strong&gt;：提供学习资源与实际应用价值，鼓励用户将AI技术应用于自身或企业场景。&lt;/li&gt;
- &lt;li&gt;&lt;strong&gt;平台仍处于测试阶段&lt;/strong&gt;：存在响应延迟、代理库将持续增长及内容将通过YouTube更新。&lt;/li&gt;
- &lt;li&gt;&lt;strong&gt;开源代码与工作流JSON存储于仓库&lt;/strong&gt;：所有代理的源代码和流程配置均开放，支持社区协作与技术交流。&lt;/li&gt;
- &lt;li&gt;&lt;strong&gt;基于Tokens的使用模式&lt;/strong&gt;：用户首次登录获得免费Tokens，后续需购买以支持LLM运行成本。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;DeepCode 超越人类专家和商业代码生成工具&lt;/strong&gt;，在 PaperBench 测试中取得 75.9% 的表现，优于顶级机器学习博士（72.4%）和主流商业工具（如 Cursor、Claude Code、Codex）。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;多智能体架构实现自动化流程&lt;/strong&gt;，包括智能协调、意图理解、文档解析、代码生成等模块，提升了复杂代码任务的处理能力与代码质量。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;支持多输入形式的自动化转化&lt;/strong&gt;，如上传论文、提供文本描述或输入 URL，可快速生成前端、后端代码及完整测试套件和文档。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;集成 MCP 标准协议&lt;/strong&gt;，实现与外部工具和系统的协同工作，增强平台的灵活性和扩展性，支持 CI/CD 与多接口交互。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;智能文档分割功能&lt;/strong&gt;，解决 LLM 令牌限制问题，支持大文档处理并保持语义一致性，提升科研与开发效率。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <pubDate>Thu, 06 Nov 2025 07:11:14 +0800</pubDate>
-      <guid>https://github.com/coleam00/ottomator-agents</guid>
+      <pubDate>Fri, 07 Nov 2025 15:24:20 +0800</pubDate>
+      <guid>https://github.com/HKUDS/DeepCode</guid>
     </item>
   </channel>
 </rss>
