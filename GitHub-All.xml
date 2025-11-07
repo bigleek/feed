@@ -6,19 +6,19 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>GopeedLab/gopeed</title>
-      <link>https://github.com/GopeedLab/gopeed</link>
-      <description>&lt;p&gt;概要: Gopeed 是一款基于 Golang 和 Flutter 构建的跨平台高速下载管理器，支持 HTTP、BitTorrent 和 Magnet 协议，并具备高度可定制性，可通过 API 集成或扩展开发实现更多功能，适用于 Windows、MacOS、Linux、Android、iOS、Web 和 Docker 等多种环境。&lt;/p&gt;  
+      <title>ad-on-is/rachoon</title>
+      <link>https://github.com/ad-on-is/rachoon</link>
+      <description>&lt;p&gt;概要: Rachoon 是一款现代的自托管发票管理平台，专为自由职业者和小型企业打造，提供从发票创建到支付跟踪的一站式解决方案，帮助用户高效掌控账务流程，同时支持多货币、税务设置和高度可定制的品牌模板，以智能、快速的方式提升财务管理效率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台支持&lt;/strong&gt;: Gopeed 支持 Windows、MacOS、Linux、Android、iOS、Web、Docker 和 Qnap 等多种操作系统与平台。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;双技术架构&lt;/strong&gt;: 前端采用 Flutter 实现，后端基于 Golang，通过 HTTP 协议或 Unix Socket 通信，实现高效下载管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多功能与可扩展性&lt;/strong&gt;: 支持 HTTP、BitTorrent 和 Magnet 协议，提供 API 集成与扩展开发能力，满足个性化需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源协议&lt;/strong&gt;: 项目采用 GPLv3 协议开源，确保代码的自由使用与再分发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;贡献与构建指南&lt;/strong&gt;: 提供详细的构建流程和贡献文档，方便开发者参与和部署。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;自托管发票平台&lt;/strong&gt;：用户可自主部署和管理发票系统，确保数据安全和完全控制。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多功能发票管理&lt;/strong&gt;：支持快速创建发票与报价单，集成支付跟踪、客户信息管理及财务概览功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高度定制化模板&lt;/strong&gt;：利用 nunjucks 模板引擎支持个性化品牌设计，提升专业形象。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言与国际化支持&lt;/strong&gt;：支持多货币和灵活税务设置，便于全球业务拓展。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;技术栈与部署便捷&lt;/strong&gt;：基于 Nuxt.js、adonisJS、PostgreSQL 和 Gotenberg 构建，支持 Docker 部署，适应多种环境。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 07:04:00 +0800</pubDate>
-      <guid>https://github.com/GopeedLab/gopeed</guid>
+      <pubDate>Fri, 07 Nov 2025 15:16:21 +0800</pubDate>
+      <guid>https://github.com/ad-on-is/rachoon</guid>
     </item>
   </channel>
 </rss>
