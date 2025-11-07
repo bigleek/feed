@@ -6,19 +6,303 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
       <title>ad-on-is/rachoon</title>
       <link>https://github.com/ad-on-is/rachoon</link>
-      <description>&lt;p&gt;概要: Rachoon 是一款现代的自托管发票管理平台，专为自由职业者和小型企业打造，提供从发票创建到支付跟踪的一站式解决方案，帮助用户高效掌控账务流程，同时支持多货币、税务设置和高度可定制的品牌模板，以智能、快速的方式提升财务管理效率。&lt;/p&gt;  
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/ad-on-is/rachoon</guid>
+    </item>
+    <item>
+      <title>modelcontextprotocol/go-sdk</title>
+      <link>https://github.com/modelcontextprotocol/go-sdk</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/modelcontextprotocol/go-sdk</guid>
+    </item>
+    <item>
+      <title>mudler/LocalAI</title>
+      <link>https://github.com/mudler/LocalAI</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/mudler/LocalAI</guid>
+    </item>
+    <item>
+      <title>Skyvern-AI/skyvern</title>
+      <link>https://github.com/Skyvern-AI/skyvern</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/Skyvern-AI/skyvern</guid>
+    </item>
+    <item>
+      <title>KotatsuApp/Kotatsu</title>
+      <link>https://github.com/KotatsuApp/Kotatsu</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/KotatsuApp/Kotatsu</guid>
+    </item>
+    <item>
+      <title>ggml-org/ggml</title>
+      <link>https://github.com/ggml-org/ggml</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/ggml-org/ggml</guid>
+    </item>
+    <item>
+      <title>nocobase/nocobase</title>
+      <link>https://github.com/nocobase/nocobase</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/nocobase/nocobase</guid>
+    </item>
+    <item>
+      <title>666ghj/BettaFish</title>
+      <link>https://github.com/666ghj/BettaFish</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/666ghj/BettaFish</guid>
+    </item>
+    <item>
+      <title>sst/opentui</title>
+      <link>https://github.com/sst/opentui</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/sst/opentui</guid>
+    </item>
+    <item>
+      <title>PKUFlyingPig/cs-self-learning</title>
+      <link>https://github.com/PKUFlyingPig/cs-self-learning</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/PKUFlyingPig/cs-self-learning</guid>
+    </item>
+    <item>
+      <title>imthenachoman/How-To-Secure-A-Linux-Server</title>
+      <link>https://github.com/imthenachoman/How-To-Secure-A-Linux-Server</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/imthenachoman/How-To-Secure-A-Linux-Server</guid>
+    </item>
+    <item>
+      <title>FFmpeg/asm-lessons</title>
+      <link>https://github.com/FFmpeg/asm-lessons</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/FFmpeg/asm-lessons</guid>
+    </item>
+    <item>
+      <title>localstack/localstack</title>
+      <link>https://github.com/localstack/localstack</link>
+      <description/>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid>https://github.com/localstack/localstack</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: Rachoon 是一款现代、自托管的发票管理平台，专为自由职业者和小型企业设计，提供高效创建和追踪发票、客户管理、支付跟踪、多货币与税务支持等核心功能，同时具备高度可定制的品牌模板和专业PDF导出能力，让用户在掌控财务流程的同时享受智能与便捷。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;自托管发票平台&lt;/strong&gt; —— Rachoon 允许用户在本地或私有云环境中部署，确保数据安全和隐私控制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高效发票与报价管理&lt;/strong&gt; —— 支持快速创建、管理和发送发票及报价单。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高度可定制的品牌模板&lt;/strong&gt; —— 利用 nunjucks 模板引擎，支持灵活的品牌个性化。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;多货币与税务支持&lt;/strong&gt; —— 适用于全球业务，具备灵活的税务和货币设置。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;智能部署方案&lt;/strong&gt; —— 基于 Docker 构建，支持快速安装和跨平台运行。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: 该文本介绍了Model Context Protocol（MCP）的官方Go语言软件开发工具包（SDK），由Google维护，提供构建客户端和服务器所需的核心功能模块，包括API定义、传输层支持、OAuth认证及扩展等功能，同时包含完整规范文档和示例代码，旨在为开发者提供高效实现MCP生态系统的工具，并认可第三方SDK的贡献。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;自托管发票平台&lt;/strong&gt;：用户可自主部署和管理发票系统，确保数据安全和完全控制。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多功能发票管理&lt;/strong&gt;：支持快速创建发票与报价单，集成支付跟踪、客户信息管理及财务概览功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高度定制化模板&lt;/strong&gt;：利用 nunjucks 模板引擎支持个性化品牌设计，提升专业形象。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多语言与国际化支持&lt;/strong&gt;：支持多货币和灵活税务设置，便于全球业务拓展。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;技术栈与部署便捷&lt;/strong&gt;：基于 Nuxt.js、adonisJS、PostgreSQL 和 Gotenberg 构建，支持 Docker 部署，适应多种环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;官方SDK与维护方&lt;/strong&gt;：Google与社区协作维护的MCP官方Go SDK，用于开发服务器和客户端。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;功能模块划分&lt;/strong&gt;：包含核心API（mcp包）、自定义传输（jsonrpc包）、OAuth认证（auth包）及扩展（oauthex包）等差异化组件。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;规范兼容性&lt;/strong&gt;：SDK致力于实现完整的MCP规范，文档目录（docs/）详细映射协议功能到具体包。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;快速上手示例&lt;/strong&gt;：提供标准服务器与客户端的代码示例，展示如何通过stdin/stdout进行工具调用与连接。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源生态与授权&lt;/strong&gt;：基于MIT许可证开源，同时致谢第三方SDK（如mcp-go）对生态发展的贡献。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 15:16:21 +0800</pubDate>
-      <guid>https://github.com/ad-on-is/rachoon</guid>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: LocalAI 是一个开源、免费的 AI 框架，作为 OpenAI、Claude 等的替代方案，支持本地部署与消费级硬件运行，无需 GPU，具备文本、音频、视频、图像生成、语音克隆、分布式和 P2P 推理等多功能。它提供了一个兼容 OpenAI API 的 REST 接口，并整合了多个 AI 工具形成 Local Stack 家族，增强社区协作与企业级部署能力。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;无需 GPU 的本地 AI 框架&lt;/strong&gt;：LocalAI 可在消费级硬件上运行，支持多种加速方式，如 CUDA、ROCm、Metal 等，无需专用 GPU 设备。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;多功能模型支持与多模态能力&lt;/strong&gt;：支持文本、音频、视频、图像生成和语音克隆，并提供对象检测、文档重排（reranking）和嵌入式向量数据库等扩展功能。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;模块化与轻量化架构&lt;/strong&gt;：LocalAI 已将所有后端迁移至外部，实现更轻量和灵活的部署，自动检测并下载匹配的后端。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;P2P 和分布式推理能力&lt;/strong&gt;：引入 P2P 分布式架构，支持联邦模式和 swarm 技术，实现去中心化推理与全球社区资源池。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全面的社区生态与集成能力&lt;/strong&gt;：集成多种 WebUI、容器、CLI 工具和第三方平台（如 GitHub、Slack、Discord），并提供丰富的模型库和部署方式。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: Skyvern 是一款利用大型语言模型和计算机视觉技术自动化浏览器流程的工具，能够无需定制代码即可处理多种网站，具备高度适应性、抗布局变更能力以及对复杂交互的推理能力，显著优于传统基于脚本或 XPath 的自动化方案，适用广泛的企业级流程自动化需求。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI驱动的浏览器自动化&lt;/strong&gt;：Skyvern 通过 LLM 和计算机视觉技术实现对网页的智能理解和交互，无需编写定制代码，适用于未知网站。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高适应性与稳定性&lt;/strong&gt;：系统不依赖预设的 XPath 或布局元素识别，可自动应对网站布局变更，降低维护成本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强大的写入任务支持&lt;/strong&gt;：Skyvern 在写入类任务（如表单填写、登录、文件下载）上表现最优，适合 RPA 相关应用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多环境部署与扩展性&lt;/strong&gt;：支持本地安装、云端服务、Docker Compose 以及与外部工具如 Zapier、Make.com 和 N8N 集成，覆盖多种使用场景。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;丰富的功能与未来规划&lt;/strong&gt;：支持 2FA、密码管理器、数据提取、实时视图流等功能，并计划引入可视化工作流构建、自动流程生成和性能监控工具等增强用户体验和效率。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: Kotatsu是一款免费开源的安卓漫画阅读器，因面临Kakao Entertainment Corp的威胁及谷歌新侧载政策而决定停运并停止支持，其核心功能包括1200+在线漫画源、离线阅读、跨设备同步及多平台优化的Material You界面，同时强调内容合规性与社区协作开发。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;停运决定及原因&lt;/strong&gt;: 因Kakao Entertainment Corp的法律威胁和谷歌侧载政策变化，Kotatsu将停止运营并终止支持。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与跨平台特性&lt;/strong&gt;: 作为免费开源软件，支持Android手机、平板及桌面，提供自定义阅读模式与Material You界面优化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;功能扩展性&lt;/strong&gt;: 支持离线阅读、第三方CBZ文件、阅读历史/书签/隐私模式，集成多跟踪服务（Shikimori、AniList等）及章节更新通知。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;内容合规声明&lt;/strong&gt;: 明确声明不存储或分发漫画内容，所有资源均来自互联网，DMCA投诉需向内容源网站提交。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区协作机制&lt;/strong&gt;: 鼓励开发者通过Pull Requests参与贡献，并提供多语言本地化支持及Weblate协作平台。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: ggml 是一个专注于机器学习的低级张量库，具备跨平台、整数量化、广泛硬件兼容性、自动微分和多种优化器支持，且无第三方依赖、运行时无内存分配，适用于不同环境下的模型推理与编译，如 CUDA、hipBLAS、SYCL 和 Android。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台与低级实现&lt;/strong&gt;: ggml 提供低级张量操作，支持多种操作系统和硬件架构，具有高度可移植性和灵活性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;整数量化支持&lt;/strong&gt;: 支持整数量化技术，有助于降低模型内存占用和提高推理效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;无第三方依赖&lt;/strong&gt;: 不依赖外部库，简化了部署与维护流程，增强了系统的独立性和安全性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;硬件加速兼容性&lt;/strong&gt;: 支持 CUDA、hipBLAS、SYCL 等多种硬件加速框架，提升计算性能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Android 编译指南&lt;/strong&gt;: 提供详细步骤用于在 Android 设备上编译和运行模型，支持通过 ADB 推送文件并在设备上执行。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: NocoBase是一款集AI能力、高度可扩展性与极简操作于一体的无代码/低代码平台，通过数据模型驱动而非表单/表格驱动，实现数据结构与界面解耦，支持复杂业务系统的快速构建与灵活部署，使团队能以低成本、高效率完成企业级应用开发，并通过插件体系持续扩展功能。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;数据模型驱动架构&lt;/strong&gt;：实现数据结构与用户界面的完全解耦，允许通过自定义模型解锁无限扩展性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI深度集成能力&lt;/strong&gt;：将AI员工（如翻译、分析、研究等）嵌入业务流程，支持AI与人协作的场景化应用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化插件体系&lt;/strong&gt;：所有功能模块化设计，类似WordPress，支持通过插件灵活扩展页面、数据源、API等。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;直观易用性&lt;/strong&gt;：采用可视化编辑模式，非技术人员可像使用Notion一样拖拽布局，降低开发门槛。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;快速部署与成本控制&lt;/strong&gt;：支持分钟级部署，无需长期开发或巨额投入，显著缩短上线周期并节省资源。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: 微舆是一款从0实现的创新型多Agent舆情分析系统，通过AI驱动全域监控与多模态解析，结合复合分析引擎及论坛协作机制，突破信息茧房并实现舆情深度挖掘、趋势预测与智能报告生成，支持公私域数据融合与轻量化部署，可灵活适配不同业务场景，为用户提供精准、多维的数据洞察与决策辅助。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多Agent协同分析架构&lt;/strong&gt;：通过Query、Media、Insight、Report四大Agent分工协作，结合ForumEngine实现链式思维碰撞与多轮深度研究，突破单一模型局限。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全域舆情监测与多模态解析&lt;/strong&gt;：覆盖国内外30+社媒平台及数百万条评论，支持短视频内容深度解读与结构化多模态信息（天气、日历、股价等）提取。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;公私域数据无缝整合&lt;/strong&gt;：提供安全接口连接内部业务数据库，实现"外部趋势+内部洞察"的垂直业务分析能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;轻量化模块化设计&lt;/strong&gt;：基于纯Python实现一键部署，代码结构清晰支持自定义模型集成与快速扩展，适应不同业务场景需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;复合分析引擎技术&lt;/strong&gt;：融合微调模型、统计模型与LLM，通过多模型协同工作提升分析深度与准确性，支持情感分析模型灵活切换。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: OpenTUI 是一个用于构建终端用户界面（TUI）的 TypeScript 库，目前仍处于开发阶段，尚未准备好用于生产环境，但它将成为 opencode 和 terminaldotshop 的基础 TUI 框架。该库通过 monorepo 结构提供多个与不同框架（如 React、SolidJS、Vue、Go）集成的 reconciler，支持通过 bun 工具快速初始化，并提供本地开发链接脚本以方便在其他项目中测试。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;OpenTUI 是一个 TypeScript 构建终端用户界面的库&lt;/strong&gt;，目前处于开发阶段，不适用于生产环境。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供多种框架绑定&lt;/strong&gt;，包括 React、SolidJS、Vue 和 Go，但部分（如 Vue、Go）目前未维护。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持本地开发链接&lt;/strong&gt;，通过脚本将 OpenTUI 的源码或构建产物链接到其他项目中，便于调试与测试。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;需安装 Zig 才能构建&lt;/strong&gt;，并支持通过 bun install 命令安装核心库 @opentui/core。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;鼓励在 awesome-opentui 列表中展示基于 OpenTUI 的项目&lt;/strong&gt;，以促进社区贡献与使用。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: 这本《CS自学指南》旨在利用欧美名校开源的高质量计算机课程资源，帮助计算机初学者在2-3年内系统掌握编程、算法、人工智能、网络、数据库等多个核心领域，成长为具备扎实基础和广泛知识的全能程序员，并鼓励读者通过贡献和交流共同完善学习内容。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自学CS成为趋势&lt;/strong&gt;：新冠疫情推动在线教育发展，使自学计算机学科变得可行且受欢迎。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高质量资源可获取&lt;/strong&gt;：欧美高校的优质计算机课程已全面开源，为自学提供了坚实基础。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自学指南的目标&lt;/strong&gt;：帮助小白系统学习，掌握主流编程语言和计算机科学核心概念，增强就业与科研竞争力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;鼓励社区贡献&lt;/strong&gt;：开放源代码仓库，欢迎读者提交内容补充、课程建议和书籍推荐，并需提供英文翻译。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持交流与反馈&lt;/strong&gt;：提供评论功能和线上群组机制，便于学习者交流经验并修正书籍内容。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: 本文是一份逐步指南，用于提高Linux服务器的安全性，涵盖SSH安全配置、限制sudo/su权限、网络防火墙设置、入侵检测与预防、系统日志审计、文件完整性监控、反病毒及Rootkit检测等核心内容，旨在为使用Linux的个人和企业用户提供全面的系统安全加固方案。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;使用SSH密钥认证代替密码登录，提高访问安全性&lt;/strong&gt;，并限制只有特定用户组可以SSH登录。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;启用自动安全更新和邮件报警&lt;/strong&gt;，确保服务器及时获得最新的安全补丁，同时监控更新状态。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;配置UFW并集成PSAD和Fail2Ban&lt;/strong&gt;，实现防火墙规则管理、入侵检测以及自动封锁异常登录IP。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;设置安全策略&lt;/strong&gt;，包括限制Root登录、配置系统日志分析工具logwatch、启用2FA/MFA增强安全验证。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;保护关键系统文件及信息&lt;/strong&gt;，通过编辑/proc挂载参数及设置统一的umask值，控制文件默认权限，防止未授权访问。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: 该文本介绍了FFmpeg的汇编语言学习课程，旨在帮助学习者掌握FFmpeg中汇编语言的编写方式，深入了解计算机底层运行机制，并为最终能够参与FFmpeg开发奠定基础。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;课程目标&lt;/strong&gt;: 提供FFmpeg中汇编语言的深入学习，帮助学习者理解计算机底层运行机制。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;前提知识&lt;/strong&gt;: 需要具备C语言基础，尤其是指针的理解，并建议阅读《The C Programming Language》。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;数学基础&lt;/strong&gt;: 需要掌握高中数学，包括标量与向量、加法、乘法等概念。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;学习资源&lt;/strong&gt;: 提供了一个Git仓库，包含课程和练习内容（尚未上传），完成后可参与FFmpeg开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;交流支持&lt;/strong&gt;: 提供了一个Discord服务器用于答疑，链接为https://discord.com/invite/Ks5MhUhqfB。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description>&lt;p&gt;概要: LocalStack 4.9 是一个强大的本地 AWS 云服务模拟框架，允许开发者在本地机器或 CI 环境中离线开发和测试云及无服务器应用，显著提升开发效率和流程简化，同时支持广泛的 AWS 服务和 Pro 版本的增强功能。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;LocalStack 4.9 支持本地离线开发和测试 AWS 应用及无服务器架构&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;它运行于单个 Docker 容器，提供完整的 AWS 服务模拟环境&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Pro 版本提供额外 API 和高级功能，适用于更复杂场景&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种安装方式，包括 CLI、Brew、PyPI 和二进制下载&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供图形化 UI 客户端，便于非技术用户或集成到开发工具中&lt;/strong&gt;&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 15:29:38 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
     </item>
   </channel>
 </rss>
