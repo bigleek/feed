@@ -6,65 +6,19 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>ad-on-is/rachoon</title>
-      <link>https://github.com/ad-on-is/rachoon</link>
-      <description>&lt;p&gt;概要: Rachoon 是一款现代化的自托管发票管理平台，专为自由职业者和小型企业打造，提供从发票创建、客户管理到支付追踪的一站式解决方案，结合易于使用的界面和灵活的定制功能，帮助用户高效掌控财务流程。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;自托管发票平台&lt;/strong&gt;：Rachoon 允许用户在自有服务器上部署，实现对发票流程的完全控制。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;高度可定制的品牌模板&lt;/strong&gt;：支持使用 nunjucks 模板引擎创建个性化发票，增强专业形象。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;多币种与税务支持&lt;/strong&gt;：适应全球业务需求，提供灵活的货币与税务配置选项。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;直观的数据仪表盘&lt;/strong&gt;：提供实时的收入、待支付款项及客户统计信息，便于快速决策。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;技术栈灵活且容器化部署&lt;/strong&gt;：基于 Nuxt.js、adonisJS、PostgreSQL 和 Gotenberg 构建，支持 Docker 部署，可运行于多种环境。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate>Sat, 08 Nov 2025 07:02:32 +0800</pubDate>
-      <guid>https://github.com/ad-on-is/rachoon</guid>
-    </item>
-    <item>
-      <title>modelcontextprotocol/go-sdk</title>
-      <link>https://github.com/modelcontextprotocol/go-sdk</link>
-      <description>&lt;p&gt;概要: 该文本介绍了Google维护的官方Go语言Model Context Protocol（MCP）SDK，提供用于构建和运行MCP服务器及客户端的核心API与工具包，涵盖协议实现、传输层支持、OAuth认证及扩展功能，并通过示例代码演示了服务器与客户端的交互方式，同时鼓励社区贡献并声明MIT开源协议。&lt;/p&gt;  
+      <title>simstudioai/sim</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>&lt;p&gt;概要: Sim是一个开源平台，提供云托管（sim.ai）与自托管（NPM/Dev Containers/Docker Compose）两种方案，支持快速构建和部署AI代理工作流，依赖Ollama本地模型及PostgreSQL的pgvector扩展实现AI嵌入功能，采用Next.js、Bun、Drizzle ORM等现代技术栈，同时支持实时通信、状态管理及语义搜索，并通过Apache 2.0许可证鼓励社区贡献。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;官方SDK与维护主体&lt;/strong&gt;: 由Google主导开发并维护，旨在实现完整的MCP协议规范。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;模块化功能包设计&lt;/strong&gt;: 包含mcp（核心API）、jsonrpc（自定义传输）、auth（OAuth基础）、oauthex（OAuth扩展）等独立功能模块。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开发实践示例&lt;/strong&gt;: 提供服务器创建与客户端交互的完整代码示例，展示通过stdin/stdout进行工具调用的实现方式。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源许可与社区贡献&lt;/strong&gt;: 采用MIT协议授权，并开放贡献渠道（CONTRIBUTING.md），支持开发者参与迭代。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;第三方生态影响&lt;/strong&gt;: 参考了多个第三方SDK（如mcp-go、mcp-golang），形成Go语言MCP工具的活跃开发生态。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;双部署模式&lt;/strong&gt;: 提供云服务(sim.ai)与自托管方案，包括NPM包、Docker Compose及VS Code Dev Containers三种技术路径。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;技术架构&lt;/strong&gt;: 基于Next.js框架和Bun运行时，集成PostgreSQL（需pgvector扩展）与Drizzle ORM数据库系统，支持实时通信(Socket.io)和状态管理(Zustand)。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI功能实现&lt;/strong&gt;: 通过Ollama本地模型（含Gemma3:4b和Llama3.1:8b）替代外部API，依赖PostgreSQL的pgvector扩展支持向量嵌入与语义搜索。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发流程要求&lt;/strong&gt;: 需克隆仓库、安装Bun依赖、配置数据库环境及执行迁移，同时通过环境变量管理Copilot API密钥等敏感信息。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;生态扩展性&lt;/strong&gt;: 集成ReactFlow（流程编辑）、Fumadocs（文档生成）、Trigger.dev（后台任务）和E2B（远程代码执行）等组件，构建模块化开发框架。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Sat, 08 Nov 2025 07:02:32 +0800</pubDate>
-      <guid>https://github.com/modelcontextprotocol/go-sdk</guid>
-    </item>
-    <item>
-      <title>mudler/LocalAI</title>
-      <link>https://github.com/mudler/LocalAI</link>
-      <description>&lt;p&gt;概要: LocalAI 是一个开源、免费的本地优先 AI 推理平台，作为 OpenAI、Claude 等服务的替代方案，具备生成文本、音频、视频、图像和语音克隆等多功能，支持多种模型架构与硬件加速，无需 GPU 即可运行，且通过 OCI 镜像提供灵活的后端管理和部署方案，实现分布式和 P2P 推理能力，并整合了 LocalAGI 和 LocalRecall 等工具形成完整的 Local Stack 家族，便于本地或私有部署。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;无需 GPU 的本地优先 AI 推理平台&lt;/strong&gt;：LocalAI 可在消费级硬件上运行，不依赖 GPU，适用于资源受限的环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全面支持多种 AI 模型与任务&lt;/strong&gt;：支持文本、音频、图像、视频生成，以及语音克隆、对象检测、文档重排序等复杂任务。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化与灵活的后端管理&lt;/strong&gt;：支持通过 OCI 镜像动态安装和移除后端，兼容不同硬件加速（如 CUDA、ROCm、Metal 等），并提供自动后端检测功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持分布式与 P2P 推理&lt;/strong&gt;：具备去中心化能力，支持 AI Swarms 和 P2P 模式，提升协作与部署灵活性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完整的 Local Stack 生态系统&lt;/strong&gt;：与 LocalAGI 和 LocalRecall 等工具集成，形成涵盖 AI 代理、知识存储与推理的统一平台。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate>Sat, 08 Nov 2025 07:02:32 +0800</pubDate>
-      <guid>https://github.com/mudler/LocalAI</guid>
-    </item>
-    <item>
-      <title>Skyvern-AI/skyvern</title>
-      <link>https://github.com/Skyvern-AI/skyvern</link>
-      <description>&lt;p&gt;概要: Skyvern通过结合大型语言模型（LLMs）和计算机视觉技术，革新了浏览器自动化流程，提供无需定制代码的API端点，可高效处理多样化的网页任务，显著提升自动化稳定性与适用性，尤其在应对网站布局变化、复杂交互逻辑及多语言场景时表现出色，同时支持灵活的部署方案（云服务与本地运行）和丰富的功能扩展（如2FA支持、密码管理器集成、可视化工作流构建等），成为RPA领域的重要解决方案。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;无需定制代码的通用自动化&lt;/strong&gt;: 基于视觉LLM与上下文推理，可自主适配新网站并处理布局变化，无需依赖XPath等易失效的定位方式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;卓越的WRITE任务性能&lt;/strong&gt;: 在WebBench基准测试中准确率达64.4%，是RPA相关任务（表单填写、登录、文件下载等）的最优自动化工具。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多模态功能集成&lt;/strong&gt;: 支持数据提取、文件下载、实时浏览器流监控、2FA认证及与Zapier、密码管理器等第三方工具的深度集成。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活部署架构&lt;/strong&gt;: 提供Skyvern Cloud（托管云服务）与本地运行（含Docker Compose配置）两种模式，兼容Windows/macOS/Linux，并内置反爬机制与代理网络。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;智能化工作流构建&lt;/strong&gt;: 通过Agent swarm自主规划任务路径，支持循环、条件判断（即将上线）及语音交互等高级功能，降低人工干预门槛。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate>Sat, 08 Nov 2025 07:02:32 +0800</pubDate>
-      <guid>https://github.com/Skyvern-AI/skyvern</guid>
+      <pubDate>Sat, 08 Nov 2025 12:45:03 +0800</pubDate>
+      <guid>https://github.com/simstudioai/sim</guid>
     </item>
   </channel>
 </rss>
