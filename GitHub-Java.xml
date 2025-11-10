@@ -6,20 +6,19 @@
     <description>Summarized RSS feed for GitHub-Java</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>checkstyle/checkstyle</title>
-      <link>https://github.com/checkstyle/checkstyle</link>
-      <description>&lt;p&gt;概要: Checkstyle 是一款用于帮助 Java 开发人员遵循编码规范的工具，支持多种编码标准并高度可配置，可通过 ANT 任务或命令行程序调用，适用于代码质量管理和团队协作。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Checkstyle 是 Java 代码质量工具&lt;/strong&gt;，用于确保代码符合规范或最佳实践。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;高度可配置&lt;/strong&gt;，默认支持 Google Java Style Guide 和 Sun Code Conventions，可根据需求自定义规则。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;可通过多种方式集成和使用&lt;/strong&gt;，包括从 GitHub 或 Maven 下载、配置 XML 文件及执行命令行审计。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供详细的文档和 Javadoc&lt;/strong&gt;，便于用户查阅和理解其功能与配置。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;依赖开源许可和社区支持&lt;/strong&gt;，采用 GNU LGPL v2.1 许可，并鼓励通过 Liberapay 或 OpenCollective 赞助。&lt;/li&gt;
+      <title>google/guava</title>
+      <link>https://github.com/google/guava</link>
+      <description>&lt;p&gt;概要: Guava 是 Google 提供的一套核心 Java 库，包含多种高级集合类型、并发工具、I/O 支持以及其他实用功能，适用于 Java 8+ 项目及 Android 开发，分为 JRE 和 Android 两个版本，并提供详细的文档、Javadoc 和构建方式，同时需要注意 API 稳定性及兼容性问题。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;Guava 提供多种增强 Java 功能的工具库&lt;/strong&gt;，涵盖集合、并发、I/O、字符串等，提升了开发效率和代码质量。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Guava 分为 JRE 和 Android 两种版本&lt;/strong&gt;，分别适配标准 Java 环境与 Android 平台，满足不同项目需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;依赖管理需根据项目类型选择版本号&lt;/strong&gt;，如 Maven 使用 33.5.0-jre 或 33.5.0-android，Gradle 则通过 implementation 或 api 添加。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;所有序列化形式可能变更&lt;/strong&gt;，不应依赖其持久化兼容性，避免因版本升级导致数据不可读。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;使用 Guava 时需注意 API 的稳定性&lt;/strong&gt;，@Beta 标注的 API 可能随时变化，而非 @Beta 的 API 则长期保持二进制兼容。&lt;/li&gt;  
 &lt;/ul&gt;</description>
-      <pubDate>Mon, 10 Nov 2025 07:04:55 +0800</pubDate>
-      <guid>https://github.com/checkstyle/checkstyle</guid>
+      <pubDate>Mon, 10 Nov 2025 15:51:53 +0800</pubDate>
+      <guid>https://github.com/google/guava</guid>
     </item>
   </channel>
 </rss>
