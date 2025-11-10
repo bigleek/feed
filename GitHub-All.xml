@@ -6,19 +6,11 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>usestrix/strix</title>
-      <link>https://github.com/usestrix/strix</link>
-      <description>&lt;p&gt;概要: Strix是一款开源的AI驱动安全工具，通过模拟真实黑客行为，利用自主AI代理对应用程序进行动态漏洞检测与验证，提供实时PoC（概念验证）和精准修复建议，支持本地化部署与GitHub Actions无缝集成，实现持续交付中的自动化安全扫描，帮助开发者和安全团队在无需人工渗透测试或静态分析误报的情况下，高效识别并解决应用漏洞。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;AI代理动态验证漏洞&lt;/strong&gt;：通过真实PoC验证而非静态分析的误报，确保漏洞发现的准确性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;CI/CD自动化集成&lt;/strong&gt;：支持GitHub Actions无缝接入，实现拉取请求自动扫描与生产环境漏洞阻断。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多场景覆盖能力&lt;/strong&gt;：可同时支持本地代码分析、远程仓库审查、多环境并行测试及目标聚焦检测。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级功能扩展&lt;/strong&gt;：提供定制化模型、 executive仪表盘、第三方工具集成及大规模扫描能力。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;本地化安全架构&lt;/strong&gt;：基于沙箱容器隔离与本地处理，保障测试数据隐私，不依赖外部服务传输。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate>Mon, 10 Nov 2025 15:47:14 +0800</pubDate>
-      <guid>https://github.com/usestrix/strix</guid>
+      <title>No title</title>
+      <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 17:17:46 +0800</pubDate>
+      <guid isPermaLink="false">no-guid</guid>
     </item>
   </channel>
 </rss>
