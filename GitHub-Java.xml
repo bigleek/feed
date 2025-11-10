@@ -1,24 +1,156 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub-Java</title>
-    <link>https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml</link>
-    <description>Summarized RSS feed for GitHub-Java</description>
-    <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml" rel="self" type="application/rss+xml"/>
+    <title/>
+    <link/>
+    <description>Summarized RSS feed for undefined</description>
+    <atom:link rel="self" type="application/rss+xml"/>
     <item>
       <title>google/guava</title>
       <link>https://github.com/google/guava</link>
-      <description>&lt;p&gt;概要: Guava 是 Google 提供的一套核心 Java 库，包含多种高级集合类型、并发工具、I/O 支持以及其他实用功能，适用于 Java 8+ 项目及 Android 开发，分为 JRE 和 Android 两个版本，并提供详细的文档、Javadoc 和构建方式，同时需要注意 API 稳定性及兼容性问题。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Guava 提供多种增强 Java 功能的工具库&lt;/strong&gt;，涵盖集合、并发、I/O、字符串等，提升了开发效率和代码质量。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Guava 分为 JRE 和 Android 两种版本&lt;/strong&gt;，分别适配标准 Java 环境与 Android 平台，满足不同项目需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;依赖管理需根据项目类型选择版本号&lt;/strong&gt;，如 Maven 使用 33.5.0-jre 或 33.5.0-android，Gradle 则通过 implementation 或 api 添加。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;所有序列化形式可能变更&lt;/strong&gt;，不应依赖其持久化兼容性，避免因版本升级导致数据不可读。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;使用 Guava 时需注意 API 的稳定性&lt;/strong&gt;，@Beta 标注的 API 可能随时变化，而非 @Beta 的 API 则长期保持二进制兼容。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate>Mon, 10 Nov 2025 15:51:53 +0800</pubDate>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
       <guid>https://github.com/google/guava</guid>
+    </item>
+    <item>
+      <title>FabricMC/fabric</title>
+      <link>https://github.com/FabricMC/fabric</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/FabricMC/fabric</guid>
+    </item>
+    <item>
+      <title>dbeaver/dbeaver</title>
+      <link>https://github.com/dbeaver/dbeaver</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/dbeaver/dbeaver</guid>
+    </item>
+    <item>
+      <title>AntiCope/meteor-rejects</title>
+      <link>https://github.com/AntiCope/meteor-rejects</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/AntiCope/meteor-rejects</guid>
+    </item>
+    <item>
+      <title>apache/kafka</title>
+      <link>https://github.com/apache/kafka</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/apache/kafka</guid>
+    </item>
+    <item>
+      <title>apache/hadoop</title>
+      <link>https://github.com/apache/hadoop</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/apache/hadoop</guid>
+    </item>
+    <item>
+      <title>Pugmatt/BedrockConnect</title>
+      <link>https://github.com/Pugmatt/BedrockConnect</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/Pugmatt/BedrockConnect</guid>
+    </item>
+    <item>
+      <title>termux/termux-app</title>
+      <link>https://github.com/termux/termux-app</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/termux/termux-app</guid>
+    </item>
+    <item>
+      <title>LawnchairLauncher/lawnchair</title>
+      <link>https://github.com/LawnchairLauncher/lawnchair</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/LawnchairLauncher/lawnchair</guid>
+    </item>
+    <item>
+      <title>xiaojieonly/Ehviewer_CN_SXJ</title>
+      <link>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</guid>
+    </item>
+    <item>
+      <title>cabaletta/baritone</title>
+      <link>https://github.com/cabaletta/baritone</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/cabaletta/baritone</guid>
+    </item>
+    <item>
+      <title>spring-projects/spring-boot</title>
+      <link>https://github.com/spring-projects/spring-boot</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/spring-projects/spring-boot</guid>
+    </item>
+    <item>
+      <title>vvb2060/KeyAttestation</title>
+      <link>https://github.com/vvb2060/KeyAttestation</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/vvb2060/KeyAttestation</guid>
+    </item>
+    <item>
+      <title>ReVanced/revanced-patches</title>
+      <link>https://github.com/ReVanced/revanced-patches</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/ReVanced/revanced-patches</guid>
+    </item>
+    <item>
+      <title>TGX-Android/Telegram-X</title>
+      <link>https://github.com/TGX-Android/Telegram-X</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/TGX-Android/Telegram-X</guid>
+    </item>
+    <item>
+      <title>Team-xManager/xManager</title>
+      <link>https://github.com/Team-xManager/xManager</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/Team-xManager/xManager</guid>
+    </item>
+    <item>
+      <title>Querz/mcaselector</title>
+      <link>https://github.com/Querz/mcaselector</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/Querz/mcaselector</guid>
+    </item>
+    <item>
+      <title>JabRef/jabref</title>
+      <link>https://github.com/JabRef/jabref</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/JabRef/jabref</guid>
+    </item>
+    <item>
+      <title>FabricMC/fabric-example-mod</title>
+      <link>https://github.com/FabricMC/fabric-example-mod</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/FabricMC/fabric-example-mod</guid>
+    </item>
+    <item>
+      <title>openjdk/jdk</title>
+      <link>https://github.com/openjdk/jdk</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/openjdk/jdk</guid>
+    </item>
+    <item>
+      <title>apache/cassandra</title>
+      <link>https://github.com/apache/cassandra</link>
+      <description/>
+      <pubDate>Mon, 10 Nov 2025 09:28:16 GMT</pubDate>
+      <guid>https://github.com/apache/cassandra</guid>
     </item>
   </channel>
 </rss>
