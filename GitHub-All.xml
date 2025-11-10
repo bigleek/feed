@@ -8,14 +8,14 @@
     <item>
       <title>usestrix/strix</title>
       <link>https://github.com/usestrix/strix</link>
-      <description>&lt;p&gt;概要: Strix 是一款开源的 AI 安全工具，通过动态执行代码和真实 PoC 验证，为开发者和安全团队提供快速、精准的应用漏洞检测与修复方案，可无缝集成 GitHub Actions 等 CI/CD 流程实现自动化安全测试，同时支持本地化运行、容器隔离及企业级平台功能，兼顾效率、可扩展性和安全性。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Strix是一款开源AI安全工具，通过自主AI代理模拟真实黑客行为，实现对应用程序的动态漏洞检测与PoC验证，提供快速、精准的自动化渗透测试，支持CI/CD集成、多环境并行扫描及本地化处理，助力开发者和安全团队高效提升应用安全性。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;动态漏洞验证与PoC检测&lt;/strong&gt;：通过模拟真实黑客行为动态执行代码，利用实际攻击场景验证漏洞，规避传统静态分析工具的误报问题。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;CI/CD自动化集成&lt;/strong&gt;：支持 GitHub Actions 流水线，可在代码提交时自动扫描漏洞，阻断不安全代码进入生产环境。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级功能扩展&lt;/strong&gt;：提供定制化模型、大范围扫描能力及第三方集成选项，满足大规模应用和合规性需求。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;本地化安全架构&lt;/strong&gt;：测试全程在本地运行，数据不外传，采用沙箱 Docker 环境隔离风险，确保测试过程可控。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活部署与社区协作&lt;/strong&gt;：支持本地安装或云托管版本，鼓励开发者通过贡献代码和提示模块参与工具优化。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;动态漏洞检测与PoC验证&lt;/strong&gt;：通过真实攻击场景和可执行漏洞验证，替代传统静态分析的误报问题，提升检测准确性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;CI/CD无缝集成&lt;/strong&gt;：支持GitHub Actions工作流，实现拉取请求自动扫描，阻断不安全代码上线，强化开发流程安全管控。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;企业级平台能力&lt;/strong&gt;：提供定制化模型、大规模扫描、第三方集成及专属支持，满足组织级安全需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;本地化处理机制&lt;/strong&gt;：基于沙箱容器的隔离环境运行，确保测试数据不外泄，符合合规与隐私要求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;社区驱动与开源生态&lt;/strong&gt;：开放贡献渠道并支持GitHub星标，鼓励开发者协作完善工具功能与攻击模块库。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/usestrix/strix</guid>
@@ -23,14 +23,15 @@
     <item>
       <title>HyDE-Project/HyDE</title>
       <link>https://github.com/HyDE-Project/HyDE</link>
-      <description>&lt;p&gt;概要: HyDE是一个高度定制化的开发环境项目，专为Arch Linux设计并支持部分衍生系统，提供安装脚本、主题管理、配置恢复等功能，同时兼容NixOS和虚拟机测试，鼓励社区贡献与协作，集成统一的配置备份及多平台资源支持。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;安装兼容性与风险提示&lt;/strong&gt;: 脚本适用于最小化Arch Linux安装，可能与其他桌面环境冲突，需自行承担风险；自动检测NVIDIA显卡并安装dkms驱动，但仅限支持该驱动的硬件型号。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;NixOS独立支持&lt;/strong&gt;: 提供专为NixOS维护的Hydenix项目，通过Flakes机制实现与HyDE的协同部署。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;HyDEVM虚拟机测试方案&lt;/strong&gt;: 支持在虚拟机中运行HyDE，提供Arch Linux和NixOS两种快速启动方式，需参考专用文档进行配置。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;主题与壁纸模块化管理&lt;/strong&gt;: 官方主题存于独立仓库，用户可通过themepatcher安装；允许社区创建并共享自定义主题，且提供主题展示平台。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区贡献机制&lt;/strong&gt;: 鼓励代码、测试及文档贡献，遵循all-contributors规范，需通过CONTRIBUTING.md了解流程并提交首次PR至CONTRIBUTORS.md。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: HyDE 是一个高度定制化的开发环境，专为 Arch Linux 设计，同时支持 NixOS，其安装脚本可自动检测 NVIDIA 显卡并安装相应驱动。用户可通过修改配置文件来扩展安装内容，且项目鼓励社区贡献代码、测试和文档。此外，HyDEVM 脚本支持在虚拟机中运行 HyDE，便于测试与开发，官方主题存储于独立仓库，用户也可自行创建并分享主题。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;HyDE 专为 Arch Linux 设计，但可能兼容其他 Arch 基础发行版&lt;/strong&gt;，且不建议与其他桌面环境并存，以免主题和配置冲突。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;安装过程中会自动检测 NVIDIA 显卡并安装 nvidia-dkms 驱动&lt;/strong&gt;，且需确保显卡型号在兼容列表中。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持通过修改 pkg_user.lst 来自定义安装包&lt;/strong&gt;，且提供额外配置包列表供用户参考。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;HyDEVM 脚本允许在虚拟机中运行 HyDE&lt;/strong&gt;，方便测试和开发，支持 Arch Linux 和 NixOS。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;项目鼓励社区参与贡献&lt;/strong&gt;，提供详细的贡献指南和角色说明，所有类型贡献均被认可和记录。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/HyDE-Project/HyDE</guid>
@@ -38,15 +39,14 @@
     <item>
       <title>thinking-machines-lab/tinker-cookbook</title>
       <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
-      <description>&lt;p&gt;概要: Tinker 是一个为研究人员和开发者提供定制语言模型训练的 SDK，配合 Tinker Cookbook 提供丰富的训练范式与示例，帮助用户高效实现监督学习、强化学习、聊天监督学习、数学推理、偏好学习、工具使用和多智能体训练等场景，同时支持模型权重下载与评估集成，旨在通过开源协作推动大语言模型的优化与应用。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提供 Tinker 和 Tinker Cookbook 两个核心库&lt;/strong&gt;，前者是训练 SDK，后者提供多种训练范式的具体实现示例。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多种训练方式&lt;/strong&gt;，如监督学习、强化学习、偏好学习、工具使用等，满足不同场景下的模型定制需求。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;集成实用工具模块&lt;/strong&gt;，包括 token 转换、超参数计算、模型评估及与 InspectAI 的整合。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;简化分布式训练流程&lt;/strong&gt;，用户只需发送 API 请求，系统自动完成训练的复杂操作。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;鼓励社区贡献与开源协作&lt;/strong&gt;，项目基于开放科学理念，欢迎在私有测试阶段后提交 PR 和反馈。&lt;/li&gt;
+      <description>&lt;p&gt;概要: Tinker是一个面向研究者和开发者的语言模型微调训练SDK，通过API接口简化分布式训练流程，而Tinker Cookbook则提供多样化示例与抽象框架，帮助用户构建监督学习、强化学习等定制化训练环境，同时配套实用工具实现模型评估和参数优化，并鼓励社区协作推动技术发展。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;双库架构&lt;/strong&gt;: 提供tinker（训练SDK）和tinker-cookbook（示例库）两个核心工具，分别侧重基础训练功能与场景化应用实现。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;API驱动开发&lt;/strong&gt;: 通过API请求完成分布式训练，用户无需处理底层复杂逻辑，支持模型权重下载与推理客户端生成。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多领域微调方案&lt;/strong&gt;: 涵盖对话监督学习、数学推理强化、偏好学习RLHF、工具使用优化、指令蒸馏和多智能体对抗等六大应用场景。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;配套实用工具链&lt;/strong&gt;: 包括token转换工具、LoRA超参数计算工具及模型评估整合方案（支持InspectAI基准测试），提升开发效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放协作模式&lt;/strong&gt;: 以开放科学理念推进项目，明确私 Beta 期间仅接受反馈，后续开放 PR 贡献并提供规范引用方式。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/thinking-machines-lab/tinker-cookbook</guid>
@@ -54,15 +54,15 @@
     <item>
       <title>JetBrains/kotlin</title>
       <link>https://github.com/JetBrains/kotlin</link>
-      <description>&lt;p&gt;概要: Kotlin是一种由JetBrains及社区开发者构建的简洁多平台编程语言，其核心优势在于支持跨Android、iOS、桌面和Web等平台共享代码与UI组件，显著降低开发与维护成本。同时，Kotlin通过Gradle构建工具链及依赖验证机制确保开发环境一致性与依赖安全，结合IntelliJ IDEA插件和测试辅助工具提升开发效率，并依托开源许可证和非营利Kotlin基金会推动生态持续发展。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Kotlin 是一种由 JetBrains 和贡献者共同开发的简洁且支持多平台的编程语言，能够减少在不同平台间重复编写和维护代码的时间，同时保持原生编程的优势。其多平台能力允许在 Android、iOS、桌面和网页等平台上共享业务逻辑与用户界面，且提供了丰富的开发工具和资源，如 IntelliJ IDEA 插件、构建指南和社区支持，便于开发者高效参与和贡献。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;多平台统一开发&lt;/strong&gt;: 支持跨Android、iOS、桌面、Web等平台代码复用，保留原生编译性能，配合Compose Multiplatform实现UI组件共享。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;Gradle构建与JDK配置&lt;/strong&gt;: 依赖Gradle工具链自动下载JDK，或通过环境变量指定；Windows需启用长路径支持防止文件名过长问题。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;依赖验证机制&lt;/strong&gt;: 自动校验依赖项MD5/SHA256哈希值，防止本地artifacts缺失或版本不一致导致的构建失败。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区工具链集成&lt;/strong&gt;: 提供IntelliJ IDEA插件、Eclipse/VSCode兼容工具及专用测试辅助库，优化开发体验与测试流程。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源生态与治理&lt;/strong&gt;: 采用Apache 2.0许可证，由Kotlin基金会主导非营利性生态建设，鼓励开发者参与贡献并完善构建规范。&lt;/li&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;多平台支持&lt;/strong&gt;: Kotlin 提供跨平台开发能力，可在 Android、iOS、桌面、Web 等平台上共享业务逻辑与 UI，提高开发效率。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;构建与依赖管理&lt;/strong&gt;: 项目使用 Gradle 构建，支持通过环境变量或禁用自动检测来配置 JDK，且提供依赖校验机制确保依赖一致性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开发工具支持&lt;/strong&gt;: 提供 IntelliJ IDEA 插件、Eclipse 插件和 Sublime Text 包，便于在不同 IDE 中进行代码编辑与开发。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开发与测试任务&lt;/strong&gt;: 支持多种 Gradle 任务，如构建、测试、安装等，并有特定命令用于处理本地依赖和 -dev 版本的构建。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源与社区&lt;/strong&gt;: Kotlin 采用 Apache License 2.0 授权，鼓励贡献，并由 Kotlin Foundation 这一非营利组织推动生态系统发展。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/JetBrains/kotlin</guid>
@@ -70,14 +70,14 @@
     <item>
       <title>simstudioai/sim</title>
       <link>https://github.com/simstudioai/sim</link>
-      <description>&lt;p&gt;概要: Sim 是一个开源平台，旨在帮助用户快速构建和部署AI代理工作流，支持云托管和本地自托管两种方式，提供多种部署选项，包括Docker Compose、VS Code Dev Container和手动安装，并且集成了本地AI模型和PostgreSQL数据库以支持向量嵌入，同时使用现代技术栈实现高效开发与实时功能。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Sim 是一个开源平台，允许用户快速构建和部署 AI 代理工作流，提供云托管和自托管两种方式，支持通过 Docker、Dev Containers 或手动配置进行部署，内置强大的 AI 功能并基于 PostgreSQL 和 pgvector 实现向量嵌入支持。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;支持云托管和本地自托管&lt;/strong&gt;，用户可通过 npx simstudio 或 Docker 启动平台。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;集成PostgreSQL与pgvector扩展&lt;/strong&gt;，用于AI相关的向量嵌入功能，支持知识库和语义搜索。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供多种部署方式&lt;/strong&gt;，包括Docker Compose、Dev Containers和手动安装，适应不同环境需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;使用现代技术栈&lt;/strong&gt;，如Next.js、Bun、Socket.io、Zustand、ReactFlow等，确保高性能和可扩展性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;可选本地模型支持&lt;/strong&gt;，通过Ollama运行，无需依赖外部API，提升隐私和控制能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持云托管和自托管部署&lt;/strong&gt;：用户可通过 sim.ai 网站快速部署，或使用 NPM 包及 Docker 等技术实现本地部署。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;集成本地 AI 模型&lt;/strong&gt;：支持通过 Ollama 运行本地模型，无需依赖外部 API，且可根据硬件配置选择 GPU 或 CPU 模式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;依赖 PostgreSQL 与 pgvector 扩展&lt;/strong&gt;：用于存储和处理 AI 向量嵌入，支持知识库与语义搜索功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;技术栈丰富且现代化&lt;/strong&gt;：采用 Next.js、Bun、Drizzle ORM、Tailwind CSS 等先进技术，具备良好的可扩展性和开发体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种部署模式&lt;/strong&gt;：包括 Docker Compose、Dev Containers 和手动安装，灵活适应不同开发和运行环境。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/simstudioai/sim</guid>
@@ -85,15 +85,15 @@
     <item>
       <title>AUTOMATIC1111/stable-diffusion-webui</title>
       <link>https://github.com/AUTOMATIC1111/stable-diffusion-webui</link>
-      <description>&lt;p&gt;概要: Stable Diffusion Web UI 是一个基于 Gradio 构建的图形化界面，提供了丰富的功能增强和便捷的操作方式，支持多种生成模式、图像修复与增强工具、高级参数调整以及灵活的扩展系统，极大地提升了用户在图像生成过程中的控制力与效率，适配多种硬件设备，并允许用户自定义和优化模型表现。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Stable Diffusion Web UI 是一个基于 Gradio 构建的交互式界面，提供丰富的文本和图像生成功能，支持多种模式（如 txt2img、img2img、超分、修复等），并集成多种第三方模型与工具以提升生成质量。其具备灵活的硬件适配性（支持 NVIDIA、AMD、Intel、Ascend 等），简化了安装流程，同时引入实时预览、中断处理、提示语调整等高级功能，以及通过自定义脚本和扩展实现的多样化应用，极大地扩展了 Stable Diffusion 的使用场景与效率。&lt;/p&gt;  
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;多功能图像生成与编辑：支持 txt2img、img2img、Outpainting、Inpainting、Prompt Matrix 等多种模式，允许用户实时调整注意力权重并进行中间提示编辑。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高效支持与硬件兼容性：兼容 2GB 到 8GB 显存设备，支持 NVIDIA、AMD、Intel、Ascend 等不同硬件架构，并提供自动安装脚本。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;强大的图像增强工具集：集成 GFPGAN、CodeFormer、RealESRGAN、ESRGAN、SwinIR 等模型，支持人脸修复、超分辨率和图像风格转换。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灵活的参数管理：支持生成参数保存与恢复、批量处理、种子控制、进度条显示及估计完成时间，提升生成过程的可控性和可追溯性。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开源扩展与社区支持：允许运行自定义 Python 脚本，支持多种扩展功能，如样式管理、负提示、历史记录、CLIP 解析等，并提供详细的文档与贡献指南。&lt;/strong&gt;&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;多模式与功能集成&lt;/strong&gt;: 支持 txt2img、img2img、Outpainting、Inpainting 等模式，集成 GFPGAN、CodeFormer、RealESRGAN 等图像修复与超分工具，以及 CLIP Interrogator、Prompt Editing 等创新功能。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;跨平台硬件兼容性&lt;/strong&gt;: 适配 NVIDIA（推荐）、AMD GPU、Intel CPU/GPU 以及 Ascend NPU，降低硬件门槛并优化内存占用（如支持 4GB 显卡）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;灵活的生成参数控制&lt;/strong&gt;: 提供提示语权重调整、种子管理、分辨率限制放宽、CLIP Skip 等特性，提升生成精度与可控性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;社区扩展与自定义能力&lt;/strong&gt;: 支持加载自定义脚本、合并检查点、使用 Composable Diffusion 多提示语组合，以及通过文本配置修改界面默认参数。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术优化与效率提升&lt;/strong&gt;: 引入 xformers 加速、浮点精度调整、Sub-quadratic Cross Attention 优化等，显著降低计算资源需求并提高生成速度。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/AUTOMATIC1111/stable-diffusion-webui</guid>
@@ -101,15 +101,14 @@
     <item>
       <title>Shubhamsaboo/awesome-llm-apps</title>
       <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>&lt;p&gt;概要: 该仓库是一个精心整理的LLM应用集合，涵盖基于RAG、AI代理、多智能体团队、MCP和语音代理等多种技术构建的应用，支持使用OpenAI、Anthropic、Gemini及开源模型如Qwen和Llama，并允许在本地计算机上运行，旨在展示LLM在多个领域的实际应用与创新潜力。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;多技术融合&lt;/strong&gt;: 涵盖RAG、AI代理、多智能体系统、MCP和语音代理等多种技术组合。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;模型多样性&lt;/strong&gt;: 支持使用OpenAI、Anthropic、Gemini及开源模型（如Qwen、Llama），适用于本地和云端部署。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;应用场景广泛&lt;/strong&gt;: 包括数据分析、医疗图像处理、旅行规划、游戏AI、法律咨询、招聘、教育等多个领域。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学习与贡献机会&lt;/strong&gt;: 提供结构化文档和教程，便于学习与参与开源生态建设。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开发与部署指导&lt;/strong&gt;: 提供详细的安装与运行说明，方便用户快速上手和定制开发。&lt;/li&gt;
+      <description>&lt;p&gt;概要: 本项目是一个精选的LLM应用程序集合，涵盖AI代理、RAG（检索增强生成）、多代理团队、MCP工具及语音代理等多种技术应用，支持使用OpenAI、Anthropic、Google、xAI及开源模型（如Qwen、Llama）构建，旨在展示LLM在多个领域的创新应用，并促进开源生态的发展。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;涵盖多种LLM应用场景&lt;/strong&gt;：包括AI代理、RAG、语音助手、多代理协作等，适用于代码、邮件、研究、医疗、旅游等多个领域。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持主流与开源LLM模型&lt;/strong&gt;：集成OpenAI、Anthropic、Gemini等商业模型，以及Qwen、Llama等开源模型，兼顾灵活性与可扩展性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供详细教程与资源&lt;/strong&gt;：包含LLM微调、多代理框架、RAG实现、多模态应用等教程，便于开发者快速上手和深入探索。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;注重本地与云端部署&lt;/strong&gt;：支持本地运行的多代理与RAG应用，同时也提供云端版本，增强数据安全与互通性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区驱动与持续更新&lt;/strong&gt;：项目鼓励社区贡献，并邀请用户关注仓库以获取最新LLM应用与技术动态。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Shubhamsaboo/awesome-llm-apps</guid>
@@ -117,15 +116,14 @@
     <item>
       <title>ziglang/zig</title>
       <link>https://github.com/ziglang/zig</link>
-      <description>&lt;p&gt;概要: Zig 是一种通用编程语言及工具链，旨在帮助开发者构建稳健、高效且可重用的软件，支持灵活的安装方式和多种构建方式，包括使用预编译二进制文件或从源代码构建，并鼓励社区贡献以推动语言的发展。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Zig 是一种通用编程语言和工具链&lt;/strong&gt;，专注于构建稳健、优化和可重用的软件。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;安装灵活&lt;/strong&gt;，可直接解压使用，无需全局安装，同时也支持通过包管理器或自定义目标构建。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持从源代码构建&lt;/strong&gt;，需依赖 CMake 和系统 C/C++ 工具链，也可不依赖 LLVM 仅使用 C 编译器进行基础构建。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区治理为 BDFN 模式&lt;/strong&gt;，即由 Andrew Kelley 单独决策，鼓励外部贡献但需明确其动机与影响。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区去中心化&lt;/strong&gt;，没有任何“官方”或“非官方”之分，用户可自由参与和维护不同的交流空间。&lt;/li&gt;
+      <description>&lt;p&gt;概要: Zig是一种通用型编程语言及工具链，致力于开发健壮、高效且可复用的软件。其安装灵活，支持预编译二进制、包管理器或从源代码构建，且无需全局安装即可直接使用。构建过程中可选择依赖LLVM进行优化和高级功能，或通过纯C编译生成基础版本，满足不同技术场景需求。Zig采用开源模式与BDFN（Benevolent Dictator For Now）治理架构，由核心维护者主导决策，同时鼓励用户通过实际项目参与改进，推动技术迭代。社区无官方与非官方之分，用户可自由参与多个去中心化交流平台。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;通用性与工具链优势&lt;/strong&gt;: Zig设计为通用编程语言和工具链，专注于提升软件的健壮性、性能优化及代码复用能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多安装方式与灵活性&lt;/strong&gt;: 支持预编译二进制、包管理器安装及跨平台构建，且无需全局部署即可即开即用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;构建选项差异化&lt;/strong&gt;: 源代码构建可选择依赖LLVM（含优化与高级链接功能）或纯C编译（限制部分功能但降低依赖复杂度）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;BDFN治理模式&lt;/strong&gt;: 项目采用“仁慈独裁者”治理，核心维护者Andrew Kelley拥有最终设计决策权。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区去中心化架构&lt;/strong&gt;: 社区无官方层级，用户可自由创建和维护专属交流空间，需主动适应不同平台规则。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ziglang/zig</guid>
@@ -133,14 +131,15 @@
     <item>
       <title>google/adk-go</title>
       <link>https://github.com/google/adk-go</link>
-      <description>&lt;p&gt;概要: Agent Development Kit (ADK) 是一款专为 Go 语言设计的开源工具包，通过代码优先方式构建、评估和部署复杂 AI 代理，提供高度灵活性与控制力，支持多模型兼容、云原生环境部署及模块化架构，助力开发者高效创建可扩展的智能系统。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;模型与部署无关性&lt;/strong&gt;: 支持多种 AI 模型及部署环境（如 Google Cloud Run），适用于 Gemini 优化但兼容非 Gemini 框架。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;云原生适配性&lt;/strong&gt;: 深度集成 Go 语言的并发与性能优势，专为构建高性能、可扩展的云原生 AI 代理应用设计。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;代码优先开发模式&lt;/strong&gt;: 基于 Go 实现全代码定义，提升逻辑、工具及工作流的测试性与版本管理能力。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;: 支持组合多个专业化代理，构建可扩展的复杂应用架构，适应不同任务需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的工具生态系统&lt;/strong&gt;: 提供预置工具与自定义函数集成能力，赋予 AI 代理多样化执行功能。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Agent Development Kit (ADK) 是一个基于 Go 的开源、代码优先工具包，旨在通过灵活的模块化架构，帮助开发者高效构建、评估和部署复杂的人工智能代理系统，支持多种框架和云原生环境，强调代码的可控性与可扩展性。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;模型与部署无关&lt;/strong&gt;：ADK 适用于多种 AI 模型，并支持多种部署方式，具有高度兼容性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;代码优先开发&lt;/strong&gt;：允许开发者直接在 Go 中定义代理逻辑、工具和编排流程，提升灵活性与可测试性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;：支持构建可扩展的多代理应用，通过组合多个专用代理实现复杂任务。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;云原生优化&lt;/strong&gt;：特别适合构建云原生代理应用，充分利用 Go 的并发与性能优势。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源与多语言支持&lt;/strong&gt;：基于 Apache 2.0 许可证，同时提供 Python、Java 和 Web 版本的 ADK，便于跨平台协作。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/google/adk-go</guid>
@@ -148,14 +147,15 @@
     <item>
       <title>mui/material-ui</title>
       <link>https://github.com/mui/material-ui</link>
-      <description>&lt;p&gt;概要: Material UI 是一个全面的 React 组件库，基于 Google 的 Material Design 系统，提供免费且经过十余年开源开发者严格验证的 UI 解决方案，同时通过 MUI X 拓展了高级功能模块。其维护团队优先保障核心项目支持，Joy UI 作为实验性设计系统虽处于 Beta 阶段但需谨慎使用，而 GitHub、Netlify 等赞助服务共同支撑其基础设施运行。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;Material UI 的核心定位&lt;/strong&gt;: 提供完整的 React 组件库，独立实现 Material Design，适用于主流产品开发且免费开放。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;MUI X 的差异化功能&lt;/strong&gt;: 作为扩展模块，专注于复杂场景与高级用例的组件集合，需额外引入。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;Joy UI 的局限性&lt;/strong&gt;: 实验性设计系统处于 Beta 阶段，开发暂停，不建议用于新项目。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;赞助生态的重要性&lt;/strong&gt;: Diamond 和 Gold 等赞助商通过资金支持保障项目可持续性，核心服务如 GitHub、Netlify 提供基础设施支撑。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区与文档支持&lt;/strong&gt;: 提供详细的文档、示例项目及升级指南，但维护团队对非核心问题响应优先级较低。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Material UI 是一个全面的 React 组件库，实现 Google 的 Material Design 系统，且永久免费，已通过十多年数千名开源贡献者的开发和实战验证，获得全球顶级产品团队的信任。其核心功能由 MUI X 扩展，提供高级用例组件，并伴随丰富的文档、示例、模板以及社区支持，同时接受来自 GitHub、Netlify、BrowserStack 和 CodeCov 等平台的赞助，保障其持续发展和稳定性。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Material UI 是一个广泛使用且经过长期验证的 React 组件库&lt;/strong&gt;，基于 Google 的 Material Design，适用于构建现代、一致的用户界面。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MUI X 作为扩展模块&lt;/strong&gt;，提供复杂组件以支持更高级的用例和需求。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Joy UI 是实验性的设计系统&lt;/strong&gt;，当前处于 Beta 阶段且开发暂停，建议新项目优先使用 Material UI。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;项目深受社区与企业支持&lt;/strong&gt;，拥有钻石级和金牌级赞助商，确保技术生态的持续发展。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供完整的文档、示例和商业模板&lt;/strong&gt;，便于快速上手和深度定制，同时也支持通过多种方式参与贡献。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/mui/material-ui</guid>
@@ -163,15 +163,15 @@
     <item>
       <title>prometheus/alertmanager</title>
       <link>https://github.com/prometheus/alertmanager</link>
-      <description>&lt;p&gt;概要: Prometheus Alertmanager 是一个用于处理、分组、路由及静默告警的中央组件，支持多种通知集成（如邮件、PagerDuty等），并通过抑制规则实现告警优先级管理。其提供 APIv2 供客户端交互，并支持高可用性集群部署，需同时配置 UDP 和 TCP 协议以确保集群通信，且通过 amtool 工具简化告警查询、静默操作及配置验证，是监控系统中实现高效告警管理的核心解决方案。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Prometheus Alertmanager 是一个用于处理和路由来自监控系统的告警的工具，它支持去重、分组、路由、静默和抑制等功能，以优化告警通知流程。同时提供 RESTful API 和 CLI 工具 amtool 进行告警管理和配置测试，支持高可用部署，通过集群配置实现分布式运行，并遵循 Apache 2.0 开源协议。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;多渠道告警管理&lt;/strong&gt;: 支持邮件、PagerDuty、OpsGenie及Webhook等接收器，具备告警去重、分组、路由及静默功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高可用性部署&lt;/strong&gt;: 默认启用集群模式，需通过--cluster.*参数配置，要求同时支持UDP和TCP协议，且需开放指定端口用于通信。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活配置体系&lt;/strong&gt;: 通过YAML配置定义全局参数、路由规则（支持正则匹配和子路由）、抑制规则（按告警名称和严重程度关联静默），并提供模板测试功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;APIv2功能特性&lt;/strong&gt;: 基于OpenAPI生成，提供查询、静默操作及状态监控接口，且需通过/api/v2前缀访问，旧版APIv1已淘汰。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;amtool工具支持&lt;/strong&gt;: 内置命令行工具用于告警查看、静默管理、路由验证及模板预览，可自定义配置文件优化操作体验。&lt;/li&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Alertmanager 核心功能包括告警去重、分组、路由及静默/抑制机制&lt;/strong&gt;，可将告警发送至邮件、PagerDuty、OpsGenie、Webhook 等多种接收器。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多种安装方式&lt;/strong&gt;，包括预编译二进制文件、Docker 镜像和手动编译，并提供 CLI 工具 amtool 管理告警和静默。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高可用性默认启用&lt;/strong&gt;，需配置 UDP 和 TCP 集群通信端口，通过 --cluster.* 参数控制集群行为，且所有告警需发送至所有 Alertmanager 实例。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;APIv2 是目前主要接口&lt;/strong&gt;，使用 OpenAPI 生成，支持 REST 操作，并可通过 /api/v2 前缀访问，旧版 APIv1 已弃用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;amtool 支持配置文件管理和路由测试&lt;/strong&gt;，便于调试和管理告警接收器及静默规则，提升操作效率。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/prometheus/alertmanager</guid>
@@ -179,15 +179,15 @@
     <item>
       <title>librespot-org/librespot</title>
       <link>https://github.com/librespot-org/librespot</link>
-      <description>&lt;p&gt;概要: librespot 是一个开源的 Spotify 客户端库，替代了已废弃的官方闭源库 libspotify，支持多种音频后端并可作为 Spotify Connect 接收器。它仅限 Spotify Premium 用户使用，提供比官方库更丰富的功能，并通过 crates.io 和系统包管理器提供便捷的安装与部署方式。&lt;/p&gt;
+      <description>&lt;p&gt;概要: librespot 是一个开源的 Spotify 客户端库，替代了已停用的官方闭源库 libspotify，支持多种音频后端，并提供额外功能。它仅限 Spotify Premium 用户使用，提供命令行接口快速部署，并鼓励社区贡献与反馈，同时提醒用户其使用可能违反 Spotify 的使用条款。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;librespot 是 Spotify 的开源替代客户端库&lt;/strong&gt;，旨在提供比官方闭源库 libspotify 更多功能和灵活性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;仅限 Spotify Premium 用户&lt;/strong&gt;，不支持免费账户的功能限制如广告和有限跳曲。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供多种音频后端选项&lt;/strong&gt;，包括 Rodio、ALSA、PulseAudio 等，默认使用 Rodio。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持跨平台部署与扩展&lt;/strong&gt;，可通过 Cargo 安装，也可在 Linux、FreeBSD 和 NetBSD 上通过官方包系统安装。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区活跃，文档和资源开放&lt;/strong&gt;，鼓励贡献，并设有 Gitter 房间供开发者交流与技术支持。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;librespot 是 Spotify 的开源客户端库&lt;/strong&gt;，替代了已被弃用的官方闭源库 libspotify。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;仅限 Spotify Premium 用户使用&lt;/strong&gt;，不支持免费账户的功能如广告和跳过限制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多种音频后端&lt;/strong&gt;，包括 Rodio（默认）、ALSA、GStreamer、PulseAudio 等。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可通过 Cargo 快速安装与构建&lt;/strong&gt;，提供简单的命令行使用方式和详细的文档资源。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;社区驱动维护&lt;/strong&gt;，鼓励贡献与讨论，同时通过 Gitter 提供技术支持。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/librespot-org/librespot</guid>
@@ -195,14 +195,14 @@
     <item>
       <title>umami-software/umami</title>
       <link>https://github.com/umami-software/umami</link>
-      <description>&lt;p&gt;概要: Umami 是一款注重隐私保护的现代网站分析工具，提供与 Google Analytics 类似的功能，但采用更简洁、快速的方式部署，并兼容 PostgreSQL 数据库。其支持通过源码或 Docker 安装，安装后需配置数据库连接及启动服务，同时需注意版本更新时的镜像标签变更以确保兼容性。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Umami是一款注重隐私保护的现代化网站分析工具，作为Google Analytics的替代方案，提供简单快速的部署方式，支持通过源码或Docker安装，并兼容PostgreSQL数据库，同时强调在升级过程中需注意版本迁移与配置调整，以确保数据安全和系统稳定性。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;隐私优先&lt;/strong&gt;：替代 Google Analytics 的隐私合规性设计，符合现代数据隐私需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;双部署方式&lt;/strong&gt;：支持源码安装（需 Node.js 18.18+ 和 PostgreSQL 12.14+）及 Docker 安装（通过 docker-compose 自动配置数据库）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;初始配置要求&lt;/strong&gt;：安装时需创建 .env 文件指定数据库连接地址，并生成 admin 用户及数据库表结构。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本更新注意事项&lt;/strong&gt;：从 V2 升级需替换 Docker 镜像标签为 "latest"，避免使用已弃用的 "postgresql-latest"。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活启动与扩展&lt;/strong&gt;：默认运行端口为 3000，需通过反向代理或修改端口对外访问，并支持后续依赖更新与重建。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;隐私保护优先&lt;/strong&gt;: 与传统分析工具不同，Umami专注于用户隐私，避免数据收集中的敏感信息泄露。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活安装方案&lt;/strong&gt;: 支持从源码安装（需Node.js 18.18+和PostgreSQL 12.14+）或通过Docker快速部署（含PostgreSQL支持），适配不同技术栈需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本升级注意事项&lt;/strong&gt;: 升级至V3时需替换Docker镜像标签（弃用postgresql-latest），并重新构建应用以兼容新功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;自动化配置与初始化&lt;/strong&gt;: 安装首次运行时自动创建数据库表和管理员账户（用户名admin，密码umami），简化部署流程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可定制化部署&lt;/strong&gt;: 默认运行端口为3000，需通过反向代理或修改端口以适配企业网络环境，确保服务独立性。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/umami-software/umami</guid>
@@ -210,14 +210,14 @@
     <item>
       <title>airweave-ai/airweave</title>
       <link>https://github.com/airweave-ai/airweave</link>
-      <description>&lt;p&gt;概要: Airweave 是一个完全开源的上下文检索层，专为 AI 代理设计，支持跨应用程序和数据库的数据同步与检索，通过 REST API 或 MCP 提供统一的搜索接口，具备语义搜索、多租户架构和灵活的 SDK 集成能力，便于开发者构建智能化的数据查询系统。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Airweave 是一个全开源的上下文检索层，专为 AI 代理设计，支持跨应用和数据库的数据同步与检索，通过标准化的 REST API 或 MCP 接口提供语义搜索、混合搜索以及高级查询功能，同时具备可扩展性、版本控制和多租户架构，适合开发者快速集成与使用。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;支持跨应用与数据库的上下文检索&lt;/strong&gt;，将不同来源的数据转化为可搜索的知识库。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供灵活的接口方式&lt;/strong&gt;，包括 REST API 和 MCP，提升 AI 代理的兼容性与易用性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;具备丰富的搜索功能&lt;/strong&gt;，如语义搜索、混合搜索、查询扩展、重排序和偏近期数据优先。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多租户架构与 OAuth2 支持&lt;/strong&gt;，确保数据隔离与安全，适合企业级部署。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源且易于扩展&lt;/strong&gt;，通过 Python 和 TypeScript/JavaScript SDK 支持快速集成与开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全开源上下文检索平台&lt;/strong&gt;：Airweave 提供开放源代码的解决方案，使 AI 代理能够跨多个应用和数据库检索和利用数据。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种搜索模式&lt;/strong&gt;：包括语义搜索、混合搜索（语义 + 关键字）、查询扩展、重排序以及时间偏倚（优先检索最新数据）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;简化数据同步与转化&lt;/strong&gt;：通过最小化配置实现对 30 多种数据源的同步，并具备实体提取和数据转换流水线。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化技术架构&lt;/strong&gt;：采用 React/TypeScript 作为前端，FastAPI 作为后端，结合 PostgreSQL、Qdrant、Temporal 和 Redis 构建高效可扩展的技术栈。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区驱动与开放协作&lt;/strong&gt;：平台鼓励贡献，并通过 MIT 许可证开放使用，同时提供 Discord、GitHub Issues 和 Twitter 等沟通渠道。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/airweave-ai/airweave</guid>
@@ -225,14 +225,15 @@
     <item>
       <title>lima-vm/lima</title>
       <link>https://github.com/lima-vm/lima</link>
-      <description>&lt;p&gt;概要: Lima 是一个专注于运行容器的 Linux 虚拟机解决方案，提供自动文件共享与端口转发功能，类似于 WSL2，不仅支持 Mac 用户，还可用于其他操作系统如 Linux 和 NetBSD，并兼容多种容器引擎如 containerd、Docker、Podman 和 Kubernetes，适合开发者在本地环境中高效管理容器和 Kubernetes 集群。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;支持容器运行与非容器应用&lt;/strong&gt;：Lima 主要用于运行容器，但也可用于其他 Linux 应用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;兼容多平台与多容器引擎&lt;/strong&gt;：不仅适用于 macOS，还支持 Linux 和 NetBSD，兼容 Docker、Podman、Kubernetes 等多种容器技术。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供便捷的启动与管理方式&lt;/strong&gt;：通过 Homebrew 安装，使用简单命令即可启动和运行 Linux 命令或容器。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;集成多种 GUI 工具与插件&lt;/strong&gt;：支持 lima-gui 和 xbar 插件，便于图形化管理和快速操作。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;活跃的社区与协作机制&lt;/strong&gt;：有官方 Slack 频道、GitHub 讨论以及 Zoom 会议，方便开发者交流与贡献。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Lima 是一个专注于运行容器的 Linux 虚拟机解决方案，具备自动文件共享和端口转发功能，类似于 WSL2；它不仅支持 containerd 和 nerdctl，还兼容 Docker、Podman、Kubernetes 等多种容器引擎，并可在 macOS、Linux 和 NetBSD 等不同主机系统上使用，为开发者提供了灵活且高效的本地容器开发环境。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支持多种容器引擎&lt;/strong&gt;：Lima 不仅支持 containerd 和 nerdctl，还可用于 Docker、Podman 和 Kubernetes 等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;：Lima 不仅适用于 macOS，还支持 Linux 和 NetBSD 等其他主机系统。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;便捷的容器运行方式&lt;/strong&gt;：提供一键启动虚拟机并配置容器运行环境，简化了容器化应用的部署流程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集成与扩展性强&lt;/strong&gt;：与 Rancher Desktop、Colima、Finch 和 Podman Desktop 等工具兼容，并支持 GUI 和菜单栏插件管理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区与协作机制&lt;/strong&gt;：遵循 CNCF 代码行为规范，提供 Slack 交流频道、GitHub 讨论和 Zoom 会议等多渠道协作方式。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/lima-vm/lima</guid>
@@ -240,14 +241,14 @@
     <item>
       <title>WerWolv/ImHex</title>
       <link>https://github.com/WerWolv/ImHex</link>
-      <description>&lt;p&gt;概要: ImHex是一款专为逆向工程师、程序员及深夜工作的用户设计的高级十六进制编辑器，具备强大的数据解析、可视化、搜索和分析功能，支持多种编程语言、自定义主题、多平台数据加载及插件系统，通过独特的模式语言实现灵活的数据结构定义，并提供GPU加速、代码签名和开源许可等专业级支持，兼顾功能全面性与用户体验的优化。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: ImHex 是一款专为逆向工程师、程序员及深夜工作用户设计的高级十六进制编辑器，提供直观的界面、强大的数据解析与可视化功能、支持多种编程语言和数据类型的转换，具备代码签名、多平台兼容、自定义主题及插件系统，旨在提升二进制数据处理的效率与舒适性。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;多数据源与高效处理&lt;/strong&gt;: 支持本地文件、原始磁盘、GDB服务器、UDP数据包、远程SSH文件等，可快速加载超大文件并可视化图片、音频、3D模型等非文本数据。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;自定义模式语言&lt;/strong&gt;: 基于C++语法的模式语言允许用户定义复杂数据结构（如数组、指针、枚举），并实现自定义解析和高亮规则，增强数据交互灵活性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;深度分析与安全工具集成&lt;/strong&gt;: 内置文件魔数识别、熵值分析、加密/压缩检测及YARA规则扫描，支持多算法数据哈希计算和差异对比，满足逆向分析与安全研究需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台兼容性与性能优化&lt;/strong&gt;: 要求OpenGL 3.0 GPU支持，提供无GPU依赖的软件渲染版本；兼容Windows 7+/macOS 13+/Linux主流发行版，且支持多语言界面和可定制主题。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源生态与社区支持&lt;/strong&gt;: 主体代码采用GPLv2许可，关键模块（如插件系统）使用LGPLv2.1；依赖众多知名库（如Dear ImGui、Capstone），并通过GitHub、Patreon等渠道获得企业赞助与开发者协作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多功能数据解析与可视化&lt;/strong&gt;：支持多种数据类型显示（如整数、浮点数、颜色、时间戳等）和自定义编码，可解析图像、音频、3D模型等非文本数据。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;强大的搜索与分析工具&lt;/strong&gt;：包括字符串、十六进制、序列、正则表达式、数值和二进制模式搜索，支持文件哈希计算、加密压缩检测和数据对比。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活的模式语言与可扩展性&lt;/strong&gt;：内置C++风格的模式语言用于数据结构定义，支持自定义数据类型、插件开发及用户自定义主题和字体。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多平台兼容与高性能要求&lt;/strong&gt;：支持Windows、macOS、Linux和FreeBSD，要求OpenGL 3.0支持，提供软件渲染版本以适应无GPU环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区支持与开源授权&lt;/strong&gt;：基于GPLv2许可，允许使用和修改，但部分组件采用LGPLv2.1以支持私有插件；依赖多个开源库并获得社区广泛贡献。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/WerWolv/ImHex</guid>
@@ -255,15 +256,15 @@
     <item>
       <title>MoonshotAI/Kimi-K2</title>
       <link>https://github.com/MoonshotAI/Kimi-K2</link>
-      <description>&lt;p&gt;概要: Kimi K2是由Moonshot AI团队开发的前沿大语言模型系列，采用混合专家（MoE）架构，拥有1万亿总参数和320亿激活参数，通过Muon优化器实现高效训练，专注于提升代理能力（agentic intelligence），在代码生成、工具调用、数学推理等复杂任务中表现突出，且提供OpenAI/Anthropic兼容API及多种部署方案，适用于研究与实际应用。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Kimi K2是由Moonshot AI团队开发的先进语言模型系列，基于混合专家（MoE）架构，拥有1万亿总参数和320亿激活参数，采用Muon优化器训练，展现出卓越的前沿知识、推理与编码能力，特别优化了代理智能功能。该系列包含基础模型和指令微调模型两个变体，前者适合深度定制，后者则在通用对话和代理体验方面表现突出，支持工具调用和自主问题解决。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;MoE架构与参数规模&lt;/strong&gt;: 1万亿总参数、320亿激活参数，结合Muon优化器实现大规模训练稳定性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;代理智能优化&lt;/strong&gt;: 专为工具调用、自主推理和问题解决设计，在SWE-bench等编码任务中达到65.8%（单次尝试）和71.6%（多尝试）的高准确率。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多场景性能领先&lt;/strong&gt;: 在数学（如AIME、GSM8k）、多语言编码（SWE-bench Multilingual）及通用任务（MMLU-Redux）中表现优于多数竞品模型，部分指标达全球最优。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活部署与兼容性&lt;/strong&gt;: 支持vLLM、SGLang等推理引擎，提供OpenAI/Anthropic兼容API，并开放模型权重与代码（Modified MIT License）。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;差异化技术亮点&lt;/strong&gt;: 引入MuonClip优化器解决扩展训练不稳定问题，且通过block-fp8格式存储模型以提升推理效率。&lt;/li&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;高参数量与混合专家架构&lt;/strong&gt;: Kimi K2采用1万亿总参数和320亿激活参数的MoE架构，显著提升模型的扩展性和性能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Muon优化器增强能力&lt;/strong&gt;: 通过Muon优化器实现大模型扩展的稳定性，解决了训练过程中可能产生的不稳定性问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指令微调模型优化代理体验&lt;/strong&gt;: Kimi-K2-Instruct是专为通用对话和代理智能设计的指令微调模型，具备快速反应和自主工具使用能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;卓越的编码与推理性能&lt;/strong&gt;: 在多个基准测试中，如SWE-bench Verified和AIME 2024中表现优异，部分指标达到全球SOTA，展现出强大的代码生成和问题解决能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多样化部署与兼容性&lt;/strong&gt;: 提供OpenAI/Anthropic兼容API，并支持vLLM、SGLang、KTransformers、TensorRT-LLM等主流推理引擎，满足企业级应用需求。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/MoonshotAI/Kimi-K2</guid>
@@ -271,14 +272,14 @@
     <item>
       <title>axios/axios</title>
       <link>https://github.com/axios/axios</link>
-      <description>&lt;p&gt;概要: Axios 是一个基于 Promise 的 HTTP 客户端，支持浏览器和 Node.js 环境，提供便捷的请求处理、拦截器机制、自动数据格式转换（包括 URL 编码和multipart/form-data）、取消请求、错误处理等核心功能，同时兼容 HTTP/2 和多种环境配置（如 Tauri、SvelteKit），并通过 TypeScript 支持增强开发体验，是 AngularJS 的 $http 服务的独立替代方案。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: axios是一个基于Promise的HTTP客户端，同时支持浏览器和Node.js环境，提供广泛的配置选项、拦截器功能、HTTP请求取消机制以及对表单数据和HTTP/2的高级处理能力，旨在简化异步网络请求的开发流程并提升开发效率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台支持&lt;/strong&gt;：同时兼容浏览器和 Node.js 的 HTTP 请求，内置 Promise API 优化异步操作。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高级请求控制&lt;/strong&gt;：支持 URL 编码/分片表单自动化序列化、XSRF 防护、请求取消、响应类型自定义（如 stream）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;拦截器体系&lt;/strong&gt;：可定义请求/响应拦截器，支持异步操作和运行条件动态控制（runWhen），请求拦截器采用 LIFO 顺序，响应拦截器采用 FIFO 顺序。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;错误类型与处理&lt;/strong&gt;：区分 server/clientside 错误场景，提供详细的错误对象结构（如 message、status、config）及针对 5xx/4xx 等特殊状态码的处理方案。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;动态适配扩展&lt;/strong&gt;：支持 FetchAdapter 和自定义 fetch API 集成，包含 HTTP/2 适配、CORS 优化及多框架兼容能力（如 Tauri/SvelteKit）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;：支持浏览器和Node.js环境，并提供多适配器（XHR/Fetch/HTTP）和兼容旧版浏览器/Node.js的API扩展&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Promise模型&lt;/strong&gt;：符合ES6 Promise规范，支持异步/await语法，并支持代理环境的Promise polyfill&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;拦截器扩展&lt;/strong&gt;：支持请求/响应拦截，提供自定义逻辑的按顺序执行机制（请求拦截使用LIFO，响应拦截使用FIFO）&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;表单数据自动序列化&lt;/strong&gt;：支持x-www-form-urlencoded和multipart/form-data格式的自动转换，兼容复杂数据结构及后端解析逻辑&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高级功能支持&lt;/strong&gt;：提供HTTP/2、请求取消、速率限制、自定义头管理（AxiosHeaders类）及第三方框架适配（Tauri/SvelteKit）&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/axios/axios</guid>
