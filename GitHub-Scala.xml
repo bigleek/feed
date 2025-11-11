@@ -6,258 +6,202 @@
     <description>Summarized RSS feed for GitHub-Scala</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/scala.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>apache/incubator-livy</title>
-      <link>https://github.com/apache/incubator-livy</link>
-      <description>&lt;p&gt;概要: Apache Livy 是一个开源的 REST 接口，允许从任何位置与 Apache Spark 进行交互，支持代码片段和程序的执行，兼容本地或 YARN 上的 Spark 环境，无需修改现有代码即可实现交互式会话和批量任务提交，多用户可共享同一服务器，并提供详细的在线文档和灵活的构建配置。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Apache Livy 是一个开源的 REST 接口&lt;/strong&gt;，用于与 Apache Spark 进行远程交互，支持多种编程语言。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;无需修改现有代码即可集成&lt;/strong&gt;，可直接用于提交交互式或批量任务到 Spark 环境。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持多用户共享同一个 Livy 服务&lt;/strong&gt;，具备用户身份冒用（impersonation）功能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;可灵活切换 Spark 版本&lt;/strong&gt;，通过设置 SPARK_HOME 环境变量即可运行不同版本的 Spark，无需重新构建。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;提供详细的在线文档和构建指南&lt;/strong&gt;，包括依赖安装、构建命令及 Docker 构建方式。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/apache/incubator-livy</guid>
-    </item>
-    <item>
-      <title>hyperledger-labs/splice</title>
-      <link>https://github.com/hyperledger-labs/splice</link>
-      <description>&lt;p&gt;概要: Splice 是一套基于 Daml 区块链平台构建的参考应用程序，旨在通过透明治理、激励机制和支付方案支持公共、去中心化的 Canton 同步器的运营与发展，从而为 Canton 网络提供互联互通的基础设施，并促进大规模应用覆盖。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Splice 提供一套完整的参考应用，用于运营、资助和治理公共去中心化 Canton 同步器&lt;/strong&gt;，并利用“Amulet”作为原生支付工具。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Amulet 是一种基于 Daml 的原生支付机制&lt;/strong&gt;，允许同步器运营组通过“amulet”收取交易费，并作为激励早期采用者的工具。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Splice 支持治理透明化与自动化&lt;/strong&gt;，通过内置的治理工具实现对同步器操作、费用设置和货币兑换率的管理。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Splice 通过开放源代码授权（Apache 2.0）和 Hyperledger 基金会社区管理&lt;/strong&gt;，提升其可扩展性和可信度。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Splice 是 Daml 生态系统和 Canton 协议的延伸项目&lt;/strong&gt;，旨在构建更广泛的应用生态，推动同步基础设施的标准化和普及。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/hyperledger-labs/splice</guid>
-    </item>
-    <item>
-      <title>akka/akka-core</title>
-      <link>https://github.com/akka/akka-core</link>
-      <description>&lt;p&gt;概要: Akka是一个以弹性、敏捷与容错为特点的高性能平台，通过其核心SDK和自动化运维解决方案，助力开发者构建可扩展、自动集群、多区域高可用的分布式系统，支持从AI推理到边缘计算等多种应用场景，兼具简化并发编程和跨语言兼容性优势，且拥有15年技术积累与超10亿次下载量。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;全栈支持多场景&lt;/strong&gt;：覆盖AI代理、IoT、数字孪生、边缘到云等复杂系统开发，无需预习事件驱动、线程或分布式系统知识。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Actor模型为核心&lt;/strong&gt;：提供统一抽象层，实现并发控制、远程通信与分布式架构的一体化设计，匹配Reactive Manifesto原则。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;自动化运维能力&lt;/strong&gt;：通过Akka Automated Operations实现从弹性伸缩到多区域灾备的全生命周期管理，安全运行于用户VPC。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;卓越性能指标&lt;/strong&gt;：支持千万级并发、TB级流处理、99.9999%系统可用性及低延迟数据访问，适配严苛业务需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：鼓励社区贡献，提供清晰的贡献流程与双许可模式（核心代码与测试文档分别授权）。  
-  &lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/akka/akka-core</guid>
-    </item>
-    <item>
       <title>OpenXiangShan/XiangShan</title>
       <link>https://github.com/OpenXiangShan/XiangShan</link>
-      <description>&lt;p&gt;概要: 香山（XiangShan）是一个开放源代码的高性能RISC-V处理器项目，采用敏捷开发方法加速芯片设计与验证流程，涵盖架构设计、功能验证、调试和性能评估等多个方面，并提供详细的文档和多种开发工具支持，便于开发者进行模拟和测试。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 香山（XiangShan）是一个开源的高性能RISC-V处理器项目，采用敏捷开发方法实现高效设计、功能验证和性能优化，其文档支持多语言翻译且开源授权灵活，包含多个稳定版本架构（如 Yanqihu、Nanhu）及持续开发的 Kunminghu，提供完整的工具链和模拟验证框架，便于开发者快速上手和协作改进。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;香山是开放源代码的高性能RISC-V处理器项目。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持敏捷开发方法，并开发了多种工具以提高芯片开发效率。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供完整的文档资源，包括设计文档、用户指南及多语言翻译。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;包含多个稳定架构版本（Yanqihu、Nanhu）及当前开发中版本（Kunminghu）。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;采用Mulan PSL v2许可证，鼓励基于该项目的学术创新。&lt;/strong&gt;&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源与敏捷开发&lt;/strong&gt;：基于RISC-V架构，采用敏捷方法加速处理器开发，涵盖设计、验证、调试等全流程工具。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多版本架构&lt;/strong&gt;：包含Yanqihu（稳定）、Nanhu（稳定）和Kunminghu（持续开发）三个版本，支持不同开发阶段需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;工具链与验证支持&lt;/strong&gt;：提供Verilog生成、C++模拟器、Python调试工具及预构建仿真镜像，简化开发与测试流程。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;文档资源丰富&lt;/strong&gt;：文档托管于docs.xiangshan.cc，包含设计文档、用户指南及多语言翻译，允许社区贡献完善。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源授权与合作&lt;/strong&gt;：使用Mulan PSL v2授权，鼓励学术创新与社区协作，且论文获MICRO 2022最佳成果认证。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/OpenXiangShan/XiangShan</guid>
     </item>
     <item>
-      <title>zio/zio</title>
-      <link>https://github.com/zio/zio</link>
-      <description>&lt;p&gt;概要: ZIO 是一款专为 Scala 设计的零依赖异步并发库，通过类型安全、资源安全和非阻塞纤维实现高效性能，能够构建可扩展、可靠且灵活应对故障的应用程序，同时支持无缝测试与企业级生产环境应用，已被包括 Adidas、Amazon、Nike 等在内的多家知名企业采用。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;类型安全与编译时错误检测&lt;/strong&gt;：利用 Scala 编译器特性在编译阶段捕获潜在错误，提升代码可靠性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;资源安全保护&lt;/strong&gt;：确保应用程序在异常情况下不会泄漏资源（如线程），实现高效资源管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;并发无死锁与竞争条件&lt;/strong&gt;：内置并发模型避免死锁、竞争条件及复杂性，简化多线程开发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;可组合性与功能编程&lt;/strong&gt;：基于函数式编程范式，通过简单构建块快速组合复杂解决方案。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;企业级应用验证&lt;/strong&gt;：已获 Adidas、Amazon、Nike 等多家行业领军企业实际部署，证明其生产环境适用性。&lt;/li&gt;  
+      <title>hyperledger-labs/splice</title>
+      <link>https://github.com/hyperledger-labs/splice</link>
+      <description>&lt;p&gt;概要: Splice 是一套基于 Daml 平台的参考应用，旨在支持对公开、去中心化的 Canton 同步器进行资金筹集、运营和激励，通过 Amulet 应用实现链上支付和奖励机制，构建透明、可治理的经济生态，以促进 Canton 网络的广泛采用和长期可持续性。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 是一套用于运营和激励 Canton 同步器的参考应用集合&lt;/strong&gt;，包含 Amulet 等核心应用，实现链上支付和治理功能。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Amulet 作为原生支付工具&lt;/strong&gt;，允许同步器运营方按数据量收费，并通过治理投票设置价格及发行和销毁机制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 支持透明治理与自动化运营&lt;/strong&gt;，通过内置工具实现同步器的费用管理、操作监控和价格调整。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 构建了一个激励早期采用者的生态系统&lt;/strong&gt;，通过奖励机制吸引同步器运营方、应用开发者和节点操作者参与。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 与 Daml 平台深度集成&lt;/strong&gt;，可在开放源代码基础上扩展，并支持私有与公有同步器的混合使用。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/zio/zio</guid>
+      <guid>https://github.com/hyperledger-labs/splice</guid>
     </item>
     <item>
-      <title>delta-io/delta</title>
-      <link>https://github.com/delta-io/delta</link>
-      <description>&lt;p&gt;概要: Delta Lake 是一个开源存储框架，通过支持 Spark、PrestoDB、Flink、Trino、Hive 等计算引擎及多语言 API（Scala、Java、Rust、Python 等），构建统一的 Lakehouse 架构，提供原子性、一致性及 ACID 事务保障，同时兼容多种存储系统并支持社区协作开发与测试。&lt;/p&gt;  
+      <title>joernio/joern</title>
+      <link>https://github.com/joernio/joern</link>
+      <description>&lt;p&gt;概要: Joern 是一款基于代码属性图（CPGs）的开源静态代码分析平台，支持 C/C++/Java/Binary/Javascript/Python/Kotlin 多种语言的源码、字节码和二进制分析，通过自定义图数据库和 Scala 领域专用查询语言实现跨语言漏洞检测与研究，提供便捷的安装、测试及开发环境配置方案，并持续通过版本迭代优化技术架构。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;多计算引擎与跨语言支持&lt;/strong&gt;：集成 Spark、Flink、PrestoDB、Trino、Hive 等引擎，提供 Scala、Java、Rust、Python 等语言 API 以实现数据存储与处理的统一。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;版本兼容性策略&lt;/strong&gt;：Delta Lake 保证新版本可读旧版本生成的数据（向后兼容），但可能因协议升级导致旧版本无法读取新数据（向前兼容性需谨慎）。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;事务与存储系统要求&lt;/strong&gt;：依赖存储系统的原子性（Atomic visibility）、互斥性（Mutual exclusion）和一致性（Consistent listing）保障 ACID 特性，通过 Delta Transaction Log Protocol 实现事务隔离与持久化。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;构建与测试流程&lt;/strong&gt;：基于 SBT 编译，需配置 JDK 11 环境及 Conda 虚拟环境，提供详细的测试命令与 IDE（如 IntelliJ）集成指南。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区协作与资源&lt;/strong&gt;：通过 GitHub Issues 报告问题，支持 Slack、LinkedIn、YouTube 和邮件列表等多渠道沟通，并维护完整集成列表及文档。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言支持与 CPG 技术核心&lt;/strong&gt;: 支持 C/C++/Java/Binary/Javascript/Python/Kotlin，通过代码属性图实现跨语言统一分析模型。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本演进与兼容性调整&lt;/strong&gt;: 近期迁移至 flatgraph 数据库（v4.0.0），升级至 Scala3（v2.0.0），并因移除 Traversal 类导致部分不兼容（v1.2.0）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活部署方式&lt;/strong&gt;: 提供脚本安装、Docker 容器运行及服务器模式，适配不同操作系统（如 Almalinux 8/9 的 SSE4.2 要求）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发与测试规范&lt;/strong&gt;: 强调代码格式化（sbt scalafmt）、单元测试覆盖及持续集成流程，需遵循贡献模板与沟通规范。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区协作机制&lt;/strong&gt;: 维护由行业伙伴与研究人员共同参与，贡献需附带问题链接、简洁说明及避免强制通知其他开发者。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/delta-io/delta</guid>
-    </item>
-    <item>
-      <title>twitter/the-algorithm</title>
-      <link>https://github.com/twitter/the-algorithm</link>
-      <description>&lt;p&gt;概要: X推荐算法是一个模块化架构，通过共享数据服务、机器学习模型和软件框架，为X平台的For You Timeline、Search、Explore、Notifications等产品表面提供个性化内容分发。系统包含从候选源生成、用户信号采集到高精度排名和过滤的整套流程，同时采用Bazel构建工具支持开发，并通过开放社区协作提升算法质量与安全性。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;架构分层设计&lt;/strong&gt;: 包含数据层（tweetypie、user-signal-service）、模型层（SimClusters、TwHIN、real-graph）和框架层（navi、product-mixer），实现跨产品表面的推荐统一性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;For You Timeline核心组件&lt;/strong&gt;: 依赖search-index（50%内容来源）、uteg（图遍历候选生成）、home-mixer（内容混排服务）及light/heavy ranker（多阶段排序模型）构建个性化信息流。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;推荐信号与过滤机制&lt;/strong&gt;: 通过用户信号服务（显性/隐性行为）和visibility-filters（合规过滤+粗粒度下排）平衡内容推荐质量与平台安全。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多场景建模能力&lt;/strong&gt;: 涵盖社区检测（SimClusters）、知识图谱嵌入（TwHIN）、用户信任预测（real-graph）及Page-Rank（tweepcred）等差异化算法模块。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开放协作与安全性管理&lt;/strong&gt;: 社区可通过GitHub提交改进建议，安全漏洞需通过HackerOne官方渠道处理，保障系统稳定性与合规性。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/twitter/the-algorithm</guid>
-    </item>
-    <item>
-      <title>apache/spark</title>
-      <link>https://github.com/apache/spark</link>
-      <description>&lt;p&gt;概要: Apache Spark 是一个统一的大数据处理引擎，提供多种高级API（Scala、Java、Python、R）和工具集（Spark SQL、MLlib、GraphX、Structured Streaming），支持分布式计算和数据流处理。其构建基于Maven，包含示例程序和测试框架，且需与集群使用的Hadoop版本保持一致，以确保存储系统兼容性。项目提供官方文档、配置指南及贡献说明，便于快速部署与开发。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;统一计算框架&lt;/strong&gt;：集成SQL、流处理、机器学习和图计算等能力，简化大规模数据处理流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt;：提供Scala、Java、Python、R等语言的API，兼容现有数据分析工具链。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;构建与测试要求&lt;/strong&gt;：通过Maven构建，测试需先编译；支持Kubernetes等集成测试场景。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Hadoop版本依赖&lt;/strong&gt;：需与集群使用的Hadoop版本一致，确保与HDFS及存储系统协议兼容。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活部署配置&lt;/strong&gt;：支持通过MASTER变量指定运行模式（如本地、YARN、Spark集群），并提供配置文档指导。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/apache/spark</guid>
-    </item>
-    <item>
-      <title>chipsalliance/rocket-chip</title>
-      <link>https://github.com/chipsalliance/rocket-chip</link>
-      <description>&lt;p&gt;概要: Rocket Chip Generator 是一个用于生成和测试完整 RISC-V SoC 的元仓库，通过 Git submodules 管理多个子项目，并使用 Scala 和 Chisel 语言构建硬件描述逻辑，支持多种开发工具与测试方法，旨在提供灵活、可配置的芯片设计框架。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Meta-Repository 结构&lt;/strong&gt;: Rocket Chip Generator 是一个包含多个子仓库的元仓库，使用 Git submodules 管理，便于独立开发和版本控制。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Chisel 与 Firrtl 构建 RTL&lt;/strong&gt;: 基于 Scala 的 Chisel 工具用于生成硬件描述逻辑，而 Firrtl 是 Chisel 的中间表示，用于转换为最终的 Verilog 或 C 代码。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多平台与工具支持&lt;/strong&gt;: 提供 Verilator、VCS 等仿真工具支持，并兼容 IntelliJ 和 VSCode 等主流 IDE，简化开发流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化组件与配置&lt;/strong&gt;: 包含多个 Scala 包，如 coreplex、devices 和 diplomacy，用于构建芯片系统、外设和动态参数协商。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;测试与验证资源&lt;/strong&gt;: 提供随机指令流生成工具（torture）、硬件测试框架（unittest）和持续集成机制，支持全面的系统验证。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/chipsalliance/rocket-chip</guid>
-    </item>
-    <item>
-      <title>typelevel/cats</title>
-      <link>https://github.com/typelevel/cats</link>
-      <description>&lt;p&gt;概要: Cats 是一个为 Scala 编程语言设计的轻量、模块化且可扩展的功能性编程库，旨在提供核心、兼容、高效的功能抽象，并构建一个以纯函数和类型安全为核心的生态系统基础。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;轻量、模块化与可扩展&lt;/strong&gt;：Cats 提供功能编程抽象，设计上注重模块化和可扩展性，便于集成和使用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多种 Scala 环境&lt;/strong&gt;：适用于 JVM、Scala.js 和 Scala Native，提升跨平台使用灵活性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;强调二进制兼容性&lt;/strong&gt;：采用语义化版本控制（MAJOR.MINOR.PATCH），确保 PATCH 和 MINOR 版本的向后兼容，便于依赖管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的扩展模块&lt;/strong&gt;：提供多种模块如 cats-core、cats-effect、cats-testkit 等，满足从基础类型类到高级功能的不同需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源与社区驱动&lt;/strong&gt;：基于 MIT 许可证开源，依赖 Scalaz 等项目的设计思想，拥有活跃的社区与贡献者支持。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/typelevel/cats</guid>
-    </item>
-    <item>
-      <title>scala/scala3</title>
-      <link>https://github.com/scala/scala3</link>
-      <description>&lt;p&gt;概要: Dotty 是 Scala 3 的编译器，提供完整的文档和试用指南，支持通过 sbt 命令构建本地分发版本，并遵循 Scala 的行为准则规范所有沟通方式，贡献流程需参考贡献者指南及问题跟踪系统，项目整体采用 Apache License Version 2.0 开源协议。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;项目名称与别称&lt;/strong&gt;: Scala 3 编译器官方称为 Dotty，便于识别和引用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;试用与文档支持&lt;/strong&gt;: 提供用户指南帮助集成到项目中，并通过文档支持开发者使用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;本地构建方式&lt;/strong&gt;: 使用 sbt 的 `dist/Universal/packageBin` 命令生成可分发的本地版本，存放路径为 `dist/target/`。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;沟通规范&lt;/strong&gt;: 所有交流（包括 GitHub、Discord、邮件等）均遵循 Scala 行为准则。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源协议&lt;/strong&gt;: 项目采用 Apache License Version 2.0 授权，明确版权与使用条款。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/scala/scala3</guid>
-    </item>
-    <item>
-      <title>ucb-bar/berkeley-hardfloat</title>
-      <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
-      <description>&lt;p&gt;概要: 该项目提供基于Chisel构建的硬件浮点运算单元，支持融合乘加（FPMA）操作及多种浮点数与整数间的转换功能，采用独特的重新编码格式（指数位扩展）优化下溢数处理效率，但需注意这些模块仍处于开发阶段，可能存在Bug且未完全优化，测试需依赖特定工具包及C模拟器。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;参数化功能设计&lt;/strong&gt;：支持FPMA、整数-浮点转换及不同精度浮点转换的通用模块。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;重新编码格式优化&lt;/strong&gt;：通过指数位扩展实现更高效的下溢数处理，与标准IEEE格式存在差异。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开发进行中&lt;/strong&gt;：模块尚未完全稳定，可能存在Bug且未达到最优性能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;专用测试依赖&lt;/strong&gt;：需使用berkeley-testfloat-3测试包及C模拟器执行测试指令。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
-    </item>
-    <item>
-      <title>digital-asset/daml</title>
-      <link>https://github.com/digital-asset/daml</link>
-      <description>&lt;p&gt;概要: Daml 是一种专为金融领域设计的高级智能合约语言，提供了一种安全、可读且高效的合约开发方式，其完整文档可在 sdk/README.md 中查阅。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Daml 是专门为金融行业设计的智能合约语言&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;强调安全性和可读性，适用于复杂金融协议&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完整文档位于 sdk/README.md&lt;/strong&gt;&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/digital-asset/daml</guid>
-    </item>
-    <item>
-      <title>lichess-org/lila</title>
-      <link>https://github.com/lichess-org/lila</link>
-      <description>&lt;p&gt;概要: Lichess.org 是一个免费、无广告、开源的国际象棋在线服务器，以实时对弈体验和直观操作著称，提供多功能模块包括搜索引擎、战术训练、比赛系统等，并支持超过140种语言界面。其技术架构基于Scala 3和Play框架构建，采用异步处理与分布式系统（如Stockfish AI集群、MongoDB存储47亿局棋谱），结合Nginx、Redis等工具实现高效运行，同时通过开源协作机制和贡献者支持计划推动持续发展。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;技术栈与性能&lt;/strong&gt;: 采用Scala 3和Play框架开发，基于异步架构（Scala Futures/Akka Streams）实现高并发处理，结合MongoDB存储超大规模数据并利用Elasticsearch进行索引。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;智能分析与硬件部署&lt;/strong&gt;: 集成Stockfish人工智能引擎于捐赠服务器集群，通过Fishnet提供分布式计算机分析功能，确保实时计算能力。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多语言支持与兼容性&lt;/strong&gt;: 用户界面覆盖140+种语言，支持主流浏览器（Firefox/Chrome/Edge 115+及Safari 13.1+），要求用户升级以保障安全性和性能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源生态与协作机制&lt;/strong&gt;: 采用GNU Affero General Public License 3开源协议，通过Crowdin支持翻译，并开放GitHub/Discord等渠道供开发者协作与反馈。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;数据存储与共享&lt;/strong&gt;: 所有对局数据存入公共PGN数据库，利用Redis处理WebSocket连接，同时通过IP2Proxy数据库实现代理检测。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/lichess-org/lila</guid>
+      <guid>https://github.com/joernio/joern</guid>
     </item>
     <item>
       <title>scala-native/scala-native</title>
       <link>https://github.com/scala-native/scala-native</link>
-      <description>&lt;p&gt;概要: Scala Native是一个专为Scala设计的优化提前编译器和轻量级运行时，通过接近底层硬件的执行方式提升性能，同时提供官方文档、Discord社区支持及Apache许可证保障，由EPFL、LAMP、VirtusLab等机构与开源社区共同推动开发。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Scala Native 是一个针对 Scala 语言的优化型 ahead-of-time 编译器与轻量级运行时，通过接近底层硬件的实现提升了性能与资源管理能力，其开发由 EPFL、LAMP 及 VirtusLab 等机构联合资助，并依托开源社区持续贡献，同时提供完善的官方文档与 Discord 交流渠道以支持开发者协作。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;专为Scala设计的AOT编译器&lt;/strong&gt;：通过优化编译和轻量级运行时实现接近底层硬件的执行效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Apache开源许可证&lt;/strong&gt;：代码开源并遵循Apache License，确保合规性和社区可参与性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多方机构联合支持&lt;/strong&gt;：EPFL与LAMP基于Martin Odersky的Caprese研究项目资助，VirtusLab提供全职工程师保障维护。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;活跃开源社区参与&lt;/strong&gt;：项目依赖开发者社区贡献，持续完善功能与代码库。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全面文档与社区支持&lt;/strong&gt;：提供官方文档入口及Discord实时交流渠道，降低使用门槛。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;近底层优化&lt;/strong&gt;: 通过 AOT 编译与轻量级运行时设计，使 Scala 能更高效地直接操作硬件资源。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多机构联合资助&lt;/strong&gt;: EPFL 和 LAMP 作为研究项目支持，VirtusLab 提供全职工程师负责维护与开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源社区驱动&lt;/strong&gt;: 项目依赖社区贡献者的持续开发与反馈，强化生态可持续性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Apache 开源协议&lt;/strong&gt;: 采用宽松的开源许可证，便于企业级集成与定制化开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发资源支持&lt;/strong&gt;: 提供官方文档（https://www.scala-native.org/）及 Discord 即时沟通渠道，降低使用门槛。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/scala-native/scala-native</guid>
     </item>
     <item>
-      <title>apache/incubator-gluten</title>
-      <link>https://github.com/apache/incubator-gluten</link>
-      <description>&lt;p&gt;概要: Apache Gluten 是一个中间层项目，旨在通过将 Apache Spark 的 JVM 基础 SQL 引擎计算任务卸载到原生引擎（如 ClickHouse 和 Velox）来提升 Spark SQL 的性能，同时保持对 Spark 生态系统的兼容性和扩展性。&lt;/p&gt;
+      <title>apache/spark</title>
+      <link>https://github.com/apache/spark</link>
+      <description>&lt;p&gt;概要: Apache Spark 是一个统一的大规模数据分析引擎，提供多语言高级API（Scala、Java、Python、R）以及丰富的工具支持，如Spark SQL、MLlib、GraphX和Structured Streaming，适用于批量处理、流处理、机器学习和图计算等多种数据处理任务。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Gluten 是 Spark 与原生 SQL 引擎的桥梁&lt;/strong&gt;，通过将 Spark 的物理计划转换为 Substrait 格式，再传递给原生引擎执行，实现性能提升。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持 ClickHouse 和 Velox 原生执行引擎&lt;/strong&gt;，当前已完成对这两种引擎的集成，并具备未来扩展其他引擎的能力。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;利用 JNI 接口和 Apache Arrow 数据格式&lt;/strong&gt;，确保 JVM 与原生环境之间的高效数据交换和兼容性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;提供性能监控与回退机制&lt;/strong&gt;，通过 Spark UI 展示性能指标，并在不支持的算子上无缝回退到 Spark 原生执行。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;兼容最新的 Spark 版本&lt;/strong&gt;，通过 Shim 层实现对 Spark 3.2 到 3.5 的支持，便于在不同环境下部署。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供多语言支持&lt;/strong&gt;：包括Scala、Java、Python和R（已弃用），便于不同技术背景的开发者使用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多种数据处理模式&lt;/strong&gt;：涵盖批处理、流处理、机器学习及图计算，通过统一引擎提升效率。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;构建与测试流程明确&lt;/strong&gt;：使用Maven进行构建，支持通过命令行或IDE开发，并可通过设置MASTER变量指定运行环境。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;兼容Hadoop版本&lt;/strong&gt;：需与集群使用的Hadoop版本一致，以确保与HDFS和其他存储系统的兼容性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;包含示例程序与配置指南&lt;/strong&gt;：提供内置示例用于快速验证功能，同时有详细的配置文档帮助用户优化部署。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/apache/incubator-gluten</guid>
+      <guid>https://github.com/apache/spark</guid>
+    </item>
+    <item>
+      <title>ucb-bar/chipyard</title>
+      <link>https://github.com/ucb-bar/chipyard</link>
+      <description>&lt;p&gt;概要: Chipyard是一个基于Chisel的开源框架，旨在实现RISC-V系统芯片的敏捷设计与开发，集成处理器核心（含顺序执行与乱序执行架构）、矢量单元、加速器（如Gemmini、NVDLA）、内存系统及周边工具链，支持多流并行开发流程（包括RTL仿真、FPGA加速模拟、自动化VLSI实现和软件工作负载生成），由加州大学伯克利分校电气工程与计算机科学系的Berkeley架构研究团队主导开发，并通过多篇权威论文及持续更新的文档为用户提供技术保障。&lt;/p&gt;  
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;开源敏捷开发框架&lt;/strong&gt;：Chipyard支持RISC-V SoC的快速迭代设计，整合Chisel HDL、Rocket Chip生成器及Berkeley其他项目资源。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多样化硬件组件支持&lt;/strong&gt;：包含多种处理器核心（Rocket、BOOM、CVA6）、矢量单元（Saturn、Ara）及定制加速器（Gemmini、NVDLA），满足复杂功能需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多流并行开发&lt;/strong&gt;：集成软件RTL仿真、FPGA加速模拟（FireSim）、自动化VLSI流程（Hammer）及Linux/裸机工作负载生成工具（FireMarshal），提升开发效率。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;完善的工具链与资源&lt;/strong&gt;：提供Chisel、FIRRTL等核心工具，配套教程、幻灯片及文档，确保开发流程的完整性和可操作性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;学术背书与资助&lt;/strong&gt;：通过IEEE Micro等权威期刊论文及NSF资助项目（#2016662）获得认可，保障技术前沿性与可靠性。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/ucb-bar/chipyard</guid>
+    </item>
+    <item>
+      <title>twitter/the-algorithm</title>
+      <link>https://github.com/twitter/the-algorithm</link>
+      <description>&lt;p&gt;概要: 本文档介绍了X推荐算法的源代码架构，涵盖数据处理、模型构建和软件框架，用于在各类产品界面（如For You Timeline和Recommended Notifications）中提供个性化内容推荐。系统通过多个核心组件协同工作，实现从候选内容生成、排序到内容混合与过滤的全链路推荐流程，并鼓励社区参与改进和安全问题反馈。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;X推荐算法覆盖多个产品界面&lt;/strong&gt;，包括For You Timeline、Search、Explore和Notifications，提供跨平台的个性化内容推荐。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;系统采用共享架构&lt;/strong&gt;，整合了数据、模型和软件框架，提升整体推荐系统的模块化与可维护性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心推荐流程包含候选内容生成、排序和混合过滤&lt;/strong&gt;，其中In-Network内容占比约50%，并依赖GraphJet框架进行复杂交互分析。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;有专门的模型用于安全与信任管理&lt;/strong&gt;，如NSFW内容检测模型和用户声誉计算模型（tweepcred）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区贡献渠道开放&lt;/strong&gt;，支持通过GitHub提交建议与修复，并提供安全问题反馈机制。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/twitter/the-algorithm</guid>
+    </item>
+    <item>
+      <title>Snapchat/GiGL</title>
+      <link>https://github.com/Snapchat/GiGL</link>
+      <description>&lt;p&gt;概要: GiGL是一个专为大规模图神经网络（GNN）训练和推理设计的开源框架，支持数十亿节点级别的计算，提供灵活的应用定制、横向扩展架构及简化的端到端工作流编排，帮助开发者高效实现从数据处理到模型部署的全流程。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;支持大规模GNN计算&lt;/strong&gt;: 专为处理数十亿节点的图数据优化，提供高效的训练与推理能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;三重使用模式&lt;/strong&gt;: 支持代码导入、命令行执行及与Vertex AI等平台的管道编排，适应不同开发场景。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;严格配置体系&lt;/strong&gt;: 需通过资源配置（资源分配与环境设置）和任务配置（任务参数与行为控制）文件定义运行参数，确保组件协同工作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全链路测试保障&lt;/strong&gt;: 包含代码规范检测、单元测试、集成测试（模拟真实流水线）及云平台端到端测试，确保可靠性与性能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放贡献与MIT许可&lt;/strong&gt;: 鼓励开源社区参与，采用MIT协议开源，允许自由使用与修改。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/Snapchat/GiGL</guid>
+    </item>
+    <item>
+      <title>apache/incubator-livy</title>
+      <link>https://github.com/apache/incubator-livy</link>
+      <description>&lt;p&gt;概要: Apache Livy 是一个开源的 REST 接口，实现对 Apache Spark 的远程交互与管理，支持在本地或 Hadoop YARN 环境中执行代码片段及程序，提供交互式 Scala/Python/R 壳、批量提交功能，并允许多用户共享同一服务器，无需修改原有代码即可集成，且兼容多种 Spark 版本运行需求。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;远程交互能力&lt;/strong&gt;: 通过 REST 接口实现对 Spark 的跨平台、远程调用，支持本地和 YARN 集群环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多用户共享与身份冒充&lt;/strong&gt;: 提供多用户共享服务器机制，支持通过 impersonation 代理用户权限，提升资源利用率与安全性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;构建灵活性&lt;/strong&gt;: 跨平台支持（Debian/Ubuntu、Redhat/CentOS、MacOS），可自定义 Spark 和 Scala 版本依赖，无需重建项目。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本兼容性&lt;/strong&gt;: 默认适配 Spark 2.4.5，但运行时可通过 SPARK_HOME 环境变量切换版本，内部自动处理版本差异。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;轻量集成特性&lt;/strong&gt;: 无需修改用户程序即可接入，支持通过 REST 提交作业，简化开发与运维流程。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/apache/incubator-livy</guid>
+    </item>
+    <item>
+      <title>scala/scala3</title>
+      <link>https://github.com/scala/scala3</link>
+      <description>&lt;p&gt;概要: Dotty是Scala 3的编译器项目，提供了完整的文档、测试指南和构建流程说明，强调通过遵循Scala社区的行为准则进行协作，并明确采用Apache License Version 2.0作为开源授权协议，便于开发者快速上手和参与贡献。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;项目名称与定位&lt;/strong&gt;: Dotty是Scala 3的官方编译器，标志着Scala语言的下一代版本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;测试与集成方法&lt;/strong&gt;: 通过《Getting Started User Guide》可快速在项目中试用Dotty，并提供sbt命令用于本地构建分发版本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区协作规范&lt;/strong&gt;: 统一采用Scala Code of Conduct管理所有沟通渠道（包括GitHub、Discord及邮件等），确保开放协作的有序性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;贡献流程指引&lt;/strong&gt;: 明确提供“Getting Started as Contributor”指南，简化开发者参与项目贡献的步骤。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源授权协议&lt;/strong&gt;: 项目基于Apache License Version 2.0授权，保障代码的自由使用和分发权利。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/scala/scala3</guid>
+    </item>
+    <item>
+      <title>scalameta/metals</title>
+      <link>https://github.com/scalameta/metals</link>
+      <description>&lt;p&gt;概要: Metals 是基于 Scalameta 的 Meta 和 Language Server 架构开发的 Scala 语言服务器，提供丰富的 IDE 功能，支持多平台和多种编辑器，并鼓励社区参与贡献，同时提供了详细的文档和架构说明，有助于开发者深入了解其工作原理和生态支持。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Metals 是 Scalameta 的 Meta 与 Language Server 结合的成果&lt;/strong&gt;，专为 Scala 语言设计，增强 IDE 的开发体验。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供丰富 IDE 功能&lt;/strong&gt;，包括代码补全、导航、重构、调试等，提升开发效率。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;鼓励社区参与贡献&lt;/strong&gt;，定期举办线上活动吸引开发者加入，并提供详细的贡献指南。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多平台和多编辑器&lt;/strong&gt;，兼容主流开发环境，提高工具的可访问性和灵活性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;公开文档和架构说明&lt;/strong&gt;，便于开发者深入理解其设计和运作机制，促进技术传播与协作。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/scalameta/metals</guid>
+    </item>
+    <item>
+      <title>lichess-org/lila</title>
+      <link>https://github.com/lichess-org/lila</link>
+      <description>&lt;p&gt;概要: Lichess是一个完全免费、无广告、开源的在线国际象棋服务器，专注于实时对弈和易用性，提供包括搜索引擎、战术训练、团队功能、移动应用及多语言界面等丰富服务，其技术架构基于Scala 3和Play框架，采用异步处理、Redis和MongoDB等高效技术实现大规模数据存储与实时交互，同时通过开放API支持开发者集成，并设有社区贡献激励计划。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;开源技术架构&lt;/strong&gt;: 使用Scala 3、Play 2.8框架、Akka流和Redis，支持异步处理与高并发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;数据存储与分析&lt;/strong&gt;: 依托MongoDB存储超47亿局棋局，通过Elasticsearch索引，集成Stockfish AI集群进行棋谱分析。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言与全球化支持&lt;/strong&gt;: 用户界面覆盖140种语言，且通过Crowdin开放翻译协作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;功能生态完善&lt;/strong&gt;: 提供实时对弈、比赛系统、战术训练、论坛、团队协作及PGN数据库等多样化服务。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发者友好政策&lt;/strong&gt;: 开放API接口，支持通过GitHub和Discord进行反馈，设有贡献者技能提升专项资助计划。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/lichess-org/lila</guid>
     </item>
     <item>
       <title>ucb-bar/riscv-torture</title>
       <link>https://github.com/ucb-bar/riscv-torture</link>
-      <description>&lt;p&gt;概要: RISC-V Torture Test 是一个用于验证 RISC-V 指令集架构实现正确性的测试生成与执行框架，包含三个子项目：生成随机测试用例的 generator，用于在不同模拟器上运行测试并对比结果的 testrun，以及用于长时间自动运行测试的 overnight 工具。测试通过记录程序结束时的寄存器状态并与 ISA 模拟器的结果进行比对，从而检测潜在错误。&lt;/p&gt;
+      <description>&lt;p&gt;概要: RISC-V Torture Test 是一套用于验证 RISC-V 指令集架构实现正确性的测试生成与执行框架，包含三个核心子项目：测试生成器、测试运行器和长时间测试工具。测试生成器随机创建指令序列并进行寄存器分配，测试运行器用于对比不同模拟器的输出签名并定位错误，而长时间测试工具则持续运行测试直至失败或时间耗尽，以发现潜在的稳定性问题。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;RISC-V Torture Test 框架包含 generator、testrun 和 overnight 三个子项目&lt;/strong&gt;，分别用于生成测试用例、运行测试并进行结果比对、以及执行长时间测试。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;测试通过记录并比对寄存器状态来检测错误&lt;/strong&gt;，使用 "begin_signature" 段地址将寄存器内容写入内存，并通过对比 Spike 和芯片模拟器的输出文件进行验证。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持多种模拟器&lt;/strong&gt;，如 C 模拟器和 RTL 模拟器，且可通过配置文件指定指令集和比例。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;代码编写使用 Scala 虚拟寄存器机制&lt;/strong&gt;，程序员通过调用特定函数获取虚拟寄存器并生成指令，而非直接操作架构寄存器。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;未来计划包括支持浮点运算、向量指令、循环结构及测试覆盖率统计&lt;/strong&gt;，并涉及代码重构和优化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;三部分架构：生成器、测试运行器、长时间测试工具&lt;/strong&gt;，分别负责测试生成、执行与错误检测。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;签名对比机制&lt;/strong&gt;：通过比较测试结束后寄存器状态与 ISA 模拟器的输出，判断实现是否正确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;虚拟寄存器分类&lt;/strong&gt;：分为可见（位置无关）和隐藏（位置相关）类型，影响输出签名的生成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持多种模拟器&lt;/strong&gt;，包括 C 模拟器和 RTL 模拟器，且可通过命令行参数指定。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来功能扩展计划&lt;/strong&gt;：包括支持循环、浮点运算测试、向量指令测试及代码重构等。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ucb-bar/riscv-torture</guid>
@@ -265,17 +209,108 @@
     <item>
       <title>apache/pekko</title>
       <link>https://github.com/apache/pekko</link>
-      <description>&lt;p&gt;概要: Apache Pekko 是一个基于 Java/Scala 的开源框架，旨在构建高并发、分布式、容错且弹性的消息驱动应用，其核心采用 Actor 模型提供更直观的高阶并发抽象，并支持持久化、流处理、HTTP 等多种功能库，同时提供了详尽的文档和灵活的构建方式。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Apache Pekko 是一个基于 Java/Scala 的开源框架，用于构建高并发、分布式、容错和弹性的消息驱动应用，它继承了 Akka 2.6.x 的特性并采用 Actor 模型提供更直观的并发抽象，同时支持持久化、流处理、HTTP 等功能，适合需要高性能和可扩展性的企业级应用开发。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Apache Pekko 是基于 Actor 模型的高并发、分布式、容错和弹性应用框架。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Pekko 是 Akka 2.6.x 的分支，避免了 Akka 项目采纳 Business Source License 的影响。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;构建过程中需配置 JDK 17，并支持多种 sbt 命令进行编译、测试和文档生成。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;文档可通过 sbt docs/paradoxBrowse 在浏览器中直接查看，生成的 index.html 存储在 target/paradox/site/main/。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;项目遵循 Apache License 2.0，参与者需遵守 Apache 代码行为准则。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Apache Pekko 是基于 Actor 模型的开源框架&lt;/strong&gt;，用于构建高并发、分布式、容错和弹性消息驱动应用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;它是 Akka 2.6.x 的分支&lt;/strong&gt;，在 Akka 项目采用 Business Source License 之前分离出来。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发和构建环境要求 JDK 17 或更高版本&lt;/strong&gt;，且推荐在 Linux 或 macOS 上进行构建，Windows 可能存在兼容性问题。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供丰富的构建命令&lt;/strong&gt;，如 sbt testQuickUntilPassed、sbt docs/paradoxBrowse 和 sbt unidoc，支持快速测试、文档生成和 Javadoc 构建。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区活跃，支持多种参与方式&lt;/strong&gt;，包括 GitHub 讨论、邮件列表、GitHub 问题反馈和贡献指南。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/apache/pekko</guid>
+    </item>
+    <item>
+      <title>ucb-bar/berkeley-hardfloat</title>
+      <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
+      <description>&lt;p&gt;概要: 该仓库包含使用Chisel语言实现的Berkeley硬件浮点运算单元，支持融合乘加、整数与浮点数转换以及不同精度浮点数之间的转换，但目前仍处于开发阶段，可能存在未修复的错误和未完全优化的性能。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基于Chisel的浮点运算单元&lt;/strong&gt;：提供多种参数化浮点运算模块，用于执行融合乘加、整数-浮点转换及多精度浮点转换。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用内部重编码格式&lt;/strong&gt;：采用一种带有额外指数位的内部格式，以更高效处理微处理器中的非规范数（subnormal numbers）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开发进行中，存在潜在缺陷&lt;/strong&gt;：目前这些单元仍在开发中，可能尚未完全调试和优化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;需依赖特定测试包&lt;/strong&gt;：进行单元测试需要使用berkeley-testfloat-3软件包。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试可通过C模拟器执行&lt;/strong&gt;：使用$ make命令即可用C模拟器对浮点运算单元进行测试。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
+    </item>
+    <item>
+      <title>akka/akka-core</title>
+      <link>https://github.com/akka/akka-core</link>
+      <description>&lt;p&gt;概要: Akka 是一个强大的平台，支持构建和运行弹性、敏捷和容错的应用程序，提供 SDK、库和托管环境，适用于高并发、流处理、分布式系统等复杂场景，已应用于数千个系统并拥有超过10亿次下载记录。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;支持弹性、敏捷和容错的应用开发&lt;/strong&gt;，提供自动集群、多区域高可用性及安全的VPC运行环境。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基于Actor模型的架构设计&lt;/strong&gt;，通过抽象简化并发、并行和分布式系统的开发，确保一致性与可扩展性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;无需专业知识即可构建生产级系统&lt;/strong&gt;，具备低延迟数据访问、百万级并发支持与99.9999%的高可用性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供完整的开发与运维解决方案&lt;/strong&gt;，包括Akka SDK和Akka Automated Operations，覆盖开发、部署、维护全流程。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源且开放贡献&lt;/strong&gt;，欢迎开发者参与项目，提交Pull Request，并可通过GitHub和社区渠道获取支持。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/akka/akka-core</guid>
+    </item>
+    <item>
+      <title>digital-asset/daml</title>
+      <link>https://github.com/digital-asset/daml</link>
+      <description>&lt;p&gt;概要: 该文本简要提及Daml是一种智能合约语言，并引导用户查看完整文档以获取更多信息。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;指向性说明&lt;/strong&gt;: 仅提供文档指引，未直接阐述Daml技术特性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;技术关联性&lt;/strong&gt;: 与IBM的区块链开发工具链存在关联性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;文档重要性&lt;/strong&gt;: 强调需通过完整README文件了解详细功能与使用方法。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/digital-asset/daml</guid>
+    </item>
+    <item>
+      <title>chipsalliance/rocket-chip</title>
+      <link>https://github.com/chipsalliance/rocket-chip</link>
+      <description>&lt;p&gt;概要: Rocket Chip Generator 是一个用于生成和测试 RISC-V Rocket 核心的元仓库，通过 Git 子模块整合多个子项目，并利用 Scala 和 Chisel 工具链进行 RTL 生成，支持多种验证方式如 Verilator 模拟、FPGA 映射和 VLSI 工具流程，同时提供丰富的开发资源和 IDE 支持。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;Rocket Chip Generator 是一个用于生成 RISC-V Rocket 核心的元仓库&lt;/strong&gt;，通过 Git 子模块集成多个子项目。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;采用 Scala 和 Chisel 工具链进行 RTL 生成&lt;/strong&gt;，支持完整 SoC 设计与验证。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供多种验证手段&lt;/strong&gt;，包括 Verilator 模拟、FPGA 实现、VLSI 工具链支持，以及基于约束随机的测试模块。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 IDE 开发&lt;/strong&gt;，如 IntelliJ 和 VSCode，通过 Mill 构建工具和 Nix 配置环境实现高效开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;包含丰富的配套资源&lt;/strong&gt;，如 BootROM、C 源码、测试框架、文档等，便于完整 SoC 实现和验证。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/chipsalliance/rocket-chip</guid>
+    </item>
+    <item>
+      <title>chipsalliance/chisel</title>
+      <link>https://github.com/chipsalliance/chisel</link>
+      <description>&lt;p&gt;概要: Chisel 是一种基于 Scala 的现代开源硬件描述语言（HDL），用于在寄存器传输层（RTL）描述数字电路，支持参数化电路生成和设计重用，适用于 ASIC 和 FPGA 设计，并通过 FIRRTL 框架实现，提供高级抽象同时保持对硬件细节的精细控制。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;提供参数化电路生成能力&lt;/strong&gt;，支持创建如 FIR 滤波器等可重用组件，提升设计抽象层次。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基于 Scala 编程语言&lt;/strong&gt;，结合现代编程特性，简化复杂电路设计与验证。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;依赖 FIRRTL 中间表示&lt;/strong&gt;，由 LLVM CIRCT 实现，用于电路综合与转换。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;采用 Apache 2.0 开源许可证&lt;/strong&gt;，由 CHIPS Alliance 指导，促进社区协作和项目集成。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多种版本与开发流程&lt;/strong&gt;，用户推荐使用最新发布版本，开发者则建议使用 SNAPSHOT 版本。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/chipsalliance/chisel</guid>
+    </item>
+    <item>
+      <title>databricks/Spark-The-Definitive-Guide</title>
+      <link>https://github.com/databricks/Spark-The-Definitive-Guide</link>
+      <description>&lt;p&gt;概要: 《Spark: The Definitive Guide》的代码仓库提供了完整的实践案例与源代码，便于开发者深入理解并应用Apache Spark框架。&lt;/p&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;代码仓库内容全面&lt;/strong&gt;：包含《Spark: The Definitive Guide》一书的完整代码示例和实践案例。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;便于学习与实战&lt;/strong&gt;：为开发者提供直接参考和运行的代码，有助于快速掌握Spark的实际应用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源社区支持&lt;/strong&gt;：该仓库作为开源项目，可以促进开发者之间的分享与协作。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;适用于不同场景&lt;/strong&gt;：代码示例覆盖数据处理、机器学习、流处理等多个Spark应用场景。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提升开发效率&lt;/strong&gt;：通过直接使用书中代码，可以节省编写和调试时间，加速项目开发。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/databricks/Spark-The-Definitive-Guide</guid>
     </item>
   </channel>
 </rss>
