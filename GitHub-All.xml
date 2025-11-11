@@ -8,14 +8,14 @@
     <item>
       <title>iptv-org/iptv</title>
       <link>https://github.com/iptv-org/iptv</link>
-      <description>&lt;p&gt;概要: 该文本介绍了一个全球公开IPTV频道资源库，提供标准化播放列表、电子节目指南（EPG）、频道数据库、API接口及配套资源，用户可通过粘贴播放列表链接至支持直播的播放器直接使用，同时强调所有内容均基于版权方公开的流媒体URL链接，且仓库不存储视频文件，仅作为链接聚合平台。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 该文本介绍了全球公开IPTV频道的集合项目，提供播放列表、电子节目指南（EPG）、频道数据库、API接口等资源，所有内容均通过用户提交的视频流链接实现，未存储视频文件，强调链接不直接侵犯版权且需通过特定渠道处理侵权问题。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;资源获取方式&lt;/strong&gt;: 用户只需将主播放列表链接（https://iptv-org.github.io/iptv/index.m3u）粘贴至支持直播的播放器即可直接使用。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;EPG与数据库支持&lt;/strong&gt;: EPG可通过iptv-org/epg工具下载，频道数据来源于iptv-org/database仓库，错误反馈需通过issue提交。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;API与资源扩展&lt;/strong&gt;: 提供API文档（iptv-org/api）及额外资源链接（iptv-org/awesome-iptv），支持开发者集成与扩展。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;法律合规声明&lt;/strong&gt;: 仓库仅收录用户提交的公共流媒体URL，未直接存储视频文件，且版权方已公开授权，不构成侵权。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;贡献与协作机制&lt;/strong&gt;: 鼓励用户通过pull request或issue参与内容优化，同时明确版权方需自行联系实际内容托管方处理侵权问题。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;无视频文件存储&lt;/strong&gt;：项目仅包含用户提交的公开视频流链接，不保存任何视频内容。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;播放方式便捷&lt;/strong&gt;：通过粘贴播放列表链接至支持直播的播放器即可直接观看。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化资源结构&lt;/strong&gt;：区分播放列表、EPG、数据库、API等模块，分别托管在不同仓库中。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版权免责说明&lt;/strong&gt;：链接不构成直接侵权，删除播放列表链接不会移除网页内容，侵权处理需联系实际内容托管方。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放贡献机制&lt;/strong&gt;：鼓励用户通过提交issue或pull request参与更新，且已贡献者受致谢。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/iptv-org/iptv</guid>
@@ -23,14 +23,14 @@
     <item>
       <title>umami-software/umami</title>
       <link>https://github.com/umami-software/umami</link>
-      <description>&lt;p&gt;概要: Umami 是一款现代、注重隐私的 Google Analytics 替代方案，提供简单、快速的安装方式，支持从源码或 Docker 部署，并强调数据隐私保护。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Umami是一款专注于隐私保护的现代分析工具，作为Google Analytics的轻量级替代方案，其提供简单快速的部署方式，支持从源代码或Docker容器安装，兼容PostgreSQL数据库，并通过灵活的更新机制确保功能迭代与安全合规。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Umami 是一个现代、隐私保护导向的网站分析工具，替代 Google Analytics。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持从源码安装，要求 Node.js 18.18 或更高版本以及 PostgreSQL 数据库（最低 v12.14）。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供详细的安装指南，可通过 umami.is/docs 访问。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;默认启动地址为 http://localhost:3000，需配置端口或反向代理以直接访问。&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;更新方式包括拉取代码、安装依赖、重建应用，或更新 Docker 镜像并强制重建容器。&lt;/strong&gt;&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;隐私优先设计&lt;/strong&gt;：Umami通过数据匿名化和本地化存储，有效解决用户对数据隐私的担忧，与Google Analytics形成差异化。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;双重部署方案&lt;/strong&gt;：支持源代码安装（需Node.js 18.18+和PostgreSQL 12.14+）及Docker容器部署（可一键启动PostgreSQL），适应不同技术环境。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;自动化初始化配置&lt;/strong&gt;：首次安装时通过构建流程自动创建数据库表和管理员用户（admin/umami），简化部署流程。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;更新流程标准化&lt;/strong&gt;：无论是源代码还是Docker部署，均需执行“拉取-安装-重建”步骤，确保版本升级的兼容性与稳定性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;Docker镜像版本预警&lt;/strong&gt;：从V2升级时需将镜像名称从postgresql-latest改为latest，避免因旧镜像导致功能异常。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/umami-software/umami</guid>
@@ -38,15 +38,14 @@
     <item>
       <title>lzhoang2801/OpCore-Simplify</title>
       <link>https://github.com/lzhoang2801/OpCore-Simplify</link>
-      <description>&lt;p&gt;概要: OpCore Simplify 是一款专为简化 OpenCore EFI 创建流程而设计的工具，通过自动化关键配置和标准化设置降低手动操作的复杂度，确保 Hackintosh 安装的准确性和稳定性。其核心优势在于根据用户的完整硬件配置生成 EFI，而非依赖预设选项，并提供广泛硬件支持、智能 ACPI 修补、自动更新、定制配置等功能，使用户能够更高效地完成 macOS 安装。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;独家基于硬件配置生成 OpenCore EFI&lt;/strong&gt;：与市场上其他工具不同，OpCore Simplify 完全根据用户的硬件信息构建 EFI，确保最佳兼容性和稳定性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;全面硬件和 macOS 支持&lt;/strong&gt;：覆盖广泛的 CPU、GPU 和 macOS 版本（从 High Sierra 到 Tahoe），并提供兼容性检查工具。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;自动 ACPI 修补与 Kext 管理&lt;/strong&gt;：智能识别硬件并添加必要补丁与驱动，集成 SSDTTime 提高配置准确性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高度可定制的 EFI 构建流程&lt;/strong&gt;：用户可在自动化基础上手动调整 ACPI 补丁、Kext、SMBIOS 等，满足个性化需求。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;强调社区与官方文档的重要性&lt;/strong&gt;：提醒用户不依赖 AI/LLM 提供的 Hackintosh 信息，应优先参考 Dortania 指南和社区资源。&lt;/li&gt;
+      <description>&lt;p&gt;概要: OpCore Simplify是一款专为简化OpenCore EFI创建而设计的工具，通过自动化核心设置流程与标准化配置，显著降低手动操作复杂度并提升Hackintosh安装的准确性。其独特之处在于基于用户完整硬件配置生成EFI，而非预设选项，同时整合ACPI补丁、自动更新功能及多功能自定义选项，但需注意结合社区验证与实际测试以确保系统稳定性。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;全硬件适配性&lt;/strong&gt;：支持从Intel Nehalem到Arrow Lake、AMD Ryzen及NVIDIA历代显卡，覆盖macOS High Sierra至Tahoe版本。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;基于配置生成EFI&lt;/strong&gt;：唯一采用用户完整硬件检测逻辑（包括SMBIOS、PCI设备等）定制EFI，而非依赖预定义模板。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;自动化补丁与优化&lt;/strong&gt;：自动识别并集成ACPI补丁（如FakeEC、FixHPET）及kext，包含针对HEDT系统、Resizable BAR和网络设备的专用修复。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;深度自定义能力&lt;/strong&gt;：允许手动调整SMBIOS、强制加载kext、覆盖硬件ID等高级配置，但需配合官方文档与社区验证。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;跨平台使用流程&lt;/strong&gt;：提供Windows/macOS双平台操作指南，需通过USB映射与UnPlugged工具配合完成系统安装。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/lzhoang2801/OpCore-Simplify</guid>
@@ -54,14 +53,15 @@
     <item>
       <title>librespot-org/librespot</title>
       <link>https://github.com/librespot-org/librespot</link>
-      <description>&lt;p&gt;概要: librespot 是一个开源的 Spotify 客户端库，作为已弃用的官方闭源库 libspotify 的替代方案，支持通过多种后端实现音乐控制与播放，并可作为 Spotify Connect 接收器。其核心功能包括更高的灵活性（如自定义音质、音量参数）和额外特性，但仅限 Spotify Premium 用户使用，且文档、构建指引及社区支持持续完善中。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;替代官方闭源库&lt;/strong&gt;: 作为 libspotify 的开源替代，提供更灵活的功能扩展和未被官方支持的额外特性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;仅限 Premium 用户&lt;/strong&gt;: 明确限制需 Spotify Premium 账户使用，不兼容免费账户的跳过限制和广告功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多后端音频支持&lt;/strong&gt;: 默认集成 Rodio，兼容 ALSA、GStreamer、PulseAudio 等多种音频后端，适配不同平台需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区驱动开发&lt;/strong&gt;: 依赖 GitHub 讨论和贡献，文档与构建指南持续更新，鼓励开发者参与改进。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安全与合规声明&lt;/strong&gt;: 使用涉及 Spotify API 可能违反其条款，代码采用 MIT 许可证并附有使用风险预警。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: librespot 是一款开源的 Spotify 客户端库，替代了已废弃的官方闭源库 libspotify，支持多种音频后端并可作为 Spotify Connect 接收器使用，但仅限 Spotify Premium 账户，且不支持免费账户的功能。它可通过 Cargo 安装和运行，提供灵活的配置选项，并鼓励社区贡献和交流。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;librespot 是开源 Spotify 客户端库&lt;/strong&gt;，支持多种音频后端，并可充当 Spotify Connect 接收器，替代已废弃的官方闭源库 libspotify。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;仅限 Spotify Premium 账户使用&lt;/strong&gt;，不支持免费账户的功能如跳过限制和广告。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可通过 Cargo 快速安装和运行&lt;/strong&gt;，并提供 CLI 命令用于创建和配置 Spotify 连接接收器。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;文档和社区支持活跃&lt;/strong&gt;，包括 GitHub 讨论、贡献指南及 Gitter 即时通讯频道用于答疑和反馈。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供多种音频后端选项&lt;/strong&gt;，如 Rodio、ALSA、PulseAudio、JACK 等，适应不同系统和需求。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/librespot-org/librespot</guid>
@@ -69,14 +69,14 @@
     <item>
       <title>usestrix/strix</title>
       <link>https://github.com/usestrix/strix</link>
-      <description>&lt;p&gt;概要: Strix是一款开源的AI安全工具，通过自动化动态代码执行、漏洞验证及生成实际漏洞利用证明（PoC），为开发者和安全团队提供高效、精准的应用程序安全测试方案，替代传统手动渗透测试和静态分析工具，支持CI/CD集成与漏洞实时检测，兼具企业级云平台功能与社区协作生态。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Strix 是一个开源的 AI 驱动安全工具，通过自主运作的 AI 代理模拟真实黑客行为，实现对应用程序的动态检测、漏洞验证及自动化修复，提供开发者友好的 CLI 界面和精准的报告，同时支持 GitHub Actions 和 CI/CD 集成，使安全测试更高效、更可靠。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;自主AI代理安全测试&lt;/strong&gt;：模拟真实黑客行为，实现代码动态运行、漏洞发现与PoC验证，规避静态工具的误报。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;CI/CD无缝集成&lt;/strong&gt;：支持GitHub Actions自动化扫描，可在Pull Request阶段拦截不安全代码，保障生产环境安全。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全功能工具链&lt;/strong&gt;：内置HTTP代理、浏览器自动化、终端环境、Python运行时等模块，覆盖多维度安全检测与攻击验证。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;企业级云平台支持&lt;/strong&gt;：提供托管平台、自定义模型、大规模扫描能力及第三方集成，满足组织级安全需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区驱动与协作&lt;/strong&gt;：开放贡献渠道（代码/模块），支持Discord社区互动及开源项目stars激励，促进生态共建。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Strix 是一款开源的 AI 安全测试工具&lt;/strong&gt;，能模拟真实黑客行为执行动态代码分析和漏洞验证。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;集成 GitHub Actions 与 CI/CD&lt;/strong&gt;，支持在每次拉取请求中自动扫描漏洞，防止不安全代码部署。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供全面的漏洞检测能力&lt;/strong&gt;，涵盖访问控制、注入攻击、认证漏洞等多种常见及复杂安全问题。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;拥有开发者导向的 CLI 工具&lt;/strong&gt;，支持生成可操作报告，并通过自动化修复加快问题解决。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种测试模式&lt;/strong&gt;，包括本地代码分析、黑盒、灰盒及多目标白盒测试，适应不同安全需求。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/usestrix/strix</guid>
@@ -84,14 +84,14 @@
     <item>
       <title>Zie619/n8n-workflows</title>
       <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>&lt;p&gt;概要: 该文本介绍了n8n自动化工作流的全面集合，提供了在线浏览、搜索和直接下载功能，支持多种部署方式（本地和Docker），并具备强大的性能提升和安全增强，同时鼓励社区参与贡献与反馈。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: n8n Workflow Collection是一个功能强大的自动化平台，提供4,343个生产就绪的工作流模板，涵盖15大分类及365+集成服务，通过SQLite FTS5实现100倍速搜索与&lt;100ms响应，支持Docker多平台部署及现代化界面设计，同时完成全面安全审计并修复所有CVE漏洞，为用户提供零安装在线访问、直接下载JSON文件及灵活的本地/云端部署方案。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;强大的性能优化&lt;/strong&gt;: 实现100倍更快的搜索、低于50MB的内存占用及700倍更小的体积，提升了整体运行效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全面的在线访问&lt;/strong&gt;: 用户无需安装即可通过GitHub Pages快速访问，支持智能搜索、15+分类浏览、移动端适配和直接下载JSON。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高度安全的架构&lt;/strong&gt;: 完成全量安全审计，修复所有CVE漏洞，并提供路径穿越保护、输入验证、CORS防护、速率限制和容器安全配置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的资源与功能&lt;/strong&gt;: 包含4,343个生产就绪工作流、365个独特集成、29,445个节点，实现100%导入成功率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源与贡献机制&lt;/strong&gt;: 项目采用MIT许可证开放源码，鼓励用户通过提交问题、功能建议、文档优化和工作流修复参与开发。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;规模化工作流库&lt;/strong&gt;: 包含4,343个可直接导入的自动化流程，覆盖15个分类及365个独立服务集成。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;性能优化&lt;/strong&gt;: 采用SQLite FTS5实现超快速搜索（100倍速）、&lt;100ms响应及&lt;50MB内存占用，较旧版本压缩700倍。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;安全加固&lt;/strong&gt;: 完成全链路安全审计，修复所有CVE漏洞，并集成Trivy扫描、CORS防护、输入验证等防护机制。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模式部署&lt;/strong&gt;: 支持Docker跨平台运行（Linux/amd64/arm64），提供GitHub Pages在线门户及本地Python环境部署方案。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;社区驱动开发&lt;/strong&gt;: 开放贡献渠道（Bug报告、功能建议、文档优化），鼓励用户通过星标和PR参与项目迭代。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Zie619/n8n-workflows</guid>
@@ -99,14 +99,14 @@
     <item>
       <title>google/adk-go</title>
       <link>https://github.com/google/adk-go</link>
-      <description>&lt;p&gt;概要: Agent Development Kit (ADK) 是一款基于代码优先理念的开源 Go 工具包，专为构建、评估及部署复杂 AI 代理而设计，提供灵活的架构与模块化能力，支持云原生环境下的高效开发与部署，且兼容多种模型和部署方案。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Agent Development Kit（ADK）是一个专为Go语言设计的开源、代码优先工具包，通过模块化架构和软件开发原则简化了复杂AI代理的构建、评估与部署流程，具备跨模型、跨平台兼容性，尤其适合云原生环境下的高性能、高并发应用场景。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;模型与部署无关性&lt;/strong&gt;：ADK 虽优化于 Gemini，但支持多模型适配及跨平台部署，兼容其他框架。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;云原生适配性&lt;/strong&gt;：依托 Go 的并发与性能优势，专为云原生应用设计，支持 Google Cloud Run 等容器化环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;代码优先开发模式&lt;/strong&gt;：通过 Go 直接定义代理逻辑与流程，实现高度灵活性、可测试性及版本控制。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的工具生态&lt;/strong&gt;：集成预置工具、自定义函数，支持多样化能力扩展与多代理系统编排。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;轻量级部署能力&lt;/strong&gt;：提供容器化部署方案，简化代理发布流程并适配多种云服务环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;代码优先开发&lt;/strong&gt;：以Go语言为核心定义代理逻辑、工具及协作流程，提升测试性与版本控制能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;：支持通过组合多个专用代理构建可扩展的复杂应用，适应多样化需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;云原生优化&lt;/strong&gt;：深度集成Go语言并发与性能优势，适配Google Cloud Run等容器化平台，实现无缝部署。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模型与框架无关&lt;/strong&gt;：虽针对Gemini优化，但兼容其他AI模型及技术栈，提供高度灵活性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的工具生态系统&lt;/strong&gt;：集成预置工具与自定义功能，赋予代理多维度能力，降低开发复杂度。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/google/adk-go</guid>
@@ -114,15 +114,15 @@
     <item>
       <title>TapXWorld/ChinaTextbook</title>
       <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>&lt;p&gt;概要: 该项目旨在将国内小初高、大学数学教材以PDF格式开源，解决教育资源获取受限的问题，促进义务教育公平及海外华人子女的持续学习，同时提供文件合并工具以应对GitHub上传限制，支持用户在不同网络环境下获取和使用资源。&lt;/p&gt;
+      <description>&lt;p&gt;概要: 该项目旨在通过集中并开源国内小初高、大学阶段的PDF教材资源，解决教育信息获取受限和区域教育失衡问题，同时为海外华人提供持续接触国内教育内容的渠道，并配套提供文件合并工具与下载方案以应对GitHub文件大小限制，最终通过捐赠和社区协作推动开放教育资源的可持续发展。&lt;/p&gt;  
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;开源教育资料**：提供从小学到大学的数学教材PDF，推动教育公平与资源普及。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;克服上传限制**：因GitHub文件大小限制，教材文件被拆分为多个35MB文件。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;文件合并方案**：提供专用合并程序，帮助用户将拆分的PDF文件还原为完整资料。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持不同网络环境**：鼓励内地用户使用开源项目重新下载，海外用户则建议使用本存储库。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;倡导开放教育理念**：呼吁用户支持项目，通过捐赠或加入Telegram社区助力资源维护与扩展。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;开源教育目标&lt;/strong&gt;: 消除教育资源地域不平等，对抗盗版分发，促进义务教育普及。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全学段覆盖&lt;/strong&gt;: 包含小学至大学的数学教材及其它学科资料（如高等数学、线性代数等）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;文件拆分技术&lt;/strong&gt;: 因GitHub限制，超50MB文件被拆分为35MB分卷，并提供专用合并程序。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;分区域下载策略&lt;/strong&gt;: 内地用户推荐使用开源工具下载，海外用户建议通过存储库签出以提升效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区与捐赠机制&lt;/strong&gt;: 通过Telegram社区维护项目生态，并呼吁捐赠支持资源库扩展与维护。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/TapXWorld/ChinaTextbook</guid>
@@ -130,14 +130,14 @@
     <item>
       <title>bobeff/open-source-games</title>
       <link>https://github.com/bobeff/open-source-games</link>
-      <description>&lt;p&gt;概要: 本文列举了多种开源游戏及商业游戏的开源重制版本，涵盖动作、冒险、模拟经营、城市建设、第一人称射击、平台跳跃、解谜、竞速、策略、RPG、沙盒等多种类型，体现了开源社区在游戏开发与复刻中的活跃与创造力。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 本文列举了一系列开源视频游戏及商业游戏的开源重制版本，涵盖动作、冒险、城市建设、第一人称射击、平台跳跃、解谜、竞速、实时战略、Roguelike、角色扮演、沙盒、 shoot 'em up、体育、第三人称、塔防和回合制战略等多个类型，旨在展示开源社区对经典与现代游戏的持续创新与复刻。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;包含广泛类型的游戏项目&lt;/strong&gt;：涵盖动作、冒险、策略、城市建造、第一人称射击、平台跳跃、解谜等多类游戏，并有部分游戏的重制与开源复刻版本。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源与逆向工程结合&lt;/strong&gt;：如《Zelda 3》《The Legend of Zelda: Twilight Princess》《Doom 64-RE》等项目通过逆向工程实现游戏代码的开源化与可修改性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;基于现代技术的复古游戏移植&lt;/strong&gt;：部分游戏如《OpenRA》《OpenMW》《Liblast》等采用现代引擎和工具链对经典游戏进行开源重制，提升性能与兼容性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源社区对经典游戏的持续维护与创新&lt;/strong&gt;：通过开源项目，如《ScummVM》《OpenRCT2》《OpenTTD》等，不仅重现了经典游戏，还在其基础上进行功能扩展与优化。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台与多语言支持&lt;/strong&gt;：多个游戏项目支持跨平台运行，并使用多种编程语言（如C#、Rust、Kotlin、JavaScript）进行开发，增强了可移植性与灵活性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;覆盖广泛的游戏类型&lt;/strong&gt;，包括动作、冒险、城市建设、策略等，体现开源游戏生态的多样性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;包含大量经典游戏的开源重制与逆向工程&lt;/strong&gt;，如《Doom》、《Wolfenstein 3D》、《Zelda: Twilight Princess》等，推动老游戏在现代平台上的延续。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;强调游戏引擎的开源与改进&lt;/strong&gt;，如Godot 4、Unity、C#、Rust等，提升游戏可修改性和跨平台能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多人合作与在线玩法&lt;/strong&gt;，如《DDraceNetwork》、《Liblast》等，增强用户互动体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;包含教育性与模拟类开源游戏&lt;/strong&gt;，如《Citybound》、《Unknown Horizons》等，注重社会与经济模拟机制。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/bobeff/open-source-games</guid>
@@ -145,14 +145,14 @@
     <item>
       <title>YaLTeR/niri</title>
       <link>https://github.com/YaLTeR/niri</link>
-      <description>&lt;p&gt;概要: niri是一款专为滚动平铺设计的Wayland组合器，通过创新的多显示器布局与动态工作区管理实现高效窗口组织，支持跨设备操作、截图录制、自定义配置以及无障碍功能，其跨协议兼容性和性能表现（包括对老旧硬件的适配）使其成为当前较为成熟的Wayland桌面环境替代方案。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Niri 是一款专为可滚动分屏设计的 Wayland 合成器，支持多显示器、动态工作区与自定义布局，并具备截图、屏幕录制、无障碍支持等丰富功能，同时保持良好的性能，适合日常使用。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;多显示器独立管理&lt;/strong&gt;：每个显示器拥有独立的窗口条和工作区，支持跨显示器移动与恢复，防止窗口溢出。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;动态滚动平铺布局&lt;/strong&gt;：窗口以列形式排列于无限水平条上，新增窗口不触发现有窗口重排；工作区可垂直扩展，始终保有一个空工作区。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高性能与兼容性&lt;/strong&gt;：支持混合DPI、分数缩放及NVIDIA显卡，可运行于2008年的老旧设备，且集成Xwayland实现兼容性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的功能扩展&lt;/strong&gt;：包含截图界面、动态屏幕录制目标、触控板手势、自定义边距/渐变边框、Shader动画等高级特性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;活跃开发者社区&lt;/strong&gt;：提供Matrix和Discord交流渠道，支持开发者贡献代码或非代码资源，并有开发者访谈与技术文档辅助。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;专为可滚动分屏设计&lt;/strong&gt;: Niri 是从底层构建的可滚动分屏合成器，支持无限向右延伸的窗口列布局，新窗口打开不引起现有窗口调整。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨显示器工作区迁移&lt;/strong&gt;: 每个显示器有独立的工作区，断开连接时工作区会移动，重新连接后可自动恢复。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高性能与兼容性&lt;/strong&gt;: 兼容多种输入设备和 WLR 协议，支持 NVIDIA 显卡，并能在老旧硬件上流畅运行。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的功能与扩展性&lt;/strong&gt;: 包括动态工作区、自定义布局、渐变边框、动画、屏幕录制、无障碍支持等，并可通过 xdg-desktop-portal-gnome 实现截图与录制。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区支持与贡献方式&lt;/strong&gt;: 拥有活跃的用户社区，支持通过 Matrix 和 Discord 进行交流，并欢迎各种形式的贡献。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/YaLTeR/niri</guid>
@@ -160,14 +160,15 @@
     <item>
       <title>opencloud-eu/opencloud</title>
       <link>https://github.com/opencloud-eu/opencloud</link>
-      <description>&lt;p&gt;概要: OpenCloud服务器的核心仓库包含Go语言后端代码，支持通过多种方式参与开发，如报告问题、请求功能、编写文档或代码。构建流程需先生成资产再编译二进制文件，启动本地测试实例后数据以文件系统形式存储，且采用OpenID Connect身份验证机制，支持外部IDP或内置解决方案，安全问题需通过指定渠道及时反馈。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;无数据库架构&lt;/strong&gt;: 所有数据存储于文件系统，默认根目录为$HOME/.opencloud/。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;OpenID Connect身份验证&lt;/strong&gt;: 支持外部IDP（如Keycloak）或内置LibreGraph Connect进行用户认证。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;贡献方式多元化&lt;/strong&gt;: 包括报告缺陷、提交功能请求、编写文档、代码开发及代码评审等。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;构建流程标准化&lt;/strong&gt;: 通过make generate生成资产后，使用make -C opencloud build编译，最终输出可运行的二进制文件。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;安全响应机制&lt;/strong&gt;: 任何安全相关问题需立即联系security@opencloud.eu。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: OpenCloud 服务器的核心代码库提供基于 Golang 的后端服务，支持通过外部身份提供商或内置 LibreGraph Connect 实现 OpenID Connect 认证，且不依赖数据库，所有数据存储在文件系统中。该项目采用 Apache 2.0 协议开放源代码，鼓励多种形式的贡献，包括报告问题、提出功能请求、编写文档和代码等，并提供了详细的构建和开发指南。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;OpenCloud 采用 Golang 实现后端服务&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持 OpenID Connect 认证，可使用外部 IdP 或内置 LibreGraph Connect&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;不使用数据库，所有数据存储在文件系统&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源协议为 Apache 2.0，鼓励多样化的社区贡献&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;构建流程包含生成资源和编译二进制文件，支持本地测试部署&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/opencloud-eu/opencloud</guid>
@@ -175,14 +176,15 @@
     <item>
       <title>thinking-machines-lab/tinker-cookbook</title>
       <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
-      <description>&lt;p&gt;概要: Tinker为语言模型的定制化训练提供两大核心工具——tinker训练SDK与tinker-cookbook示例库，前者通过API封装分布式训练的复杂流程，后者包含监督学习、强化学习等场景的完整示例及高级抽象，支持从基础调参到复杂多智能体训练的全链条开发，并配套实用工具库和开放协作框架，助力研究人员和开发者高效实现模型优化。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化架构&lt;/strong&gt;: 提供独立的tinker训练SDK（处理分布式训练）和tinker-cookbook示例库（含具体训练场景实现），满足不同层次的定制需求&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;覆盖多训练范式&lt;/strong&gt;: 包含监督学习、强化学习、偏好学习、数学推理等多样化训练方法，展示完整的RLHF三阶段流程&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;实用工具支持&lt;/strong&gt;: 提供tokens转换、超参数计算、模型评估等工具，其中inspect_evaluation可集成InspectAI实现基准评测自动化&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;便捷的部署方式&lt;/strong&gt;: 支持通过API密钥调用服务端，推荐使用虚拟环境安装，包含启动命令和预期性能说明的README文档&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;: 强调开源科学理念，提供私有测试阶段后接受PR贡献，配套完整的引用规范和社区反馈渠道&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Tinker 是一个为研究者和开发者提供定制语言模型训练的 SDK，通过 API 请求简化分布式训练流程，而 Tinker Cookbook 作为其配套工具库，提供多种现实场景下的训练范式和高级抽象，帮助用户构建和优化不同的训练环境，并支持模型权重下载、评估集成与社区协作。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tinker 提供训练 SDK，支持 API 驱动的分布式语言模型微调。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tinker Cookbook 包含多种训练范式示例，如监督学习、强化学习及偏好学习。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持模型权重下载和评估，集成 InspectAI 实现标准基准测试。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供实用工具，包括 token 转换、超参数计算及模型渲染功能。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;鼓励社区贡献，项目基于开放科学理念进行合作开发。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/thinking-machines-lab/tinker-cookbook</guid>
@@ -190,14 +192,14 @@
     <item>
       <title>end-4/dots-hyprland</title>
       <link>https://github.com/end-4/dots-hyprland</link>
-      <description>&lt;p&gt;概要: 本文介绍了 end_4 的 Hyprland 系统配置文件（dotfiles），支持通过 Quickshell 构建现代化的桌面环境，具备应用程序实时预览、AI 功能集成、基于壁纸的自动配色和透明安装流程等特色，同时强调了该项目的开源精神及对不同 widget 系统的兼容性，也提醒用户注意部分旧版本不被支持。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 该文本介绍了 end_4 的 Hyprland 环境配置文件（dotfiles），强调其具备实时应用预览、AI支持、基于壁纸的自动生成配色方案以及透明安装过程等特点，提供了多种安装方式，并提及部分旧版本风格已不再支持，同时表达了对社区贡献者的感谢以及对赞助的开放态度。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;提供现代化 Hyprland 桌面配置&lt;/strong&gt;，支持实时应用预览、AI 集成（Gemini API 和 Ollama 模型）以及基于壁纸的自适应配色。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安装方式便捷透明&lt;/strong&gt;，可通过命令行或克隆仓库进行，安装过程展示所有执行命令，便于理解和调试。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;默认快捷键适配 Windows 和 GNOME 用户&lt;/strong&gt;，如 Super+/ 查看快捷键列表、Super+Enter 打开终端。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多种 widget 系统&lt;/strong&gt;，主要使用 Quickshell，同时提及其他系统如 AGS、EWW，但旧版本已不再维护。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;鼓励开源协作与支持&lt;/strong&gt;，明确表示对作品的复制与再发行持开放态度，但提醒用户遵守许可协议，避免违规行为。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Hyprland 配置文件支持实时应用预览、AI模型集成与自定义主题配色&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安装方式灵活，可通过命令行或克隆仓库完成，且安装过程透明可追溯&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;部分旧版本配置风格不再支持，需注意代码质量与维护情况&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;配置文件依赖项可在指定目录查看，社区贡献者被特别致谢&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;作者开放赞助渠道，并明确表示对复制和再分发持宽容态度，但强调需遵守许可协议&lt;/strong&gt;&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/end-4/dots-hyprland</guid>
@@ -205,15 +207,14 @@
     <item>
       <title>microsoft/call-center-ai</title>
       <link>https://github.com/microsoft/call-center-ai</link>
-      <description>&lt;p&gt;概要: 这是一款基于Azure和OpenAI GPT的AI驱动呼叫中心解决方案，支持通过API或预设电话号码发起智能语音通话，满足保险、IT支持和客户服务等场景需求。系统具备多语言支持、实时流媒体通信、自动数据收集与存储、智能提醒和对话回溯功能，并通过RAG技术整合历史数据提升个性化体验。同时，系统实现云原生部署，具备高可扩展性和低成本优势，支持高度定制化，包括语音风格、数据格式、模型运行和安全策略，并提供详细的监控与性能优化工具。&lt;/p&gt;  
-
+      <description>&lt;p&gt;概要: 这是一个基于Azure与OpenAI GPT的AI驱动呼叫中心解决方案，支持通过API或预配置电话号码发起智能通话，可处理保险、IT支持等多领域事务，具备实时语音交互、多语言支持、RAG数据增强、自动化工单生成及语音定制等功能，采用云原生架构实现弹性扩展和成本优化，同时提供本地测试与生产部署的完整流程及性能监控，但需通过模型调优、安全合规及可靠性增强才能实现生产就绪。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;AI驱动的呼叫中心方案&lt;/strong&gt;：集成Azure和OpenAI技术，实现自动语音呼叫与对话管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高度可定制化&lt;/strong&gt;：支持自定义数据结构、语言配置、语音风格及LLM提示语，适应不同业务需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;实时通信与数据流处理&lt;/strong&gt;：语音和文本数据实时处理与存储，支持断线后恢复对话并生成自动任务列表。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;云原生架构&lt;/strong&gt;：使用Azure Container Apps实现无服务器部署，支持弹性扩展与按需成本优化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安全与监控&lt;/strong&gt;：采用RAG机制确保数据合规处理，集成Azure Application Insights进行实时性能监测和持续优化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;API与电话号码双通道交互&lt;/strong&gt;: 支持通过API调用或预设号码直接发起AI通话，实现灵活集成与自动化服务。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言与实时通信能力&lt;/strong&gt;: 集成语音识别、文本转语音及实时对话流，支持语音缓存与断线恢复，增强用户体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;定制化数据结构与安全合规&lt;/strong&gt;: 支持动态调整工单字段及语言配置，结合RAG技术与Azure安全工具确保敏感信息处理合规。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;成本优化与性能调优&lt;/strong&gt;: 采用容器化、无服务器架构及gpt-4.1-nano等轻量模型降低费用，但生产环境需升级至私有端点以提升稳定性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;独立技术栈与可靠性设计&lt;/strong&gt;: 直接调用OpenAI SDK实现流式处理及备用模型机制，避免依赖第三方LLM框架，同时提供详细的监控指标与故障排查工具。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/microsoft/call-center-ai</guid>
