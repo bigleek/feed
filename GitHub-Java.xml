@@ -6,319 +6,354 @@
     <description>Summarized RSS feed for GitHub-Java</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/java.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>google/guava</title>
-      <link>https://github.com/google/guava</link>
-      <description>&lt;p&gt;概要: Guava是Google提供的核心Java库集合，包含多种增强型数据结构、并发工具、I/O处理及实用功能，适用于Java 8+环境和Android平台，其版本分为JRE和Android两种风味，支持通过Maven和Gradle进行依赖管理，并提供文档和快照版本供开发者参考。&lt;/p&gt;  
+      <title>PaperMC/Paper</title>
+      <link>https://github.com/PaperMC/Paper</link>
+      <description>&lt;p&gt;概要: PaperMC是一款高性能且广泛使用的Minecraft服务器解决方案，致力于解决游戏机制与玩法的一致性问题，同时为管理员、开发者提供完整的文档、API、编译指南和社区支持，通过Open Collective和GitHub Sponsors实现资金透明化，并依托合作伙伴如YourKit和JetBrains的技术助力推动项目持续发展。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Guava提供多种增强型Java库&lt;/strong&gt;，涵盖集合、并发、I/O、哈希、字符串等，适用于Google及其它Java项目。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供两种风味版本&lt;/strong&gt;：JRE版要求JDK 1.8或更高，Android版用于兼容Android环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持Maven和Gradle依赖管理&lt;/strong&gt;，分别使用不同的版本标识以区分JRE和Android风味。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;部分API具有@Beta注解&lt;/strong&gt;，可能随时变更或移除，建议库项目使用Guava Beta Checker进行检查。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Serialized形式可能变化&lt;/strong&gt;，不建议持久化使用，且库类不提供对恶意调用者的防护。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;性能优化与机制修复&lt;/strong&gt;：专为解决Minecraft游戏机制及玩法不一致问题设计，提供高并发、低延迟的服务器运行体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全栈开发支持&lt;/strong&gt;：涵盖Maven/Gradle依赖配置、源码编译流程（需JDK 21）及插件开发API，适配不同技术需求的用户群体。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;资金透明化管理&lt;/strong&gt;：通过Open Collective平台管理基础设施开支，支持者可实时追踪捐赠用途，并可通过GitHub Sponsors进行捐助。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;生态合作与工具支持&lt;/strong&gt;：获得YourKit（OSS授权）和JetBrains（IDE支持）等企业的技术协作，增强项目稳定性与开发者体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区参与渠道&lt;/strong&gt;：提供论坛、Discord及Pull Request机制，鼓励用户反馈、贡献代码及讨论技术问题。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/google/guava</guid>
+      <guid>https://github.com/PaperMC/Paper</guid>
     </item>
     <item>
-      <title>FabricMC/fabric</title>
-      <link>https://github.com/FabricMC/fabric</link>
-      <description>&lt;p&gt;概要: Fabric API 是面向 Fabric 模组开发的核心库，通过提供钩子机制、互操作接口及高级渲染功能，简化了模组对复杂系统（如粒子、生物群系、维度）的访问与集成，同时支持注册同步、崩溃报告信息扩展等关键特性，并采用模块化设计便于更新维护。其使用需依赖 Fabric Loader，开发者可通过 Gradle 配置集成 API 模块，用户则需下载 JAR 文件至 mods 文件夹，且社区提供 Discord 支持与贡献指南以促进生态发展。&lt;/p&gt;  
+      <title>Jigsaw-Code/Intra</title>
+      <link>https://github.com/Jigsaw-Code/Intra</link>
+      <description>&lt;p&gt;概要: Intra 是一款实验性工具，允许用户在 Android 设备上测试新的 DNS-over-HTTPS 服务，通过加密域名查询提升隐私和安全性，防止网络中间人篡改，目前支持 Cloudflare 和 Google 服务，并具备服务器性能可视化、查询结果地理定位分析及应用行为监控等功能，用户可通过 Google Play Store 下载或自行构建安装。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;核心功能集成&lt;/strong&gt;：提供注册同步、崩溃报告扩展等基础功能，简化模组开发中的关键操作。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;互操作性增强&lt;/strong&gt;：通过事件钩子与 API 接口，提升不同模组之间的兼容性与协作能力。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化架构&lt;/strong&gt;：支持按需导入独立模块（如基座、命令、生命周期事件），便于灵活更新与代码管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;依赖 Fabric Loader&lt;/strong&gt;：作为标准模组需先安装 Fabric Loader，确保版本兼容与运行环境稳定性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区支持与扩展&lt;/strong&gt;：通过 Discord 提供开发者与用户支持，鼓励贡献以完善 API 功能与文档。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 DNS-over-HTTPS 加密查询&lt;/strong&gt;，增强网络隐私和安全性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;当前支持 Cloudflare 和 Google 公共 DNS 服务&lt;/strong&gt;，未来可能扩展。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供服务器性能与应用查询行为的可视化分析&lt;/strong&gt;，便于评估服务效果。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;查询结果可进行地理定位比对&lt;/strong&gt;，确保符合预期区域响应。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可从 Google Play Store 下载或通过源码自行构建安装&lt;/strong&gt;，具备灵活性与可访问性。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/FabricMC/fabric</guid>
+      <guid>https://github.com/Jigsaw-Code/Intra</guid>
     </item>
     <item>
-      <title>dbeaver/dbeaver</title>
-      <link>https://github.com/dbeaver/dbeaver</link>
-      <description>&lt;p&gt;概要: DBeaver是一款免费且跨平台的数据库工具与SQL客户端，提供超过100种JDBC/ODBC数据库驱动支持，涵盖开发、数据分析等全场景需求，集成AI代码生成与智能补全等功能；其衍生产品CloudBeaver则通过网页端形式实现无本地安装的数据库管理，具备云端协作与可扩展架构，同时支持更多非JDBC数据源及扁平文件操作，为用户提供灵活、高效、安全的数据库解决方案。&lt;/p&gt;  
+      <title>ashishps1/awesome-system-design-resources</title>
+      <link>https://github.com/ashishps1/awesome-system-design-resources</link>
+      <description>&lt;p&gt;概要: 该资源为学习系统设计概念和准备技术面试提供了全面且免费的资料，涵盖从核心理论到实际设计问题的多方面内容，包括可扩展性、可用性、API设计、数据库与缓存机制以及分布式系统架构，并推荐了相关书籍、课程、播客和文章，帮助用户系统掌握关键技能。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;：DBeaver支持Windows/macOS/Linux等多操作系统，CloudBeaver通过浏览器实现设备无关性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;广泛数据库支持&lt;/strong&gt;：Community版覆盖100+主流数据库，PRO版扩展至非JDBC数据源（如MongoDB、Redis）及扁平文件（CSV、Parquet）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;AI增强功能&lt;/strong&gt;：集成OpenAI/Copilot的智能代码补全与生成，提升开发效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化架构&lt;/strong&gt;：基于OSGI和Eclipse RCP构建，分离后台插件与UI模块，实现DBeaver与CloudBeaver的协同开发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区与商业结合&lt;/strong&gt;：开源社区驱动持续迭代，商业版本提供专属支持、安全协作及高级功能扩展。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供免费资源&lt;/strong&gt;：集合了系统设计概念、面试问题、课程、书籍、新闻通讯和文章，便于学习和准备。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;系统设计核心概念&lt;/strong&gt;：包括可扩展性、可用性、CAP定理、一致性哈希、故障容忍等关键理论。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;分布式系统实践技能&lt;/strong&gt;：涉及微服务、异步通信、缓存策略、API网关、消息队列等实际应用技术。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;系统设计面试问题&lt;/strong&gt;：覆盖从初级到高级的各类问题，如URL短链接、消息队列、在线代码编辑器等。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;推荐学习材料&lt;/strong&gt;：包括经典书籍、技术频道、新闻通讯和工程文章，助力深度掌握系统设计领域。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/dbeaver/dbeaver</guid>
+      <guid>https://github.com/ashishps1/awesome-system-design-resources</guid>
     </item>
     <item>
-      <title>AntiCope/meteor-rejects</title>
-      <link>https://github.com/AntiCope/meteor-rejects</link>
-      <description>&lt;p&gt;概要: Meteor Rejects 是为 Meteor Client 开发的附加组件，集成了一批未被主项目采用的模块和功能，包括被拒绝的功能（如 AimAssist、AntiBot、Insta Mine 等）及从其他模组移植的特性（如 AutoPot、AntiCrash、BungeeCordSpoof 等）。该组件覆盖游戏优化、自动化、反作弊绕过、数据修改等多类功能，并提供配置选项（如 HTTP 请求设置、隐藏模块、字体加载等）以增强灵活性和隐蔽性，但需使用最新开发版 Meteor 并注意特定操作需重启生效。&lt;/p&gt;  
+      <title>microg/GmsCore</title>
+      <link>https://github.com/microg/GmsCore</link>
+      <description>&lt;p&gt;概括: microG Services 是一个开源框架，旨在为未搭载Google Play Services的系统提供兼容性支持，使依赖该服务的应用能够正常运行，其采用Apache License 2.0协议并鼓励社区参与开发和翻译。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;替代Google Play Services功能&lt;/strong&gt;：通过开源实现提供与原服务相同的接口，解决无Play Services系统兼容性问题。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;FLOSS开源特性&lt;/strong&gt;：遵循自由开源原则，允许自由使用、修改和分发，保障软件自主性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Apache 2.0许可证&lt;/strong&gt;：明确软件授权条款，强调"按现状提供"且无担保，法律风险透明。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区驱动开发&lt;/strong&gt;：通过Wiki提供下载与使用指南，依赖开发者和用户的持续贡献。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt;：开放翻译渠道，提升全球用户可用性和本地化适配能力。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/microg/GmsCore</guid>
+    </item>
+    <item>
+      <title>kunal-kushwaha/DSA-Bootcamp-Java</title>
+      <link>https://github.com/kunal-kushwaha/DSA-Bootcamp-Java</link>
+      <description>&lt;p&gt;概要: WeMakeDevs的Java数据结构与算法（DSA）及面试准备bootcamp提供完整的代码示例、练习任务和学习笔记资源，同时配套YouTube视频课程、课程网站以及LeetCode平台上的练习题解答，形成系统化的学习闭环，助力学员高效掌握算法核心知识并提升面试实战能力。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;系统化学习资源&lt;/strong&gt;：整合DSA理论、面试技巧的代码示例、练习任务及笔记，覆盖核心知识点。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多渠道学习支持&lt;/strong&gt;：包含视频教程（YouTube）、课程网站及LeetCode平台，提供灵活的学习路径。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;实战验证平台&lt;/strong&gt;：所有练习题解决方案均在LeetCode上，便于学员直接进行代码调试与结果核对。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;面试针对性强化&lt;/strong&gt;：资源设计聚焦技术面试需求，强化算法应用与问题解决能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;学习闭环构建&lt;/strong&gt;：通过代码实践、视频讲解与在线验证的组合，形成完整的知识消化链条。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/kunal-kushwaha/DSA-Bootcamp-Java</guid>
+    </item>
+    <item>
+      <title>ashishps1/awesome-low-level-design</title>
+      <link>https://github.com/ashishps1/awesome-low-level-design</link>
+      <description>&lt;p&gt;概要: 本资源库提供免费学习低级设计（LLD）和面向对象设计（OOD）的系统性材料，涵盖基础概念、设计原则、设计模式、UML建模及实战面试题，旨在帮助开发者构建扎实的设计能力并应对技术面试挑战，同时支持通过GitHub协作改进内容和分享学习成果。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;全面学习体系&lt;/strong&gt;：整合OOP基础（类、继承、多态等）、设计原则（SOLID、KISS）和模式（创建型、结构型、行为型）的核心知识。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;实战面试训练&lt;/strong&gt;：提供从易到难的LLD面试题集（如停车场设计、ATM系统、Uber服务等），强化系统设计实践能力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;可视化辅助工具&lt;/strong&gt;：包含SOLID原则图文解析、UML图示（类图、状态图等）及代码示例，提升理解效率。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开放协作机制&lt;/strong&gt;：鼓励开发者通过GitHub提交代码改进、补充题目或修正错误，完善资源库生态。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;精选学习资料&lt;/strong&gt;：推荐权威书籍（Clean Code、Refactoring）和课程（AlgoMaster.io），结合邮件订阅与在线平台资源形成学习闭环。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/ashishps1/awesome-low-level-design</guid>
+    </item>
+    <item>
+      <title>ashishps1/awesome-leetcode-resources</title>
+      <link>https://github.com/ashishps1/awesome-leetcode-resources</link>
+      <description>&lt;p&gt;概要: 该资源库为学习数据结构与算法（DSA）和准备编程面试提供了全面且高效的工具，涵盖核心概念、常见模式、精选题目、可视化工具及辅助课程和扩展插件，旨在帮助开发者系统提升算法能力。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;提供系统化的DSA学习资源&lt;/strong&gt;：集成算法复杂度、数组、链表、树、图等基础概念与高级模式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;精选高频面试题目&lt;/strong&gt;：包含AlgoMaster 300、Blind 75、LeetCode Top 100 Liked与Top Interview 150等高价值问题集。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种学习方式&lt;/strong&gt;：提供YouTube课程、书籍推荐、代码格式化工具及面试准备策略。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;增强学习体验的工具&lt;/strong&gt;：如LeetCode Timer、Video Solutions、VS Code插件等，提升学习效率与实践质量。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;鼓励社区参与与反馈&lt;/strong&gt;：支持用户贡献内容，并通过关注与分享推广资源。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/ashishps1/awesome-leetcode-resources</guid>
+    </item>
+    <item>
+      <title>LaurieWired/GhidraMCP</title>
+      <link>https://github.com/LaurieWired/GhidraMCP</link>
+      <description>&lt;p&gt;概要: ghidraMCP 是一个基于 Model Context Protocol (MCP) 的服务器，旨在使大型语言模型 (LLM) 能够自主反编译和分析应用程序，通过提供 Ghidra 核心功能接口，增强 MCP 客户端在软件逆向工程中的智能化能力。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;功能分层与来源：&lt;/strong&gt; 包含被主项目拒绝的模块（如 AimAssist）及从其他模组移植的功能（如 AntiCrash、BungeeCordSpoof），覆盖游戏优化、自动化、反作弊等场景。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;系统兼容性要求：&lt;/strong&gt; 需搭配 Meteor 开发版使用，部分修改（如隐藏模块、字体加载）需重启生效，且涉及 HTTP API 自定义请求和用户代理设置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块特性差异化：&lt;/strong&gt; 包含独特功能（如 Silent Disconnect、Ghost Mode）及通用扩展（如 AutoCraft、AutoFarm），部分功能存在模块名称冲突或自定义交互逻辑（如 Random Characters、Duplicate Names）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;命令与配置工具：&lt;/strong&gt; 提供专属命令（如 .clear-chat、.setblock）及配置项（如隐藏模块、禁用提示），支持自定义服务器连接、皮肤保存等操作，部分功能依赖外部资源（如字体文件、预设包）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;潜在合规风险：&lt;/strong&gt; 包含反作弊绕过（如 RoboWalk、SkeletonESP）和游戏机制修改（如 Fov 过滤、Hit Chance 干扰），可能涉及违反平台规则或第三方模组版权争议。&lt;/li&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ghidraMCP 是 MCP 服务器，用于与 LLM 协同进行软件反编译和分析。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多个 MCP 客户端，如 Claude Desktop、Cline 和 5ire。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供自动重命名方法和数据、列出方法、类及导入导出等功能。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;需安装 Ghidra、Python3 和 MCP SDK，配置 Ghidra 插件及 HTTP 服务器端口。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可通过源码构建，需复制 Ghidra 相关 JAR 文件并使用 Maven 编译生成插件。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/AntiCope/meteor-rejects</guid>
+      <guid>https://github.com/LaurieWired/GhidraMCP</guid>
     </item>
     <item>
-      <title>apache/kafka</title>
-      <link>https://github.com/apache/kafka</link>
-      <description>&lt;p&gt;概要: Apache Kafka 是一个开源的分布式事件流平台，广泛应用于构建高性能数据管道、流分析及关键业务场景，其构建和测试流程高度依赖 Java 和 Scala，并提供丰富的 Gradle 命令支持多模块构建、文档生成、测试执行及代码质量检查。通过配置 Java 版本（17/25）和 Scala 2.13，确保兼容性与性能优化，同时支持测试重试、覆盖率报告、依赖分析等功能，便于开发者高效管理项目并参与社区贡献。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Java/Scala 版本兼容性&lt;/strong&gt;: Kafka 使用 Java 17/25 并设定 javac 和 scalac 的 release 参数（客户端/流模块为 11，其余为 17），且强制scala 2.13为唯一支持版本。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活的构建与测试命令&lt;/strong&gt;: 包含 JAR 生成、文档构建（aggregatedJavadoc/scaladoc）、测试执行（单元/集成测试）、日志级别调整及特定测试方法运行等多样化操作。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;测试配置与优化&lt;/strong&gt;: 支持测试重试机制（maxTestRetryFailures/maxTestRetries）、覆盖率报告生成（enableTestCoverage）、JMH 微基准测试及静态分析工具（spotbugs/checkstyle）的集成。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;依赖管理与分析&lt;/strong&gt;: 提供 dependencyUpdates 任务检测依赖更新，通过 allDeps/allDepInsight 递归分析依赖树，支持本地仓库指向及 Maven 部署配置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区贡献与部署流程&lt;/strong&gt;: 强调通过 Apache 邮件列表参与社区建设，Streams archetype 需使用 mvn deploy 部署，且需配置 Maven 用户凭证以完成构建。&lt;/li&gt;  
+      <title>LSPosed/LSPosed</title>
+      <link>https://github.com/LSPosed/LSPosed</link>
+      <description>&lt;p&gt;概要: LSPosed Framework 是一个基于 Riru/Zygisk 的 ART 钩子框架，旨在为 Android 系统和应用提供与原生 Xposed 一致的 API，允许开发者无需修改 APK 即可实现系统行为的定制化修改，并且支持多模块协同工作，适用于 Android 8.1 至 14 版本。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;兼容性与灵活性&lt;/strong&gt;: 提供与原生 Xposed 框架一致的 API，支持多模块同时对系统或应用同一部分进行修改。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;无需修改 APK&lt;/strong&gt;: 通过内存注入方式实现行为修改，避免对原始应用或系统进行改动，便于安装和撤销。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;依赖 Magisk 和 Riru&lt;/strong&gt;: 需要安装 Magisk v24+ 和 Riru v26.1.7+（针对 Riru 版本），才能使用 LSPosed 框架。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多个 Android 版本&lt;/strong&gt;: 兼容 Android 8.1 到 14，适用于较广泛的设备环境。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源与社区驱动&lt;/strong&gt;: 采用 GPL-3 许可证，鼓励开发者提交模块至官方仓库，并提供翻译贡献和社区讨论渠道。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/apache/kafka</guid>
+      <guid>https://github.com/LSPosed/LSPosed</guid>
     </item>
     <item>
-      <title>apache/hadoop</title>
-      <link>https://github.com/apache/hadoop</link>
-      <description>&lt;p&gt;概要: Apache Hadoop 是一个开源的大数据处理框架，提供分布式存储和计算能力，适用于大规模数据集的处理与分析。如需获取最新信息，建议访问其官方网站和维基页面。&lt;/p&gt;  
+      <title>google/adk-java</title>
+      <link>https://github.com/google/adk-java</link>
+      <description>&lt;p&gt;概要: Google 提供了一个开源的 Java 工具包 Agent Development Kit (ADK)，它以代码优先的方式支持开发者构建、评估和部署高度灵活且可控的 AI 代理，与 Google Cloud 服务深度集成，并提供与 Python ADK 相同的功能和界面，便于测试、调试和展示。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Apache Hadoop 是开源的大数据处理框架&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持分布式存储与计算，适用于大规模数据集&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供官方网站和维基页面作为信息来源&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;代码优先开发&lt;/strong&gt;: 允许通过 Java 直接定义代理逻辑、工具和编排，提升灵活性、可测试性和版本管理。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的工具生态系统&lt;/strong&gt;: 支持预建工具、自定义函数及 OpenAPI 集成，增强代理功能并紧密绑定 Google 服务。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;: 支持构建可扩展的代理架构，通过组合多个专业化代理形成灵活的层级结构。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;与 Python ADK 兼容&lt;/strong&gt;: 提供相同的特性与用户界面，方便开发者在 Java 和 Python 环境间切换与协作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与社区贡献&lt;/strong&gt;: 项目采用 Apache 2.0 许可证，并鼓励社区参与 bug 报告、功能请求和文档优化。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/apache/hadoop</guid>
+      <guid>https://github.com/google/adk-java</guid>
     </item>
     <item>
-      <title>Pugmatt/BedrockConnect</title>
-      <link>https://github.com/Pugmatt/BedrockConnect</link>
-      <description>&lt;p&gt;概要: BedrockConnect是一个开源且免费的Minecraft Bedrock Edition服务器软件，旨在为Xbox、Nintendo Switch及PS4/PS5等游戏主机玩家提供连接第三方服务器的便捷方案，通过DNS重定向和“添加好友”机制实现无需下载即用，同时支持社区托管实例和自定义部署，为玩家和服务器维护者提供灵活的服务器列表管理功能。&lt;/p&gt;  
+      <title>openhab/openhab-addons</title>
+      <link>https://github.com/openhab/openhab-addons</link>
+      <description>&lt;p&gt;概要: openHAB的官方插件体系通过Java .jar文件和Maven构建系统实现，核心插件由openHAB团队维护并集成到主仓库，其他插件则分散在多个子仓库中。开发流程包含构建命令、代码质量检查、翻译管理及测试配置，强调通过合理使用Maven参数优化效率，同时需注意插件依赖关系和翻译的集中管理。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;核心功能与目标用户&lt;/strong&gt;: 专为游戏主机（Xbox、Switch、PS4/PS5）玩家设计，解决其无法直接访问第三方Bedrock服务器的问题，提供本地化的服务器列表管理体验。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;两种连接方法&lt;/strong&gt;: 主推DNS重定向方法（需修改DNS设置，支持跨平台连接），次选“添加好友”方法（依赖MCXboxBroadcast，但存在好友槽位限制和可能延迟的问题）。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区托管实例特性&lt;/strong&gt;: 多个公开实例由社区维护，但各实例独立运行，玩家需在不同服务器间重复保存数据，且无统一数据库。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;部署要求&lt;/strong&gt;: 基于Java 8或更高版本，支持Docker容器化部署（使用镜像pugmatt/bedrock-connect），并提供配置指南和运行教程。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源与赞助信息&lt;/strong&gt;: 自2019年起完全开源免费，强调通过GitHub Sponsors或Patreon支持项目开发及服务器费用，避免使用非官方第三方资源。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;插件分发与维护&lt;/strong&gt;：核心插件由openHAB团队维护并适配新API，部分功能插件存于独立子仓库（如zwave、zigbee、webui）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Maven构建体系&lt;/strong&gt;：基于Maven和Eclipse，支持通过-pl参数单插件构建，且可生成.kar文件管理动态依赖。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;翻译集中管理&lt;/strong&gt;：通过Crowdin平台统一管理多语言翻译，英文资源由GitHub仓库自动同步，翻译修改需在Crowdin进行以避免覆盖。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;代码质量规范&lt;/strong&gt;：集成Spotless工具进行代码格式检查与重构，需通过spotless:check和spotless:apply命令保证一致性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;测试与构建优化&lt;/strong&gt;：支持跳过检查、测试及依赖验证以加速构建，但可能隐匿问题；并行构建（-T参数）需权衡调试难度与执行效率。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/Pugmatt/BedrockConnect</guid>
+      <guid>https://github.com/openhab/openhab-addons</guid>
+    </item>
+    <item>
+      <title>JingMatrix/LSPosed</title>
+      <link>https://github.com/JingMatrix/LSPosed</link>
+      <description>&lt;p&gt;概要: LSPosed Framework 是一个基于 Zygisk 的 ART 挂钩框架，旨在为 Android 系统和应用提供与原始 Xposed 框架一致的 API 接口，支持无需修改 APK 的行为定制，兼容 Android 8.1 至 16 多个版本，允许多模块协同工作且便于回滚，开发者可通过自建模块仓库扩展功能，并遵循 GNU GPL-3 开源协议。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;兼容性与替代性&lt;/strong&gt;: 支持基于 Zygisk 和 LSPlant 的 ART 挂钩，与原始 Xposed 框架完全兼容，可互用模块。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;无侵入式修改&lt;/strong&gt;: 通过内存挂钩实现系统行为定制，无需修改 APK，适用于多版本 Android 和 ROM，且可轻松回滚。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块扩展生态&lt;/strong&gt;: 提供独立的模块仓库，开发者可提交模块并集成至 LSPosed，支持多模块并行生效。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安装依赖与版本限制&lt;/strong&gt;: 需配合 Magisk v26+ 使用，仅支持 Android 8.1-16，调试版本仅通过 GitHub Actions 提供。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源协议与贡献机制&lt;/strong&gt;: 采用 GNU GPL-3 协议，支持开发者贡献翻译及技术支持，且仅接受最新调试版本的 bug 报告。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/JingMatrix/LSPosed</guid>
+    </item>
+    <item>
+      <title>netty/netty</title>
+      <link>https://github.com/netty/netty</link>
+      <description>&lt;p&gt;概要: Netty是一个事件驱动的异步网络应用框架，专为高效、可维护的协议服务器和客户端开发而设计，支持JDK 9+模块化系统的使用，并提供了详细的文档和构建指南，便于开发者快速上手和深入开发。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;Netty 是一个异步、事件驱动的网络框架&lt;/strong&gt;，用于构建高性能、可维护的协议服务器和客户端。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;构建 Netty 需要最新的 OpenJDK 8 和 Maven&lt;/strong&gt;，而 JDK 5 或 6 仅用于运行 Netty 应用程序。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Linux 和 macOS 用户需安装额外的开发包&lt;/strong&gt;，以支持原生传输的构建。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本开发在对应的 &lt;majorVersion&gt;.&lt;minorVersion&gt; 分支中进行&lt;/strong&gt;，例如 3.9 和 4.1 分别在 '3.9' 和 '4.1' 分支中。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 JDK 9+ 模块化系统&lt;/strong&gt;，开发者可通过 Modular Netty 指南了解其使用方法。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/netty/netty</guid>
+    </item>
+    <item>
+      <title>apache/fluss</title>
+      <link>https://github.com/apache/fluss</link>
+      <description>&lt;p&gt;概要: Apache Fluss（孵化中）是一款专为实时分析设计的流式存储系统，作为Lakehouse架构的实时数据层，能够实现低延迟、高吞吐的数据流处理与湖仓一体化，无缝集成Apache Flink等主流计算引擎，并计划支持Spark与StarRocks，通过列式存储、变更日志生成及高效查询能力显著提升实时计算效率。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;实时数据层解决方案&lt;/strong&gt;: 为Lakehouse架构提供低延迟、高吞吐的流式数据存储，支持实时分析场景。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;流与湖仓统一架构&lt;/strong&gt;: 实现数据流与Lakehouse的深度融合，降低实时计算延迟以增强分析能力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多计算引擎兼容性&lt;/strong&gt;: 当前集成Apache Flink，未来将扩展支持Spark与StarRocks，提升生态适配性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;列式流性能优化&lt;/strong&gt;: 通过高效的列式存储和下推投影技术，实现流读性能提升10倍。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源与社区协作&lt;/strong&gt;: 采用Apache 2.0许可证，鼓励开发者贡献代码、文档及功能需求，推动项目迭代。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/apache/fluss</guid>
+    </item>
+    <item>
+      <title>Card-Forge/forge</title>
+      <link>https://github.com/Card-Forge/forge</link>
+      <description>&lt;p&gt;概要: Forge 是一款面向 Magic: The Gathering 粉丝的开源规则引擎，支持跨平台运行，提供丰富的单人与多人游戏模式，并鼓励开发者通过 Java 架构进行扩展与贡献，营造了一个灵活、沉浸式的卡牌游戏体验。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;Forge 是一款独立的、非官方的 Magic: The Gathering 规则引擎。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持跨平台运行，包括 Windows、Mac、Linux 和 Android。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;采用 Java 构建，具有可扩展架构，允许开发者添加功能与卡牌。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供多种游戏模式，如冒险模式、任务模式和不同 AI 格式对战。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区活跃，通过 Discord 提供支持与协作机会。&lt;/strong&gt;&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/Card-Forge/forge</guid>
+    </item>
+    <item>
+      <title>quarkusio/quarkus</title>
+      <link>https://github.com/quarkusio/quarkus</link>
+      <description>&lt;p&gt;概要: Quarkus是一个专为云原生和容器环境设计的Java框架，通过统一响应式与命令式编程模型、轻量级架构及对主流标准技术栈（如JAX-RS、Hibernate、Apache Camel等）的兼容性，实现快速启动、高效开发与微服务优化，全面满足现代企业应用对性能、可扩展性和开发体验的核心需求。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;容器优先架构&lt;/strong&gt;：专为容器环境优化，提供最小化运行时开销，确保应用在容器中高效部署与运行。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;统一编程模型&lt;/strong&gt;：兼容非阻塞响应式开发与传统命令式开发，降低代码复杂度并提升开发灵活性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;标准技术栈集成&lt;/strong&gt;：基于RESTEasy、Hibernate ORM、Eclipse MicroProfile等成熟规范，确保生态兼容性与技术延续性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;微服务性能优势&lt;/strong&gt;：实现闪电般的启动速度与代码迭代效率，显著提升微服务场景下的开发与运维效率。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开发者体验优化&lt;/strong&gt;：提供无妥协的开发中心化体验，通过简化流程加速应用开发周期。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/quarkusio/quarkus</guid>
+    </item>
+    <item>
+      <title>yuliskov/SmartTube</title>
+      <link>https://github.com/yuliskov/SmartTube</link>
+      <description>&lt;p&gt;概要: SmartTube是一款专为Android电视和电视盒子设计的自由开源媒体播放器，提供无广告、播放速度调节、8K支持、HDR兼容、SponsorBlock集成及无需Google服务等高级功能，但不支持手机和平板，安装过程需通过特定方式完成，并且部分功能如语音搜索和投屏可能不如官方应用流畅。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;: 仅适用于Android设备，包括电视、电视盒子和部分智能电视（如FireTV、NVIDIA Shield、Chromecast with Google TV），不支持手机、平板或其他非Android平台。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;安装方式多样但需谨慎&lt;/strong&gt;: 不可在应用商店下载，必须通过第三方下载工具、文件传输应用或ADB方式安装，且需注意安全和设备兼容性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;功能特色&lt;/strong&gt;: 无广告、支持SponsorBlock跳过赞助内容、可自定义播放速度和画面设置、兼容HDR和高刷新率，适合自由定制观看体验。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;用户体验限制&lt;/strong&gt;: 语音搜索和投屏功能依赖额外桥接应用，部分设备需卸载官方YouTube应用；直播聊天、评论功能存在不稳定性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术依赖与限制&lt;/strong&gt;: 需要使用较旧版的OpenJDK，部分功能如语音搜索需root权限，且不支持触摸或鼠标操作，仅适配TV遥控器或键盘。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/yuliskov/SmartTube</guid>
     </item>
     <item>
       <title>termux/termux-app</title>
       <link>https://github.com/termux/termux-app</link>
-      <description>&lt;p&gt;概要: Termux 是一款为 Android 系统设计的终端模拟器应用，可提供完整的 Linux 环境，并支持通过多种渠道安装，包括 GitHub、F-Droid 和 Google Play，但需注意版本兼容性及安全性问题，同时提供丰富的插件增强功能，并鼓励开发者参与维护与贡献。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Termux 是一款为 Android 系统提供的终端模拟器应用，能够构建 Linux 环境，并支持通过多种方式安装和更新，但需注意版本兼容性与安全风险，尤其是在 Android 12+ 系统上可能因系统限制导致进程被强制终止，且不同安装源的 APK 必须来自同一来源以保障功能正常运作。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Termux 是一个提供 Linux 环境的 Android 终端模拟器，支持多种可安装的包&lt;/strong&gt;，但其主仓库仅负责应用本身的开发，包管理则由 termux/termux-packages 项目提供。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;安装来源需统一&lt;/strong&gt;，不同来源的 APK 使用不同签名密钥，若混用会导致安装冲突，需从同一来源安装以确保兼容性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Android 12+ 上可能存在进程被强制终止的问题&lt;/strong&gt;，需留意相关限制并考虑升级至 Android 12L 或 13 以规避风险。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub 构建的 APK 需要谨慎使用&lt;/strong&gt;，因其采用测试密钥签名，存在安全风险，建议仅从官方源 https://github.com/termux/termux-app 获取。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开发者需遵循规范的提交信息格式和版本命名规则&lt;/strong&gt;，以确保代码可维护性，并使用 termux-shared 库统一管理常用常量与工具。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Termux 是 Android 上的终端模拟器与 Linux 环境&lt;/strong&gt;：支持安装多种软件包，提供类似 Linux 的命令行体验。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安装方式需统一来源以避免冲突&lt;/strong&gt;：所有 APK 必须来自相同源（如 F-Droid 或 GitHub），否则因签名差异无法安装或导致错误。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android 12+ 可能导致进程被系统强制终止&lt;/strong&gt;：系统对进程数量和 CPU 使用有限制，建议升级至 Android 12L 或 13 以避免此类问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub 发布的 APK 存在安全风险&lt;/strong&gt;：使用社区共享的测试密钥签名，存在被恶意伪造的可能，推荐仅从官方仓库下载。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;版本管理与提交规范严格&lt;/strong&gt;：需遵循语义化版本格式和 Conventional Commits 规范，确保构建和发布流程的顺利进行。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/termux/termux-app</guid>
     </item>
     <item>
-      <title>LawnchairLauncher/lawnchair</title>
-      <link>https://github.com/LawnchairLauncher/lawnchair</link>
-      <description>&lt;p&gt;概要: Lawnchair 15是一款基于Android 15的开源桌面应用，通过移植Pixel Launcher特性并融合Material You主题适配能力，提供了包括全局搜索、快捷小部件、快速切换等功能在内的高度个性化体验，目前处于Beta测试阶段，支持多渠道下载与验证，同时通过Open Collective接受社区资助以维持开发独立性。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;基于Launcher3的定制化升级&lt;/strong&gt;：深度融合Pixel Launcher功能，实现Material You主题适配与高度个性化设置选项。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;差异化功能特性&lt;/strong&gt;：支持全局搜索、At a Glance小部件、QuickSwitch（需Root）等特色功能，优化用户交互效率。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多版本与下载渠道&lt;/strong&gt;：区分稳定版（Google Play）与开发版（GitHub/nightly.link），部分功能因合规性限制存在差异。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;安全验证机制&lt;/strong&gt;：提供Google Play及第三方下载的SHA-256校验码，确保文件完整性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区支持与运营模式&lt;/strong&gt;：通过Open Collective接受资助，Core Backers（$5+）直接支持Project Velocity Fund，强化项目可持续性。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/LawnchairLauncher/lawnchair</guid>
-    </item>
-    <item>
-      <title>xiaojieonly/Ehviewer_CN_SXJ</title>
-      <link>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</link>
-      <description>&lt;p&gt;概要: EhViewer是一款专为E-Hentai平台设计的Android浏览器，持续通过版本迭代优化用户体验与系统稳定性，新增下载列表排序、自动暗模式等实用功能，同时完善异常处理机制并迁移至Kotlin以提升维护效率，其更新渠道已从微软APP中心迁移至GitHub，用户可通过百度云、蓝奏云及官方仓库获取最新版本。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;稳定性增强&lt;/strong&gt;: 引入异常处理逻辑（如EhDB、SpiderDen模块）与备用方案，修复多版本崩溃问题，并移除冗余代码（如Firebase Crashlytics）以简化架构。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;用户界面优化&lt;/strong&gt;: 新增下载列表拖动排序功能、自动暗模式适配、书签/订阅栏动画提示，以及修复全屏模式关闭与主题切换异常。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;下载渠道重构&lt;/strong&gt;: 完全放弃微软APP中心自动更新，改为通过GitHub手动下载，同步提供百度云、蓝奏云等多平台分发链接。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;功能扩展与合规调整&lt;/strong&gt;: 增加画廊评分显示开关、收藏列表全选功能，删除不再适用的Cookie锁定功能并优化配额显示文本以符合E站政策。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;技术升级&lt;/strong&gt;: 迁移Analytics模块至Kotlin，更新Gradle插件版本，适配裸连状态下的网页登录，提升兼容性与开发效率。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</guid>
-    </item>
-    <item>
-      <title>cabaletta/baritone</title>
-      <link>https://github.com/cabaletta/baritone</link>
-      <description>&lt;p&gt;概要: Baritone 是一款专为 Minecraft 游戏设计的高性能路径查找机器人，最初用于 Impact 游戏，现已升级为适用于多个 Minecraft 版本的开源工具，具备强大的路径规划能力、丰富的功能支持以及详细的 API 文档，适合开发者集成到自定义客户端中。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;高性能路径查找&lt;/strong&gt;：Baritone 的路径计算速度超过 MineBot 30 倍，专注于提升运行效率与可靠性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多版本兼容支持&lt;/strong&gt;：提供对多个 Minecraft 版本（如 1.12.2, 1.16.5, 1.21.8 等）的 Forge、Fabric 和 NeoForge 安装选项。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的功能与指令&lt;/strong&gt;：支持通过聊天指令快速操作，包括导航、采矿、飞行等，用户可直接使用 #goto、#mine、#elytra 等命令。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完善的 API 文档&lt;/strong&gt;：提供详细 Javadocs，便于开发者集成至自定义客户端，且遵循 LGPL 3.0 开源协议。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区支持与推广&lt;/strong&gt;：拥有专门的 Discord 服务器供用户获取帮助，并获得 YourKit 的 OSS 许可以优化开发工具。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/cabaletta/baritone</guid>
-    </item>
-    <item>
-      <title>spring-projects/spring-boot</title>
-      <link>https://github.com/spring-projects/spring-boot</link>
-      <description>&lt;p&gt;概要: Spring Boot 是一个用于构建 Spring-powered、生产级别的 Java 应用程序和服务的框架，旨在以最少的配置和开箱即用的方式简化开发过程。它提供了丰富的非功能性特性，如嵌入式服务器、配置管理、监控端点等，并支持无需 XML 配置和代码生成的快速开发，同时鼓励社区参与贡献和问题报告。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;简化生产级应用开发&lt;/strong&gt;：Spring Boot 通过最小的配置和自动化功能，使开发者能够快速构建高质量的 Java 应用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;丰富的非功能性支持&lt;/strong&gt;：提供安全、监控、健康检查、度量、外部化配置等常见功能，无需额外集成。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模块化架构&lt;/strong&gt;：包含多个核心模块，如 autoconfigure、starters、actuator 和 devtools，支持不同的开发和运维需求。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;无需 XML 配置和代码生成&lt;/strong&gt;：强调开箱即用的体验，减少配置复杂性和开发负担。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区参与与支持&lt;/strong&gt;：提供详细文档、指南、问题跟踪系统及贡献指南，便于用户获取帮助和参与项目发展。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/spring-projects/spring-boot</guid>
-    </item>
-    <item>
-      <title>vvb2060/KeyAttestation</title>
-      <link>https://github.com/vvb2060/KeyAttestation</link>
-      <description>&lt;p&gt;概要: 该Android Key Attestation测试应用支持生成、保存、加载、解析和验证Android密钥及身份认证数据，主要用于自测且不具备网络权限，证书吊销信息内嵌于APK中不可在线更新，为确保系统安全，建议在文件中保存数据并在另一设备上进行验证，同时支持加载由其他软件生成的证书链。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;支持密钥及身份认证数据的全生命周期操作&lt;/strong&gt;：包括生成、保存、加载、解析和验证。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;适用于自测环境，无网络权限&lt;/strong&gt;：确保测试过程独立，不依赖外部连接。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;证书吊销数据内嵌不可更新&lt;/strong&gt;：数据固定在APK中，不支持在线获取最新吊销信息。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;系统被攻破时需另寻验证方式&lt;/strong&gt;：应将数据导出为文件并另设备验证，以提高安全性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;兼容第三方生成的证书链&lt;/strong&gt;：支持与其他软件生成的证书链进行对接与加载。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/vvb2060/KeyAttestation</guid>
-    </item>
-    <item>
-      <title>ReVanced/revanced-patches</title>
-      <link>https://github.com/ReVanced/revanced-patches</link>
-      <description>&lt;p&gt;概要: ReVanced Patches 是一套延续 Vanced 传统的 Android 应用修改工具，提供广告拦截、界面自定义、功能扩展及多种实用设置，帮助用户深度优化和个性化应用体验。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;ReVanced Patches 是对 Vanced 传统的延续&lt;/strong&gt;，为 Android 应用提供广泛的自定义和增强功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;主要功能包括广告拦截、界面定制、功能扩展及通用设置&lt;/strong&gt;，如重命名包、启用调试、解除屏幕录制限制等。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;用户可通过 ReVanced CLI 或 Manager 应用来应用这些补丁&lt;/strong&gt;，实现便捷操作。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;项目鼓励贡献，并提供详细的贡献指南&lt;/strong&gt;，便于开发者参与改进。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;ReVanced Patches 采用 GPLv3 开源许可协议&lt;/strong&gt;，允许自由复制、分发和修改，但需遵循相应的开源条款。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/ReVanced/revanced-patches</guid>
-    </item>
-    <item>
-      <title>TGX-Android/Telegram-X</title>
-      <link>https://github.com/TGX-Android/Telegram-X</link>
-      <description>&lt;p&gt;概要: 该文本详细介绍了Telegram X——一个基于TDLib的官方替代Telegram Android客户端的源代码与构建指南，涵盖构建环境准备、不同平台的构建步骤、APK验证方法以及项目许可信息，致力于确保构建过程的透明性与可复现性。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Telegram X是基于TDLib的官方替代Android客户端&lt;/strong&gt;，使用Telegram API和MTProto安全协议。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;构建需特定系统要求&lt;/strong&gt;，包括至少5.34GB磁盘空间、4GB内存以及macOS/Linux系统，Windows需依赖MSYS环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供详细的构建流程和配置指南&lt;/strong&gt;，涉及Git克隆、子模块更新、Keystore设置、SDK安装等。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持APK验证机制&lt;/strong&gt;，通过哈希值比对和特定渠道（如@tgx_log）确认APK来源的合法性与纯净度。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;项目采用GPLv3协议&lt;/strong&gt;，并允许第三方组件采用不同许可，用户需查阅对应文件以确认具体授权。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/TGX-Android/Telegram-X</guid>
-    </item>
-    <item>
       <title>Team-xManager/xManager</title>
       <link>https://github.com/Team-xManager/xManager</link>
-      <description>&lt;p&gt;概要: xManager是一款完全免费、无广告的音乐流媒体管理工具，支持用户随时随地升级/降级版本、直接卸载应用、清理缓存数据及启动应用等功能，同时提供简洁的极简界面和轻量级设计。但需注意其依赖公开链接和第三方工具（如Sketchware Pro）开发，存在数据库分阶段关闭（Legacy/Origins）、版本兼容性问题及手动维护导致的服务中断风险，最终版本需持续更新以确保使用。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: xManager是一款完全免费且无广告的音乐流媒体应用程序管理工具，支持用户随时升级或降级版本、卸载、清理缓存、直接打开设置及启动应用，采用轻量级设计并提供简洁界面。该工具由xC3FFF0E开发，并获得Sherlock Holmes协助，用户需更新至最新版本（v3.2或v4.5）以继续使用，因旧数据库已关闭。所有源代码和翻译文件公开，可通过开发者分支提交贡献，但存在部分不完整或无法构建的情况，可能导致使用中断。项目团队覆盖多语言翻译贡献者，且强调代码安全性，无任何恶意程序。&lt;/p&gt;  
+
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;无广告且完全免费&lt;/strong&gt;：应用无商业推广，开发者不从中获利，用户可自由使用。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多功能集成&lt;/strong&gt;：支持升级降级、直接管理应用设置、清理缓存及启动操作，提升用户便捷性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;数据库分阶段停用&lt;/strong&gt;：Legacy（2022年4月1日）和Origins（2023年2月24日）数据库已关闭，需更新至v3.2或v4.5以维持功能。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;技术依赖与局限&lt;/strong&gt;：基于Sketchware Pro开发，需通过Sketch2Any转换至Android Studio，可能因构建问题或链接变动导致兼容性风险。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区驱动更新&lt;/strong&gt;：开发者持续维护，但内部优化不确定，且依赖贡献者提交翻译和代码更新。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;免费无广告模式&lt;/strong&gt;：核心功能完全免费， rewarded ads可关闭，无跟踪器或间谍软件。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多功能管理能力&lt;/strong&gt;：支持升级/降级任意版本、卸载、清理缓存、直接启动应用及管理设置。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;数据库版本更新要求&lt;/strong&gt;：Legacy及Origins数据库已停用，需升级至最新版本（v3.2/v4.5）以维持功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与协作机制&lt;/strong&gt;：代码及翻译文件公开，贡献需基于"Developer"分支提交，但可能存在构建限制。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;维护风险与稳定性&lt;/strong&gt;：手动更新链接可能导致使用中断，部分功能模块存在缺失或不兼容问题。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Team-xManager/xManager</guid>
     </item>
     <item>
-      <title>Querz/mcaselector</title>
-      <link>https://github.com/Querz/mcaselector</link>
-      <description>&lt;p&gt;概要: MCA Selector是一款用于Minecraft Java版世界的外部工具，允许用户选择特定区块进行删除或导出，使用前需备份世界以避免数据丢失。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;功能用途&lt;/strong&gt;: 支持选择并删除或导出Minecraft世界中的特定区块和区域。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;操作前提&lt;/strong&gt;: 使用前必须对世界进行备份，以防数据丢失。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本支持&lt;/strong&gt;: 支持从1.2.1到1.21.5+的多个Minecraft版本，并对应不同的DataVersion。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;平台适用&lt;/strong&gt;: 提供Windows安装版和跨平台通用版两种下载形式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Snapshot限制&lt;/strong&gt;: 对于Snapshot版本生成的世界不提供官方支持，可能存在兼容性问题。&lt;/li&gt;  
+      <title>ageerle/ruoyi-ai</title>
+      <link>https://github.com/ageerle/ruoyi-ai</link>
+      <description>&lt;p&gt;概要: RuoYi AI 是一个全栈式企业级AI开发平台，提供多模型接入、RAG技术、知识图谱构建和AI流程编排等核心能力，支持快速构建和部署个性化AI应用，并集成主流AI平台，兼具灵活部署与数据安全，同时具备AI创作工具与统一的聊天接口，适用于多样化的业务场景。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多模型与平台支持&lt;/strong&gt;：兼容 OpenAI GPT-4、Azure、ChatGLM、通义千问等主流模型，并深度集成 FastGPT、扣子(Coze)、DIFY 等AI应用平台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;本地化RAG方案&lt;/strong&gt;：基于 Langchain4j 和中文向量模型 BGE-large-zh-v1.5，支持多种向量数据库，实现私有知识库与数据安全可控。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI创作与交互能力&lt;/strong&gt;：集成AI绘画、智能PPT生成和多模态理解功能，提供数字人交互及基于知识图谱的智能推理引擎。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活技术架构&lt;/strong&gt;：采用 Spring Boot + Spring AI + Langchain4j 作为后端，Vue 3 + Vben Admin + Naive UI 作为前端，具备完善的系统监控与通信机制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源协作与生态支持&lt;/strong&gt;：采用MIT开源协议，鼓励社区贡献，并与多家云服务商合作，提供算力与模型API资源。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/Querz/mcaselector</guid>
+      <guid>https://github.com/ageerle/ruoyi-ai</guid>
     </item>
     <item>
-      <title>JabRef/jabref</title>
-      <link>https://github.com/JabRef/jabref</link>
-      <description>&lt;p&gt;概要: JabRef 是一款开放源代码、跨平台的文献管理工具，专为管理 BibTeX 和 BibLaTeX 格式的参考文献数据库而设计，提供从文献收集、组织、引用到团队协作的全流程支持。&lt;/p&gt;  
+      <title>opensearch-project/OpenSearch</title>
+      <link>https://github.com/opensearch-project/OpenSearch</link>
+      <description>&lt;p&gt;概要: OpenSearch 是一个开源、企业级的分布式搜索与可观测性平台，专为管理大规模非结构化数据设计，整合了部分 Apache 授权的 Elasticsearch 代码及其他开源组件，并通过社区协作机制提供支持与安全保障。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台且开源&lt;/strong&gt;：JabRef 是一个开放源代码、支持多平台的文献管理工具，适用于各类研究人员。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;强大的文献检索与导入功能&lt;/strong&gt;：支持从多个学术数据库（如 Google Scholar、CrossRef、arXiv）自动获取文献信息，并兼容超过 15 种参考文献格式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活的组织与管理&lt;/strong&gt;：允许通过标签、搜索关键词或自定义规则对文献进行分类与排序，并提供高级搜索和去重功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;与写作工具深度集成&lt;/strong&gt;：支持在 Emacs、LyX 等编辑器中实现“边写边引”的功能，并可与 Word 和 LibreOffice 无缝集成。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;团队协作与共享便捷&lt;/strong&gt;：文献库以简单文本文件形式存储，便于版本控制与共享，还支持通过 SQL 数据库同步团队文献资料。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;企业级开源架构&lt;/strong&gt;：基于分布式和 RESTful 设计，具备处理海量非结构化数据的能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区支持与协作&lt;/strong&gt;：提供文档、论坛、Slack 等资源，并明确贡献者责任与维护规范。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全机制&lt;/strong&gt;：要求通过专用邮箱报告安全问题，禁止在 GitHub 公开提交漏洞。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;许可证与版权&lt;/strong&gt;：遵循 Apache v2.0 许可证，代码版权归属 OpenSearch 贡献者及 Elasticsearch B.V.。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;商标声明&lt;/strong&gt;：OpenSearch 为 LF Projects, LLC 注册商标，ELASTICSEARCH 为 Elasticsearch B.V. 注册商标。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/JabRef/jabref</guid>
+      <guid>https://github.com/opensearch-project/OpenSearch</guid>
     </item>
     <item>
-      <title>FabricMC/fabric-example-mod</title>
-      <link>https://github.com/FabricMC/fabric-example-mod</link>
-      <description>&lt;p&gt;概要: 该文本提供了一个Fabric模组的示例，包含设置指导和版权信息，强调其开源性质及可自由学习与应用的灵活性。&lt;/p&gt;  
+      <title>dbeaver/dbeaver</title>
+      <link>https://github.com/dbeaver/dbeaver</link>
+      <description>&lt;p&gt;概要: DBeaver是一款跨平台的开源数据库工具和SQL客户端，提供丰富的功能包括数据编辑、AI代码生成、数据迁移及可视化等，支持超过100种数据库驱动（含JDBC/ODBC），同时推出了CloudBeaver网页版实现云数据库管理，满足开发者、管理员及企业用户多样化的数据库操作需求。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;提供Fabric模组示例&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;设置说明需参考对应IDE的文档&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模组模板采用CC0许可协议&lt;/strong&gt;&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;允许学习与应用于个人项目&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全平台兼容性&lt;/strong&gt;：基于Java开发，支持Windows、macOS、Linux等系统，并可通过JDBC/ODBC适配几乎所有的数据库。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;企业级功能扩展&lt;/strong&gt;：社区版提供基础数据库管理功能，专业版支持非JDBC数据源（如MongoDB、Cassandra）及扁平文件数据库（CSV、Parquet），并包含官方技术支持。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI智能化集成&lt;/strong&gt;：支持OpenAI和Copilot实现智能代码补全与生成，提升开发效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化架构设计&lt;/strong&gt;：采用OSGI+Eclipse RCP框架，区分模型与UI插件，实现核心功能在DBeaver与CloudBeaver间的复用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;活跃开源社区&lt;/strong&gt;：开放源代码，提供GitHub早期访问版本及贡献奖励机制，吸引开发者参与生态共建。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/FabricMC/fabric-example-mod</guid>
+      <guid>https://github.com/dbeaver/dbeaver</guid>
     </item>
     <item>
-      <title>openjdk/jdk</title>
-      <link>https://github.com/openjdk/jdk</link>
-      <description>&lt;p&gt;概要: 本文提供JDK主分支开发的欢迎信息，明确指引开发者通过在线文档或指定文件（building.html/md）获取构建指南，并指向OpenJDK社区主页与问题跟踪系统，便于了解项目动态与参与协作。&lt;/p&gt;  
+      <title>MeteorDevelopment/meteor-client</title>
+      <link>https://github.com/MeteorDevelopment/meteor-client</link>
+      <description>&lt;p&gt;概要: 该文本介绍了Minecraft Fabric实用模组Meteor，专为无政府服务器设计，包含构建安装指南、贡献规范、开源许可条款及捐赠激励机制，强调代码需遵循GPLv3许可证并公开源代码，同时通过GitHub Issue Tracker反馈问题和建议，捐赠可获得Discord角色及游戏披风奖励。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;构建指南获取途径&lt;/strong&gt;: 优先推荐在线文档，次选building.html（HTML格式）或building.md（Markdown格式）文件。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区与项目信息&lt;/strong&gt;: 通过https://openjdk.org/了解OpenJDK社区架构、项目进展及核心资源。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;问题跟踪系统&lt;/strong&gt;: 使用https://bugs.openjdk.org进行JDK相关issue的提交与跟踪。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本迭代与开发流程&lt;/strong&gt;: 强调主分支开发的持续集成特性及版本更新机制。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;文档与资源定位&lt;/strong&gt;: 提供清晰的文档访问路径，确保开发者快速获取所需信息。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;项目定位&lt;/strong&gt;: Minecraft Fabric实用模组Meteor，适用于无政府服务器环境，提供功能扩展与优化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;贡献要求&lt;/strong&gt;: 所有拉取请求需符合代码规范（如GPLv3开源条款、避免提交IDE文件、遵循Google Java风格指南）及功能兼容性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;商业使用限制&lt;/strong&gt;: 禁止将项目代码用于闭源或混淆应用，需公开修改后的源代码并明确标注来源。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;捐赠激励&lt;/strong&gt;: 捐赠用于支付托管成本，最低€5可获Discord角色和可定制游戏披风，需绑定Meteor账户及Minecraft/Discord账号。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;问题反馈机制&lt;/strong&gt;: 要求通过GitHub Issue Tracker提交问题及建议，并提供详细信息以提高解决效率。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/openjdk/jdk</guid>
-    </item>
-    <item>
-      <title>apache/cassandra</title>
-      <link>https://github.com/apache/cassandra</link>
-      <description>&lt;p&gt;概要: Apache Cassandra 是一个高度可扩展的分布式行存储系统，采用分片机制实现数据在多台机器上的透明分布，并支持自动重新分片。其结构类似于关系型数据库，通过主键组织数据，使用与 SQL 类似的 Cassandra Query Language（CQL）进行数据操作，适合构建高可用、可伸缩的数据存储解决方案。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;高度可扩展的分布式行存储系统&lt;/strong&gt;：Cassandra 支持跨多台机器的数据存储与分发，并能自动调整分片以适应集群变化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;基于主键组织数据&lt;/strong&gt;：类似于关系型数据库，Cassandra 通过主键将数据组织为行和列，提供高效的查询能力。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持 CQL（Cassandra Query Language）&lt;/strong&gt;：CQL 与 SQL 类似，但去除了连接和子查询功能，增加了集合类型的支持。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;一键启动单节点集群&lt;/strong&gt;：通过解压安装包并运行启动脚本可快速搭建单节点集群，便于快速测试和开发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区与支持资源丰富&lt;/strong&gt;：提供 Slack 频道、邮件列表和官方网站的开发与用户文档，便于参与和贡献。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/apache/cassandra</guid>
+      <guid>https://github.com/MeteorDevelopment/meteor-client</guid>
     </item>
   </channel>
 </rss>
