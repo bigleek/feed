@@ -8,15 +8,15 @@
     <item>
       <title>Blaizzy/mlx-audio</title>
       <link>https://github.com/Blaizzy/mlx-audio</link>
-      <description>&lt;p&gt;概要: MLX-Audio 是一个基于 Apple MLX 框架构建的文本到语音（TTS）、语音到文本（STT）及语音到语音（STS）库，专为 Apple Silicon（M 系列芯片）优化，提供快速推理、多语言支持、语音定制、可调节语速及交互式 3D 音频可视化功能，并支持通过 REST API 和 Web 界面进行语音生成与转换。&lt;/p&gt;
+      <description>&lt;p&gt;概要: MLX-Audio 是一个基于 Apple MLX 框架的 TTS、STT 和 STS 库，专为 Apple Silicon 设备优化，提供快速推理、多语言支持、语音自定义、3D 音频可视化及 REST API 等功能，适用于 Python 和 Swift 开发，并支持模型量化和流式音频生成。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;基于 Apple MLX 框架的 TTS/STS 工具&lt;/strong&gt;：提供高效且兼容的语音分析与合成能力，专为 Apple Silicon 设备优化。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;丰富的语音定制与多语言支持&lt;/strong&gt;：包括多种语音预设和语言选项（如美式英语、英式英语、日语、中文），支持自定义声音风格。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;交互式 3D 音频可视化与 Web 界面&lt;/strong&gt;：通过 Web 界面实现实时音频可视化，提升用户体验和交互性。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;REST API 支持与灵活部署&lt;/strong&gt;：提供与 OpenAI API 兼容的 REST 接口，支持服务端运行并可通过命令行参数灵活配置。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;模型量化与性能优化&lt;/strong&gt;：支持模型量化以提高推理效率和资源利用率，适用于移动和嵌入式场景。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基于 Apple MLX 框架&lt;/strong&gt;，专为 Apple Silicon 设备优化，提供高效语音处理能力。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持 TTS、STT 和 STS&lt;/strong&gt;，具备多语言识别与生成，以及语音自定义和速度调节功能。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供交互式 Web 界面&lt;/strong&gt; 和 REST API，支持实时音频可视化与自动文件管理。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持 Python 和 Swift 开发&lt;/strong&gt;，涵盖命令行使用、集成开发环境（IDE）API 调用及 Swift 包依赖。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;具备模型量化和流式音频生成能力&lt;/strong&gt;，优化性能并支持实时音频处理与输出。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Blaizzy/mlx-audio</guid>
@@ -24,14 +24,14 @@
     <item>
       <title>usestrix/strix</title>
       <link>https://github.com/usestrix/strix</link>
-      <description>&lt;p&gt;概要: Strix 是一个开源的 AI 安全工具，能够模拟真实黑客行为，通过动态执行代码、生成漏洞验证证明（PoCs）和实时报告，帮助开发团队快速、精准地识别并修复应用程序中的安全问题，同时支持与 GitHub Actions 等 CI/CD 工具无缝集成，实现自动化安全测试。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Strix 是一款开源的 AI 安全工具，通过自主的 AI 代理模拟真实黑客行为，提供动态代码分析、漏洞验证和攻击证明，旨在为开发者和安全团队提供高效、精准且减少误报的自动化安全测试方案，支持本地与云平台部署，并可无缝集成到 CI/CD 流程中以提升应用安全性。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Strix 作为开源 AI 安全代理，提供自动化漏洞检测与验证能力&lt;/strong&gt;，能够像真实黑客一样执行攻击并生成实际 PoCs。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持与 CI/CD 流程集成&lt;/strong&gt;，可在每次 Pull Request 中自动扫描代码，防止不安全代码进入生产环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;具备开发者友好的 CLI 工具&lt;/strong&gt;，提供可操作的漏洞报告及自动修复建议，提升安全修复效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;覆盖全面的漏洞检测类型&lt;/strong&gt;，包括访问控制、注入攻击、服务器端与客户端漏洞、业务逻辑缺陷等。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多种运行模式&lt;/strong&gt;，包括本地测试、黑盒/灰盒测试以及无界面的 Headless 模式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;自主 AI 代理执行安全测试&lt;/strong&gt;：Strix 通过 AI 代理动态运行代码，识别并验证漏洞，提供真实攻击证明（PoCs），替代传统人工渗透测试和静态分析工具的误报问题。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 CI/CD 集成&lt;/strong&gt;：可部署于 GitHub Actions 等平台，实现每个 Pull Request 的自动漏洞扫描，防止不安全代码进入生产环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;云平台与本地部署灵活选择&lt;/strong&gt;：提供托管云平台 usestrix.com 以简化部署流程，同时支持本地环境运行，满足不同团队需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全面的漏洞检测覆盖&lt;/strong&gt;：涵盖访问控制、注入攻击、服务器端漏洞、客户端漏洞、业务逻辑错误、认证缺陷及基础设施配置问题等多类安全风险。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发者友好的 CLI 工具&lt;/strong&gt;：内置直观的命令行界面，生成可操作的报告并支持自动修复，加快漏洞修复流程。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/usestrix/strix</guid>
@@ -39,15 +39,15 @@
     <item>
       <title>thinking-machines-lab/tinker-cookbook</title>
       <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
-      <description>&lt;p&gt;概要: Tinker 提供了两个核心库——tinker 和 tinker-cookbook——助力研究人员和开发者高效定制和训练语言模型。tinker 是一个训练 SDK，通过 API 接口简化分布式训练流程，而 tinker-cookbook 提供了丰富的代码示例与抽象工具，涵盖监督学习、强化学习、对话训练、数学推理、偏好学习、工具使用、提示蒸馏和多智能体优化等多个场景，便于快速构建和实验不同的训练环境。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Tinker 提供了两个核心库 tinker 和 tinker-cookbook，旨在帮助研究者和开发者更高效地自定义和微调语言模型，前者为训练 SDK，后者包含多种训练范式的示例和实用工具，简化了模型调整和评估流程。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提供 tinker 和 tinker-cookbook 两个核心库&lt;/strong&gt;，分别用于底层训练 SDK 和上层训练环境定制。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多种训练范式&lt;/strong&gt;，包括监督学习、强化学习、偏好学习以及工具使用等复杂任务。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;简化分布式训练流程&lt;/strong&gt;，用户只需发送 API 请求，Tinker 将处理底层训练复杂性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;包含实用工具模块&lt;/strong&gt;，如渲染器、超参数工具和评估接口，提升训练与评估效率。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;鼓励社区贡献&lt;/strong&gt;，项目基于开放科学理念，欢迎在私有测试阶段后提交 PR 和反馈。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tinker 提供 tinker 和 tinker-cookbook 两个库&lt;/strong&gt;，分别用于模型训练和环境定制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tinker 是一个训练 SDK&lt;/strong&gt;，允许用户通过 API 请求进行分布式训练，减轻了开发复杂性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tinker Cookbook 包含多种训练范式的示例&lt;/strong&gt;，如监督学习、强化学习、偏好学习等，并提供详细实现与性能预期。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;项目鼓励社区贡献&lt;/strong&gt;，在私有测试阶段后接受 PR 提交，并欢迎反馈以促进协作开发。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供实用工具支持训练与评估&lt;/strong&gt;，包括参数计算、模型权重下载、评估抽象和与 InspectAI 集成。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/thinking-machines-lab/tinker-cookbook</guid>
@@ -55,14 +55,15 @@
     <item>
       <title>lzhoang2801/OpCore-Simplify</title>
       <link>https://github.com/lzhoang2801/OpCore-Simplify</link>
-      <description>&lt;p&gt;概要: OpCore Simplify是一款专为简化OpenCore EFI配置而设计的工具，通过自动化核心设置流程和标准化配置，显著降低Hackintosh安装的复杂性。它支持从macOS High Sierra到Tahoe的版本，以及广泛兼容的硬件组件（包括多代Intel/AMD CPU和GPU），并集成自动更新功能以确保使用最新bootloader和kexts。尽管提供便捷性，用户仍需依赖官方指南验证信息、自行测试配置及参与社区反馈，以确保安装稳定性和合规性。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;差异化功能&lt;/strong&gt;：唯一支持基于完整硬件配置（而非预定义选项）构建OpenCore EFI的工具，确保高度定制化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;自动更新机制&lt;/strong&gt;：在每次构建前自动检查并更新OpenCorePkg及kexts，提升时效性与安全性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;深度ACPI优化&lt;/strong&gt;：自动生成补丁及驱动，集成SSDTTime处理常见问题，支持HEDT系统与PCI设备屏蔽。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;用户自主验证要求&lt;/strong&gt;：强调需通过社区与官方文档交叉验证信息，自行测试配置以规避潜在风险。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安装后补丁管理&lt;/strong&gt;：需手动应用OpenCore Legacy Patcher补丁，并针对AMD GPU调整启动参数以确保图形加速功能。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: OpCore Simplify 是一款专为简化 Hackintosh 配置而设计的工具，基于用户的完整硬件信息自动生成 OpenCore EFI，提供自动化的 ACPI 修补和 kext 集成，支持广泛的硬件和 macOS 版本，并通过智能配置降低手动操作复杂度，助力用户更高效、准确地完成安装。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基于全硬件配置生成 OpenCore EFI&lt;/strong&gt;：OpCore Simplify 是唯一能够根据用户真实硬件信息自动生成 EFI 的工具，区别于其他依赖预设选项的解决方案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动处理 ACPI 修补与 kext 集成&lt;/strong&gt;：工具可自动检测硬件并添加针对不同组件的 ACPI 修补和 kext，涵盖 GPU、CPU、蓝牙、网络等关键部分，提升兼容性和稳定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持广泛的硬件和 macOS 版本&lt;/strong&gt;：支持从 Intel 和 AMD 不同代 CPU 到多个 GPU 系列，以及 macOS High Sierra 到 Tahoe，确保广泛的适用性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提供灵活的自定义选项&lt;/strong&gt;：用户可在默认设置基础上进一步手动调整 ACPI 修补、kext 加载及 SMBIOS 配置，满足个性化需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强调社区与官方文档的重要性&lt;/strong&gt;：提醒用户避免依赖 AI/LLM 提供的 Hackintosh 信息，应优先参考 Dortania 指南及社区反馈以确保准确性。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/lzhoang2801/OpCore-Simplify</guid>
@@ -70,15 +71,15 @@
     <item>
       <title>Zie619/n8n-workflows</title>
       <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>&lt;p&gt;概要: 这是一个全面的 n8n 自动化工作流集合，提供超过 4,300 个生产就绪的工作流，支持多平台 Docker 部署和快速搜索功能，拥有现代化界面与增强的安全性，便于用户在线浏览、下载和定制。&lt;/p&gt;
+      <description>&lt;p&gt;概要: n8n Workflow Collection 是一个拥有超过4,300个生产就绪工作流的自动化平台，提供安全增强、高性能搜索、现代界面设计以及便捷的在线访问与本地/容器化部署方式，支持多种过滤选项和丰富的文档资源，鼓励社区贡献并采用MIT许可证开源。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;全面的工作流集合&lt;/strong&gt;：包含 4,343 个生产就绪的 n8n 工作流，覆盖 15 个类别和 365 种独特集成。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;高性能与优化&lt;/strong&gt;：通过 SQLite FTS5 实现 100 倍更快的搜索速度，内存占用低于 50MB，且体积仅为原版本的 700 分之一。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;增强的安全性&lt;/strong&gt;：已完成全面安全审计并修复所有 CVE，具备路径穿越防护、输入验证、CORS 保护及非 root 容器用户等安全机制。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;便捷的部署方式&lt;/strong&gt;：支持本地 Python 安装与 Docker 部署，提供一键启动和跨平台兼容性（Linux/amd64 和 Linux/arm64）。&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;用户友好与可扩展性&lt;/strong&gt;：提供直观的在线界面、移动端支持及多种过滤选项（如类别、复杂度、触发类型），并鼓励社区贡献与协作。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;全面的自动化工作流集合&lt;/strong&gt;: 包含4,343个生产就绪工作流，覆盖365种服务集成，分类清晰，且导入成功率高达100%。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;显著提升的性能与安全性&lt;/strong&gt;: 通过SQLite FTS5实现100倍更快的搜索响应，内存使用低于50MB，同时完成完整安全审计并修复所有CVE漏洞。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;多平台部署支持&lt;/strong&gt;: 支持本地安装、Docker部署及GitHub Pages在线访问，提供灵活的使用方式。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;现代且可定制的用户界面&lt;/strong&gt;: 支持暗色/亮色模式，具备移动端适配，界面完全重设计，提升用户体验。&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;完善的开发与协作机制&lt;/strong&gt;: 提供详细的文档、丰富的API接口、贡献指南及社区支持，便于开发者参与和维护项目。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Zie619/n8n-workflows</guid>
@@ -86,15 +87,14 @@
     <item>
       <title>Free-TV/IPTV</title>
       <link>https://github.com/Free-TV/IPTV</link>
-      <description>&lt;p&gt;概要: 该文本介绍了M3U播放列表的构建原则与使用方法，旨在提供全球范围内免费、高质量且无偏见的电视频道资源，支持通过有线、无线或互联网获取，并强调频道需为公众免费提供且符合内容规范。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;仅收录免费电视频道&lt;/strong&gt;：所有频道必须通过官方免费渠道（如DVB-S、DVB-T、模拟信号等）提供，排除任何付费订阅内容。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;内容政策限制&lt;/strong&gt;：不包含成人内容、宗教频道、政治频道及由外国资助的国家频道，确保内容的广泛适用性和中立性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;频道筛选标准&lt;/strong&gt;：优先选择高清频道，避免多URL、区域变体及无效流，确保播放列表的简洁性和稳定性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;更新与维护规则&lt;/strong&gt;：通过Pull Request进行频道的添加、修改或删除，而非创建Issue，且仅允许修改.md文件，不直接更改.m3u8文件。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;标识与分类机制&lt;/strong&gt;：使用符号标记频道状态（如HD、GeoIP限制、YouTube直播等），并通过Invalid类别区分无法正常播放的频道。&lt;/li&gt;
+      <description>&lt;p&gt;概要: 该M3U播放列表专注于收录全球范围内的免费电视频道，涵盖本地免费（如DVB-S/T/模拟信号）与网络免费（如Pluto TV、YouTube直播等）渠道，强调以质量优先于数量的原则筛选内容，要求所有频道必须为官方免费且符合主流受众需求，同时排除成人、宗教、政治等特定主题，并通过明确的维护规范确保URL的有效性与合规性。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;全球免费频道整合&lt;/strong&gt;：覆盖本地广播与互联网平台，包含Plex TV、Pluto TV、YouTube等主流免费资源。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;严格筛选标准&lt;/strong&gt;：仅收录官方免费渠道（如DVB-S/T/模拟信号），排除付费订阅或受公共税限制的内容。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;内容质量优先&lt;/strong&gt;：限制频道数量，优先选择高清（HD）且无地域分播标识的单一URL来源。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;维护流程规范&lt;/strong&gt;：仅通过Pull Request修改频道列表，禁止直接编辑M3U文件或提交Issue请求变更。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;无效与受限渠道标注&lt;/strong&gt;：使用符号标记非HD频道（Ⓡ）、地理封锁内容（Ⓟ）及直播频道（Ⓢ），无效渠道需明确标注并替换URL前缀。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Free-TV/IPTV</guid>
@@ -102,14 +102,14 @@
     <item>
       <title>OpenHands/OpenHands</title>
       <link>https://github.com/OpenHands/OpenHands</link>
-      <description>&lt;p&gt;概要: OpenHands 是一款由 AI 驱动的软件开发平台（原名 OpenDevin），能够模拟人类开发者完成代码修改、命令执行、网页浏览、API 调用甚至从 StackOverflow 复用代码片段等任务，通过 OpenHands Cloud 提供免费信用额度和简化部署，同时支持本地运行（CLI 或 Docker 方式），但需注意其不适用于多租户环境且缺乏内置安全机制，适合单用户开发场景，平台强调社区协作与开源贡献，并提供完整文档和月度技术路线图。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: OpenHands是一款由AI驱动的软件开发平台，旨在通过自动化工具减少编码工作量并提升开发效率，其功能涵盖代码修改、命令执行、网页浏览、API调用及从StackOverflow复制代码片段。用户可通过OpenHands Cloud快速启动并获得$10免费信用，或本地部署使用CLI或Docker方式，但需注意平台仅适用于单用户环境，且在公共网络下需加强安全措施。平台提供详细文档、社区支持及多租户部署方案，以满足不同场景需求。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;AI 开发代理能力&lt;/strong&gt;: 支持代码编辑、命令执行、API 调用等全栈开发操作，可复用公开代码片段。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;两种部署方式&lt;/strong&gt;: OpenHands Cloud 提供免费信用额度及托管服务，本地运行需通过 CLI 或 Docker 实现，后者需 uv 工具链确保环境隔离。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多租户限制&lt;/strong&gt;: 不适用于共享实例的多用户部署，无内置认证、隔离或扩展性功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安全注意事项&lt;/strong&gt;: 公共网络部署需参考强化 Docker 安装指南，限制网络绑定并增加安全措施。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区与开源生态&lt;/strong&gt;: 基于 MIT 许可证开发，支持贡献者协作并通过 Slack 和 GitHub 参与，提供完整技术文档和引用信息。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;平台定位&lt;/strong&gt;: 替代原有OpenDevin，作为AI软件开发代理的通用平台，支持开发者完成各类编程任务。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;核心功能&lt;/strong&gt;: 与人类开发者能力相当，可执行代码编辑、API调用、网站浏览及复制开源代码片段等操作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;部署方案&lt;/strong&gt;: 提供云服务（含免费信用）和本地部署（CLI/Docker）两种方式，本地部署需注意虚拟环境隔离与安全配置。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全限制&lt;/strong&gt;: 明确声明不适用于多租户场景，且未内置认证与规模化能力，公共网络部署需参考强化指南。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区与文档&lt;/strong&gt;: 通过Slack和GitHub进行协作，提供完整文档、开源组件清单及月度开发路线图。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/OpenHands/OpenHands</guid>
@@ -117,15 +117,14 @@
     <item>
       <title>AtsushiSakai/PythonRobotics</title>
       <link>https://github.com/AtsushiSakai/PythonRobotics</link>
-      <description>&lt;p&gt;概要: PythonRobotics 是一个集成了多种机器人算法的 Python 开源项目，包含示例代码与教材，涵盖定位、地图构建、SLAM、路径规划、路径跟踪、机械臂导航、空中导航及双足行走等多个领域，适用于教学与研究，并提供详细的文档、动画演示和多种依赖库的安装指南，旨在帮助开发者高效理解和实现机器人相关算法。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;全面的机器人算法集合&lt;/strong&gt;：包含定位、地图构建、SLAM、路径规划、路径跟踪、机械臂、空中导航、双足行走等模块，适用于教学与实际应用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;教学与实践结合&lt;/strong&gt;：项目不仅提供代码，还配有详细教材，便于理解每个算法的核心思想与实现细节。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多种依赖支持&lt;/strong&gt;：运行需 Python 3.13、NumPy、SciPy、Matplotlib 和 cvxpy，开发则支持 pytest、mypy、sphinx 等工具。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;丰富的可视化资源&lt;/strong&gt;：提供动画 GIF 用于展示算法运行过程，增强理解与演示效果。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开源与社区支持&lt;/strong&gt;：采用 MIT 许可证，欢迎贡献与支持，且有 JetBrains 和 1Password 提供赞助。&lt;/li&gt;
+      <description>&lt;p&gt;概要: PythonRobotics 是一个开源项目，提供了一系列用于机器人算法的 Python 代码示例与教科书，涵盖定位、建图、SLAM、路径规划、路径跟踪、机械臂导航、无人机和双足机器人等多个领域，支持从基础算法到高级优化方法的实现，并提供了丰富的文档资源和交互式示例，便于学习和研究。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;功能全面&lt;/strong&gt;: 包含定位、建图、SLAM、路径规划、路径跟踪等机器人算法的实现，适用于多种应用场景。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;代码与理论结合&lt;/strong&gt;: 提供代码示例与配套教材，便于理解算法原理并实现。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;低依赖易部署&lt;/strong&gt;: 支持通过 pip 或 conda 安装依赖，适合快速开发与测试。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可视化支持&lt;/strong&gt;: 提供动画 GIF 以展示算法运行结果，直观理解算法行为。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区与支持&lt;/strong&gt;: 有明确的贡献指南、引用规范及赞助渠道，鼓励开源协作与项目支持。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/AtsushiSakai/PythonRobotics</guid>
@@ -133,15 +132,15 @@
     <item>
       <title>sansan0/TrendRadar</title>
       <link>https://github.com/sansan0/TrendRadar</link>
-      <description>&lt;p&gt;概要: TrendRadar 是一款基于 MCP 协议的智能舆情监控工具，可聚合35个平台的实时热点新闻，提供智能关键词筛选、多模式推送（30秒网页部署/1分钟手机通知）及13种AI分析功能，支持企业微信、飞书、邮件等多渠道实时推送，结合排名权重算法（60%排名+30%出现频率+10%热度）自动生成趋势报告并自动推送，无需编程，同时支持Docker部署和自托管方案，兼顾数据隐私与高效信息筛选。&lt;/p&gt;
+      <description>&lt;p&gt;概要: TrendRadar 通过聚合抖音、知乎、微博等35个平台热点，结合基于MCP协议的AI分析工具，实现智能筛选、自动推送和深度舆情监控，支持企业微信、邮件、Telegram等多渠道实时推送，仅需30秒网页部署或1分钟手机通知即可快速获取精准热点信息，且提供8种工具联动的关键词管理、时间窗口推送控制及自定义权重分配功能，助力用户摆脱信息过载，高效追踪新闻趋势与数据价值。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;35平台多源聚合&lt;/strong&gt;：覆盖抖音、知乎、B站、华尔街见闻等平台，通过config.yaml子模块化管理平台配置&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MCP协议AI分析&lt;/strong&gt;：集成自然语言交互系统，支持趋势追踪、情感分析、跨平台对比等13种深度分析工具&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;智能权重算法&lt;/strong&gt;：通过rank/frequency/hotness三维度动态排序，适配实时追踪与深度研究场景需求&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;零门槛部署方案&lt;/strong&gt;：提供30秒网页部署/1分钟企业微信推送，支持Docker多架构运行和自托管模式&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;固化推送策略&lt;/strong&gt;：新增时间窗口控制（当日汇总/工作时间提醒/晚间推送等）+关键词词组语法（+必须词/!过滤词）精准筛选&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP智能分析引擎&lt;/strong&gt;：集成13种AI工具（趋势追踪、情感分析、相似检索等），支持自然语言对话式查询，可替代平台算法实现主动信息获取&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35平台全量监控&lt;/strong&gt;：覆盖社交、财经、资讯等全场景，支持自定义添加平台配置，核心数据来源于newsnow API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;零门槛部署方案&lt;/strong&gt;：提供GitHub Fork和Docker两种方式，30秒完成网页部署，1分钟完成企业微信推送，多端自动适配&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动态权重筛选算法&lt;/strong&gt;：通过rank/frequency/hotness三类参数可配置(60%/30%/10%)，满足实时热点追踪与深度趋势分析双重需求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多渠道分批推送&lt;/strong&gt;：支持6种通知方式，针对超限内容自动分割推送，业务场景适配度达90%以上&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/sansan0/TrendRadar</guid>
@@ -149,15 +148,14 @@
     <item>
       <title>microsoft/call-center-ai</title>
       <link>https://github.com/microsoft/call-center-ai</link>
-      <description>&lt;p&gt;概要: 该文本介绍了一个基于Azure和OpenAI GPT的AI驱动的智能电话客服系统，支持自动拨打电话、实时语音与文本转换、多语言及个性化语音配置，结合了RAG技术来处理内部文档与敏感信息，具备呼叫记录、自动化提醒以及可定制的客户数据结构。此外，系统可通过API调用或预配置电话号码启动，并支持本地与云端部署，具备高可扩展性、低维护成本及优化的响应延迟策略，旨在提供24/7全天候服务，提升客户体验与业务效率。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AI驱动的电话客服系统&lt;/strong&gt;：使用Azure和OpenAI GPT构建，支持自动化、实时音视频交互、多语言及个性化语音配置。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;高可定制化与可扩展性&lt;/strong&gt;：支持自定义客户数据结构、任务目标、语音策略以及声音质量，便于快速适配业务需求。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;增强的AI功能与安全合规&lt;/strong&gt;：集成gpt-4.1和gpt-4.1-nano模型，确保对敏感数据的处理符合安全标准并实现智能过滤和内容合规。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;云端部署与资源优化&lt;/strong&gt;：采用Azure的容器化与无服务器架构，实现弹性扩展与成本优化，支持快速迭代与改进。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;完善的监控与测试机制&lt;/strong&gt;：系统通过Azure Application Insights监控性能，支持单元测试、日志追踪、A/B测试和基础设施即代码（IaC），确保稳定性和可维护性。&lt;/li&gt;
+      <description>&lt;p&gt;概要: 该解决方案提供了一种基于Azure和OpenAI GPT的AI驱动呼叫中心系统，支持通过API或预配置电话号码发起智能电话呼出，可处理保险、IT支持、客户服务等场景，并具备实时语音交互、多语言支持和语音识别与合成能力，能够自主收集客户信息并生成提醒，同时支持自定义语音、数据结构及对话逻辑，确保高质量、可拓展的客户体验。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;AI驱动的呼叫中心&lt;/strong&gt;: 集成Azure与OpenAI GPT，支持智能语音交互，实现24/7全天候服务。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高度可定制性&lt;/strong&gt;: 包括语言、语音、数据采集结构及任务目标的灵活配置，提升系统适应不同业务需求的能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;实时流媒体与交互&lt;/strong&gt;: 支持语音实时传输、断线恢复及实时合成，确保流畅的客户沟通体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全性与合规性&lt;/strong&gt;: 采用RAG技术处理敏感数据，支持内容过滤与有害内容检测，符合数据隐私和责任AI标准。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;成本优化与弹性部署&lt;/strong&gt;: 通过Azure的容器化、无服务器架构和按需扩展，实现低成本、高灵活性的资源管理。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/microsoft/call-center-ai</guid>
@@ -165,14 +163,14 @@
     <item>
       <title>MetaCubeX/mihomo</title>
       <link>https://github.com/MetaCubeX/mihomo</link>
-      <description>&lt;p&gt;概要: 该文本介绍了一个基于Python Pydantic模型的工具，用于解析《幻塔：星 rail》游戏数据，支持从Mihomo API获取玩家信息及角色数据，并提供了两种数据格式（V1和V2）以及数据去重、合并和持久化功能，便于开发者高效处理与展示游戏相关数据。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 该项目提供了一套基于Pydantic模型的Python解决方案，用于从Mihomo API解析《幻塔：星穹铁道》用户的实时数据，支持两种版本的数据结构（V1和V2），包含角色数据去重、合并及持久化功能，同时通过类型提示和自动补全提升开发效率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;提供两种数据解析格式（V1和V2）&lt;/strong&gt;，分别对应不同的API版本和数据结构。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持图标URL替换&lt;/strong&gt;，可直接获取角色和玩家的资产图片链接，避免重复调用API。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;包含数据处理工具&lt;/strong&gt;，如去重、合并角色数据，提高数据管理效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持数据持久化&lt;/strong&gt;，通过pickle和json格式进行数据的存储与读取。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;集成Type Hint和自动补全&lt;/strong&gt;，提升代码可读性和开发效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;双版本数据解析框架&lt;/strong&gt;：区分V1（需指定version参数，数据模型在mihomo/models/v1目录）和V2（默认版本，数据模型在mihomo/models目录），适应不同API响应结构。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;图标URL自动替换功能&lt;/strong&gt;：通过参数replace_icon_name_with_url=True，直接获取角色资产URL而非依赖额外方法调用，简化图像资源处理。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;数据处理工具集成&lt;/strong&gt;：提供去重（remove_duplicate_character）和合并（merge_character_data）工具，支持跨数据版本的用户角色信息整合与更新。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多格式数据持久化支持&lt;/strong&gt;：兼容JSON和Pickle序列化方式，可压缩存储或别名转换，便于数据缓存与跨平台传输。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化代码结构&lt;/strong&gt;：通过明确的模型分层（v1/主目录）和API客户端封装，实现代码可维护性与扩展性，适配不同开发场景需求。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/MetaCubeX/mihomo</guid>
@@ -180,15 +178,15 @@
     <item>
       <title>yt-dlp/yt-dlp</title>
       <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>&lt;p&gt;概要: yt-dlp是一款支持数千个网站的多功能命令行音频/视频下载工具，其核心特性包括跨平台支持（Windows/macOS/Linux）、格式自定义选择与合并、Subtitles与Cover Art嵌入、SponsorBlock广告段落管理，以及灵活配置和插件扩展。其种子项目基于youtube-dl重构，通过独特的格式排序算法、元数据解析能力及更新机制（支持稳定版、夜间版、主版通道），实现了更高效、更安全的下载体验，并提供多种命令行选项和批量处理功能，适用于复杂媒体格式的提取与转换。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: yt-dlp是一款功能丰富的命令行音频/视频下载工具，支持数千个网站内容的抓取与转换。它基于youtube-dl分支开发，提供更完善的格式排序（优先分辨率与编码器而非比特率）、SponsorBlock广告段落处理、多平台安装方案（含二进制文件、pip包及自定义构建），并配备全面的配置管理及插件扩展机制，可灵活定制下载策略、元数据处理和格式转换规则，同时支持Internet快捷方式、文件系统操作、网络代理等高级功能，通过指定输出模板和格式优先级实现自动化下载与整理。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台核心功能&lt;/strong&gt;: 支持Windows/macOS/Linux多平台运行，提供预编译二进制文件（如yt-dlp.exe、yt-dlp_macos），并兼容Python 3.10+和PyPy 3.11+，依赖ffmpeg/ffprobe实现格式合并，支持HLS/DASH多线程下载。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;智能格式与元数据管理&lt;/strong&gt;: 默认选择最佳画质+音质组合，支持格式排序优先级（如分辨率、码率、容器类型），并能自动嵌入章节信息、时间戳及多语言字幕，可自定义文件命名模板（如%(title)s.%(ext)s）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高级扩展与兼容性&lt;/strong&gt;: 集成SponsorBlock API处理YouTube广告段落，提供插件系统扩展提取器（如-youtube、-twitch），支持从浏览器自动提取凭据，且包含针对ASCII/Unicode文件名的智能转义策略。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;自定义配置与更新机制&lt;/strong&gt;: 支持多级配置文件（用户/系统/便携式），并可透过--update-to切换更新通道（如master/latest），同时允许通过环境变量和sed命令实现配置覆盖和兼容性还原。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安全优化与依赖驱动&lt;/strong&gt;: 内置安全验证（依赖certifi、pycryptodomex），支持通过GPG签名校验文件完整性，且提供独立的JS运行时（Deno/Node.js）及特殊处理（如Brotli编码、隐式IPv4/IPv6切换）。&lt;/li&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;格式智能优化&lt;/strong&gt;: 默认按分辨率和编码器优先级选择最佳格式，而非单纯比特率，支持正则表达式/文件扩展名的格式筛选，提供容器合并、流媒体分段下载等高级操作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SponsorBlock深度集成&lt;/strong&gt;: 可自动标记或移除YouTube视频中的赞助段落，支持自定义分类过滤和章节标题模板，显著提升内容可用性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多渠道更新机制&lt;/strong&gt;: 提供stable/nightly/master三个版本通道，支持通过--update-to切换版本或指定tag，内置自动更新提示和回退策略。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨平台配置系统&lt;/strong&gt;: 自动加载-home/.config/用户目录、系统配置文件等多路径配置，支持UTF-8编码及.netrc自动认证，便于环境参数统一管理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;插件扩展生态&lt;/strong&gt;: 内置支持Extractor和Postprocessor插件，可自定义抓取逻辑和后期处理流程，支持pip安装/路径加载/安全模式等多方式扩展。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/yt-dlp/yt-dlp</guid>
@@ -196,15 +194,15 @@
     <item>
       <title>microsoft/BitNet</title>
       <link>https://github.com/microsoft/BitNet</link>
-      <description>&lt;p&gt;概要: Bitnet.cpp 是一个专为 1 位量化大型语言模型（如 BitNet b1.58）设计的官方推理框架，支持 CPU 和 GPU 上的高效、无损推理，显著提升推理速度和能效，同时具备良好的可扩展性，使 100B 参数模型也能在单个 CPU 上运行。&lt;/p&gt;
+      <description>&lt;p&gt;概要: bitnet.cpp 是 1 位大语言模型（如 BitNet b1.58）的官方推理框架，支持 CPU 和 GPU 上的高效、无损推理，显著提升运行速度并降低能耗，同时为本地设备运行大规模模型提供了新的可能性。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;支持 CPU 和 GPU 推理，未来将支持 NPU&lt;/strong&gt;：bitnet.cpp 首次发布仅支持 CPU 推理，现已推出 GPU 推理内核，未来将进一步扩展至 NPU。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高效且无损的 1.58 位模型推理&lt;/strong&gt;：通过优化的内核实现快速、精度不受损失的 1.58 位模型推理，尤其适用于大模型部署。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;卓越的性能提升与能效优化&lt;/strong&gt;：在 ARM CPU 上可实现 1.37x 到 5.07x 的加速和 55.4% 到 70.0% 的能耗降低；x86 CPU 上加速可达 2.37x 到 6.17x，能效提升高达 82.2%。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;可在单 CPU 上运行超大规模模型&lt;/strong&gt;：能够支持 100B 参数的 BitNet b1.58 模型，推理速度媲美人眼阅读（每秒 5-7 个 token），极大提升了本地设备运行 LLM 的可行性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;模型兼容性和多样性支持&lt;/strong&gt;：支持多种 Hugging Face 1 位 LLM 模型（如 BitNet-b1.58-2B-4T、Llama3-8B-1.58 等），并提供生成假模型的工具以适配不同架构。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bitnet.cpp 是 1-bit LLMs 的官方推理框架&lt;/strong&gt;，专为 BitNet b1.58 等低精度模型设计，提供优化的内核支持快速和无损推理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持 CPU 和 GPU 推理&lt;/strong&gt;，目前 CPU 推理已实现，后续将支持 NPU，且在 ARM 和 x86 架构上分别实现 1.37x 到 6.17x 的推理加速。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;显著降低能耗&lt;/strong&gt;，在 ARM 和 x86 芯片上分别节省 55.4–70.0% 和 71.9–82.2% 的能耗，提升整体计算效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持运行超大规模模型&lt;/strong&gt;，例如 100B 参数的 BitNet b1.58 模型，能在单个 CPU 上以接近人类阅读的速度（5-7 tokens/s）进行推理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提供丰富的模型和工具支持&lt;/strong&gt;，包括多种 Hugging Face 上的 1-bit 模型，以及搭建环境、模型转换、基准测试等完整流程。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/microsoft/BitNet</guid>
@@ -212,14 +210,14 @@
     <item>
       <title>airweave-ai/airweave</title>
       <link>https://github.com/airweave-ai/airweave</link>
-      <description>&lt;p&gt;概要: Airweave 是一个完全开源的上下文检索层，专为 AI 代理设计，能够跨应用和数据库统一管理和检索数据，将其转化为可搜索的知识库，并通过标准化的 REST API 或 MCP 接口提供服务，涵盖身份验证、内容提取、嵌入和结果分发等全流程功能。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Airweave是一款全开源的上下文检索层，专为AI代理设计，可无缝连接应用、数据库及文档存储，将其转化为结构化、可搜索的知识库，并通过标准化的REST API或MCP接口实现高效数据同步与语义检索，支持多租户架构、增量更新及多种搜索模式，兼顾开发便捷性与企业级扩展需求。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;支持跨应用和数据库的数据同步与检索&lt;/strong&gt;，转化为统一的知识库，便于 AI 代理访问与使用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供灵活的搜索方式&lt;/strong&gt;，包括语义搜索、混合搜索、查询扩展与重排序、时间偏倚等高级功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多租户架构与 OAuth2 身份验证&lt;/strong&gt;，确保数据隔离与安全访问。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源且易于部署&lt;/strong&gt;，可通过 Docker Compose 或 Kubernetes 部署，支持 Python 和 TypeScript/JavaScript SDK。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化技术栈&lt;/strong&gt;，涵盖前端（React/TypeScript）、后端（FastAPI）、数据库（PostgreSQL + Qdrant）和任务调度（Temporal + Redis）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全开源跨平台集成&lt;/strong&gt;：支持30+应用及数据库的零配置数据同步，构建统一的知识库管理体系。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多租户与安全架构&lt;/strong&gt;：内置OAuth2认证机制，实现多租户隔离与权限管理，保障数据安全性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;语义搜索与灵活查询模式&lt;/strong&gt;：提供默认语义搜索、混合搜索（语义+关键词）、查询扩展及时效性排序等多样化检索能力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术栈可扩展性&lt;/strong&gt;：采用FastAPI（后端）、PostgreSQL+Qdrant（数据库）、Temporal+Redis（运维）的模块化架构，适配开发与生产环境。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开发者友好生态&lt;/strong&gt;：提供Python/TypeScript SDK、Swagger文档及社区支持渠道，降低集成门槛并促进生态建设。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/airweave-ai/airweave</guid>
@@ -227,14 +225,14 @@
     <item>
       <title>yichuan-w/LEANN</title>
       <link>https://github.com/yichuan-w/LEANN</link>
-      <description>&lt;p&gt;概要: LEANN是一款革命性的向量数据库，通过图结构的按需计算与高效剪枝技术，实现97%的存储节省，使个人设备能够快速、精准地运行完全私有的RAG系统，支持文档、邮件、浏览器历史、聊天记录（微信、iMessage）、实时数据（Slack、Twitter）等多源数据索引与检索，结合CLI工具和AST-aware代码分块技术，为用户提供本地化、可扩展且隐私保护的智能检索解决方案。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: LEANN是一款革命性的向量数据库，通过图结构的按需计算嵌入技术实现97%的存储节省，使个人设备能够高效、私密地构建和搜索包含文档、邮件、浏览器记录、聊天历史及实时数据的RAG系统，支持跨平台数据整合、灵活的LLM兼容性及本地数据主权，为个人AI应用提供轻量级、可扩展且无云依赖的解决方案。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;极致存储效率&lt;/strong&gt;: 通过图结构选择性重计算与高保真剪枝，仅需6GB即可索引6000万文本片段，对比传统方案节省97%存储空间。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;全本地隐私保障&lt;/strong&gt;: 数据全程在设备本地处理，无需云端存储，规避OpenAI等平台的条款约束与数据泄露风险。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多源数据实时检索&lt;/strong&gt;: 支持邮件、浏览器历史、聊天记录、代码库等个人数据源，且通过MCP协议无缝接入Slack、Twitter等平台的实时数据流。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活扩展与轻量化设计&lt;/strong&gt;: 提供CLI命令行工具实现快速索引与搜索，支持自定义分块策略、多后端（HNSW/DiskANN）及跨设备数据迁移。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;代码结构感知检索&lt;/strong&gt;: 针对Python/Java等语言实现AST-aware代码分块，保留函数/类边界信息，显著提升代码理解与上下文关联能力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;极致存储效率&lt;/strong&gt;: 通过高阶保留剪枝与动态嵌入重计算，将6000万文本块存储成本压缩至6GB，相比传统方案节省97%空间。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全本地隐私保障&lt;/strong&gt;: 数据全程不上传云端，支持Chrome、Apple Mail、WeChat等私有数据源，满足敏感信息处理需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模态数据整合&lt;/strong&gt;: 支持PDF/TXT/MD文档、聊天记录、代码库、实时数据（Slack/Twitter）及浏览器历史的统一索引与语义搜索。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;灵活的MCP协议支持&lt;/strong&gt;: 通过标准化Model Context Protocol实现跨平台实时数据接入，可扩展至GitHub、Discord等新兴数据源。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开箱即用的CLI工具链&lt;/strong&gt;: 提供自动化索引构建、多LLM后端适配（OpenAI/Ollama/HuggingFace）及元数据过滤功能，简化研发流程。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/yichuan-w/LEANN</guid>
@@ -242,15 +240,15 @@
     <item>
       <title>jamwithai/arxiv-paper-curator</title>
       <link>https://github.com/jamwithai/arxiv-paper-curator</link>
-      <description>&lt;p&gt;概要: 本项目旨在通过分阶段实战教学，帮助学习者构建一个完整的RAG（检索增强生成）系统，从基础设施搭建到数据自动获取、关键词搜索、语义检索、LLM集成，最终实现监控与缓存优化，掌握企业级AI系统开发的核心技能。&lt;/p&gt; 
+      <description>&lt;p&gt;概要: 该项目“Mother of AI”为学习者提供了一个构建生产级RAG系统（Retrieval-Augmented Generation）的六步实践路径，涵盖从基础设施搭建、数据管道、关键词搜索、语义检索、本地LLM集成与流式响应，到监控与缓存等关键功能，旨在帮助开发者掌握实际应用中RAG技术的完整流程和最佳实践。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;分阶段构建RAG系统&lt;/strong&gt;：通过6周逐步推进，从基础设施到搜索优化再到最终的生产级系统部署，确保每一步都基于实际企业需求。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;强调关键词搜索作为基础&lt;/strong&gt;：在引入语义搜索前，优先构建稳定的BM25关键词检索系统，提升检索的可解释性与效率。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;集成多技术栈实现生产级性能&lt;/strong&gt;：结合FastAPI、PostgreSQL、OpenSearch、Airflow、Ollama、Redis与Langfuse，确保系统的全面性与可扩展性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持实时流式响应与用户界面&lt;/strong&gt;：引入Gradio实现友好的交互界面，并通过流式API提供即时反馈，提升用户体验。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;性能优化与成本控制&lt;/strong&gt;：利用缓存机制与Langfuse监控，显著提升响应速度并减少LLM调用成本，实现60%以上的缓存命中率和性能提升。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强调关键词搜索作为RAG系统的基石&lt;/strong&gt;，通过BM25算法实现高效、可解释的检索，而非直接采用向量搜索。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;采用混合检索策略&lt;/strong&gt;，结合关键字和语义理解，通过RRF融合实现更精准、全面的搜索结果。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集成本地LLM模型与流式响应功能&lt;/strong&gt;，提升性能并提供用户友好的交互界面（如Gradio），适用于生产环境。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生产就绪的监控与缓存机制&lt;/strong&gt;，利用Langfuse和Redis实现完整的追踪、性能优化与成本控制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于容器与微服务架构&lt;/strong&gt;，使用Docker Compose、FastAPI、PostgreSQL、OpenSearch等构建可扩展、可维护的系统。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/jamwithai/arxiv-paper-curator</guid>
