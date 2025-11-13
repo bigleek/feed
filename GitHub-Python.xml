@@ -6,247 +6,79 @@
     <description>Summarized RSS feed for GitHub-Python</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>lzhoang2801/OpCore-Simplify</title>
-      <link>https://github.com/lzhoang2801/OpCore-Simplify</link>
-      <description>&lt;p&gt;概要: OpCore Simplify是一款专为简化OpenCore EFI创建而设计的工具，通过自动化核心设置流程、标准化配置及基于完整硬件信息生成EFI文件，大幅提升Hackintosh安装效率。其独特性在于支持从硬件配置到macOS版本的全链路适配，并集成智能补丁与驱动管理，但需强调用户需结合官方指南和社区验证确保准确性。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;唯一全硬件适配方案&lt;/strong&gt;：区别于其他工具，OpCore Simplify根据用户实际硬件配置和BIOS信息生成EFI，而非依赖预设选项。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;自动化智能补丁系统&lt;/strong&gt;：自动检测硬件并应用ACPI补丁及驱动，集成SSDTTime工具处理常见补丁，含针对HEDT系统、PCI设备禁用等定制化方案。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台支持与自动更新&lt;/strong&gt;：兼容Windows和macOS系统，支持从High Sierra到Tahoe的macOS版本，并在每次构建前自动更新OpenCorePkg及相关驱动。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;深度系统定制能力&lt;/strong&gt;：允许用户自定义GPU/处理器ID、SMBIOS调整、NVRAM配置等，优化iGPU与离散GPU的协同工作模式，适配不同硬件组合。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区验证与风险提示&lt;/strong&gt;：明确提醒用户需优先验证Dortania Guide及社区信息，避免依赖AI生成的不准确内容，并强调安装后需手动测试与调试。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/lzhoang2801/OpCore-Simplify</guid>
-    </item>
-    <item>
-      <title>dgtlmoon/changedetection.io</title>
-      <link>https://github.com/dgtlmoon/changedetection.io</link>
-      <description>&lt;p&gt;概要: changedetection.io 是一款功能全面且高效的网站变更检测工具，支持免费和SaaS订阅模式，可实时监测网页内容、价格波动、库存变化及网站篡改，并通过Discord、Slack等多渠道即时通知。其核心优势在于支持XPath、CSS选择器、JSONPath等高级筛选技术，兼容JavaScript网站与PDF文件追踪，提供灵活的定时监控、代理配置及API集成能力，同时通过Chrome扩展和Docker部署实现零安装便捷使用。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;: 支持Docker部署、Chrome扩展集成及Raspberry Pi等ARM设备，满足多样化的技术环境需求。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;精准数据监测&lt;/strong&gt;: 提供XPath、CSS、JSONPath等多维度筛选工具，可追踪HTML源码、JSON API、PDF文本及结构变化，强化合规与安全监控。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;智能化通知系统&lt;/strong&gt;: 支持Jinja2模板定制、多协议通知（如Discord、Slack、邮件、API回调）及关键词触发机制，实现精准预警。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;业务场景覆盖广&lt;/strong&gt;: 适用于价格监控（含上下限与百分比阈值）、库存管理、政府更新追踪、招聘动态监测及法律文件变更跟踪等高价值场景。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活部署与扩展&lt;/strong&gt;: 提供免费基础功能与$8.99/月订阅方案，支持自定义代理、JS执行前置步骤及API自动化联动，兼顾成本与深度功能。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/dgtlmoon/changedetection.io</guid>
-    </item>
-    <item>
-      <title>microsoft/markitdown</title>
-      <link>https://github.com/microsoft/markitdown</link>
-      <description>&lt;p&gt;概要: MarkItDown 是一个轻量级 Python 工具，专为将 PDF、Word、Excel、图片、音频等多种文件及办公文档转换为 Markdown 格式而设计，支持与 LLM 及文本分析流程集成，具备结构保留、token 效率高，但需注意版本 0.1.0 的依赖管理与接口变更。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;主要功能&lt;/strong&gt;：将文件（PDF、Word、Excel、图片、音频等）及办公文档转换为 Markdown，适配 LLM 和文本分析需求。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;版本更新影响&lt;/strong&gt;：0.1.0 版本引入依赖分组（需 pip install 'markitdown[all]' 保持兼容），convert_stream() 接收二进制对象（非文本），DocumentConverter 接口改为流式读取而非文件路径。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;支持文件类型&lt;/strong&gt;：覆盖文本、非文本格式（如 PDF、PPTX、EPubs），并扩展至 ZIP、YouTube 等场景，具备 OCR、语音转录等辅助功能。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;Markdown 优势&lt;/strong&gt;：接近纯文本、结构保留完整（如标题、表格），符合 LLM 自然处理逻辑，且 token 使用效率高。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区贡献机制&lt;/strong&gt;：提供第三方插件开发示例，需通过 CLA 协议参与，鼓励用户提交 PR 或问题反馈。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/microsoft/markitdown</guid>
-    </item>
-    <item>
-      <title>GibsonAI/Memori</title>
-      <link>https://github.com/GibsonAI/Memori</link>
-      <description>&lt;p&gt;概要: Memori是一款专为LLM、AI代理及多代理系统设计的开源SQL原生内存引擎，通过单一代码指令实现持久化、可查询的记忆存储，支持主流SQL数据库（SQLite、PostgreSQL、MySQL）及多平台框架，提供智能记忆管理、成本优化和零供应商锁定的解决方案。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;跨框架无缝集成&lt;/strong&gt;：兼容OpenAI、Anthropic、LiteLLM、LangChain等主流LLM框架，通过LiteLLM回调系统实现统一接入。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;SQL原生存储优势&lt;/strong&gt;：基于标准SQL数据库，支持端到端可移植性、审计性和全文本搜索，避免对特定数据库的依赖。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;显著成本节约&lt;/strong&gt;：无需昂贵向量数据库，借助SQL存储实现80-90%的费用削减。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;智能记忆处理&lt;/strong&gt;：自动完成实体提取、关系映射及上下文优先级排序，提升LLM交互效率与准确性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活部署模式&lt;/strong&gt;：提供意识模式（短期记忆注入）、自动模式（按需检索）及混合模式，适配不同应用场景需求。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/GibsonAI/Memori</guid>
-    </item>
-    <item>
-      <title>google/magika</title>
-      <link>https://github.com/google/magika</link>
-      <description>&lt;p&gt;概要: Magika 是一款基于深度学习的高效AI驱动文件类型检测工具，能够在单核CPU上实现毫秒级的高精度识别，支持超过200种文本和二进制文件格式，平均准确率约99%，适用于大规模安全场景，并提供多种编程语言接口及无需安装的网页演示。&lt;/p&gt;
+      <title>volcengine/verl</title>
+      <link>https://github.com/volcengine/verl</link>
+      <description>&lt;p&gt;概要: verl 是一个专为大型语言模型（LLMs）设计的高效、灵活且可生产部署的强化学习（RL）训练库，其开源版本源自 HybridFlow 论文，支持多种主流框架如 FSDP、Megatron-LM、vLLM 和 SGLang，并具备多算法扩展、灵活设备映射及多模态 RL 功能。通过 3D-HybridEngine 实现高效资源利用和通信优化，已在多个前沿模型和任务中取得显著效果，如 DAPO 在 AIME 2024 上达到 50 分，Seed-Thinking-v1.5 超越同类模型，且持续更新以增强性能和功能，吸引众多企业与研究机构参与共建。&lt;/p&gt;  
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;高精度与快速检测：基于深度学习模型，准确率约99%，单文件识别时间仅需5ms。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;轻量化模型设计：模型体积小，仅几MB，适合部署在资源受限的环境中。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;大规模应用支持：用于Google安全系统，每日处理数百亿文件，并集成VirusTotal和abuse.ch。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;多语言接口与灵活输出：提供Rust CLI、Python API、JavaScript/TypeScript和GoLang绑定，支持多种输出格式，如JSON、JSONL、自定义模板。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;可配置的容错机制：通过高、中、低置信度模式控制检测结果的准确性与通用性。&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/google/magika</guid>
-    </item>
-    <item>
-      <title>GoogleCloudPlatform/agent-starter-pack</title>
-      <link>https://github.com/GoogleCloudPlatform/agent-starter-pack</link>
-      <description>&lt;p&gt;概要: Google Cloud 提供的 Agent Starter Pack 是一套生产就绪的生成式 AI 代理模板，旨在加速开发流程，涵盖代理构建与部署中的关键挑战，包括基础设施、CI/CD、可观测性和定制化，支持一键创建、实验、部署和扩展代理项目。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;生产就绪的代理模板集合&lt;/strong&gt;：提供 ReAct、RAG、多代理等多种代理模板，适用于 Google Cloud 平台。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;端到端开发支持&lt;/strong&gt;：涵盖从原型设计、评估、部署到监控的全流程，降低开发复杂性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;一键部署与定制&lt;/strong&gt;：通过 CLI 工具可快速创建代理项目，支持自定义和增强已有代理。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gemini CLI 集成&lt;/strong&gt;：提供即时的架构指导与代码示例，提升开发效率和理解深度。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区资源与贡献机制&lt;/strong&gt;：包含社区展示、示例库及开放的贡献指南，鼓励开发者参与共建与反馈。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/GoogleCloudPlatform/agent-starter-pack</guid>
-    </item>
-    <item>
-      <title>usestrix/strix</title>
-      <link>https://github.com/usestrix/strix</link>
-      <description>&lt;p&gt;概要: Strix 是一个开源的 AI 安全工具，通过自主运行的 AI 代理模拟真实黑客行为，实现对应用程序的动态漏洞检测与验证，提供准确且具行动导向的报告，并支持自动修复和 CI/CD 集成，帮助开发团队高效、精准地提升应用安全性。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AI 代理模拟真实黑客行为&lt;/strong&gt;，动态运行代码并找出漏洞，验证方式为实际的 PoC（漏洞证明）。 &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;集成 CI/CD 流程&lt;/strong&gt;，特别是与 GitHub Actions 的无缝对接，支持在代码提交时自动进行安全扫描，防止不安全代码进入生产。 &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供企业级云端平台&lt;/strong&gt;，含定制模型、大规模扫描、第三方集成及支持，简化部署与管理流程。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;开发者优先的 CLI 工具&lt;/strong&gt;，支持快速启动、多样化目标检测、指令聚焦测试及实时报告生成。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多种测试模式&lt;/strong&gt;，包括白盒、黑盒、灰盒测试，具备代理协作、并行执行和动态协调等先进功能。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/usestrix/strix</guid>
-    </item>
-    <item>
-      <title>google/adk-python</title>
-      <link>https://github.com/google/adk-python</link>
-      <description>&lt;p&gt;概要: Agent Development Kit (ADK) 是一个开源、代码优先的 Python 工具包，旨在通过灵活和可控的方式构建、评估和部署复杂的人工智能代理系统，适用于从简单任务到大规模应用的场景，并支持多种模型与部署环境的兼容性。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;模型与部署无关&lt;/strong&gt;：ADK 支持多种模型和部署平台，不仅能与 Gemini 模型深度集成，也适用于其他框架。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;代码优先开发&lt;/strong&gt;：允许用户直接在 Python 中定义代理逻辑、工具和协同流程，提升灵活性与可测试性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多代理系统&lt;/strong&gt;：能力通过模块化方式构建，形成灵活的代理层次结构，实现可扩展的应用设计。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;内置开发界面&lt;/strong&gt;：提供可视化工具帮助测试、调试和展示代理行为，简化开发流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区驱动扩展&lt;/strong&gt;：拥有开放的社区仓库，支持第三方工具集成与部署脚本，增强生态兼容性与协作性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;verl 是一个高效、灵活且生产就绪的 RL 训练库&lt;/strong&gt;，支持多种主流训练和推理框架。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;具备多算法扩展和高效设备映射能力&lt;/strong&gt;，可灵活部署在不同规模 GPU 集群上。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;集成 3D-HybridEngine 技术&lt;/strong&gt;，显著降低训练与生成阶段之间的内存冗余和通信开销。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多模态模型和复杂的 RLHF 流程&lt;/strong&gt;，如 VLMs、Agent 集成和工具调用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;已在多个顶级模型中取得 SOTA 成果&lt;/strong&gt;，如 Seed-Thinking-v1.5 和 Doubao-1.5-Pro，且持续通过社区更新优化性能。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/google/adk-python</guid>
-    </item>
-    <item>
-      <title>thinking-machines-lab/tinker-cookbook</title>
-      <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
-      <description>&lt;p&gt;概要: Tinker 提供了 tinker 和 tinker-cookbook 两个核心库，前者为研究人员和开发者提供分布式训练的 SDK，后者则通过丰富案例和抽象接口帮助用户高效定制语言模型训练流程。用户可通过注册获取 API 密钥并安装客户端，利用内置的训练组件和实用工具（如超参数优化、模型评估）实现从基础微调到强化学习等多种场景的模型优化，同时项目鼓励开源协作与社区反馈，形成持续改进的生态。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;双库架构&lt;/strong&gt;：tinker 作为训练 SDK 管理分布式训练，tinker-cookbook 提供多样化的案例和抽象接口以简化模型定制流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;分层功能模块&lt;/strong&gt;：包含基础训练组件（如 forward_backward、optim_step）和高级应用案例（监督学习、强化学习、偏好学习等），覆盖模型优化全流程。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;便捷的安装与配置&lt;/strong&gt;：通过等待名单注册获取权限，使用 pip、conda 或 uv 安装，配合 API 密钥和虚拟环境实现快速部署。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;实用工具支持&lt;/strong&gt;：提供渲染器（token 转换）、超参数计算、模型评估集成（InsightAI）等功能，提升开发效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区驱动开发&lt;/strong&gt;：以开放科学理念推进项目，鼓励 Beta 测试后提交代码贡献，并通过反馈机制持续优化产品。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/thinking-machines-lab/tinker-cookbook</guid>
-    </item>
-    <item>
-      <title>alibaba/ROLL</title>
-      <link>https://github.com/alibaba/ROLL</link>
-      <description>&lt;p&gt;概要: ROLL 是一个高效且用户友好的强化学习（RL）库，专为大规模语言模型（LLM）设计，利用大规模GPU资源提升模型在人类偏好对齐、复杂推理及多轮代理交互等关键场景下的性能。它基于Ray构建的多角色分布式架构，集成Megatron-Core、SGLang和vLLM等前沿技术，实现灵活资源调度与训练推理加速，并支持多种算法和后处理流程，具备异步训练、自动设备映射、可观测性等高级功能，同时不断扩展新特性并应用于多个实际业务场景。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ROLL 是专为大规模语言模型设计的高效 RL 库&lt;/strong&gt;，支持多任务训练、代理交互等复杂场景，利用大型GPU资源提升模型性能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基于 Ray 构建的多角色分布式架构&lt;/strong&gt;，实现灵活资源分配与异构任务调度，提升训练和推理效率。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;集成多种先进技术&lt;/strong&gt;，如 Megatron-Core、SGLang、vLLM 以及 DeepSpeed，支持异步训练、FP8 推理与 LoRA 训练。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;提供丰富且可配置的 RL 策略&lt;/strong&gt;，涵盖20多种策略选项，包括奖励归一化、剪裁、优势估计等，内置主流算法支持。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;应用于实际业务场景&lt;/strong&gt;，如电商搜索、直播推理、推荐系统等，已部署支持数亿用户，并持续推出新功能提升性能与扩展性。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/alibaba/ROLL</guid>
-    </item>
-    <item>
-      <title>jingyaogong/minimind</title>
-      <link>https://github.com/jingyaogong/minimind</link>
-      <description>&lt;p&gt;概要: 本开源项目MiniMind实现了从零开始训练一个26M参数的小语言模型，仅需3块钱的GPU租用成本和2小时的训练时间，即可完成预训练、监督微调、强化学习等全过程，支持PyTorch原生实现与多种主流模型框架兼容，致力于降低LLM学习门槛，促进个人和社区对大语言模型的深入理解和实践。&lt;/p&gt;
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;超低成本高效的训练方案&lt;/strong&gt;: 可以用3元成本和单卡GPU，仅需2小时训练出具备对话能力的26M模型。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;全阶段代码开源与重构&lt;/strong&gt;: 包含预训练、微调、LoRA、DPO、GRPO等方法的完整代码，均为PyTorch原生实现，无需依赖第三方库。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持中小型模型与多模态扩展&lt;/strong&gt;: 包含MiniMind2系列，同时拓展了视觉多模态模型MiniMind-V，兼顾轻量与性能优化。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;全面兼容丰富推理与训练框架&lt;/strong&gt;: 支持llama.cpp、vLLM、ollama、transformers等，适用于多种部署和推理场景。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;完备的训练数据与自定义灵活引入&lt;/strong&gt;: 提供多维度数据集，包括预训练、SFT、RLHF等，并可迁移至专用领域，支持高质量微调和蒸馏。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/jingyaogong/minimind</guid>
+      <guid>https://github.com/volcengine/verl</guid>
     </item>
     <item>
       <title>microsoft/call-center-ai</title>
       <link>https://github.com/microsoft/call-center-ai</link>
-      <description>&lt;p&gt;概要: 这是一个基于Azure和OpenAI GPT的AI驱动呼叫中心解决方案，支持通过API或配置电话号码发起和接收来电，实现多语言、实时通信、任务导向的客户服务和保险理赔支持，具备高效的数据管理、语音处理及个性化定制功能，还可进行自动化提醒和回调，并通过Azure基础设施实现灵活部署和低成本扩展，旨在提升客户体验与运营效率。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 该文本介绍了基于Azure和OpenAI GPT的AI驱动呼叫中心解决方案，支持通过API或预配置电话号码发起呼叫，可实现24/7多语言服务，具备实时语音交互、数据存储、自动化提醒、语音识别与生成、以及定制化功能，如自定义语音、数据架构和调优模型，旨在提升客户体验与操作效率，同时提供可扩展、安全且可监控的架构。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;AI驱动呼叫中心支持多种服务场景&lt;/strong&gt;：如保险、IT支持和客户服务，可快速定制以满足业务需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;集成Azure与OpenAI资源&lt;/strong&gt;：提供语音、短信、多语言支持和实时数据处理，增强用户体验并确保安全合规。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活的部署模式&lt;/strong&gt;：支持本地和云端部署，且可利用Azure资源进行可扩展和低维护成本的云原生架构。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;数据自动记录与分析&lt;/strong&gt;：支持呼叫记录、实时对话存储，并可通过AI搜索和RAG技术优化对话质量与模型适应性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;性能优化和成本控制&lt;/strong&gt;：通过使用gpt-4.1-nano模型、PTU加速及资源弹性扩缩容，降低延迟并控制运行成本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI驱动呼叫中心解决方案&lt;/strong&gt;: 整合Azure与OpenAI GPT，实现自动语音交互、多语言支持及客户信息收集。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活调用方式&lt;/strong&gt;: 支持通过API调用AI助理发起电话，或直接使用配置的电话号码，适应不同业务场景。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高度可定制化&lt;/strong&gt;: 可自定义语音、数据存储结构、模型参数、语言和内容管理策略，满足特定业务需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;云原生架构与低成本部署&lt;/strong&gt;: 基于Azure容器和无服务器架构，实现弹性扩展和按需计费，降低运营成本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全与合规保障&lt;/strong&gt;: 采用RAG技术处理敏感数据，结合内容安全策略与监控系统，确保数据处理的安全性与透明度。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/microsoft/call-center-ai</guid>
     </item>
     <item>
-      <title>AtsushiSakai/PythonRobotics</title>
-      <link>https://github.com/AtsushiSakai/PythonRobotics</link>
-      <description>&lt;p&gt;概要: PythonRobotics 是一个集合了多种机器人算法的 Python 代码库与教材，涵盖定位、地图构建、SLAM、路径规划与跟踪、机械臂导航及空中与双足机器人导航等模块，提供直观的动画演示与数学背景说明，旨在帮助开发者和研究者理解和实现机器人领域的核心算法。&lt;/p&gt;
+      <title>yeongpin/cursor-free-vip</title>
+      <link>https://github.com/yeongpin/cursor-free-vip</link>
+      <description>&lt;p&gt;概要: 该工具支持 Cursor AI 0.49.x 版本，提供自动重置机器ID与绕过更高令牌限制的功能，旨在帮助用户免费升级使用 Pro 版本，适用于 Windows、macOS 和 Linux 系统，具备多语言支持和一系列配置参数以优化自动化脚本运行体验，并强调仅用于学习和研究，不生成虚假邮箱或 OAuth 权限。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 Cursor AI 0.49.x 版本&lt;/strong&gt;，提供自动重置机器ID和绕过令牌限制功能，用于免费升级至 Pro 级别。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;（Windows/macOS/Linux），并提供对应系统的配置路径和驱动路径。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt;，包括英文、简体中文、繁体中文和越南语。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;需管理员权限运行脚本&lt;/strong&gt;，并在运行前确保 Cursor 已关闭，以避免权限冲突。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;仅限学习和研究用途&lt;/strong&gt;，不生成虚假邮箱或 OAuth 权限，用户需自行承担使用后果。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/yeongpin/cursor-free-vip</guid>
+    </item>
+    <item>
+      <title>googlefonts/googlesans-code</title>
+      <link>https://github.com/googlefonts/googlesans-code</link>
+      <description>&lt;p&gt;概要: Google Sans Code是一款专为提升代码可读性与清晰度设计的固定宽度字体家族，融合Google品牌视觉美学，针对编程语法的特殊排版需求进行优化。其支持扩展拉丁字符及多语言，采用变量字体技术实现300至800的宽权重范围，并通过自动化CI/CD流程确保高质量输出。字体编译依赖fontc工具链，开发者可通过GitHub获取源码并自行构建。&lt;/p&gt;  
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;PythonRobotics 是一个集成机器人算法的 Python 代码库与教材。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供定位、地图构建、SLAM、路径规划与跟踪等模块的实现。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多种算法，包括扩展卡尔曼滤波、粒子滤波、A*、D* Lite、RRT*、LQR 与模型预测控制等。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;包含可视化动画 GIF，便于理解算法效果。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;采用 MIT 协议开源，接受贡献与支持，适合学术与工业应用。&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/AtsushiSakai/PythonRobotics</guid>
-    </item>
-    <item>
-      <title>yichuan-w/LEANN</title>
-      <link>https://github.com/yichuan-w/LEANN</link>
-      <description>&lt;p&gt;概要: LEANN是一款革命性的向量数据库，通过图结构优化与按需计算技术，实现97%的存储节省，提供完全本地化、隐私保护的高效RAG系统，支持文档、邮件、浏览器历史、多平台聊天记录及实时数据源的语义搜索，可将6000万文本块压缩至6GB，满足从个人数据管理到企业级知识库的全场景需求。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;极致存储效率&lt;/strong&gt;: 通过高阶保留剪枝与图结构按需计算，实现存储成本降低97%，同时保持与传统方案相同的搜索精度。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;全数据源覆盖&lt;/strong&gt;: 支持PDF/TXT/MD文档、Apple Mail、Google搜索记录、WeChat/iMessage、ChatGPT/Claude对话、Slack/Twitter实时数据及外部知识库（如6000万文档），无需依赖云端。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;隐私与本地化&lt;/strong&gt;: 数据全程本地存储与处理，支持跨设备迁移，杜绝OpenAI、云服务及第三方协议的数据泄露风险。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;智能图结构技术&lt;/strong&gt;: 基于有选择性重新计算和高权重剪枝，构建轻量级索引并优化图形遍历效率，提升大规模非结构化数据的处理能力。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多平台MCP集成&lt;/strong&gt;: 支持Slack、Twitter等实时数据接入，通过标准化协议实现自动更新，扩展性强且无需修改原始数据格式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;增强代码可读性&lt;/strong&gt;：专为终端和代码编辑器优化，确保字符在小尺寸下依然清晰可辨。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;变量字体技术&lt;/strong&gt;：支持宽权重范围（300-800，默认400）和自定义字形风格，提升灵活性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言兼容性&lt;/strong&gt;：覆盖扩展拉丁字符，适配多种语言环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源授权&lt;/strong&gt;：采用SIL Open Font License 1.1，允许自由使用与修改。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发纪念&lt;/strong&gt;：以Chris Simpkins的贡献为灵感，体现团队人文关怀。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/yichuan-w/LEANN</guid>
-    </item>
-    <item>
-      <title>airweave-ai/airweave</title>
-      <link>https://github.com/airweave-ai/airweave</link>
-      <description>&lt;p&gt;概要: Airweave 是一个完全开源的上下文检索层，专为 AI 代理设计，支持跨应用和数据库的知识库构建，通过 REST API 或 MCP 提供标准化搜索接口，具备语义搜索、数据同步、实体提取和多租户架构等核心功能，适用于开发者快速集成与使用。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-    &lt;li&gt;&lt;strong&gt;全开源的上下文检索层&lt;/strong&gt;，用于连接应用和数据库，构建可被 AI 代理访问的知识库。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;支持 30+ 数据源同步&lt;/strong&gt;，并通过实体提取与转换流程实现数据标准化。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;提供多租户架构和 OAuth2 认证&lt;/strong&gt;，确保安全性和多用户协作能力。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;支持语义搜索、混合搜索及查询扩展&lt;/strong&gt;，提升 AI 代理对复杂查询的响应能力。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;技术栈覆盖前后端、数据库、工作流及部署方案&lt;/strong&gt;，包括 React/TypeScript、FastAPI、PostgreSQL、Temporal 和 Kubernetes。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/airweave-ai/airweave</guid>
+      <guid>https://github.com/googlefonts/googlesans-code</guid>
     </item>
     <item>
       <title>sansan0/TrendRadar</title>
       <link>https://github.com/sansan0/TrendRadar</link>
-      <description>&lt;p&gt;概要: TrendRadar 为高管提供了一个快速部署的舆情监控系统，通过聚合35个主流平台新闻数据，结合AI分析算法实现精准热点追踪，支持多渠道实时推送与自定义关键词筛选，无需编程且可选多种部署方式，满足企业对信息的高效采集与分析需求。&lt;/p&gt;
+      <description>&lt;p&gt;概要: TrendRadar 是一款基于多平台信息聚合和 MCP 人工智能分析的舆情监控工具，支持 35 个主流新闻平台数据爬取，提供智能筛选、多渠道实时推送和自然语言对话式分析功能，可快速部署并结合用户自定义的关键词与热点权重算法，实现高效热点追踪与深度新闻洞察，同时支持环境变量覆盖配置及跨平台数据对比，助力企业与个人高效掌握实时新闻趋势。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;平台覆盖广且支持实时热点追踪&lt;/strong&gt;：TrendRadar 监控35个平台包括抖音、知乎、微博等，支持跨平台数据对比与新增热点即时推送。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI智能分析功能&lt;/strong&gt;：基于MCP协议，提供13种分析工具，支持自然语言查询和趋势预测，可与Claude Desktop、Cursor等客户端无缝集成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灵活的配置与部署方式&lt;/strong&gt;：提供三种推送模式（daily、current、incremental），支持企业微信、飞书、钉钉等多渠道通知，并具备Docker部署及网页界面对接能力。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;零技术门槛部署&lt;/strong&gt;：GitHub一键Fork即可启动，支持快速部署策略，30秒网页版、1分钟企业微信推送，简化管理流程。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;个性化的热点排序机制&lt;/strong&gt;：通过用户自定义的关键词权重设置，按排名（60%）、持续热度（30%）、热度（10%）进行智能排序，满足不同信息需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多平台全域监控&lt;/strong&gt;：集成 35 个平台（包括抖音、知乎、华尔街见闻等）热点数据，支持自定义增加平台配置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP 人工智能分析&lt;/strong&gt;：基于Model Context Protocol协议，提供13种AI工具，支持自然语言查询、趋势预测、情感分析和跨平台对比，实现深度数据挖掘。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;极致部署便捷性&lt;/strong&gt;：支持 30 秒网页(图片导出)部署、1 分钟手机通知及 Docker 容器化运行，无需编程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活多级推送策略&lt;/strong&gt;：提供 daily(日报汇总)、current(当前榜单)、incremental(增量监控) 三种模式，支持推送时间窗口控制，避免信息过载。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区反馈驱动迭代&lt;/strong&gt;：开放源代码与配置参数，动态优化功能；通过 GitHub 500+ Star 和开发者激励计划，强化开源协作生态。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/sansan0/TrendRadar</guid>
@@ -254,17 +86,170 @@
     <item>
       <title>Zie619/n8n-workflows</title>
       <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>&lt;p&gt;概要: n8n Workflow Collection 是一个包含4343个生产就绪工作流的全面自动化解决方案，提供增强的安全性、更快的搜索性能以及现代化的用户界面，支持在线浏览、本地安装和Docker部署，并通过GitHub Pages提供实时可搜索界面，具备良好的扩展性、可维护性和社区贡献机制。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: n8n Workflow Collection 是一个包含4343个生产就绪工作流的自动化平台资源库，提供了快速搜索、分类浏览、移动端兼容和直接下载功能，同时支持多种部署方式，包括本地安装和Docker容器，并通过增强的安全措施、优化的性能表现及现代用户界面提升用户体验。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;全面的自动化工作流库&lt;/strong&gt;：包含4343个生产就绪工作流和365种独特集成，支持分类浏览和直接下载。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;显著性能优化&lt;/strong&gt;：通过SQLite FTS5实现100倍更快的搜索、低于50MB的内存使用和700倍更小的体积。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高度安全性&lt;/strong&gt;：完成全面安全审计，修复所有CVE漏洞，支持Docker安全加固与输入验证。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活部署方式&lt;/strong&gt;：支持本地安装、Docker部署及GitHub Pages在线访问，兼顾易用性与可扩展性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开放贡献与社区支持&lt;/strong&gt;：鼓励用户报告问题、建议功能、改进文档，并通过GitHub平台进行协作与反馈。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;大规模生产就绪工作流&lt;/strong&gt;: 收录4,343个经过实战验证的工作流，涵盖365种独特集成，100%导入成功率，适用于各种自动化需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高性能与搜索优化&lt;/strong&gt;: 采用SQLite FTS5实现100倍更快的搜索速度，同时保持&lt; 100ms响应时间和&lt; 50MB内存占用，显著提升效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多平台部署支持&lt;/strong&gt;: 支持本地安装与Docker部署，提供详细的构建与运行指南，并集成GitHub Actions与GitHub Pages以实现自动化部署与展示。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;强化安全机制&lt;/strong&gt;: 完成全面安全审计，修复所有CVE漏洞，配备路径遍历防护、输入验证、CORS保护、速率限制及Docker安全加固措施。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;现代灵活界面与交互&lt;/strong&gt;: 支持暗色/亮色模式，提供直观的分类与过滤功能，提升用户体验并便于跨设备访问。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Zie619/n8n-workflows</guid>
+    </item>
+    <item>
+      <title>GibsonAI/Memori</title>
+      <link>https://github.com/GibsonAI/Memori</link>
+      <description>&lt;p&gt;概要: Memori 是一款开源的 SQL 原生记忆引擎，通过单行代码为 LLM、AI 代理及多代理系统提供持久化、可查询的记忆能力，支持主流 SQL 数据库（如 SQLite、PostgreSQL、MySQL）及 LLM 框架（OpenAI、Anthropic、LangChain 等）。其核心优势在于无需昂贵向量数据库即可实现 80-90% 成本节省、零供应商锁定、智能化记忆处理（自动实体提取与上下文优先级），并支持多用户场景与多代理协作，通过背景分析自动优化记忆存储。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;单行代码集成&lt;/strong&gt;：无缝适配 OpenAI、Anthropic、LiteLLM 等主流 LLM 框架与数据库，简化部署流程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;SQL 原生存储优势&lt;/strong&gt;：使用标准 SQL 数据库实现可审计、可查询的记忆管理，规避向量数据库的高成本与复杂性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多模式记忆处理&lt;/strong&gt;：提供意识模式（单次上下文注入）、自动模式（动态查询）及混合模式，灵活适配不同场景需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;智能化记忆优化&lt;/strong&gt;：自动提取实体、映射关系、分类记忆类型，并通过背景分析将关键信息迁移至短时存储。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与跨平台兼容&lt;/strong&gt;：支持 SQLite、PostgreSQL、MySQL 等数据库，允许导出为 SQLite 文件实现完全自由迁移。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/GibsonAI/Memori</guid>
+    </item>
+    <item>
+      <title>HKUDS/LightRAG</title>
+      <link>https://github.com/HKUDS/LightRAG</link>
+      <description>&lt;p&gt;概要: 针对检索增强生成（RAG）技术，LightRAG在EMNLP2025中发布并持续更新，融合了知识图谱（KG）和向量数据库技术，支持多模态文档处理（文本、图像、表格、公式）和异步缓存机制，新增了Langfuse可观测性框架、RAGAS评估模型、知识图谱数据隔离、实体关系编辑删除等功能，显著提升了处理大规模数据的效率及混合查询的性能，为工业级应用提供了灵活的存储方案和跨模态检索能力。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;新一代RAG系统&lt;/strong&gt;: 支持多模态文档处理，集成RAG-Anything实现PDF、Office文档、图像和公式等异构数据解析与增强生成。&lt;/li&gt;   
+  &lt;li&gt;&lt;strong&gt;工业级存储方案&lt;/strong&gt;: 支持Neo4J、PostgreSQL、MongoDB等多类型存储，提供数据隔离和不同维度向量控制优化，支持跨领域知识图谱扩展。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高效查询机制&lt;/strong&gt;: 引入混合检索模式（Hybrid/mix）和Reranker模型，显著提升混合查询性能与结果相关性排序能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;系统健壮性增强&lt;/strong&gt;: 支持文档删除与知识图谱重构、实体关系迁移，提供异步初始化和缓存清理功能，确保长文档处理及运行效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可观测性与评估体系&lt;/strong&gt;: 集成Langfuse自动追踪LLM全流程，新增RAGAS参考无关评估框架，支持批量查询评估和性能对比，提升模型优化透明度。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/HKUDS/LightRAG</guid>
+    </item>
+    <item>
+      <title>MODSetter/SurfSense</title>
+      <link>https://github.com/MODSetter/SurfSense</link>
+      <description>&lt;p&gt;概要: SurfSense是一款开源的AI研究工具，作为NotebookLM、Perplexity和Glean的替代方案，具备高度可定制性，能够与搜索引擎、Slack、Notion、GitHub等多平台集成，支持50+文件格式上传及私有知识库构建，并通过自然语言交互提供引用式答案，同时结合高级RAG技术（如混合搜索、分层索引）实现高效信息检索，还支持快速播客生成及本地部署，兼顾隐私与灵活性。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;私有化AI研究代理&lt;/strong&gt;: 通过集成个人知识库与外部数据源，提供比NotebookLM和Perplexity更个性化的研究能力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;超广文件格式兼容性&lt;/strong&gt;: 支持50+种文件类型（文档、表格、图像、音频等），并适配不同ETL服务（如Unstructured、Docling）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;隐私与本地部署&lt;/strong&gt;: 支持Ollama本地LLM无缝协作，开源特性允许企业自建服务器，无API依赖。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;混合搜索优化&lt;/strong&gt;: 结合语义搜索与全文检索，利用Reciprocal Rank Fusion提升结果相关性，支持100+ LLM和6000+嵌入模型。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;快速播客生成能力&lt;/strong&gt;: 通过本地或第三方TTS引擎，将对话内容转译为音频，3分钟播客生成耗时不足20秒。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/MODSetter/SurfSense</guid>
+    </item>
+    <item>
+      <title>MustardChef/WSABuilds</title>
+      <link>https://github.com/MustardChef/WSABuilds</link>
+      <description>&lt;p&gt;概要: 该文本详细介绍了如何在Windows 10和Windows 11上使用WSABuilds项目安装和运行Windows Subsystem for Android (WSA)，并使用了Magisk、KernelSU或MindTheGApps等工具。由于最近的Windows更新导致部分WSA安装失败，推荐使用旧版本或特定无GApps版本以避免兼容性问题。同时，介绍了WSA的具体安装步骤、常见问题和解决方法，以及一些应用程序在WSA上的兼容性情况，指出特定GPU、Android系统版本和存储等因素对WSA性能的影响。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;最新Windows更新可能导致WSA安装问题&lt;/strong&gt;: 因近期Microsoft的更新干扰，部分WSA版本无法运行，需使用较旧版本或无GApps的定制构建。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供Root和GApps的预构建版本&lt;/strong&gt;: WSABuilds提供了包含Magisk、KernelSU、MindTheGApps等的预构建WSA版本，适合需要额外功能的用户。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;特定硬件限制影响使用体验&lt;/strong&gt;: Intel HD Graphics 530及Nvidia GPU可能对WSA运行造成问题，建议使用Microsoft Basic Renderer或支持的设备。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;应确保特定系统设置和兼容性&lt;/strong&gt;: WSA需开启虚拟化（Virtual Machine Platform和Windows Hypervisor Platform），且只能安装在NTFS分区上。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;部分应用在WSA上存在功能或兼容性限制&lt;/strong&gt;: 多款应用可能因缺少关键服务、权限或兼容性问题而无法正常工作，需进一步配置或使用特定版本。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/MustardChef/WSABuilds</guid>
+    </item>
+    <item>
+      <title>lzhoang2801/OpCore-Simplify</title>
+      <link>https://github.com/lzhoang2801/OpCore-Simplify</link>
+      <description>&lt;p&gt;概要: OpCore Simplify是一款专为简化OpenCore EFI创建流程而设计的工具，通过自动化核心设置与标准化配置显著降低手动操作复杂度，同时基于用户完整硬件信息生成定制化EFI，区别于其他工具仅依赖预定义选项。其核心功能涵盖全面兼容现代硬件与macOS版本、智能ACPI补丁及kexts集成、自动更新机制，但需配合社区验证、自行测试与文档查阅以确保Hackintosh安装的稳定性与安全性。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;唯一基于全硬件配置生成EFI&lt;/strong&gt;：与同类工具不同，OpCore Simplify根据用户实际硬件信息而非预设选项构建EFI，确保精准适配。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;自动化ACPI补丁与kexts集成&lt;/strong&gt;：自动识别硬件并添加必要补丁（如FakeEC、FixHPET），支持定制化修改设备节点与睡眠状态修复。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;跨平台操作与多硬件兼容性&lt;/strong&gt;：支持Intel/AMD CPU及多种GPU（包括NVIDIA旧世代），适配macOS High Sierra至Tahoe版本，覆盖广泛硬件生态。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;强制更新与自定义配置&lt;/strong&gt;：自动同步OpenCorePkg及kexts至最新版本，同时允许用户手动调整SMBIOS、NVRAM、iGPU模式等高级参数。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;社区依赖与安全提示&lt;/strong&gt;：强调需结合Hackintosh社区验证、自行测试配置，并避免依赖AI生成的错误信息，确保安装可靠性。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/lzhoang2801/OpCore-Simplify</guid>
+    </item>
+    <item>
+      <title>google/adk-python</title>
+      <link>https://github.com/google/adk-python</link>
+      <description>&lt;p&gt;概要: Google Agent Development Kit (ADK) 是一个开源、代码优先的 Python 工具包，专注于构建、评估和部署复杂 AI 代理，支持模型无关性、灵活部署及多语言集成，通过模块化架构、工具生态系统和内置开发界面，提供从单代理到多代理系统的全栈开发能力，并具备实验性功能（如Rewind和CodeExecutor）以提升交互体验与安全控制。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;模型与部署兼容性&lt;/strong&gt;: ADK 专为Gemini优化但支持多模型和多部署框架，可灵活适配不同环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;代码优先开发&lt;/strong&gt;: 通过Python直接定义代理逻辑与工具，实现高度可测试性、版本控制及自定义扩展。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;: 支持通过子代理层级构建复杂应用，实现任务分工与协作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;工具生态系统&lt;/strong&gt;: 提供预置工具、OpenAPI集成及社区扩展功能，强化Google生态适配性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;实验性功能增强&lt;/strong&gt;: 新增Service注册、Rewind会话回溯及CodeExecutor沙箱执行，提升灵活性与安全性。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/google/adk-python</guid>
+    </item>
+    <item>
+      <title>thinking-machines-lab/tinker-cookbook</title>
+      <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
+      <description>&lt;p&gt;概要: Tinker 提供了两个库——tinker 和 tinker-cookbook——帮助研究者和开发者自定义语言模型的训练流程，其中 tinker 是一个训练 SDK，允许用户通过 API 请求进行模型微调，而 tinker-cookbook 提供了丰富的示例和抽象工具，涵盖监督学习、强化学习、对话训练、数学推理、偏好学习、工具使用和多智能体优化等场景，便于快速构建和部署定制化训练环境。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;提供两个核心库&lt;/strong&gt;：tinker 用于模型微调，tinker-cookbook 用于提供训练范式的实际示例和抽象工具。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;简化分布式训练&lt;/strong&gt;：Tinker SDK 接收 API 请求并处理训练的底层复杂性，使用户更专注于模型配置和调优。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;覆盖多种训练范式&lt;/strong&gt;：包含监督学习、强化学习、对话训练、数学推理、偏好学习、工具使用和多智能体优化等多样化示例。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持模型权重下载&lt;/strong&gt;：允许用户通过 API 获取训练模型的权重文件，便于部署和进一步使用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;社区驱动开发&lt;/strong&gt;：鼓励开源贡献，项目以开放科学和协作开发为目标，提升工具的实用性和影响力。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/thinking-machines-lab/tinker-cookbook</guid>
+    </item>
+    <item>
+      <title>google-agentic-commerce/AP2</title>
+      <link>https://github.com/google-agentic-commerce/AP2</link>
+      <description>&lt;p&gt;概要: Agent Payments Protocol（AP2）是一个旨在构建安全、可互操作的AI驱动支付生态的框架，提供基于Python和Android的代码示例与演示场景，支持通过环境变量或配置文件灵活配置认证方式（如Google API Key或Vertex AI），并包含标准化的运行流程与依赖管理方案。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;协议独立性&lt;/strong&gt;：AP2不强制绑定Agent Development Kit（ADK）或Gemini 2.5 Flash，开发者可自由选择工具链。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;场景化代码结构&lt;/strong&gt;：提供分目录（android/python）存放的场景示例，每个场景包含README.md说明文件和run.sh自动化脚本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多模认证方案&lt;/strong&gt;：支持Google API Key（开发推荐）和Vertex AI（生产推荐）两种认证方式，并兼容环境变量与.ENV文件配置。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;标准化部署流程&lt;/strong&gt;：通过run.sh脚本一键安装依赖并启动代理与服务器，简化本地运行与测试环节。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;核心对象模块化&lt;/strong&gt;：协议核心数据结构位于src/ap2/types目录，暂未发布PyPI包时可通过Git直接安装。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/google-agentic-commerce/AP2</guid>
+    </item>
+    <item>
+      <title>volcengine/MineContext</title>
+      <link>https://github.com/volcengine/MineContext</link>
+      <description>&lt;p&gt;概要: MineContext 是一款开源的主动上下文感知AI助手，能够通过屏幕截图、文档及多模态信息采集，提供高效的信息整理与智能生成服务，支持本地优先的数据处理与隐私保护，具备跨平台前端架构与模块化后端设计，适用于知识工作者、内容创作者、学习者与项目经理等用户，以提升信息处理效率和创造能力。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;本地优先与隐私保护&lt;/strong&gt;：所有数据默认本地存储，支持使用本地AI模型，确保数据不离开用户设备。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多源多模态上下文采集&lt;/strong&gt;：支持屏幕截图、文档、图片、视频、代码等多类数据的自动化收集与处理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主动生成智能内容&lt;/strong&gt;：可自动提供日/周总结、待办事项、活动报告等内容，帮助用户提升工作效率与创意输出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源与可定制性&lt;/strong&gt;：基于开源架构，支持开发者自由修改与扩展，兼容多种LLM服务（如OpenAI、Doubao）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模块化、分层架构设计&lt;/strong&gt;：前后端均采用清晰分层的架构，包括数据采集、处理、存储、LLM集成等多个模块，提升系统可维护性与扩展性。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/volcengine/MineContext</guid>
+    </item>
+    <item>
+      <title>AtsushiSakai/PythonRobotics</title>
+      <link>https://github.com/AtsushiSakai/PythonRobotics</link>
+      <description>&lt;p&gt;概要: PythonRobotics 是一个提供机器人算法代码示例和教材的开源项目，涵盖定位、地图构建、SLAM、路径规划、路径跟踪、机械臂导航、空中导航和双足行走等多个领域，具备易读性、实用性和低依赖性的特点，用户可通过文档、教程视频或论文深入了解其内容。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;PythonRobotics 是一个集代码与教材于一体的机器人算法开源项目&lt;/strong&gt;，提供多种常用算法的实现与解释。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;涵盖完整的机器人核心模块&lt;/strong&gt;，包括定位、地图构建、SLAM、路径规划与跟踪、机械臂、无人机和双足机器人。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;算法选择注重实用性与广泛采用&lt;/strong&gt;，如卡尔曼滤波、粒子滤波、A*、D*、RRT*、LQR 等。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;依赖简单，适合快速上手与教学&lt;/strong&gt;，主要依赖 Python 及其科学计算库，如 NumPy、SciPy、Matplotlib 等。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供可视化动画辅助理解&lt;/strong&gt;，所有示例均配有 Gif 动图，便于直观展示算法行为。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/AtsushiSakai/PythonRobotics</guid>
     </item>
   </channel>
 </rss>
