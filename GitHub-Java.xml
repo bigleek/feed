@@ -8,15 +8,15 @@
     <item>
       <title>ashishps1/awesome-low-level-design</title>
       <link>https://github.com/ashishps1/awesome-low-level-design</link>
-      <description>&lt;p&gt;概要: 本资源库提供免费的学习材料，帮助用户掌握低级别设计（LLD）和面向对象设计（OOD）的核心概念与实践，涵盖OOP基础、设计原则、设计模式、UML图示以及LLD面试题解析，旨在系统化提升面试准备与设计能力。&lt;/p&gt;
+      <description>&lt;p&gt;概要: 该文本介绍了一个提供免费资源的仓库，专为学习低层次设计（LLD）和面向对象设计（OOD）以及准备技术面试而创建，内容涵盖OOP基础、设计原则、设计模式、UML图示、实战案例及学习路径，并通过订阅和贡献机制构建开放学习社区。&lt;/p&gt;  
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提供免费资源学习LLD和OOD，适用于面试准备&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;整合OOP核心概念、设计原则与常用设计模式&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;包含多种UML图示工具，用于系统设计可视化&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供不同难度等级的LLD面试问题，涵盖多个实际应用场景&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;鼓励用户贡献内容并维护文档，以持续优化学习体验&lt;/strong&gt;&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;免费全栈学习资源&lt;/strong&gt;：集成LLD/OOD理论知识、面试题库及实践工具，适用于不同经验水平的学习者。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;系统化知识体系&lt;/strong&gt;：覆盖OOP核心概念（封装、继承、多态等）、设计原则（SOLID、DRY等）及UML图示类型（类图、用例图等）。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;分层面试问题设计&lt;/strong&gt;：提供从易到难的20+实战案例，包括停车场、任务管理系统、在线拍卖平台等场景化设计。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;权威学习材料推荐&lt;/strong&gt;：整合《Head First Design Patterns》《Clean Code》等经典书籍与Coursera、GitHub等开放平台资源。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放贡献机制&lt;/strong&gt;：鼓励开发者通过Git流程提交改进，同步维护文档确保知识更新与社区共建。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ashishps1/awesome-low-level-design</guid>
@@ -24,14 +24,14 @@
     <item>
       <title>spring-projects/spring-boot</title>
       <link>https://github.com/spring-projects/spring-boot</link>
-      <description>&lt;p&gt;概要: Spring Boot 是一个简化 Spring 应用开发的框架，旨在以最小的配置和努力创建生产级别的 Java 应用和服务，通过意见驱动的默认设置加速开发进程，并提供了丰富的非功能性功能如嵌入式服务器、健康检查和外部化配置。它支持多种部署方式，包括独立 JAR 文件和 WAR 包，同时鼓励社区贡献与反馈，确保其持续发展和改进。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;简化 Spring 应用开发&lt;/strong&gt;: Spring Boot 通过最小化配置和自动化设置，让开发者能够快速构建生产级别的 Java 应用和服务。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;意见驱动的默认配置&lt;/strong&gt;: 采用有倾向性的默认设置，帮助用户迅速上手，同时允许自定义以适应不同需求。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;丰富非功能性功能&lt;/strong&gt;: 提供嵌入式服务器、安全、监控、健康检查、外部化配置等常见功能，提升运维能力。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;无需代码生成或 XML 配置&lt;/strong&gt;: 强调完全基于 Java 配置，提升开发效率与可维护性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;模块化架构支持多样化功能&lt;/strong&gt;: 包含多个模块如 starter、autoconfigure、actuator 和 devtools，覆盖启动、配置、监控和测试等关键领域。&lt;/li&gt;
+      <description>&lt;p&gt;概要: Spring Boot 是一个简化 Spring 应用开发的框架，通过 Opinionated 设计和自动化配置，帮助开发者快速构建生产级服务，支持独立运行的 Java 应用及传统 WAR 部署，并提供丰富的非功能特性（如嵌入式服务器、监控、配置管理）和无需 XML 配置的开发体验，同时通过完善的文档、社区支持和模块化结构助力高效开发与维护。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt; Opinionated 快速启动&lt;/strong&gt;：通过预设最佳实践和简化配置流程，显著降低新项目初始化复杂度。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt; 全面非功能支持&lt;/strong&gt;：集成嵌入式服务器、健康检查、度量指标、外部化配置等通用功能，无需额外开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt; 自动配置机制&lt;/strong&gt;：基于类路径内容智能推断依赖，自动配置 Spring 上下文，并在用户自定义时优雅退让。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt; 模块化架构&lt;/strong&gt;：提供独立模块（如 starter、actuator、devtools）实现功能解耦，支持灵活扩展与定制。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt; 开发者友好工具&lt;/strong&gt;：包含自动重启、测试支持、命令行工具等，提升开发效率并简化问题排查流程。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/spring-projects/spring-boot</guid>
@@ -39,14 +39,14 @@
     <item>
       <title>ageerle/ruoyi-ai</title>
       <link>https://github.com/ageerle/ruoyi-ai</link>
-      <description>&lt;p&gt;概要: RuoYi AI 是一个功能完备、开箱即用的企业级全栈式AI开发平台，集成主流AI模型及平台，提供RAG技术、知识图谱、数字人交互、AI流程编排等核心能力，支持灵活部署与数据安全，并具备丰富的AI创作工具和可视化工作流编排系统，旨在加速企业AI应用的构建与落地。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: RuoYi AI 是一款面向企业的全栈式AI开发平台，集成了主流模型与AI应用生态，提供多模态处理能力、本地化RAG技术、知识图谱构建及数字人交互等功能，支持跨平台无缝对接与灵活部署，通过先进架构和开源机制赋能开发者高效构建个性化AI解决方案。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;多模型与平台集成&lt;/strong&gt;：支持OpenAI GPT-4、ChatGLM、通义千问等主流模型，并深度集成FastGPT、扣子(Coze)、DIFY等AI应用平台。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;本地化RAG与数据安全&lt;/strong&gt;：基于Langchain4j和BGE-large-zh-v1.5模型构建私有知识库，支持多种向量数据库，确保数据本地部署与隐私保护。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;AI创作与多模态处理&lt;/strong&gt;：集成AI绘画、智能PPT生成及多模态理解功能，支持文本、图片、文档等多种格式处理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;可视化工作流与智能编排&lt;/strong&gt;：提供工作流设计器与智能推理引擎，实现复杂AI任务的自动化编排与执行。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源生态与社区支持&lt;/strong&gt;：采用MIT协议开源，支持GitHub、Gitee、GitCode等多平台协作，鼓励社区贡献和交流。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模型与AI平台深度集成&lt;/strong&gt;：支持OpenAI GPT-4、ChatGLM、通义千问等主流模型，并兼容FastGPT、扣子(Coze)、DIFY等平台API，实现跨生态协作。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;本地化RAG解决方案&lt;/strong&gt;：基于Langchain4j框架与中文向量模型，支持私有知识库、多种向量数据库及本地部署，确保数据安全与隐私控制。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;AI创作工具链&lt;/strong&gt;：集成DALL·E-3、MidJourney等多模态生成能力，具备智能PPT生成、文档与图像智能分析等功能，提升内容生产力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术架构可扩展性强&lt;/strong&gt;：采用Spring Boot 3.4 + Vue 3技术栈，结合Sa-Token与JWT安全机制，支持WebSocket实时通信及向量数据库高效处理。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源生态与社区协作&lt;/strong&gt;：遵循MIT协议开源，提供GitHub/Gitee等多代码托管平台同步，鼓励开发者贡献并构建AI工具生态系统。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ageerle/ruoyi-ai</guid>
@@ -54,14 +54,14 @@
     <item>
       <title>kekingcn/kkFileView</title>
       <link>https://github.com/kekingcn/kkFileView</link>
-      <description>&lt;p&gt;概要: kkFileView是一个基于Spring Boot的开源在线文档预览解决方案，支持超过200种文件格式（含Office、WPS、CAD、3D模型、音视频及特殊格式如OFD、DCM等），提供REST API扩展接口与Docker部署支持，通过代码重构和架构优化实现高效预览体验，同时集成安全机制（如防XSS、目录遍历漏洞）和智能缓存管理，兼顾功能全面性与易用性。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: kkFileView是一个基于Spring Boot的开源在线文档预览解决方案，提供广泛的文件格式支持（含Office、WPS、OpenOffice、LibreOffice、CAD、3D模型、视频音频等），通过REST API和模块化设计实现快速部署及二次开发，结合缓存优化、安全防护（如反XSS、目录遍历漏洞修复）与多环境适配功能，满足企业级文件预览需求。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;超广谱文件格式兼容&lt;/strong&gt;: 支持Office、WPS、OpenOffice/LibreOffice、CAD、3D模型、音视频、图像（含矢量图）及OFD/DCM等特殊格式，覆盖主流办公、设计及工程文件类型。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;Spring Boot驱动的快速部署&lt;/strong&gt;: 提供一键启动脚本与Docker镜像，结合环境变量配置支持多环境部署及集群化应用，简化运维流程。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;安全性与稳定性增强&lt;/strong&gt;: 修复目录遍历漏洞、防XSS攻击、加密预览支持及标准化编码处理，保障服务免受恶意利用。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;智能预览与性能优化&lt;/strong&gt;: 集成Jodconverter与PDF.js实现多格式渲染，异步加载组件缩短启动时间至5秒内，并支持多页图像翻页预览。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区驱动持续迭代&lt;/strong&gt;: 通过代码贡献与版本更新（如升级LibreOffice、优化缓存策略），强化兼容性（如支持多格式文件名解析）和用户体验（如Markdown/XML双模式预览）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全格式覆盖&lt;/strong&gt;: 支持主流办公文档（Doc/Excel/PPT）、国内WPS文件、CAD/3D模型（dwg/obj/ifc）、视频音频（avi/mp4）、特殊格式（OFD/EMF/PSD）及所有可识别文本文件，实现无下载预览。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术灵活性与部署便捷&lt;/strong&gt;: 基于Spring Boot框架，提供Docker镜像部署、环境变量配置、JDK兼容性优化及异步加载机制，确保跨平台快速启动（5秒内）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;安全与稳定性增强&lt;/strong&gt;: 修复目录遍历漏洞、支持信任主机配置、加密文件预览、URL特殊字符处理及Base64编码标准化，防止服务滥用和预览异常。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;深度可扩展性&lt;/strong&gt;: 通过抽象文件预览接口、REST API及模块化架构支持自定义格式扩展，同时兼容多线程队列优化和缓存清理策略。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;社区驱动持续迭代&lt;/strong&gt;: 拥有活跃开发者社区贡献，包含架构重构、UI优化、支持移动预览及Markdown/OFD等新功能，保障长期技术生命力。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/kekingcn/kkFileView</guid>
@@ -69,14 +69,15 @@
     <item>
       <title>alibaba/spring-ai-alibaba</title>
       <link>https://github.com/alibaba/spring-ai-alibaba</link>
-      <description>&lt;p&gt;概要: Spring AI Alibaba 是一个专为 Java 开发者设计的生产级 Agentic AI 框架，集成 ReactAgent 设计理念，支持智能代理开发、多代理协同及复杂工作流管理，提供自动上下文工程、人机交互、多模型适配（如 DashScope、OpenAI）和基于 Graph 的流程控制能力，同时通过 Nacos 实现分布式 Agent 协作，配套可视化工具链、低代码集成及丰富的示例项目，助力企业高效构建 AI 驱动的应用。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Spring AI Alibaba Agent Framework 是一个为 Java 开发者打造的生产级智能代理开发框架，集成了 ReactAgent 的推理与执行能力，支持自动上下文工程和人类在环交互，通过 Graph Runtime 提供多代理协同、工作流编排（如序列化、并行化、路由化）及灵活的图 API 调用。同时兼容多种大模型供应商（如 DashScope、OpenAI），集成 Nacos 实现分布式代理通信，并提供可视化工具链、低代码集成能力及自然语言到 SQL 的智能转换，助力企业构建复杂 AI 应用。&lt;/p&gt;  
+
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;基于 ReactAgent 的智能代理开发&lt;/strong&gt;：支持推理与行动能力，通过 ReAct 模式实现迭代式问题解决。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多模型与 MCP 全面支持&lt;/strong&gt;：兼容主流 LLM 供应商，提供统一的 Model Context Protocol 协议管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Graph 流程引擎核心能力&lt;/strong&gt;：支持条件路由、并行执行、嵌套图结构及状态管理，可导出 PlantUML/Mermaid 格式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;分布式协作与动态配置&lt;/strong&gt;：集成 Nacos 实现 Agent 间通信，支持跨服务的多代理协调与动态参数配置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;低代码友好与生态扩展性&lt;/strong&gt;：简化 Graph 状态定义，适配低代码平台；包含 DataAgent、JManus 等多个垂直领域解决方案。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;ReactAgent 智能引擎&lt;/strong&gt;：采用 ReAct（推理+行动）范式，实现智能代理的自主决策与执行能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;图形化工作流编排&lt;/strong&gt;：基于 LangGraph 构建底层运行时，支持条件路由、嵌套图、平行执行等复杂流程控制，并可导出 PlantUML/Mermaid 图形化描述。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;上下文工程优化体系&lt;/strong&gt;：内置人类在环交互、上下文压缩与动态工具选择等策略，提升代理可靠性与性能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;A2A 分布式协作&lt;/strong&gt;：通过 Nacos 集成实现跨服务的智能代理间通信，支持分布式任务协调与动态配置。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多模型与工具兼容性&lt;/strong&gt;：兼容主流大模型供应商，内置 MCP 协议支持，提供 Shell/Python 等工具调用能力。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/alibaba/spring-ai-alibaba</guid>
@@ -84,15 +85,14 @@
     <item>
       <title>google/adk-java</title>
       <link>https://github.com/google/adk-java</link>
-      <description>&lt;p&gt;概要: Google开源的Java Agent Development Kit (ADK) 是一个代码优先的工具包，旨在为开发者提供灵活且精细的控制，用于构建、评估和部署与Google云服务深度集成的复杂AI代理，支持从本地开发到云端的无缝部署与调试。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;代码优先开发模式&lt;/strong&gt;：允许通过Java直接定义代理逻辑、工具和编排，提升灵活性、可测试性和版本管理能力。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;丰富的工具生态系统&lt;/strong&gt;：支持预建工具、自定义函数和OpenAPI规范，便于集成Google及其他云服务，增强代理功能。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;：支持构建可扩展的多代理架构，允许将多个专精代理组合成灵活的层次结构以实现复杂任务。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;与Python ADK兼容设计&lt;/strong&gt;：采用类似Python ADK的接口和特性，方便跨语言开发者迁移和协作。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;开源与社区贡献&lt;/strong&gt;：项目基于Apache 2.0许可协议，鼓励社区参与，提供文档改进、功能请求和代码贡献等途径。&lt;/li&gt;
+      <description>&lt;p&gt;概要: Google推出专为Java开发者设计的代码优先开源工具包Agent Development Kit (ADK)，通过直接编码方式实现对AI代理行为、工具调用和协作流程的精细控制，支持本地到云端的灵活部署，并兼容Python ADK的特性与界面，同时提供内置开发界面及与A2A协议的集成，但该功能目前处于预发布阶段。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;Java代码优先开发框架&lt;/strong&gt;：以Java为核心语言，通过编码定义代理逻辑、工具和协作流程，实现高度灵活性和可测试性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;与Google Cloud深度集成&lt;/strong&gt;：依托Google服务生态，提供预置工具、OpenAPI支持及多平台部署能力（本地/云端）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多代理系统架构&lt;/strong&gt;：支持模块化设计，可组合多个专用代理构建灵活层级化应用，实现可扩展性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;兼容Python ADK生态&lt;/strong&gt;：保持与Python ADK相同的功能特性与用户界面，降低跨语言开发门槛。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;社区驱动与开源授权&lt;/strong&gt;：采用Apache 2.0许可证，开放贡献渠道，但预发布功能可能面临支持限制。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/google/adk-java</guid>
@@ -100,14 +100,14 @@
     <item>
       <title>cabaletta/baritone</title>
       <link>https://github.com/cabaletta/baritone</link>
-      <description>&lt;p&gt;概要: Baritone是一款专为Minecraft设计的高性能路径查找系统，作为Impact自4.4版本起的核心组件，其基于MineBot重构并优化，支持从1.12.2到1.21.8多个版本的Forge、Fabric和NeoForge平台，具备30倍于原版的路径计算速度，通过简单命令（如#goto、#mine）实现快速操作，并提供详尽API文档和活跃社区支持，旨在提升玩家效率与开发者体验。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Baritone是一款专为Minecraft设计的高效路径规划引擎，作为Impact的更新版本自1.12.2起重构，相比原始MineBot（1.8.9）在路径计算速度上提升超30倍，支持Forge、Fabric、NeoForge多平台及1.12.2至1.21.8各版本，并提供完善文档、聊天控制指令和社区支持，旨在实现可靠性和性能的双重突破。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;极致性能&lt;/strong&gt;: 路径计算速度是MineBot的30倍以上，显著提升操作效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;跨版本兼容&lt;/strong&gt;: 支持1.12.2至1.21.8多个Minecraft版本，适配Forge、Fabric及NeoForge。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;简洁命令控制&lt;/strong&gt;: 通过#goto、#mine等指令实现快速定位与资源获取，降低使用门槛。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完善的开发支持&lt;/strong&gt;: 提供详尽API文档、设置配置及教程资源，便于集成与二次开发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区驱动开发&lt;/strong&gt;: 拥有活跃Discord服务器和开发者贡献记录，确保持续优化与更新。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;性能显著优化&lt;/strong&gt;：路径计算速度超过MineBot 30倍，大幅提升效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多版本与模组兼容&lt;/strong&gt;：适配Forge、Fabric、NeoForge平台及1.12.2至1.21.8所有Minecraft版本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;功能化聊天指令&lt;/strong&gt;：提供如#goto、#mine、#elytra等命令实现快速操作。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;完整API支持&lt;/strong&gt;：包含详细Javadocs，允许开发者基于baritone.api包扩展功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区与开源授权&lt;/strong&gt;：通过LGPL 3.0许可证开源，并获得YourKit等工具厂商的OSS支持。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/cabaletta/baritone</guid>
@@ -115,14 +115,14 @@
     <item>
       <title>ashishps1/awesome-system-design-resources</title>
       <link>https://github.com/ashishps1/awesome-system-design-resources</link>
-      <description>&lt;p&gt;概要: 本文提供一套全面的免费资源，涵盖系统设计核心概念、网络与数据库技术、缓存策略、异步通信及架构模式等主题，旨在帮助学习者系统掌握分布式系统设计原理并高效备战技术面试，包含从基础到高阶的30个关键知识点、分难度层级的30+实战面试题、多渠道学习资料（如课程、书籍、论文）以及实际案例解析，支持通过订阅免费电子书获取系统设计方法论。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 本资源库提供了一系列免费的系统设计概念学习材料和面试准备内容，涵盖从基础理论到高级实践的广泛主题，并推荐了相关课程、书籍、新闻信和视频渠道，帮助用户系统掌握分布式系统和微服务架构的设计方法及常见面试问题的解答策略。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;结构化知识体系&lt;/strong&gt;：整合Scalability、CAP定理、数据库分片、缓存策略等15个核心概念模块，覆盖分布式系统设计基础。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;分层面试题库&lt;/strong&gt;：提供按难度分级（易/中/难）的30+系统设计问题，涵盖URL短链、消息队列、分布式存储等实际场景。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多渠道学习资源&lt;/strong&gt;：集成课程、书籍（如《Designing Data-Intensive Applications》）、论文（如Paxos、MapReduce）及新闻资讯，支持多种学习路径。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;关键设计权衡原则&lt;/strong&gt;：深度解析一致性与可用性、延迟与吞吐量、同步与异步通信等12项核心技术决策点。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;行业案例研究&lt;/strong&gt;：包含Airbnb防重复支付、Discord消息存储、Slack实时通信等真实系统设计案例，强化实战洞察。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供免费的系统设计学习与面试资源&lt;/strong&gt;，覆盖概念、网络、API、数据库、缓存及异步通信等多个关键领域。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;系统设计面试问题分类明确&lt;/strong&gt;，分为易、中、难三个层级，便于不同经验水平的学习者针对性练习。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;推荐多渠道学习内容&lt;/strong&gt;，包括书籍、在线课程、新闻信和视频教程，提高学习效率与全面性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;强调分布式系统核心原理与实际应用&lt;/strong&gt;，如CAP定理、一致性哈希、容错机制、服务发现与共识算法。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;包含真实案例与工程实践&lt;/strong&gt;，如Discord消息存储、Airbnb支付系统、Kafka消息队列等，提升实际理解与设计能力。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ashishps1/awesome-system-design-resources</guid>
@@ -130,14 +130,14 @@
     <item>
       <title>testcontainers/testcontainers-java</title>
       <link>https://github.com/testcontainers/testcontainers-java</link>
-      <description>&lt;p&gt;概要: Testcontainers 是一个支持 JUnit 测试的 Java 库，能够提供轻量级、临时性的 Docker 容器实例，适用于常见数据库、Selenium 浏览器及其他可容器化工具，从而提升测试环境的可重复性和效率。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Testcontainers 是一款支持 JUnit 测试的 Java 库，通过 Docker 容器提供轻量级、可丢弃的数据库、Selenium 浏览器及其他工具的临时实例，实现测试环境的快速搭建与资源隔离，同时涵盖多模块版权信息及文档与许可证说明。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;支持 JUnit 测试&lt;/strong&gt;：Testcontainers 与 JUnit 集成，便于在测试中使用容器化资源。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;提供轻量级、临时实例&lt;/strong&gt;：能够快速创建和销毁数据库、浏览器等测试所需资源，适合持续集成和测试。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;兼容多种容器化工具&lt;/strong&gt;：不仅限于数据库和浏览器，还可用于任何可运行在 Docker 容器中的服务或应用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多模块版权归属不同作者&lt;/strong&gt;：主库由 Richard North 等人开发，部分模块如 MS SQL Server 和 Hashicorp Vault 分别由 G DATA Software AG 和 Capital One Services, LLC 开发。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源授权与贡献者信息&lt;/strong&gt;：提供 LICENSE 文件，明确授权信息，并列出所有贡献者。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;JUnit 测试集成&lt;/strong&gt;：作为 Java 库直接支持 JUnit 测试框架，简化测试流程。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;容器化资源管理&lt;/strong&gt;：利用 Docker 容器动态创建和销毁测试所需数据库、浏览器等资源，确保环境一致性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;模块化版权归属&lt;/strong&gt;：核心库由 Richard North 等开发者维护，特定模块（如 MS SQL Server、Hashicorp Vault）分别归属不同公司或团队。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;轻量级与可丢弃特性&lt;/strong&gt;：资源实例仅用于测试，避免持久化占用，提升效率。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;文档与开源合规&lt;/strong&gt;：提供官方文档，明确许可证（LICENSE）及版权声明（Copyright），便于合规使用。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/testcontainers/testcontainers-java</guid>
@@ -145,14 +145,14 @@
     <item>
       <title>CodePhiliaX/Chat2DB</title>
       <link>https://github.com/CodePhiliaX/Chat2DB</link>
-      <description>&lt;p&gt;概要: Chat2DB是一款由Chat2DB团队开发的AI驱动数据库工具和SQL客户端，其专业版支持超过10种主流数据库，并集成智能SQL生成、自动化报告制作及数据结构同步等功能，显著提升数据库操作与数据分析效率。通过AI即开即用的能力，无需编码即可快速构建专业应用，同时提供跨平台部署和多样化的版本获取方式，满足企业对数据库管理及智能化需求。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Chat2DB 是一款由 AI 驱动的数据库工具与 SQL 客户端，作为最热门的 GUI 客户端，支持多种主流数据库类型，并提供智能化 SQL 生成、数据报告创建和数据库结构同步等功能，旨在显著提升数据库操作与数据分析的效率，且适用于不同版本的用户需求。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;专业版集成AI驱动功能&lt;/strong&gt;：支持智能SQL生成、报告生成及数据结构同步，无需编码即可实现高效数据库开发与分析。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;覆盖主流数据库类型&lt;/strong&gt;：支持MySQL、Oracle、PostgreSQL等10+数据库，Pro版目标扩展至100+，兼容性广泛。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;AI即开即用特性&lt;/strong&gt;：Pro版预置AI能力，无需额外配置；社区版需手动激活AI功能，灵活性差异显著。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台与多部署模式&lt;/strong&gt;：支持Windows/MacOS/Linux系统，提供Docker、本地及开源版本，适配不同应用场景。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完整开发支持&lt;/strong&gt;：包含代码调试、独立部署方案及自定义快捷键，强化开发与运维的便利性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI驱动的数据库管理工具&lt;/strong&gt;：Chat2DB Pro 利用 AI 技术实现智能 SQL 生成、数据报告创建及数据库结构同步，提高数据库操作与数据分析效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;广泛兼容多种数据库&lt;/strong&gt;：支持 MySQL、PostgreSQL、Oracle、SQL Server、MongoDB、Redis 等超过 10 种主流数据库，适配性强。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;分版本功能差异&lt;/strong&gt;：Pro 版本相较 Community 和 Local 版本，具备更多高级功能，如数据迁移、表结构同步、跨设备使用等。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种部署方式&lt;/strong&gt;：包括下载安装、Docker 安装及独立部署，满足不同场景下的使用需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与商业许可并存&lt;/strong&gt;：主要采用 Apache License 2.0 许可证，同时也具备专属的 Chat2DB 许可证，符合不同用户的合规性要求。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/CodePhiliaX/Chat2DB</guid>
@@ -160,14 +160,14 @@
     <item>
       <title>flyway/flyway</title>
       <link>https://github.com/flyway/flyway</link>
-      <description>&lt;p&gt;概要: Flyway by Redgate 是一款高效、可靠且易于使用的数据库迁移工具，支持多种操作系统、构建工具和数据库类型，适用于广泛的技术栈，帮助用户无缝演进数据库架构。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Flyway by Redgate 是一款高效、可靠且易于使用的数据库迁移工具，支持多种操作系统、构建工具及数据库类型，帮助用户在不同实例间统一管理数据库模式演进，提升开发与运维效率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台支持&lt;/strong&gt;: 兼容 Windows、macOS、Linux、Docker 和 Java 环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;广泛的数据库兼容性&lt;/strong&gt;: 支持 Aurora MySQL、Aurora PostgreSQL、MySQL、PostgreSQL、SQL Server、MongoDB、Snowflake 等超过 20 种数据库。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;集成主流构建工具&lt;/strong&gt;: 支持 Maven 和 Gradle 等常见构建系统，便于自动化部署。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的第三方插件生态&lt;/strong&gt;: 提供 SBT、Spring Boot、Grails、Play! 等插件支持，提升开发效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源与许可协议&lt;/strong&gt;: 采用 Apache License 2.0 开源协议，允许用户自由使用、修改和分发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多平台兼容&lt;/strong&gt;：支持 Windows、macOS、Linux、Docker 和 Java 环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;广泛数据库支持&lt;/strong&gt;：兼容 Aurora MySQL、Aurora PostgreSQL、MySQL、PostgreSQL、SQL Server 等主流及云数据库。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;集成主流构建工具&lt;/strong&gt;：适用于 Maven 和 Gradle 等常见构建系统。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的第三方插件&lt;/strong&gt;：支持 SBT、Spring Boot、Grails、Play! 等多种开发框架与工具。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源与许可协议&lt;/strong&gt;：基于 Apache License 2.0 开源，用户可自由使用与分发。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/flyway/flyway</guid>
@@ -175,15 +175,15 @@
     <item>
       <title>jd-opensource/joyagent-jdgenie</title>
       <link>https://github.com/jd-opensource/joyagent-jdgenie</link>
-      <description>&lt;p&gt;概要: 京东推出了业界首个开源、高完成度且具备轻量化特性的端到端通用多智能体产品 JoyAgent-JDGenie，直接支持任务执行和结果输出，无需额外开发，涵盖结构化与非结构化知识处理，具备广泛应用潜力和卓越性能表现，并提供灵活的扩展性和易于部署的方案。&lt;/p&gt;
+      <description>&lt;p&gt;概要: 京东推出的JoyAgent-JDGenie是业界首个开源高完成度轻量化通用多智能体产品，通过数据治理DGP协议、智能问数、智能诊断分析及多模态RAG能力，实现结构化与非结构化企业知识的高效处理，解决了传统开源框架需二次开发的痛点，提供端到端开箱即用解决方案，并在GAIA榜单中以75.15%（Validation集）和65.12%（Test集）的准确率超越多款行业知名产品，同时具备高并发DAG引擎、可插拔子智能体、多种文件交付格式等差异化优势，助力企业快速构建智能体应用。&lt;/p&gt;  
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;业界首个端到端开源通用多智能体产品&lt;/strong&gt;：JoyAgent-JDGenie 是首个实现开箱即用并支持二次开发的多智能体系统，能够直接处理用户任务并输出报告。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持结构化与非结构化知识处理&lt;/strong&gt;：为结构化数据提供 DataAgent 能力，具备数据治理、智能问数与诊断分析；对非结构化数据提供多模态 RAG 能力。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高性能且无需依赖外部生态&lt;/strong&gt;：在 GAIA 榜单上表现优于多个行业知名产品，且不依赖阿里云、火山引擎等第三方平台，更具自主性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灵活可扩展的架构设计&lt;/strong&gt;：支持多种智能体设计模式与可插拔子智能体，允许用户快速挂载新功能，提升部署与定制效率。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;详尽的部署与二次开发支持&lt;/strong&gt;：提供 Docker 一键部署和 Shell 脚本简化启动流程，同时开放接口便于开发者扩展和集成自身工具。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;端到端开箱即用的完整产品&lt;/strong&gt;：区别于SDK或框架类开源项目，JoyAgent-JDGenie直接提供可运行的多智能体系统，支持通过网页或PPT等格式输出分析结果。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;结构化与非结构化知识双支持&lt;/strong&gt;：内置DataAgent处理表格数据（含DGP协议、智能问数、诊断分析），并通过多模态RAG能力适配复杂非结构化内容。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;无需依赖外部云生态&lt;/strong&gt;：相比阿里云、火山引擎等平台绑定方案，JoyAgent-JDGenie独立运行，降低部署门槛与生态依赖风险。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高效性能与行业领先指标&lt;/strong&gt;：在GAIA榜单中验证，Validation集准确率75.15%、Test集65.12%，显著优于OWL、Smolagent等主流产品。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活二次开发能力&lt;/strong&gt;：支持通过插拔子智能体（如报告生成、代码、PPT工具）及自定义BaseTool接口扩展功能，实现快速场景适配。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/jd-opensource/joyagent-jdgenie</guid>
@@ -191,14 +191,14 @@
     <item>
       <title>Card-Forge/forge</title>
       <link>https://github.com/Card-Forge/forge</link>
-      <description>&lt;p&gt;概要: Forge是一款专为《魔法：召喚師》（Magic: The Gathering）爱好者打造的非官方开源规则引擎，通过跨平台支持、可扩展架构与多样化游戏模式，为玩家提供沉浸式且可定制化的卡牌游戏体验，其独立运营性质与活跃社区使开发者和玩家能够自由参与创作与互动。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Forge 是一款专为《魔法风云会》（Magic: The Gathering）爱好者打造的开源规则引擎，支持跨平台运行并提供多样化的游戏模式，允许玩家通过灵活的平台探索MTG宇宙，同时鼓励开发者参与扩展和贡献，构建出一个独立于官方的、可定制的在线游戏体验。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;独立开源项目&lt;/strong&gt;: 由社区开发者维护，非 Wizards of the Coast 官方产品，支持自由修改与扩展。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;: 支持 Windows、Mac、Linux 和 Android 系统，适应多场景使用需求。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多样化游戏模式&lt;/strong&gt;: 包括单人冒险模式、任务模式及 AI 对战格式（封印、构建、指挥官、方块），满足不同玩家偏好。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开发者友好设计&lt;/strong&gt;: 采用 Java 编写，鼓励社区贡献新功能与卡牌，提供清晰的安装与更新指引。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源许可与社区支持&lt;/strong&gt;: 以 GPL-3.0 授权开源，拥有活跃的 Discord 社区，提供规则查询、问题解答与贡献指南。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源且独立：Forge 为非官方的开源规则引擎，与 Wizards of the Coast 无关联。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台支持：可在 Windows、Mac、Linux 以及 Android 上运行。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可扩展架构：基于 Java 开发，支持开发者添加新功能和卡牌。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多样化游戏模式：包括单人冒险模式、寻宝模式及多种 AI 对战格式（如 Sealed、Draft 等）。&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区驱动：提供 Discord 支持与贡献指南，鼓励用户参与开发和反馈。&lt;/strong&gt;&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Card-Forge/forge</guid>
@@ -206,14 +206,14 @@
     <item>
       <title>OpenAPITools/openapi-generator</title>
       <link>https://github.com/OpenAPITools/openapi-generator</link>
-      <description>&lt;p&gt;概要: OpenAPI Generator 是一个开源工具，可根据 OpenAPI 规范自动生成 API 客户端库、服务器存根、文档和配置，支持多种编程语言和框架，包括 Java、Go、JavaScript、Kotlin、Python 等。它提供了便捷的安装方式（如 Maven、Homebrew、Docker、NPM 和 pip），并支持自定义、集成到开发流程以及在线服务。该工具由社区驱动，强调开发者体验，并提供了丰富的学习资源和社区贡献者。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: OpenAPI Generator 是一个基于 OpenAPI 规范（v2/v3）的自动化工具，能够生成 API 客户端库（SDK）、服务器存根、文档和配置，支持超过 30 种编程语言与框架，并提供多渠道安装（Maven、Homebrew、Docker 等）和线上服务。其核心目标是提升开发者体验，通过社区驱动持续扩展功能，同时注重安全性（需对来自不可信源的输入进行审核），并支持与主流开发工具链集成，广泛的行业应用案例和开源协作模式使其成为 API 开发自动化的重要解决方案。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt;：支持生成多种语言的 API 客户端和服务器存根，如 Java、Go、Python、Kotlin、Node.js、Rust、Swift、TypeScript 等，且适用于各类框架与平台。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多种安装方式&lt;/strong&gt;：提供 Maven、Homebrew、Docker、NPM 和 pip 等多种安装方法，灵活性高，适应不同开发环境。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;自动化与个性化&lt;/strong&gt;：支持自动生成代码、文档和配置，并允许通过配置文件和模板进行高度定制，提升开发效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安全与许可&lt;/strong&gt;：提醒用户注意从不可信来源获取的 OpenAPI 规范和模板可能带来的安全风险，且生成代码不附带原项目许可，需独立管理。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区驱动与贡献机制&lt;/strong&gt;：由社区维护，有核心团队和技术委员会，提供贡献指南与加入方式，鼓励开发者参与项目发展。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;替代 Swagger Codegen 的社区驱动项目&lt;/strong&gt;: 由超过 40 名核心贡献者从原 Swagger Codegen 分叉，专注于用户需求与技术演进，支持 OpenAPI 3.1 等新规范特性。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全栈自动化能力&lt;/strong&gt;: 可生成客户端（如 Go、TypeScript、Ruby）、服务器存根（如 Java Spring、Kotlin）、文档（HTML/Confluence）及配置文件，覆盖 RESTful、GraphQL、gRPC 等协议。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多样化安装方式&lt;/strong&gt;: 支持 Maven、Homebrew、Docker 镜像、NPM、pip 等多平台部署，提供版本自更新脚本与 offline 模式以适应不同环境需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;严格的社区治理&lt;/strong&gt;: 通过 Core Team 和 Technical Committee 梳理贡献规则，要求开发者定期提交代码并参与评审，且成员需具备不低于 3 个 PR 贡献门槛。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开发者体验优先&lt;/strong&gt;: 生成代码默认基于简化易用原则，但需注意自动生成代码仅限“AS IS”，无 warranty 且由使用者自行负责后续维护。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/OpenAPITools/openapi-generator</guid>
@@ -221,14 +221,15 @@
     <item>
       <title>PaperMC/Paper</title>
       <link>https://github.com/PaperMC/Paper</link>
-      <description>&lt;p&gt;概要: Paper是一款广泛使用的高性能Minecraft服务器软件，专注于解决游戏机制和玩法的一致性问题，通过官方文档、社区支持渠道及开发工具为服务器管理员和插件开发者提供全面指导，同时依赖JDK21和开源赞助来保障技术更新与基础设施维护。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Paper的核心定位&lt;/strong&gt;: 作为修复Minecraft游戏机制不一致的高性能服务器，替代原版实现更稳定流畅的运行体验。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区支持与协作&lt;/strong&gt;: 提供论坛、Discord等交流渠道，支持开发者通过GitHub提交PR并获取旧版本（1.8-1.21.3）的存档仓库。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;技术文档与资源&lt;/strong&gt;: 官方文档（docs.papermc.io）、Paper API Javadocs（papermc.io/javadocs）及Maven/Gradle依赖配置指南。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;编译要求&lt;/strong&gt;: 需JDK21环境及网络连接，通过Git仓库执行Gradle任务完成源码编译，生成可运行的JAR文件。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开源赞助模式&lt;/strong&gt;: 采用Open Collective管理财务透明化，支持者可通过GitHub Sponsors或直接捐款资助项目。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Paper 是一款广泛使用且高性能的 Minecraft 服务器软件，专注于解决游戏机制和玩法的一致性问题，为服务器管理员和插件开发者提供简便的安装方式、详尽的文档支持以及透明的财务管理机制，同时鼓励社区贡献和赞助以维持项目持续发展。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Paper 是一款高性能且广泛使用的 Minecraft 服务器软件&lt;/strong&gt;，旨在修复游戏机制和玩法的一致性问题。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供多种安装方式&lt;/strong&gt;，包括直接下载运行 JAR 文件，便于服务器管理员快速部署。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持插件开发者&lt;/strong&gt;，提供详细的 API 文档和 Maven 依赖配置，便于集成与开发。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;采用 Open Collective 进行财务透明管理&lt;/strong&gt;，并通过 GitHub Sponsors 接受捐款，保障项目长期运作。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;鼓励社区参与&lt;/strong&gt;，包括通过 Pull Request 贡献代码，以及对旧版本的归档支持。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/PaperMC/Paper</guid>
@@ -236,15 +237,14 @@
     <item>
       <title>spring-projects/spring-framework</title>
       <link>https://github.com/spring-projects/spring-framework</link>
-      <description>&lt;p&gt;概要: Spring Framework 是 Spring 项目的基石，为构建企业级应用提供了丰富的功能和灵活性，涵盖多种架构和场景。它不仅提供完善的文档和资源，还支持从源代码构建、持续集成以及社区互动，同时遵循 Apache 2.0 许可协议，并设有行为准则以确保项目参与者的专业性和规范性。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Spring Framework 是 Spring 项目体系的核心基础&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持广泛的企业级应用场景与架构，全面提升 Java 应用开发能力&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供全面的文档资源，包括参考文档、API 说明及教程指南&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;遵循 Apache 2.0 许可协议，确保开源自由与合规性&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;鼓励社区参与，设有行为准则和反馈渠道以维护项目质量与规范&lt;/strong&gt;&lt;/li&gt;
+      <description>&lt;p&gt;概要: Spring Framework 是所有 Spring 项目的基础，为构建企业级应用提供了超出 Java 语言本身的全面支持，涵盖文档、构建指南、代码规范及持续集成等内容，并遵循 Apache 2.0 许可协议。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;Spring Framework 是 Spring 项目家族的基础&lt;/strong&gt;，常被简称为 "Spring"。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持广泛的企业应用开发场景和架构&lt;/strong&gt;，提供超出 Java 语言本身的开发能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;遵循 Apache 2.0 许可协议&lt;/strong&gt;，确保开源与合规性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供完整的文档资源&lt;/strong&gt;，包括参考文档、GitHub wiki 页面和 API 说明。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;维护社区规范与行为准则&lt;/strong&gt;，鼓励参与并报告不当行为。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/spring-projects/spring-framework</guid>
@@ -252,15 +252,14 @@
     <item>
       <title>modelcontextprotocol/java-sdk</title>
       <link>https://github.com/modelcontextprotocol/java-sdk</link>
-      <description>&lt;p&gt;概要: 该文本介绍了官方的Java Model Context Protocol (MCP) SDK，旨在为Java应用提供与AI模型和工具交互的标准化接口，支持同步和异步通信模式，由Spring AI团队协作维护，并通过模块化设计、可插拔机制与主流Java生态兼容，便于快速集成与扩展。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;支持同步与异步通信&lt;/strong&gt;：SDK提供了灵活的编程模型，支持Reactive Streams（异步流处理）和同步调用，适应不同应用场景。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基于Jackson的JSON抽象&lt;/strong&gt;：使用Jackson作为默认的JSON序列化实现，但通过mcp-json模块提供可替换性，确保灵活性与性能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reactor作为异步实现基础&lt;/strong&gt;：采用Project Reactor实现Reactive Streams，兼顾成熟度、性能与可观测性集成能力。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;模块化结构提升可定制性&lt;/strong&gt;：SDK分为多个模块，如mcp-core、mcp-spring等，允许开发者按需引入，降低依赖复杂度。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;授权机制可插拔&lt;/strong&gt;：授权功能通过插件形式提供，避免锁定特定实现，支持多种安全框架如Spring Security或MicroProfile JWT。&lt;/li&gt;
+      <description>&lt;p&gt;概要: 此文本介绍了官方MCP Java SDK，该SDK旨在为Model Context Protocol（MCP）提供标准化的Java接口，支持同步与异步通信模式。它通过与Spring AI合作实现，采用Reactive Streams作为编程模型，Jackson作为默认JSON序列化库，同时具备模块化设计与可扩展性，允许开发者根据需求选择不同的传输方式、日志系统及授权策略，且遵循MIT开源许可证。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;标准化接口兼容同步/异步模式&lt;/strong&gt;：通过Reactive Streams与Project Reactor实现异步流处理，同时提供同步封装层，兼顾单线程阻塞操作与跨线程非阻塞能力。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;灵活的JSON处理方案&lt;/strong&gt;：基于抽象层(mcp-json)集成Jackson，默认实现高性能序列化，且支持插件化替换为其他JSON库。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;模块化结构适配多样化需求&lt;/strong&gt;：划分核心模块(mcp-core)、BOM管理、Spring集成模块(mcp-spring)等，允许项目仅引入必要组件，如基础功能依赖mcp（核心+Jackson），Spring应用可直接使用mcp-spring。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;观测性与安全生态中立&lt;/strong&gt;：采用SLF4J作为日志抽象，通过Reactor Context实现追踪数据跨异步边界传递，授权机制通过插件化接口支持多种安全框架（如Spring Security、MicroProfile JWT）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;传输方式可扩展&lt;/strong&gt;：客户端默认使用JDK HttpClient，服务端提供Servlet、WebFlux、WebMVC等多重实现，兼容Netty、Vert.x等其他传输框架。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/modelcontextprotocol/java-sdk</guid>
@@ -268,14 +267,14 @@
     <item>
       <title>spring-projects/spring-ai-examples</title>
       <link>https://github.com/spring-projects/spring-ai-examples</link>
-      <description>&lt;p&gt;概要: "spring-ai-examples" 是一个展示 Spring 框架在人工智能领域应用的示例集合，旨在帮助开发者更好地理解和实现 AI 功能，涵盖从基础模型集成到复杂应用场景的多种案例，提供实践指导和技术参考。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: "spring-ai-examples" 是一个用于展示 Spring 框架在人工智能领域应用的示例项目，涵盖了自然语言处理、机器学习模型集成和智能服务构建等场景，旨在帮助开发者快速理解和实现 AI 与 Spring 生态系统的结合。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;提供 AI 应用示例&lt;/strong&gt;：集合多个 Spring 框架与人工智能技术结合的代码示例，便于开发者学习和实践。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;覆盖多种 AI 场景&lt;/strong&gt;：包括自然语言处理、计算机视觉、推荐系统等内容，展示 AI 在不同领域的实现方式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;简化 AI 集成流程&lt;/strong&gt;：通过 Spring 的模块化设计，降低 AI 模型与业务逻辑集成的复杂度。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持主流技术栈&lt;/strong&gt;：兼容常见的 AI 框架和工具，如 TensorFlow、PyTorch 等，提升开发灵活性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;注重实践与可扩展性&lt;/strong&gt;：示例代码结构清晰，便于扩展和定制，适合企业级 AI 应用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供 AI 应用实例&lt;/strong&gt;：包含多个与人工智能相关的代码示例，帮助开发者理解如何在实际项目中应用 AI 技术。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;集成主流 AI 模型&lt;/strong&gt;：支持多种机器学习和深度学习模型的集成，增强 Spring 应用的智能化能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;简化开发流程&lt;/strong&gt;：通过模块化设计和清晰的结构，降低开发者在构建 AI 服务时的复杂度。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;促进生态融合&lt;/strong&gt;：展示 Spring 与 AI 工具和技术的无缝对接，推动企业级 AI 应用的发展。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;适用于企业场景&lt;/strong&gt;：示例项目针对实际业务需求优化，可直接借鉴用于开发生产级 AI 解决方案。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/spring-projects/spring-ai-examples</guid>
