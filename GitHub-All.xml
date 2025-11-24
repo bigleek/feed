@@ -8,106 +8,91 @@
     <item>
       <title>wolfpld/tracy</title>
       <link>https://github.com/wolfpld/tracy</link>
-      <description>&lt;p&gt;概要: Tracy Profiler 是一款专为游戏和其他应用设计的实时性能分析工具，具备纳秒级精度和远程遥测功能，结合帧捕获与采样技术，全面支持 CPU 和 GPU 性能监控，涵盖多语言集成、内存管理、锁及上下文切换跟踪，并能自动关联截图与帧数据，帮助开发者高效定位性能瓶颈。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: Tracy Profiler是一款适用于游戏及其他应用的实时、纳秒级精度、远程遥测的混合帧与采样型性能分析工具，支持多种CPU和GPU接口，可分析内存分配、锁、上下文切换等关键性能指标，并提供文档、版本发布、变更日志和交互式演示。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;实时纳秒级性能分析&lt;/strong&gt;: 支持高精度（纳秒级）实时监控，适用于对性能要求严苛的场景。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多语言与跨平台兼容&lt;/strong&gt;: 原生支持 C/C++/Lua/Python/Fortran，提供广泛第三方绑定（如 Rust、C#、Zig 等），覆盖多种开发需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全栈 GPU API 支持&lt;/strong&gt;: 兼容 OpenGL、Vulkan、Direct3D 11/12、Metal、OpenCL 和 CUDA，满足多样化图形开发场景。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;自动化截图与帧关联&lt;/strong&gt;: 自动将截图与捕获帧数据绑定，提升性能问题定位效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;完备的文档与发布资源&lt;/strong&gt;: 提供详细用户文档（tracy.pdf）及预编译 Windows x64 二进制文件，简化部署与使用流程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;实时纳秒级性能分析&lt;/strong&gt;：具备纳秒级时间精度，支持实时性能监控，适用于游戏开发和其他高性能应用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言与平台支持&lt;/strong&gt;：直接支持C、C++、Lua、Python、Fortran，同时拥有第三方绑定支持Rust、Zig、C#等语言。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全面的GPU API兼容性&lt;/strong&gt;：支持OpenGL、Vulkan、Direct3D 11/12、Metal、OpenCL和CUDA等主流图形API。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;集成化性能指标跟踪&lt;/strong&gt;：可分析内存分配、锁、上下文切换等关键性能问题，提升系统整体效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的资源与更新&lt;/strong&gt;：提供完整的文档、版本发布、变更日志及交互式演示，便于用户快速上手和跟踪最新功能。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/wolfpld/tracy</guid>
     </item>
     <item>
-      <title>TapXWorld/ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>&lt;p&gt;概要: 本项目旨在通过集中整理并开源国内从小学到大学的PDF教材资源，解决教育信息获取受限和区域教育不平等问题，同时为海外华人提供获取国内教育内容的渠道。针对GitHub文件上传限制，资源被拆分为35MB片段并附带专门的合并工具，同时区分国内与海外用户的下载方式，鼓励捐赠支持项目维护并建立Telegram社区以推动开放教育理念。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;开源教育平等化&lt;/strong&gt;: 集中提供全学段教材资源，消除地区教育差异，保障普通人及海外华人群体的教育公平。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;技术适配与文件管理&lt;/strong&gt;: 因应GitHub文件大小限制，对超50MB的PDF进行切分，并开发专用合并工具确保文件可用性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;分区域下载策略&lt;/strong&gt;: 国内用户优先使用开源项目(tchMaterial-parser)下载，海外用户则建议通过本存储库获取，兼顾网络效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;社区共建与资源维护&lt;/strong&gt;: 通过Telegram社区传递项目动态，并呼吁捐赠支持资源库长期运营和扩展。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;教育理念革新&lt;/strong&gt;: 倡导数学学习脱离应试目标，强调知识传播的公共价值与普惠性。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/TapXWorld/ChinaTextbook</guid>
-    </item>
-    <item>
-      <title>traefik/traefik</title>
-      <link>https://github.com/traefik/traefik</link>
-      <description>&lt;p&gt;概要: Traefik 是一个现代的 HTTP 反向代理和负载均衡器，专为简化微服务部署而设计，能够自动与 Docker、Kubernetes、ECS 等基础设施集成并动态配置路由，无需手动干预，同时支持 HTTPS、多种负载均衡算法、Web 界面监控及多种后端系统。&lt;/p&gt;
+      <title>nvm-sh/nvm</title>
+      <link>https://github.com/nvm-sh/nvm</link>
+      <description>&lt;p&gt;概要: nvm（Node Version Manager）是一个支持多种POSIX兼容shell的工具，允许用户快速安装和切换不同版本的Node.js，同时支持io.js和长期支持（LTS）版本管理，提供跨平台安装、卸载、环境变量配置、镜像设置和深度shell集成等功能，适用于Unix、macOS以及Windows WSL等系统。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;自动动态配置路由&lt;/strong&gt;：Traefik 通过监听服务注册中心或编排器 API 动态生成路由配置，极大简化了微服务的外部访问设置。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持多种负载均衡算法与协议&lt;/strong&gt;：提供多种负载均衡策略，兼容 WebSocket、HTTP/2、gRPC 等现代协议。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;集成 HTTPS 与 Let's Encrypt&lt;/strong&gt;：支持自动获取和管理 Let's Encrypt 证书，包括通配符证书，确保微服务的安全访问。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;丰富的监控与日志功能&lt;/strong&gt;：提供 REST API、多种指标系统（如 Prometheus、Datadog）以及标准格式的访问日志。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灵活部署与社区支持&lt;/strong&gt;：支持单二进制文件部署与 Docker 镜像，提供社区论坛与商业支持渠道。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持跨平台安装&lt;/strong&gt;：nvm可在Unix系统、macOS和Windows WSL上使用，并支持bash、zsh、fish等不同shell环境。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活版本管理&lt;/strong&gt;：支持手动和自动安装Node.js和io.js，且可设置默认版本、使用别名、迁移全局npm包。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自定义颜色和环境变量&lt;/strong&gt;：可自定义nvm输出的颜色，并通过环境变量如NVM_COLORS、NVM_DIR等进行配置和调试。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker集成&lt;/strong&gt;：提供Dockerfile以构建开发环境，可通过镜像和构建参数灵活配置Node.js版本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;兼容性与平台问题&lt;/strong&gt;：在Alpine Linux、Apple Silicon及WSL等平台上需特别处理依赖和兼容性问题，如必须使用源码编译或配置系统DNS。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/traefik/traefik</guid>
+      <guid>https://github.com/nvm-sh/nvm</guid>
     </item>
     <item>
-      <title>volcengine/verl</title>
-      <link>https://github.com/volcengine/verl</link>
-      <description>&lt;p&gt;概要: verl是由ByteDance Seed团队主导并由社区维护的开源强化学习（RL）训练框架，专为大型语言模型（LLMs）设计，具备灵活扩展、高效执行和生产级部署能力。其基于HybridFlow论文，支持多种RL算法（如PPO、GRPO、PF-PPO等）及主流LLM基础设施（FSDP、Megatron-LM、vLLM等）的无缝集成，通过3D-HybridEngine实现设备映射优化和内存冗余消除，显著提升吞吐量与训练效率。同时，verl在多模态模型（如Qwen2.5-vl、Kimi-VL）和工具调用场景中表现突出，并已应用于多个高性能模型（如DeepSeek-671B、Qwen3-235B）的训练，近期在PyTorch Conference 2025等国际会议中展示，持续推动RLHF技术在AI领域的落地。&lt;/p&gt;  
+      <title>yeongpin/cursor-free-vip</title>
+      <link>https://github.com/yeongpin/cursor-free-vip</link>
+      <description>&lt;p&gt;概要: Cursor Free VIP是一款针对Cursor 0.49.x版本的辅助工具，通过自动重置机器ID与突破令牌限制实现免费升级Pro功能，支持跨平台运行（Windows/macOS/Linux）并提供多语言界面，包含详细的配置参数和自动化安装脚本，但需注意其仅限学习研究用途且可能涉及规避平台使用条款。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;生产级RL训练框架&lt;/strong&gt;: verl支持大规模LLM训练与推理引擎集成，兼容FSDP2、Megatron-LM等技术，实现671B模型与百GPU集群的高效扩展。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多算法与多模态支持&lt;/strong&gt;: 提供PPO、GRPO、PF-PPO等多样化的RL算法框架，并支持VLMs（如Qwen2.5-vl）、多模态工具调用及代码生成等复杂任务。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;性能优化突破&lt;/strong&gt;: 通过3D-HybridEngine和vLLM 0.8.2等技术，实现训练吞吐量提升1.4倍，且内存冗余降低，适配AMD ROCm及异步非策略性架构。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;实际应用与成果验证&lt;/strong&gt;: 被用于训练OpenAI O1级数学模型（如Doubao-1.5-pro）、AIME 2024推理任务（DAPO算法达50分）、Codeforces等基准测试，展现卓越泛化能力。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;社区驱动与生态扩展&lt;/strong&gt;: 吸引ByteDance、Alibaba、NVIDIA等多家头部机构参与，提供完整文档与教程，并持续集成SGLang、vLLM等开源项目，强化多领域协作。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;功能核心&lt;/strong&gt;: 解决Cursor试用限制问题，通过重置机器ID与绕过令牌限制实现Pro功能免费使用&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;平台兼容性&lt;/strong&gt;: 支持Windows/macOS/Linux系统，适配不同架构（x86/x64/ARM64）&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;安装要求&lt;/strong&gt;: 需以管理员权限运行脚本，且在关闭Cursor后执行安装操作&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;配置特性&lt;/strong&gt;: 提供多语言支持（含简体中文、繁体中文、越南语）及详细的等待时间参数定制&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;合规声明&lt;/strong&gt;: 明确标注仅限学习研究用途，使用风险由用户自行承担，且可能违反平台服务条款&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/volcengine/verl</guid>
+      <guid>https://github.com/yeongpin/cursor-free-vip</guid>
+    </item>
+    <item>
+      <title>milvus-io/milvus</title>
+      <link>https://github.com/milvus-io/milvus</link>
+      <description>&lt;p&gt;概要: Milvus是专为大规模向量近似最近邻（ANN）搜索设计的高性能云原生向量数据库，通过分布式架构和硬件加速（CPU/GPU）实现高效处理，支持多租户隔离、热冷存储优化、混合搜索模式（语义+全文）以及与主流AI工具链的深度集成，适用于文本、图像和多模态数据的AI应用开发，提供从本地部署到全托管云服务（Zilliz Cloud）的灵活方案，并通过开源Apache 2.0协议及活跃社区持续演进。&lt;/p&gt;  
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;分布式云原生架构&lt;/strong&gt;：基于K8s实现横向扩展，分离计算与存储，支持GPU加速和高可用性，适应亿级向量与高并发查询需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多租户与热冷存储机制&lt;/strong&gt;：通过数据库、集合、分区等层级隔离资源，动态区分热数据（内存/SSD）与冷数据（低成本存储），兼顾性能与成本效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;混合搜索与多索引类型支持&lt;/strong&gt;：兼容Dense向量（HNSW/IVF等）和Sparse向量（BM25/SPLADE），可执行语义搜索、全文检索及多模态数据融合查询。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全栈安全控制&lt;/strong&gt;：强制用户认证、TLS加密传输及基于角色的细粒度权限管理（RBAC），保障企业级数据隐私与合规性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;生态系统深度整合&lt;/strong&gt;：与LangChain、LlamaIndex、HuggingFace等工具链无缝对接，提供数据同步、迁移、监控（Prometheus/Grafana）及开发工具（Attu/Birdwatcher），加速AI应用构建。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/milvus-io/milvus</guid>
     </item>
     <item>
       <title>iptv-org/iptv</title>
       <link>https://github.com/iptv-org/iptv</link>
-      <description>&lt;p&gt;概要: 该项目是一个全球公开可用的IPTV频道集合，用户可通过粘贴播放列表链接至支持直播的播放器中直接观看，同时提供电子节目指南、数据库、API接口及相关资源，便于开发者和用户使用与贡献，但需注意版权相关责任。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提供全球公开IPTV频道播放列表&lt;/strong&gt;：集中收录来自世界各地的IPTV频道，主播放列表链接为https://iptv-org.github.io/iptv/index.m3u。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持电子节目指南下载&lt;/strong&gt;：大部分频道的EPG可通过iptv-org/epg项目提供的工具下载。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;所有频道数据来源于公开数据库&lt;/strong&gt;：频道信息存储于iptv-org/database项目中，用户可提交错误修正。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;项目鼓励用户贡献与反馈&lt;/strong&gt;：提交问题或拉取请求前需阅读贡献指南，感谢现有贡献者。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;版权说明与责任界定&lt;/strong&gt;：项目仅提供用户提交的流媒体链接，不存储视频内容，若涉及版权问题，应联系实际内容提供方而非项目维护者。&lt;/li&gt;
+      <description>&lt;p&gt;概要：该文本介绍了全球公开IPTV频道的集合项目，提供播放列表、EPG、数据库、API等资源，并明确说明项目仅包含用户提交的视频流链接，不存储视频文件，所有内容均基于版权方自愿公开的流地址，且需通过联系实际内容提供方而非平台维护者来处理侵权问题。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;全量公开IPTV频道聚合&lt;/strong&gt;：整合全球范围内可公开访问的IPTV直播源，通过播放列表形式提供。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;资源分层架构&lt;/strong&gt;：包含播放列表（含主播放列表链接）、EPG工具、数据库、API文档及附加资源库，实现功能模块化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;零内容存储的合规性&lt;/strong&gt;：项目仅托管用户提交的流媒体URL链接，不直接存储视频文件，规避版权责任。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版权归属与处理机制&lt;/strong&gt;：强调链接指向内容由版权方主动公开，侵权申诉需直接联系内容宿主而非平台维护者。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：鼓励用户通过反馈渠道参与纠错、贡献资源，并说明项目维护流程及法律免责条款。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/iptv-org/iptv</guid>
     </item>
     <item>
-      <title>yangshun/tech-interview-handbook</title>
-      <link>https://github.com/yangshun/tech-interview-handbook</link>
-      <description>&lt;p&gt;概要: 《Tech Interview Handbook》是专为忙碌软件工程师打造的编程面试准备资料库，整合了算法题型、最佳实践、简历指导及行为面试问题等全方位内容，通过高效学习模式帮助用户避免盲目刷题，掌握核心技巧，同时提供非订阅制的付费课程资源和开放社区协作机制，助力用户系统通关技术面试并争取优质offer。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;针对性强的结构化内容&lt;/strong&gt;：覆盖技术面试全流程（求职准备、面试实战、薪资谈判），融合算法、系统设计、前端专项及非技术领域（如行为面试）的差异化指导。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;高质量原创资源&lt;/strong&gt;：区别于传统面试资料库的外部链接模式，提供直接可使用的精选内容、分主题算法速查表及多语言示例代码库。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;高效学习框架&lt;/strong&gt;：基于“问题模式”而非单纯题海战术，通过Grokking系列课程和Grind 75扩展题库系统化梳理高频考点，强调理解规律而非机械记忆。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;课程生态联动&lt;/strong&gt;：推荐AlgoMonster等由顶尖工程师开发的付费课程，提供单次付费终身访问权益，并区分前端、系统设计等细分领域学习路径。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开放协作机制&lt;/strong&gt;：鼓励用户贡献多领域内容（如系统设计），同时通过赞助和 backers 系统维持项目可持续性，确保资源更新与社区共建。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/yangshun/tech-interview-handbook</guid>
-    </item>
-    <item>
       <title>playcanvas/engine</title>
       <link>https://github.com/playcanvas/engine</link>
-      <description>&lt;p&gt;概要: PlayCanvas是一款基于WebGL2、WebGPU等先进图形技术的开源游戏引擎，支持跨平台运行3D交互内容，广泛应用于游戏、广告及可视化领域，凭借其完整的功能模块（如物理引擎、异步资产加载、TypeScript/JS脚本支持）和行业级用户（含迪士尼、三星等知名企业）成为高效开发HTML5应用的首选工具。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: PlayCanvas 是一个基于 WebGL、WebGPU、WebXR 和 glTF 构建的开源游戏引擎，能够运行游戏及其他交互式 3D 内容于任意移动或桌面浏览器，已获众多行业领先企业的广泛采用，并具备强大的图形渲染、动画、物理、输入、声音和资源管理功能。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台图形技术支撑&lt;/strong&gt;：基于WebGL2、WebGPU、WebXR和glTF，实现高性能3D内容在移动端和桌面端的无缝运行。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全功能模块集成&lt;/strong&gt;：涵盖2D/3D图形、物理引擎（Ammo.js）、输入控制、3D音效及异步流媒体资产加载（支持glTF 2.0、Draco压缩）。 &lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;行业级用户背书&lt;/strong&gt;：被迪士尼、三星、Facebook等全球领先企业用于游戏开发、广告及可视化项目，验证其商业价值。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;轻量级开发流程&lt;/strong&gt;：通过Node.js 18+环境及npm命令快速构建引擎、生成文档，降低开发门槛。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;配套编辑器工具&lt;/strong&gt;：提供可视化编辑器，支持实时调试与代码修改（如CodePen集成），增强开发效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开源且跨平台&lt;/strong&gt;：基于 HTML5 和 WebGL 构建，支持在移动和桌面浏览器中运行交互式 3D 内容。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;广泛行业应用&lt;/strong&gt;：被包括迪士尼、宝马、Facebook、Zynga 等在内的多个领先企业使用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种图形技术&lt;/strong&gt;：提供基于 WebGL2 和 WebGPU 的高级图形引擎，增强性能与兼容性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多功能开发支持&lt;/strong&gt;：集成了物理引擎、3D 声音、异步资源流等多种核心特性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活开发流程&lt;/strong&gt;：允许通过 TypeScript 或 JavaScript 编写游戏逻辑，并支持本地开发环境搭建与构建选项。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/playcanvas/engine</guid>
@@ -115,136 +100,61 @@
     <item>
       <title>bobeff/open-source-games</title>
       <link>https://github.com/bobeff/open-source-games</link>
-      <description>&lt;p&gt;概要: 本文系统梳理了开源游戏领域的重要项目，涵盖动作、冒险、策略、模拟等多类游戏类型，重点展示了经典商业游戏的开源重制版本及现代开源引擎开发成果，强调了开源社区在游戏开发中的创新活力与技术传承，为玩家和开发者提供了多样化的选择和跨平台支持。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;开源游戏覆盖全品类&lt;/strong&gt;：包括动作、冒险、策略、模拟等类型，既有独立创作也有经典游戏重构，满足不同用户需求。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;经典商业游戏开源重制&lt;/strong&gt;：如《ScummVM》运行经典冒险游戏，《OpenRCT2》重构《RollerCoaster Tycoon 2》，体现技术还原与社区协作。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;现代引擎驱动开源创新&lt;/strong&gt;：采用Unity、Godot等技术开发新游戏（如《Daggerfall Unity》《OpenMW》），提升性能与扩展性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;强调跨平台与开放性&lt;/strong&gt;：多项目支持多端适配（如《Minosoft》《Unciv》），并开源核心代码与工具链，促进生态可持续发展。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;差异化玩法与特色&lt;/strong&gt;：如《Cataclysm》聚焦末日生存，《Pixel Dungeon》以像素艺术为主，展现开源游戏的多样性。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: 本文列举了多种开源游戏及商业游戏的开源重制版本，涵盖动作、冒险、策略、角色扮演、沙盒等多个类型，展示了开源社区在游戏开发和复古游戏现代化中的活跃与创新，同时也为游戏开发者和爱好者提供了丰富的资源和工具。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;开源游戏覆盖广泛类型&lt;/strong&gt;：包括动作、冒险、策略、角色扮演、沙盒等，满足不同玩家的需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;包含经典游戏的开源重制版&lt;/strong&gt;：如《Doom》《Quake》《Wolfenstein 3D》《Command &amp; Conquer》系列等，通过社区努力实现了现代平台上的重现。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强调可修改和扩展性&lt;/strong&gt;：许多游戏提供了可读的源代码，允许用户进行自定义、修复和改进，如《Twilight Princess》的逆向工程和《ScummVM》的兼容性支持。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;采用现代引擎和技术实现&lt;/strong&gt;：部分游戏使用如Godot、Unity、JavaScript等现代技术重构，提升性能与跨平台兼容性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区驱动开发与协作&lt;/strong&gt;：游戏如《OpenRCT2》《Minosoft》《Veloren》等，由开源社区维护，体现了开源生态的强大生命力。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/bobeff/open-source-games</guid>
     </item>
     <item>
-      <title>nvm-sh/nvm</title>
-      <link>https://github.com/nvm-sh/nvm</link>
-      <description>&lt;p&gt;概要: &lt;strong&gt;nvm&lt;/strong&gt; 是一款跨平台的 Node.js 版本管理工具，支持 POSIX 兼容 shell（bash, zsh, fish 等），允许用户通过命令行快速切换、安装和管理多个 Node.js 版本。其核心功能包括自动化版本切换（通过 .nvmrc 文件）、LTS 版本支持、全局包迁移、自定义颜色输出及镜像配置，并提供 Docker 安装方案和针对 macOS、WSL 与 Alpine Linux 的特定兼容性解决方案，同时强调保留系统 Node 兼容性及安全注意事项。&lt;/p&gt;  
+      <title>yangshun/tech-interview-handbook</title>
+      <link>https://github.com/yangshun/tech-interview-handbook</link>
+      <description>&lt;p&gt;概要: 这份《Tech Interview Handbook》为忙碌的软件工程师提供了全面且经过精选的技术面试准备资料，涵盖算法练习、面试策略、简历优化及行为面试问题等内容，旨在帮助读者高效备考，避免盲目刷题，通过系统性学习提升面试成功率。&lt;/p&gt;
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台安装与兼容性&lt;/strong&gt;: 支持 MacOS、Linux、WSL 和 Alpine Linux，但需注意 Alpine 的 musl 编译问题，建议使用 -s 标志手动编译 Node；MacOS Apple Silicon 须通过 Rosetta 运行旧版本 Node，避免编译错误或内存问题。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;版本管理与迁移&lt;/strong&gt;: 支持 LTS 版本（lts/*）及其别名（如 lts/argon），可自动迁移全局 npm 包（nvm install --reinstall-packages-from=...），同时通过 .nvmrc 文件实现目录级自动版本切换。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活配置与调试&lt;/strong&gt;: 提供自定义颜色设置（NVM_COLORS）、镜像源配置（NVM_NODEJS_ORG_MIRROR）、非交互式环境路径注入（如 Docker 中设置 BASH_ENV），且需确保 shell 配置（如 .bashrc/.zshrc）正确加载 nvm 环境。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;Docker 集成&lt;/strong&gt;: 专为 CI/CD 和开发环境提供的 Dockerfile，实现在非交互式容器中可靠使用 nvm，但容器构建耗时约8分钟，体积较大（650MB），不适合生产环境。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;故障排查关键点&lt;/strong&gt;: 安装失败需清除缓存（nvm cache clear）；macOS 聚合语法问题需检查 Xcode 工具链或修正 shell 配置；WSL 网络问题需手动修改 resolv.conf 和 wsl.conf 以绕过 DNS 解析限制。&lt;/li&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;面向目标用户&lt;/strong&gt;：适用于技术面试新手、久未面试的资深工程师及希望提升面试能力的任何人。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;内容覆盖全面&lt;/strong&gt;：不仅包含算法题，还有简历指导、非技术面试问题、前端和系统设计相关内容，以及面试流程中的各个阶段。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;强调学习效率&lt;/strong&gt;：反对盲目刷题，倡导通过掌握题型模式进行高效学习，如Grokking the Coding Interview课程提供的模式化训练方法。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;差异化优势&lt;/strong&gt;：与传统资源不同，该手札提供高质量、直接可用的原创内容，而非仅仅链接到外部资源，内容结构更清晰。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;社区协作与支持&lt;/strong&gt;：鼓励贡献内容，同时接受赞助和捐助以持续完善项目，提供了开源授权和商业化课程推荐。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/nvm-sh/nvm</guid>
+      <guid>https://github.com/yangshun/tech-interview-handbook</guid>
     </item>
     <item>
       <title>Zie619/n8n-workflows</title>
       <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>&lt;p&gt;概要: n8n Workflow Collection 是一个全面的自动化流程库，提供超过4343个生产就绪的工作流，支持多平台Docker部署、强大的搜索功能与现代化界面，确保高性能和高安全性，用户可通过在线平台或本地安装快速访问和使用。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 这是一个全面的n8n自动化工作流程集合，提供超过4300个生产就绪的工作流，支持快速搜索、分类浏览和直接下载功能，并在GitHub Pages上部署了现代化、安全且高性能的界面，同时支持本地安装和Docker部署，便于灵活使用和贡献。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;丰富的自动化资源库&lt;/strong&gt;: 包含4,343个生产就绪的n8n工作流，涵盖365个独特集成，拥有100%的导入成功率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;高性能与安全优化&lt;/strong&gt;: 通过SQLite FTS5实现超快速搜索（&lt;100ms），支持Docker多平台部署，并完成全面安全审计与CVE修复。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;用户友好与多设备兼容&lt;/strong&gt;: 提供现代化UI（支持暗色/亮色模式），支持移动端访问并具备智能搜索与分类浏览功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活部署方式&lt;/strong&gt;: 用户可选择在线使用或本地安装，支持多种技术栈（Python、FastAPI、Docker等）和开发模式。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开放贡献与社区支持&lt;/strong&gt;: 鼓励开发者通过提交错误、建议、文档优化和工作流修复参与项目，同时强调社区与用户的支持。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全面的自动化工作流库&lt;/strong&gt;: 包含4,343个生产就绪的工作流，涵盖365种独特的集成，100%导入成功率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高性能与优化搜索&lt;/strong&gt;: 采用SQLite FTS5实现100倍更快的搜索速度，内存占用低于50MB，且整体体积比v1小700倍。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活部署方案&lt;/strong&gt;: 支持本地安装与Docker部署，兼容多平台，便于快速启动和集成到现有系统中。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全性强化&lt;/strong&gt;: 包含完整的安全审计、CVE修复、路径遍历防护、输入验证及Docker安全加固措施。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;易用性与可访问性&lt;/strong&gt;: 提供现代化界面，支持暗/亮模式，具备多设备适配和直接下载功能，提升用户使用体验。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Zie619/n8n-workflows</guid>
     </item>
     <item>
-      <title>google/adk-go</title>
-      <link>https://github.com/google/adk-go</link>
-      <description>&lt;p&gt;概要: Agent Development Kit (ADK) for Go 是一个开源、代码优先的工具包，旨在通过灵活且模块化的设计，简化复杂AI代理的构建、评估与部署流程，并兼容多种模型和部署环境，特别适用于云原生应用开发，利用Go语言的高并发和性能优势，支持从简单任务到系统级解决方案的高效实现。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;开源代码优先设计&lt;/strong&gt;：基于Go语言开发，直接通过代码定义代理逻辑、工具和编排，提供更高的灵活性与测试性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;跨模型与部署兼容&lt;/strong&gt;：虽优化支持Gemini，但模型和部署无关，适配主流框架及云原生环境（如Google Cloud Run）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化多代理架构&lt;/strong&gt;：支持组合多个专用代理，构建可扩展的应用系统，适应复杂业务需求。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;云原生强优化&lt;/strong&gt;：充分利用Go的并发能力与性能优势，适合开发高可用性、可容器化的云服务应用。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;全栈开发支持&lt;/strong&gt;：提供丰富的工具生态系统，集成第三方工具或自定义功能，确保代理功能的多样化与可定制性。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/google/adk-go</guid>
-    </item>
-    <item>
-      <title>yeongpin/cursor-free-vip</title>
-      <link>https://github.com/yeongpin/cursor-free-vip</link>
-      <description>&lt;p&gt;概要: Cursor Free VIP是一款针对Cursor 0.49.x版本的辅助工具，通过重置机器ID实现免费升级Pro功能并绕过试用请求限制，支持跨平台运行（Windows/macOS/Linux），提供多语言界面及详细的配置参数，需以管理员身份运行并遵守相关软件条款，适用于教育和研究目的，但不承诺法律合规性。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;功能定位&lt;/strong&gt;: 专为绕过Cursor AI免费试用限制设计，可重置机器ID并激活Pro功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台支持&lt;/strong&gt;: 兼容Windows（x64/x86/Apple Silicon）、macOS（Intel/Apple Silicon）及Linux（x64/x86/ARM64）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;配置灵活性&lt;/strong&gt;: 提供详细的配置参数（如等待时间、路径设置）及多语言选项（中英越繁体）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;使用限制与风险&lt;/strong&gt;: 需管理员权限运行，禁止使用临时邮箱账号，可能导致账户被封禁。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;授权与免责&lt;/strong&gt;: 采用CC BY-NC-ND 4.0协议，仅限学习研究用途，用户需承担使用后果。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/yeongpin/cursor-free-vip</guid>
-    </item>
-    <item>
-      <title>HKUDS/LightRAG</title>
-      <link>https://github.com/HKUDS/LightRAG</link>
-      <description>&lt;p&gt;概要: LightRAG 是一个简单且高效的检索增强生成（RAG）系统, 在多个方面进行了优化, 包括与 RAGAS 和 Langfuse 集成以增强评估和可追溯性、支持大规模数据处理、提升小型语言模型的知识图谱抽取精度、默认启用混合查询模式以改进检索性能、提供多模态数据处理能力、支持多种存储方案、允许实体与关系的编辑与合并、并引入了向量数据库和知识图谱索引的协同机制, 以实现更精准和可扩展的 RAG 解决方案。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;集成 RAGAS 和 Langfuse 以支持评估与可追溯性&lt;/strong&gt;: LightRAG 集成了 RAGAS 框架用于参考无的评估, 以及 Langfuse 以实现 LLM 交互跟踪, 提升系统监控和调试能力。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;支持大规模数据处理&lt;/strong&gt;: 优化了性能瓶颈, 实现对大规模数据集的高效处理, 且通过消除处理拥堵提升查询效率。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;提升小型 LLM 的知识图谱抽取准确性&lt;/strong&gt;: 特别增强对小型语言模型（如 Qwen3-30B-A3B）的知识图谱提取能力, 并支持默认混合查询模式以优化检索质量。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多模态数据处理集成&lt;/strong&gt;: 引入 RAG-Anything, 支持文本、图像、表格和公式等多样化文档格式的解析与检索增强生成。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;丰富的存储选项与数据隔离&lt;/strong&gt;: 提供多种存储类型（如 Neo4J、MongoDB、PostgreSQL）并支持通过 workspace 参数实现多个 LightRAG 实例之间的数据隔离。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/HKUDS/LightRAG</guid>
-    </item>
-    <item>
-      <title>MustardChef/WSABuilds</title>
-      <link>https://github.com/MustardChef/WSABuilds</link>
-      <description>&lt;p&gt;概要: 本文提供了Windows 10/11上运行Android子系统（WSA）的详细指南，包含使用预构建二进制文件（含Google Play服务、Magisk或KernelSU），并指出近期Windows更新导致WSA安装故障，需通过旧版本或特定修复方案解决。项目采用LTS（长期支持）策略，确保稳定版本；用户需满足硬件要求（如NTFS分区、4GB以上内存）与启用虚拟化支持，并需关注应用兼容性与GMS依赖问题，同时强调WSA于2025年3月停用及解除安装后数据保护方式。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;Windows更新兼容性风险&lt;/strong&gt;: 最近更新（始于7月）会导致WSA安装失效，推荐使用旧版本（如2211/2210）或采用MagiskOnWSA的特定修复方案。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;LTS版本保障&lt;/strong&gt;: WSA≥2311的LTS版本（如v2407.40000.4.0）通过定期更新维持Magisk/GMS功能，但仍存在部分运行异常。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;核心系统与权限要求&lt;/strong&gt;: 需Windows 10/11特定Build号，启用虚拟化平台，使用NTFS分区，且需注意GApps或Magisk集成可能引发的数据/权限加载问题。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;应用兼容性差异&lt;/strong&gt;: 多数应用（如Firefox、股票App）可运行，但部分依赖GMS的APP（如微信、Zoom）需额外配置，且存在黑屏/白屏/键盘失效等特性问题。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;项目非官方性质&lt;/strong&gt;: WSABuilds为独立社区项目，未与微软/Google官方关联，涉及修改然而仍需规避安全验证机制（如SafetyNet）。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/MustardChef/WSABuilds</guid>
-    </item>
-    <item>
-      <title>sansan0/TrendRadar</title>
-      <link>https://github.com/sansan0/TrendRadar</link>
-      <description>&lt;p&gt;概要: TrendRadar 是一个轻量且易部署的新闻热点聚合与舆情监控分析工具，可监控35个主流平台，提供智能筛选、自动推送和基于 MCP 的AI分析功能，支持多种推送渠道和个性化配置，30秒快速部署，无需编程，帮助用户精准捕捉热点并分析其趋势与深度，实现信息过滤与内容深度挖掘，适合企业、投资者与自媒体等不同应用场景。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-    &lt;li&gt;&lt;strong&gt;多平台热点聚合与AI分析&lt;/strong&gt;：支持35个平台，提供基于MCP的13种智能分析工具，实现自然语言的深度新闻洞察与趋势追踪。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;智能化推送策略与个性化配置&lt;/strong&gt;：提供三种推送模式（每日汇总、当前榜单、增量监控）和推送时间窗口控制，支持关键词优先级排序与数量限制，满足不同用户需求。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;多渠道实时通知与部署方式&lt;/strong&gt;：支持企业微信、飞书、钉钉、Telegram、邮件、ntfy等，可使用GitHub Pages、Docker或本地部署，低门槛即可启动。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;去重与高效信息筛选机制&lt;/strong&gt;：通过指定关键词和语法，支持必选、过滤、数量控制等配置，减少噪音，提高推送精准度。&lt;/li&gt;  
-    &lt;li&gt;&lt;strong&gt;数据持久化与系统稳定性&lt;/strong&gt;：支持HTML/TXT格式保存新闻数据，具备双重防护机制，增强系统稳定性与容错能力。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/sansan0/TrendRadar</guid>
-    </item>
-    <item>
       <title>GibsonAI/Memori</title>
       <link>https://github.com/GibsonAI/Memori</link>
-      <description>&lt;p&gt;概要: Memori 是一个开源的 SQL 原生记忆引擎，允许任何大型语言模型（LLM）通过单行代码实现持久化、可查询的记忆存储，支持多种 SQL 数据库和主流 LLM 框架，提供成本节约、无供应商锁定及智能记忆管理功能，便于构建具备上下文理解和持续学习能力的 AI 应用。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;单行代码集成，实现记忆持久化与上下文管理&lt;/strong&gt;：通过 memori.enable() 一行代码即可启用记忆功能，自动注入上下文并存储。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持主流 SQL 数据库，增强数据控制与便携性&lt;/strong&gt;：兼容 SQLite、PostgreSQL、MySQL 等数据库，确保用户对数据的完全控制和迁移能力。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;显著降低内存存储成本，无需昂贵向量数据库&lt;/strong&gt;：相比传统向量数据库方案，成本可降低 80-90%，提升经济性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;智能记忆处理，自动提取实体与优先级管理&lt;/strong&gt;：具备自动实体识别、关系映射和上下文优先级排序的智能化记忆系统。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;灵活的记忆模式支持，满足不同场景需求&lt;/strong&gt;：提供 Conscious 模式、Auto 模式及 Combined 模式，增强应用的适应性和性能。&lt;/li&gt;
+      <description>&lt;p&gt;概要: Memori 是一款开源的 SQL 原生记忆引擎，允许任何 LLM、AI 代理或多代理系统通过一行代码实现持久化、可查询的记忆存储，使用标准 SQL 数据库如 PostgreSQL、MySQL 和 SQLite，支持多种 LLM 框架，提供智能记忆管理、低成本和无厂商锁定的解决方案，增强 AI 应用的上下文保持与交互学习能力。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;一行代码实现 LLM 记忆集成&lt;/strong&gt;：通过简单的 `memori.enable()` 即可为任意 LLM 添加持久化、可查询的记忆功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;SQL 原生存储与管理&lt;/strong&gt;：支持 SQLite、PostgreSQL、MySQL 等标准数据库，提供可审计和可搜索的记忆存储。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;显著降低成本&lt;/strong&gt;：无需昂贵的向量数据库，节省高达 80%-90% 的存储和计算成本。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;智能记忆处理&lt;/strong&gt;：自动进行实体提取、关系映射及上下文优先级判断，提升记忆的组织与检索效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多框架与多数据库兼容&lt;/strong&gt;：支持 OpenAI、Anthropic、LangChain、LiteLLM 等主流框架，并兼容多种 SQL 数据库，具备高度灵活性。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/GibsonAI/Memori</guid>
@@ -252,33 +162,126 @@
     <item>
       <title>microsoft/call-center-ai</title>
       <link>https://github.com/microsoft/call-center-ai</link>
-      <description>&lt;p&gt;概要: 该AI驱动的呼叫中心解决方案通过Azure和OpenAI GPT实现自动化语音交互，支持通过API调用或预设号码发起通话，具备多语言支持、实时对话处理、敏感数据合规管理及快速定制化能力，可应用于保险、IT支持等领域，结合RAG技术实现动态数据优化，并通过云原生架构提供弹性扩展与成本控制，同时提供可视化报告和生产级部署指导。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: 该文本介绍了一款基于Azure与OpenAI GPT的AI驱动呼叫中心解决方案，支持通过API或预配置电话号码发起智能语音通话，具备实时通信、多语言支持、RAG数据管理、自定义工单结构和语音交互功能，可快速部署于Azure云平台并集成语音识别与合成、缓存、监控等组件，通过模块化设计实现灵活扩展与个性化服务，同时提供成本估算和优化建议，以适应不同业务场景的生产需求。&lt;/p&gt;  
+
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;API集成与多模式通信&lt;/strong&gt;: 支持通过API调用或预设电话号码发起通话，兼容语音、短信及多语言交互，提供实时对话流与断线恢复功能。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;智能化数据管理&lt;/strong&gt;: 基于gpt-4.1系列模型实现细粒度理解，结合RAG技术处理敏感信息，自动生成工单与提醒，并支持历史数据迭代优化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;云原生弹性架构&lt;/strong&gt;: 采用Azure容器化和无服务器部署，按需优化成本，集成Azure Communication Services与Cognitive Services实现高可靠性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;定制化与安全性&lt;/strong&gt;: 支持语音定制、多语言配置及内容安全分级，通过App Configuration动态调整行为，确保数据隐私与合规性。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;生产就绪要求&lt;/strong&gt;: 需完善测试覆盖、监控体系及安全措施（如vNET集成、红队演练），并通过IaC实现多区域部署与性能保障。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI语音交互与实时通信&lt;/strong&gt;: 支持通过API调用或预配置号码发起通话，集成语音识别（SST）、语音合成（TTS）及多语言适配，确保实时对话流与断线恢复能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化架构与自定义能力&lt;/strong&gt;: 提供灵活的工单数据结构、语音策略配置（如自定义品牌语音）、内容安全策略及RAG训练数据索引，支持按需扩展和业务场景定制。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;云原生部署与成本优化&lt;/strong&gt;: 采用Azure容器应用与无服务器架构，按需计费且支持资源弹性伸缩，通过使用gpt-4.1-nano等低成本模型降低延迟，结合Azure AI Search和Redis缓存提升效率。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;安全性与合规性保障&lt;/strong&gt;: 集成Azure内容安全过滤器、数据匿名化处理及私有网络配置，确保敏感信息合规管理，并支持红队测试与负责AI原则。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;生产就绪与优化路径&lt;/strong&gt;: 需补充单元测试、性能监控、多区域部署及模型微调流程，通过历史数据迭代优化LLM表现，同时需升级至生产级SKU以满足企业级需求。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/microsoft/call-center-ai</guid>
     </item>
     <item>
-      <title>milvus-io/milvus</title>
-      <link>https://github.com/milvus-io/milvus</link>
-      <description>&lt;p&gt;概要: Milvus 是一款高性能、云原生的向量数据库，专为大规模向量近似最近邻搜索（ANN）设计，支持多模态数据处理与实时更新。其通过分布式架构和K8s原生特性实现水平扩展，兼容GPU加速与多种索引类型（如HNSW、IVF、SCANN等），提供多租户隔离、热冷存储优化、细粒度权限控制及数据加密等企业级功能，并可与LangChain、LlamaIndex等AI工具链无缝集成，适用于文本/图像搜索、RAG、推荐系统等AI应用场景，同时支持快速部署与开源社区协作。&lt;/p&gt;  
+      <title>traefik/traefik</title>
+      <link>https://github.com/traefik/traefik</link>
+      <description>&lt;p&gt;概要: Traefik 是一款现代化的 HTTP 反向代理和负载均衡器，专为简化微服务部署而设计，能够自动与 Docker、Kubernetes、ECS 等基础设施组件集成，动态配置路由，无需手动维护，同时支持 HTTPS、监控、日志记录、多种负载均衡算法及 Web 界面，便于管理和扩展。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;自动动态配置&lt;/strong&gt;：Traefik 能够监听服务注册中心或编排器的 API，自动为微服务生成路由配置，无需手动干预。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多编排器与后端支持&lt;/strong&gt;：兼容 Docker、Kubernetes、ECS、Consul、Etcd 等多种基础设施，适应不同的云原生环境。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全面的安全与扩展功能&lt;/strong&gt;：内置 Let's Encrypt 支持 HTTPS，具备 WebSocket、HTTP/2、gRPC 兼容性，以及丰富的监控与日志功能。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;易用性与灵活性&lt;/strong&gt;：提供简单 Web 界面，支持 REST API，允许手动配置，同时也支持单二进制文件部署及官方 Docker 镜像。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放社区与贡献机制&lt;/strong&gt;：强调开放共享理念，鼓励社区参与，提供详细的贡献指南和代码行为准则，确保项目可持续发展。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/traefik/traefik</guid>
+    </item>
+    <item>
+      <title>google/adk-go</title>
+      <link>https://github.com/google/adk-go</link>
+      <description>&lt;p&gt;概要: Agent Development Kit (ADK) 是一个基于 Go 的开源工具包，专注于通过代码优先的方法构建、评估和部署复杂的 AI 代理，具备高度的灵活性和控制力，适用于云原生环境，支持多代理系统与多种模型及部署方式的兼容性。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;代码优先开发&lt;/strong&gt;: 允许开发者在 Go 中直接定义代理逻辑、工具和编排，增强灵活性与可测试性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模型与部署无关&lt;/strong&gt;: 虽优化用于 Gemini，但支持多种模型和部署方式，具备广泛的兼容性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;云原生适用性&lt;/strong&gt;: 利用 Go 的并发与性能优势，适合构建高性能的云原生 AI 代理应用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的工具生态&lt;/strong&gt;: 提供预建工具、支持自定义函数及现有工具集成，赋予代理多样化能力。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化多代理系统&lt;/strong&gt;: 支持通过组合多个专用代理来构建可扩展的复杂应用。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/google/adk-go</guid>
+    </item>
+    <item>
+      <title>TapXWorld/ChinaTextbook</title>
+      <link>https://github.com/TapXWorld/ChinaTextbook</link>
+      <description>&lt;p&gt;概要: 本项目通过集中整理并开源国内小初高、大学全学科PDF教材，旨在破解教育资源获取壁垒，消除教育贫困，同时满足海外华人的教育需求。针对GitHub文件限制问题，开发了拆分与合并解决方案，提供开源工具链及社区支持，鼓励通过捐赠和协作维护教育资源共享生态。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;教育公平使命&lt;/strong&gt;: 通过开源方式打破教育资源获取障碍，促进义务教育公平并支持海外华人教育需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全学段覆盖&lt;/strong&gt;: 系统整合小学至大学的数学及非数学类教材，包含12个年级、5个学科领域与多版本资料。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;文件处理方案&lt;/strong&gt;: 针对GitHub 50MB文件限制，采用35MB分片处理技术，并提供跨平台合并工具（如mergePDFs-windows-amd64.exe）。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术协作机制&lt;/strong&gt;: 鼓励使用开源项目tchMaterial-parser进行资源重新下载，支持海外用户通过存储库签出获取资料。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;可持续发展路径&lt;/strong&gt;: 通过教材捐献和Telegram社区构建长效支持体系，推动开放教育资源的维护与扩展。&lt;/li&gt;  
+&lt;/ul&gt;}</description>
+      <pubDate/>
+      <guid>https://github.com/TapXWorld/ChinaTextbook</guid>
+    </item>
+    <item>
+      <title>MustardChef/WSABuilds</title>
+      <link>https://github.com/MustardChef/WSABuilds</link>
+      <description>&lt;p&gt;概要: 该文本详细介绍了如何在Windows 10和Windows 11系统上通过预构建二进制文件运行Windows Subsystem For Android (WSA)，并推荐使用包含Magisk或KernelSU的定制版本或使用无GApps的旧版本以规避近期Windows更新对WSA的破坏性影响。此外，提供了WSA的系统要求、安装指南、更新方法、常见问题与解决措施以及兼容的应用程序列表，同时强调该仓库是一个独立开发的非官方项目，与微软和谷歌无关联。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;安装和维护问题&lt;/strong&gt;：最近的Windows更新导致WSA安装故障，建议使用特定版本或无GApps安装包，某些老旧版本已被证实稳定；卸载WSA前需备份userdata.vhdx以保留用户数据；必要时需手动运行Install.ps1来完成安装，并确保虚拟化已启用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;系统要求&lt;/strong&gt;：WSA要求Windows 11 Build 22000.526或更高；兼容Intel、AMD或Nvidia GPU，但某些型号（如Intel HD 530）可能引发图形异常；建议至少10GB的系统盘空间，并使用NTFS分区。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;第三方市场和功能&lt;/strong&gt;：WSABuilds提供了预构建的WSA版本，并自带Magisk、KernelSU和Google Play服务；部分应用如YouTube、Google相关服务无法运行，或需GMS支持，虚拟机环境不支持部分谷歌服务的验证机制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;应用兼容性&lt;/strong&gt;：大多数应用可正常运行或有替代方案，但部分游戏（如Brawl Stars、Subway Surfers）以及某些特定功能（如蓝牙、无线调试）存在不兼容问题；一些应用需要使用特定的非官方工具或手动启用允许权限。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;许可证与项目属性&lt;/strong&gt;：WSABuilds是一个独立项目，既不是微软也不是谷歌官方支持；使用了AGPL v3许可证，除图标与部分素材外，其他资源包含Creative Commons和 Icons8 免费许可。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/MustardChef/WSABuilds</guid>
+    </item>
+    <item>
+      <title>volcengine/verl</title>
+      <link>https://github.com/volcengine/verl</link>
+      <description>&lt;p&gt;概要: Verl 是由 ByteDance Seed 团队主导、由社区维护的一套开放源代码、灵活高效的强化学习训练库，专为大规模语言模型（LLMs）设计，支持多种 RL 算法与训练框架集成，并具备先进的吞吐量和资源管理能力。其通过 3D-HybridEngine 实现高效的模型再分片，提升训练与生成阶段之间的通信效率，同时兼容 HuggingFace 和 ModelScope 模型，已应用于多个前沿模型的训练，如 DeepSeek-671B 和 Qwen3-235B，并在 AIME、Codeforces 和 GPQA 等基准测试中取得优异表现，展现了卓越的逻辑推理与多领域泛化能力。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Verl 是一个灵活、高效且可生产部署的 RL 训练库&lt;/strong&gt;，专为大规模语言模型（LLMs）设计，支持多种强化学习算法和主流训练推理框架。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多种 RL 算法与框架集成&lt;/strong&gt;，如 PPO、GRPO、DAPO、PF-PPO 等，并兼容 HuggingFace Transformers 和 ModelScope Hub。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;具备先进的资源利用和吞吐量能力&lt;/strong&gt;，通过 3D-HybridEngine 实现高效的模型分片与通信优化，已提升至 1.4 倍的速度，并支持训练大型 MoE 模型。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;适用于多模态和多回合场景&lt;/strong&gt;，支持 VLMs、多步骤工具调用及多模态强化学习，可扩展用于不同任务和环境。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;已在多个行业领先模型中得到应用与验证&lt;/strong&gt;，如 Doubao-1.5-Pro 和 Seed-Thinking-v1.5，表现优于传统方法并达到前沿水平。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/volcengine/verl</guid>
+    </item>
+    <item>
+      <title>sansan0/TrendRadar</title>
+      <link>https://github.com/sansan0/TrendRadar</link>
+      <description>&lt;p&gt;概要: TrendRadar 是一款基于 MCP 协议的AI新闻舆情监控工具，集成了全网热点聚合、智能筛选、多渠道实时推送（企业微信/飞书/钉钉/Telegram/邮件等）与用户自定义词组及排序策略，支持30秒网页部署与1分钟手机通知，具备每日汇总/当前榜单/增量监控三种模式、推送时间窗口控制、关键词数量限制等灵活配置选项，并通过Docker实现跨架构容器化部署，支持数据自托管与隐私保护，同步提供AI对话分析系统，助力用户从海量信息中快速提取热点趋势、情感分析、跨平台对比等深度洞察。项目通过GitHub官方文档与社区支持实现可持续优化，分别针对技术用户与普通用户降低使用门槛，同时通过自动化数据抓取与多终端适配提升信息采集效率。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;高扩展性与性能优化&lt;/strong&gt;: 基于分布式架构和K8s原生设计，支持亿级向量处理、万级查询吞吐量，且通过计算与存储分离实现读写负载独立扩展。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多模态与混合搜索能力&lt;/strong&gt;: 除密集向量语义搜索外，原生支持BM25全文检索及稀疏向量技术（如SPLADE），可实现语义+文本的混合搜索并支持结果重排序。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级安全与成本控制&lt;/strong&gt;: 提供强制认证、TLS加密、RBAC权限管理，结合热冷存储策略（热数据SSD/内存，冷数据低成本存储）显著降低运营成本。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活部署与生态集成&lt;/strong&gt;: 支持Standalone单机模式及Zilliz Cloud托管服务（Serverless/Dedicated/BYOC），兼容主流AI框架及数据源，提供数据迁移、同步、监控等工具链。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开源社区与技术验证&lt;/strong&gt;: 由LF AI &amp; Data Foundation维护，Apache 2.0许可协议，含完整SDK（pymilvus）与开发者文档，研究可引用IEEE/ACM论文进行技术背书。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台热点聚合与人性化解析&lt;/strong&gt;：整合抖音/知乎/微博等35个平台实时数据，通过排名（60%）+持续热度（30%）+纯度（10%）三维度算法，智能识别并分类趋势追踪/持续话题/新热点，防止信息过载。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;零门槛部署架构&lt;/strong&gt;：支持GitHub一键Fork+30秒网页部署、企业微信手机通知、Docker多架构容器化，通过环境变量覆盖配置，稳定部署于NAS、本地服务器或云端，支持实时及自托管数据模式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;AI对话分析引擎&lt;/strong&gt;：集成13种分析工具，允许用户以自然语言查询（如“分析比特币最近趋势”）全平台新闻，适配Cherry Studio/Claude Desktop等客户端，实现智能摘要生成与历史关联检索。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;双阶段内容筛选机制&lt;/strong&gt;：提供普通词/必须词+/过滤词!四类语法，支持快速关键词组配，实现够用型“日常工作流”与复杂型“精准追踪”南北策略，覆盖90%用户需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区运营强化设计&lt;/strong&gt;：通过致谢名单（72位贡献者）引导用户标签化量化支持，设置微信关注关怀机制，优化致谢名单展示及问题交流渠道，构建可持续合作生态。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/milvus-io/milvus</guid>
+      <guid>https://github.com/sansan0/TrendRadar</guid>
+    </item>
+    <item>
+      <title>HKUDS/LightRAG</title>
+      <link>https://github.com/HKUDS/LightRAG</link>
+      <description>&lt;p&gt;概要: LightRAG 是一款轻量且高效的检索增强生成（RAG）系统，通过集成 RAGAS 评估框架和 Langfuse 作为可观察性工具，显著提升了检索精度和模型可追溯性。系统支持大规模数据处理、多重存储方案（如 PostgreSQL、MongoDB、Neo4J 及 Ollama 模型）以及多模态文档解析（含文本、图像、表格、公式）。创新性地引入了实体关系图谱动态管理、混合检索模式、增量插入机制，并优化了 LLM 缓存与令牌管理，使其在复杂场景下实现高性能与数据一致性 &lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;多模态与异构数据处理&lt;/strong&gt;: 集成 RAG-Anything 支持 PDF、表格、公式等复杂格式解析，实现跨模态检索增强生成&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;模块化存储架构&lt;/strong&gt;: 支持四种存储类型（KV/Vector/Graph/Status）及多种数据库（Neo4J, PG, MongoDB, Redis），提供数据隔离与版本兼容性&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;混合检索与图谱优化&lt;/strong&gt;: 默认启用混合模式（mix），支持实体关系合并、智能删除及基于 Reranker 的上下文精准召回&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;可观察性增强&lt;/strong&gt;: 集成 Langfuse 监控平台，实现 LLM 调用链路追踪、令牌消耗分析及实时告警功能&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;资源友好型配置&lt;/strong&gt;: 通过令牌分块管理、分批插入、异步处理等机制，适配低显存 GPU 环境并优化批量操作性能&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/HKUDS/LightRAG</guid>
     </item>
   </channel>
 </rss>
