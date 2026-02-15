@@ -141,63 +141,28 @@
     <item>
       <title>netty/netty</title>
       <link>https://github.com/netty/netty</link>
-      <description>&lt;p&gt;概要: Netty 是一个基于事件驱动和异步机制的高性能网络应用框架，适用于快速开发可维护的协议服务器与客户端，其支持 JDK 9+ 的模块化特性，并提供详细的文档、下载、构建指南及社区支持资源。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;Netty 是一个异步事件驱动的网络应用框架&lt;/strong&gt;，专为构建高性能、可维护的协议服务器和客户端而设计。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;构建 Netty 需要 OpenJDK 8 和 Apache Maven&lt;/strong&gt;，而运行则只需要 JDK 5 或 6（视版本而定）。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;Linux 或 MacOS 用户需安装额外开发包&lt;/strong&gt; 以支持原生传输的构建。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;版本开发在对应 &lt;majorVersion&gt;.&lt;minorVersion&gt; 分支中进行&lt;/strong&gt;，如 3.9 版本对应分支 '3.9'。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持 JDK 9+ 模块化系统&lt;/strong&gt;，提供专门的 Modular Netty 指南供用户和开发者参考。&lt;/li&gt;  
-&lt;/ul&gt;</description>
+      <description/>
       <pubDate/>
       <guid>https://github.com/netty/netty</guid>
     </item>
     <item>
       <title>ikarus23/MifareClassicTool</title>
       <link>https://github.com/ikarus23/MifareClassicTool</link>
-      <description>&lt;p&gt;概要: MIFARE Classic Tool (MCT) 是一款专为 Android 设备设计的 NFC 应用，支持读取、写入、分析 MIFARE Classic RFID 标签，并提供多种功能如克隆标签、管理密钥、计算 BCC 值等。该应用适用于具备基础技术知识的用户，要求使用十六进制数据进行操作，并强调其仅针对特定类型的 MIFARE Classic 标签有效。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;仅支持 MIFARE Classic RFID 标签&lt;/strong&gt;，不兼容其他类型标签，且部分特殊标签由于硬件或协议限制无法使用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;依赖密钥文件进行操作&lt;/strong&gt;，用户需先获取标签密钥，应用支持导入、导出和编辑密钥文件以实现标签的读取与写入。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不提供破解或暴力攻击功能&lt;/strong&gt;，因其效率过低且违反安全规范，用户需自行确保密钥合法性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持标签克隆和格式化&lt;/strong&gt;，尤其是“magic tag gen2”或“CUID”标签，可实现完整的克隆操作。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开源免费&lt;/strong&gt;，基于 GPLv3 协议授权，由 Gerhard Klostermeier 等团队开发，适用于具备 NFC 控制器的 Android 设备。&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description/>
       <pubDate/>
       <guid>https://github.com/ikarus23/MifareClassicTool</guid>
     </item>
     <item>
       <title>aws/aws-sdk-java-v2</title>
       <link>https://github.com/aws/aws-sdk-java-v2</link>
-      <description>&lt;p&gt;概要: AWS SDK for Java 2.0 是对 1.0 版本的全面重写，提供了更强大的功能和更高的可定制性，包括非阻塞 IO 支持和可插拔的 HTTP 实现，可快速通过 Maven 或支持 MavenCentral 的构建系统集成使用。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;全面重写，增强功能与定制性&lt;/strong&gt;：AWS SDK for Java 2.0 在原有基础上进行了重构，新增如非阻塞 IO 和可插拔 HTTP 实现等特性，提升应用灵活性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多种依赖管理方式&lt;/strong&gt;：可以通过 Bill of Materials (BOM) 统一管理版本，或单独引入所需服务模块，亦可导入完整 SDK。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;兼容 LTS Java 版本&lt;/strong&gt;：完整支持 Java 8、11、17 和 21 的长期支持版本，确保广泛的兼容性及稳定性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区驱动与贡献欢迎&lt;/strong&gt;：SDK 鼓励用户提交问题、功能请求及代码贡献，项目遵循 all-contributors 规范，支持多形式参与。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;丰富的示例与测试资源&lt;/strong&gt;：提供官方示例代码、集成测试及文档，方便开发者快速上手和验证功能。&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description/>
       <pubDate/>
       <guid>https://github.com/aws/aws-sdk-java-v2</guid>
     </item>
     <item>
       <title>apache/cassandra</title>
       <link>https://github.com/apache/cassandra</link>
-      <description>&lt;p&gt;概要: Apache Cassandra 是一个高可扩展性、分布式且应用透明的分区行存储数据库，支持通过 Cassandra 查询语言（CQL）进行数据读写操作，CQL 与 SQL 类似但去除了连接和子查询功能，同时支持集合类型。它能够自动管理数据分区，适应集群规模变化，并提供了简便的单节点集群搭建和使用方式。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;高可扩展性的分区行存储数据库&lt;/strong&gt;：Cassandra 支持数据跨多台机器自动分布和再平衡，适应集群的动态变化。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持 CQL 查询语言&lt;/strong&gt;：CQL 类似 SQL，但简化了语法并增加了对集合类型的支持，适合与传统关系型数据库交互。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;单节点快速部署&lt;/strong&gt;：通过解压文件、启动服务及使用 cqlsh 命令行工具，可迅速搭建并运行一个基础的 Cassandra 集群。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;数据组织方式&lt;/strong&gt;：数据以行和列的形式存储，每个表必须指定主键以确保数据的组织与访问。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;社区与支持渠道&lt;/strong&gt;：开发者可通过 ASF Slack、邮件列表和官网获取进一步支持和参与社区活动。&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description/>
       <pubDate/>
       <guid>https://github.com/apache/cassandra</guid>
     </item>
