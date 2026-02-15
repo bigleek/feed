@@ -8,147 +8,324 @@
     <item>
       <title>scala/scala3</title>
       <link>https://github.com/scala/scala3</link>
-      <description/>
+      <description>&lt;p&gt;概要: Dotty 是 Scala 3 编译器的官方名称，提供文档、试用指南及本地构建说明，要求所有交流遵循 Scala 代码行为准则，并鼓励贡献者通过提交问题和遵循 Apache 2.0 许可证参与项目。&lt;/p&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dotty 是 Scala 3 的编译器&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提供了详细的文档和试用指南&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;本地构建可通过 sbt 命令完成&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;交流需遵守 Scala 代码行为准则&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;采用 Apache License Version 2.0 许可证&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/scala/scala3</guid>
     </item>
     <item>
       <title>delta-io/delta-sharing</title>
       <link>https://github.com/delta-io/delta-sharing</link>
-      <description/>
+      <description>&lt;p&gt;概要: Delta Sharing 是一种开放协议，支持跨平台的实时安全数据共享，允许用户通过多种工具（如 Pandas、Tableau、Apache Spark 等）直接访问云存储上的共享数据表，无需部署专用计算平台，同时支持历史数据查询和流式处理，适用于大规模数据集在云环境中的灵活共享和访问。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Delta Sharing 是一个开放、安全的实时数据共享协议&lt;/strong&gt;，支持多种云存储系统（如 S3、Azure、GCS 等）进行数据传输，适用于跨平台的数据共享。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用户可直接通过多种语言和工具访问共享数据&lt;/strong&gt;，包括 Python（Pandas/Spark）、SQL、Java、Scala、R 等，无需特定计算平台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持 Change Data Feed（CDF）和流式处理功能&lt;/strong&gt;，从 0.5.0 版本开始支持查询历史变更，0.6.0 版本起支持 Spark Structured Streaming。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提供多种安装和配置方式&lt;/strong&gt;，包括手动安装、Docker 镜像、预设 YAML 配置与不同的存储适配方法，适应多样化的环境需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强调安全性和可扩展性&lt;/strong&gt;，支持基于 Bearer Token 的基本授权，并建议通过 NGINX 等代理实现更高级别的 JWT 认证，确保数据共享服务的安全。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/delta-io/delta-sharing</guid>
     </item>
     <item>
       <title>apache/spark</title>
       <link>https://github.com/apache/spark</link>
-      <description/>
+      <description>&lt;p&gt;概要: Apache Spark 是一个统一的大型数据处理分析引擎，提供多种高级API和工具，支持SQL、机器学习、图计算、流处理等多种数据处理任务，并且可以通过Scala或Python交互式壳启动，方便快速开发和测试。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;统一的数据处理引擎&lt;/strong&gt;：Apache Spark 是一个支持多种数据处理任务的统一分析平台，适用于大规模数据处理。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt;：提供Scala、Java、Python和R（已弃用）的高级API，便于不同技术背景的开发者使用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;丰富的高级工具集&lt;/strong&gt;：集成Spark SQL、MLlib、GraphX、Structured Streaming等工具，满足多样化的数据分析需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持集群部署与本地测试&lt;/strong&gt;：可通过设置MASTER变量在YARN、Kubernetes或本地环境中运行示例程序和测试。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;依赖Hadoop版本一致性&lt;/strong&gt;：需与集群运行的Hadoop版本匹配以确保兼容性，具体构建指导可在相关文档中找到。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/apache/spark</guid>
     </item>
     <item>
       <title>apache/incubator-gluten</title>
       <link>https://github.com/apache/incubator-gluten</link>
-      <description/>
+      <description>&lt;p&gt;概要: Apache Gluten 是一个中间层项目，旨在将 Apache Spark 的 JVM 基础 SQL 引擎计算任务卸载到原生 SQL 引擎（如 ClickHouse 和 Velox），通过高效的数据处理和跨平台兼容性提升 Spark SQL 的性能，同时保持用户无需修改现有查询和 API 的使用体验。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;性能提升&lt;/strong&gt;: Gluten 可实现高达 14.53 倍的单查询加速，整体加速达 2.71 倍（Velox 后端），ClickHouse 后端平均加速 2.12 倍。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;架构设计&lt;/strong&gt;: 通过 Substrait 转换 Spark 物理计划为原生执行计划，结合 JNI 接口和统一内存管理，实现计算卸载与数据格式转换的精细化管理。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;无缝集成&lt;/strong&gt;: 作为 Spark 插件，Gluten 支持现有 DataFrame API 和 SQL 查询，无需代码更改，仅需配置即可生效。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多后端兼容&lt;/strong&gt;: 初始支持 ClickHouse 和 Velox，且具备可扩展机制，未来可支持更多原生数据库引擎。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;社区与贡献&lt;/strong&gt;: Gluten 已成为 Apache Incubator 项目，由 Intel 和 Kyligence 启动，广泛获得行业公司支持，鼓励社区参与和贡献。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/apache/incubator-gluten</guid>
     </item>
     <item>
       <title>joernio/joern</title>
       <link>https://github.com/joernio/joern</link>
-      <description/>
+      <description>&lt;p&gt;概要: Joern 是一个基于代码属性图（CPGs）的开源代码分析平台，支持多语言如 C/C++、Java、二进制、JavaScript、Python 和 Kotlin，旨在通过静态程序分析发现漏洞并进行代码研究。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;支持多语言代码分析&lt;/strong&gt;: Joern 能够分析源代码、字节码和二进制可执行文件，并支持 C/C++、Java、JavaScript、Python 和 Kotlin 等多种编程语言。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基于代码属性图（CPGs）&lt;/strong&gt;: 通过生成 CPGs 图形表示，Joern 实现跨语言代码分析，并利用自定义图数据库进行存储。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;使用 Scala 查询语言&lt;/strong&gt;: 用户可以通过 Scala 域特定查询语言编写搜索查询，用于挖掘代码中的潜在问题。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;系统要求与安装方式&lt;/strong&gt;: 需要 JDK 21，可选择脚本安装或 Docker 容器方式运行，且不同 Linux 版本需注意 CPU 硬件支持限制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源贡献与开发规范&lt;/strong&gt;: Joern 鼓励开发者贡献代码，提供了详细的 PR 提交指南，包括格式、描述要求和测试验证。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/joernio/joern</guid>
     </item>
     <item>
       <title>delta-io/delta</title>
       <link>https://github.com/delta-io/delta</link>
-      <description/>
+      <description>&lt;p&gt;概要: Delta Lake 是一个开源存储框架，支持构建 Lakehouse 架构，并兼容多种计算引擎如 Spark、PrestoDB、Flink、Trino 和 Hive，同时提供 Scala、Java、Rust、Ruby 和 Python 的 API，具备事务一致性、并发控制和跨版本兼容性，适用于数据湖与数据仓库的统一处理。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种计算引擎&lt;/strong&gt;：Delta Lake 可与 Spark、PrestoDB、Flink、Trino、Hive 等计算引擎集成，并提供相应接口。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供多语言 API&lt;/strong&gt;：支持 Scala、Java、Python、Rust、Ruby 等语言，便于多样化的数据处理需求。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;保证事务一致性&lt;/strong&gt;：通过 Delta Transaction Log Protocol 实现 ACID 属性，确保数据的可靠读写。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;兼容性机制明确&lt;/strong&gt;：支持向后兼容，但可能破坏向前兼容性，版本变更通过协议升级来标记。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开发与构建指南&lt;/strong&gt;：推荐使用 SBT 编译，以及 Conda 和 IntelliJ 作为开发工具。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/delta-io/delta</guid>
     </item>
     <item>
       <title>TheHive-Project/TheHive</title>
       <link>https://github.com/TheHive-Project/TheHive</link>
-      <description/>
+      <description>&lt;p&gt;概要: TheHive 原本作为一款协作式案件管理平台，现已转向商业版本发布，同时宣布 TheHive 3 和 4 版本自 2023年起停止公共分发与维护，其 GitHub 仓库已归档且不再提供下载，公司正专注于新一代 TheHive 的开发，以提供更高效、安全及适用于现代 SOC 运作的功能。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;TheHive 3 和 4 已停止公共分发与维护&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;TheHive 现已作为商业版本提供&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;公司专注新一代 TheHive 的开发，增强性能与安全性&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;GitHub 仓库已归档，旧版本不再可下载&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;用户可访问官方文档获取最新版本信息，或联系支持团队获取帮助&lt;/strong&gt;&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/TheHive-Project/TheHive</guid>
     </item>
     <item>
       <title>lichess-org/lila</title>
       <link>https://github.com/lichess-org/lila</link>
-      <description/>
+      <description>&lt;p&gt;概要: Lichess 是一个免费、无广告、开源的在线国际象棋服务器，专注于实时对弈与用户友好性，提供丰富的功能如搜索、战术训练、论坛、团队协作等，并支持多语言界面。其技术架构基于 Scala 3 和 Play 2.8 框架，采用异步处理与分布式 AI 集群，具备强大的游戏存储与分析能力，同时鼓励社区贡献与翻译，以持续提升平台体验。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;开源且免费： &lt;/strong&gt; Lichess 为开源项目，采用 GNU Affero General Public License 3 许可证，所有功能均免费提供。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实时与用户友好： &lt;/strong&gt; 主打实时对弈体验，界面简洁易用，适合各类玩家。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多语言支持： &lt;/strong&gt; 用户界面支持 140 多种语言，得益于社区的积极参与。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高性能技术架构： &lt;/strong&gt; 使用 Scala 3、Play 2.8、Akka Streams 和 Redis 等技术，实现异步处理与高效通信。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区与贡献支持： &lt;/strong&gt; 提供贡献者能力发展计划，支持相关培训与资源，以增强社区参与和未来贡献。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/lichess-org/lila</guid>
     </item>
     <item>
       <title>scalameta/metals</title>
       <link>https://github.com/scalameta/metals</link>
-      <description/>
+      <description>&lt;p&gt;概要: Metals 是一个基于 Scala 语言的高级语言服务器，具备丰富的 IDE 功能，旨在提升开发效率。它结合了 Scalameta 的元编程能力和 Language Server 协议，为开发者提供强大的工具支持。项目鼓励贡献者参与，并提供详细的文档、架构说明和维护者信息，同时指出 IntelliJ IDEA 是目前最广泛使用的 Scala IDE，但 Metals 提供了一个更灵活和可扩展的替代方案。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Metals 是 Scala 语言服务器，集成丰富的 IDE 功能，提升开发效率。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metals 结合了 Scalameta 的元编程能力与 Language Server 协议，实现高效的代码分析和交互。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;项目提供详细的文档、贡献指南和架构说明，便于开发者深入了解与参与。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;IntelliJ IDEA 是常用的 Scala IDE，但 Metals 提供了一个更具扩展性的替代方案。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metals 的开发受到多家公司的支持，并有明确的维护者和贡献者社区。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/scalameta/metals</guid>
     </item>
     <item>
       <title>awslabs/deequ</title>
       <link>https://github.com/awslabs/deequ</link>
-      <description/>
+      <description>&lt;p&gt;概要: Deequ 是一个基于 Apache Spark 的数据质量测试库，允许用户以类似单元测试的方式定义和验证数据集的质量规则，适用于大规模数据集，帮助在数据进入下游系统前发现并修复数据错误。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;基于 Spark 的数据质量验证工具&lt;/strong&gt;: Deequ 是构建在 Apache Spark 之上的库，能够高效处理大规模数据集的数据质量检测。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 DQDL 语言定义质量规则&lt;/strong&gt;: 提供 DQDL 作为声明式语言，允许用户以简洁易读的方式表达数据质量约束。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持复合规则和多种数据质量检查&lt;/strong&gt;: 可结合逻辑运算符（如 and/or）构建复杂验证规则，涵盖完整性、唯一性、取值范围、URL 检测等多种质量指标。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;版本兼容性要求明确&lt;/strong&gt;: Deequ 2.x 仅兼容 Spark 3.1，而旧版 Spark 2.2.x-3.0.x 需使用 Deequ 1.x，并对 Scala 版本有特定依赖。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供 Python 接口 PyDeequ&lt;/strong&gt;: 为 Python 用户提供访问 Deequ 功能的接口，便于跨语言数据质量检查。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/awslabs/deequ</guid>
     </item>
     <item>
       <title>zio/zio-blocks</title>
       <link>https://github.com/zio/zio-blocks</link>
-      <description/>
+      <description>&lt;p&gt;概要: ZIO Blocks 是一套为现代 Scala 应用设计的零依赖、类型安全且跨平台的模块化构建块，涵盖数据序列化、高性能序列、资源管理、Markdown 处理和类型元信息等功能，旨在提升 Scala 开发者的生产力与代码安全性。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;类型安全且模块化&lt;/strong&gt;: 每个构建块都是独立的库，提供零依赖、可组合的组件，支持任何 Scala 技术栈（包括 ZIO、Cats Effect 等）。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;跨平台与跨版本兼容&lt;/strong&gt;: 支持 JVM 和 Scala.js，兼容 Scala 2.13 和 Scala 3.x，便于迁移与部署。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高效且无缝集成的序列化&lt;/strong&gt;: Schema 模块通过单一定义自动派生多种数据格式（如 JSON、Avro、TOON）的编解码器，避免手动实现重复逻辑。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;编译时资源安全与依赖注入&lt;/strong&gt;: Scope 提供编译时资源泄漏检查和 DI 支持，确保资源在作用域内安全使用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;类型化异构集合支持&lt;/strong&gt;: Context 模块通过类型索引实现安全的异构值存储与查找，提升类型安全性和代码可维护性。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/zio/zio-blocks</guid>
     </item>
     <item>
       <title>zio/zio</title>
       <link>https://github.com/zio/zio</link>
-      <description/>
+      <description>&lt;p&gt;概要: ZIO 是一个专为 Scala 设计的零依赖异步和并发编程库，通过类型安全、资源安全和高可扩展性的非阻塞纤维机制，使开发者能够构建高性能、可测试、可维护且灵活响应错误的并发应用。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;类型安全&lt;/strong&gt;：利用 Scala 编译器能力，在编译阶段捕获潜在错误。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;资源安全&lt;/strong&gt;：确保应用即使在失败情况下也不会泄露资源，包括线程。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;高性能与可扩展性&lt;/strong&gt;：基于非阻塞、可扩展的纤维机制，提供低运行时开销。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;可测试性&lt;/strong&gt;：支持注入测试服务，实现快速、确定性且类型安全的测试。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;广泛采用&lt;/strong&gt;：已被众多知名企业（如 Amazon、Nike、Deutsche Telekom 等）用于生产环境，证明其成熟度和可靠性。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/zio/zio</guid>
     </item>
     <item>
       <title>apache/datafusion-comet</title>
       <link>https://github.com/apache/datafusion-comet</link>
-      <description/>
+      <description>&lt;p&gt;概要: Apache DataFusion Comet 是一款基于 Apache DataFusion 查询引擎的高性能加速器，专为 Apache Spark 工作负载设计，能够在不修改代码的前提下显著提升查询性能，同时利用通用硬件降低成本并实现良好的可扩展性。&lt;/p&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;显著性能提升&lt;/strong&gt;：Comet 在 TPC-H 基准测试中将整体运行时间从 687 秒缩短至 302 秒，实现 2.2 倍的加速。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;兼容通用硬件&lt;/strong&gt;：无需昂贵的 GPU 或 FPGA 等专用硬件，Comet 可充分利用通用硬件资源，提升成本效益与可扩展性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;无缝集成 Spark&lt;/strong&gt;：Comet 与 Apache Spark 完全兼容，无需代码更改即可集成到现有部署和工作流中。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持 Iceberg 优化&lt;/strong&gt;：Comet 还加速了 Apache Iceberg 在 Spark 中对 Parquet 文件的扫描操作。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;活跃社区支持&lt;/strong&gt;：Comet 拥有积极的开发者与用户社区，持续推动其性能优化与功能扩展。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/apache/datafusion-comet</guid>
     </item>
     <item>
       <title>ucb-bar/berkeley-hardfloat</title>
       <link>https://github.com/ucb-bar/berkeley-hardfloat</link>
-      <description/>
+      <description>&lt;p&gt;概要: 该仓库包含使用Chisel编写的Berkeley硬件浮点运算单元，支持融合乘加、整数与浮点数转换以及不同精度浮点数转换，但目前仍为开发中的原型，可能存在错误且未完全优化。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种浮点运算功能&lt;/strong&gt;：包括融合乘加、整数与浮点数转换、不同精度浮点数转换。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;采用内部重编码格式&lt;/strong&gt;：通过在指数位增加一位来更高效处理微处理器中的次正规数。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;仍在开发阶段&lt;/strong&gt;：可能存在未修复的错误，并且未达到最佳优化状态。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;需特定测试工具&lt;/strong&gt;：需安装berkeley-testfloat-3包进行单元测试。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;测试方法简明&lt;/strong&gt;：通过运行“$ make”命令即可使用C模拟器进行测试。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ucb-bar/berkeley-hardfloat</guid>
     </item>
     <item>
       <title>apache/incubator-livy</title>
       <link>https://github.com/apache/incubator-livy</link>
-      <description/>
+      <description>&lt;p&gt;概要: Apache Livy 是一个开源的 REST 接口，允许用户从任何地方与 Apache Spark 进行交互，支持代码片段和程序的执行，适用于本地或 Hadoop YARN 环境，并提供交互式 Shell 和批量提交功能，同时允许多用户共享同一服务器，且无需修改原有程序即可使用。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apache Livy 是一个开源的 REST 接口&lt;/strong&gt;，用于与 Apache Spark 进行远程交互。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持多种编程语言&lt;/strong&gt;，包括 Scala、Python 和 R，可执行代码片段或完整程序。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无代码变更即可集成&lt;/strong&gt;，适用于现有 Spark 程序的远程提交和管理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活的 Spark 版本兼容&lt;/strong&gt;，Livy 可运行于任何 Spark 3.0+ 版本，无需重新构建。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提供多平台构建指南&lt;/strong&gt;，包括 Debian/Ubuntu、Redhat/CentOS 和 MacOS 的依赖环境及具体命令。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/apache/incubator-livy</guid>
     </item>
     <item>
       <title>hyperledger-labs/splice</title>
       <link>https://github.com/hyperledger-labs/splice</link>
-      <description/>
+      <description>&lt;p&gt;概要: Splice 是一组基于 Daml 平台的参考应用，旨在为公开的、去中心化的 Canton 同步器提供资金、运营和激励机制，通过 Amulet 应用实现链上支付和奖励系统，促进同步基础设施的透明化和可持续发展。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 是用于支持去中心化 Canton 同步器运营、治理和激励的参考应用集合。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Amulet 是 Splice 中的关键组件，用作链上支付工具，用于对同步器使用收取费用并激励早期采用者。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;通过治理工具和自动化机制，Splice 实现同步器的透明运作和可控成本。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 提供五项核心应用，涵盖支付、治理、流量获取与透明化功能，支持运行于 Daml 平台的同步器生态。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Splice 正处于开源迁移过程中，仍存在部分术语需更名，并计划迁移 CI 测试环境。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/hyperledger-labs/splice</guid>
     </item>
     <item>
       <title>ucb-bar/chiseltest</title>
       <link>https://github.com/ucb-bar/chiseltest</link>
-      <description/>
+      <description>&lt;p&gt;概要: chiseltest 是一个为基于 Chisel 的 RTL 设计提供的全面测试与形式验证库，强调轻量、可读性和代码复用。该项目因缺乏维护者而停止开发，但仍可被社区继承或用于改进其他 Chisel 测试方案。它支持多种模拟器后端，并与 ScalaTest 框架深度集成，便于单元测试编写与执行。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;停止开发状态&lt;/strong&gt;: chiseltest 项目由于缺乏维护者已停止开发，但代码仍可被社区使用或改进。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;功能全面性&lt;/strong&gt;: 提供完整的测试与形式验证功能，支持轻量、易读及可复用的测试编写方式。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;与 ScalaTest 集成&lt;/strong&gt;: 支持使用 ScalaTest 框架进行单元测试，提供良好的 IDE 和 CI 体验。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多后端支持&lt;/strong&gt;: 支持 treadle、verilator、iverilog 和 vcs 四种后端，测试结果一致但性能和波形质量有差异。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;兼容性与迁移&lt;/strong&gt;: 提供兼容层支持旧版 PeekPokeTester 测试，便于从 chisel-testers 迁移，同时支持硬件测试器的直接集成。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ucb-bar/chiseltest</guid>
     </item>
     <item>
       <title>chipsalliance/chisel</title>
       <link>https://github.com/chipsalliance/chisel</link>
-      <description/>
+      <description>&lt;p&gt;概要: Chisel 是一种基于 Scala 的现代开源硬件描述语言（HDL），用于在寄存器传输层描述数字电路，支持 ASIC 和 FPGA 设计，通过生成可综合的 Verilog 提高设计抽象层次并促进组件复用，其底层由 LLVM CIRCT 实现的 FIRRTL 框架支持，并采用 Apache 2.0 许可证发布。&lt;/p&gt;  
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;Chisel 是基于 Scala 的现代 HDL&lt;/strong&gt;，支持 ASIC 和 FPGA 设计，通过生成可综合的 Verilog 实现高级电路生成与复用。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;Chisel 与 FIRRTL 框架深度集成&lt;/strong&gt;，利用 LLVM CIRCT 实现硬件编译，提升设计效率和可维护性。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供丰富的标准库和可参数化组件&lt;/strong&gt;，例如 FIFO 和 arbiters，使设计更加模块化和灵活。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持多种版本与开发模式&lt;/strong&gt;，普通用户推荐使用最新发布版本，开发者则建议基于 SNAPSHOT 版本进行开发。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;包含完整的文档和资源&lt;/strong&gt;，涵盖教程、API 参考、测试工具及贡献指南，便于学习和协作。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/chipsalliance/chisel</guid>
     </item>
     <item>
       <title>gitbucket/gitbucket</title>
       <link>https://github.com/gitbucket/gitbucket</link>
-      <description/>
+      <description>&lt;p&gt;概要: GitBucket 是一个基于 Scala 构建的 Git 网络平台，具备易于安装、高度可扩展性以及与 GitHub API 兼容的特点，提供包括公私仓库管理、GitLFS 支持、在线文件编辑、问题跟踪、拉取请求、Wiki 功能等在内的丰富特性，同时支持通过插件系统扩展功能并兼容多种部署方式。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;基于 Scala 构建，支持与 GitHub API 兼容&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;支持 Java 17，提供直观界面和插件扩展系统&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;数据存储默认在 HOME/.gitbucket 目录，需手动备份及数据库迁移&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;插件系统丰富，包括官方和社区扩展模块&lt;/strong&gt;&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;升级需注意 H2 数据库版本兼容问题，需手动迁移动作&lt;/strong&gt;&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/gitbucket/gitbucket</guid>
     </item>
     <item>
       <title>OpenXiangShan/XiangShan</title>
       <link>https://github.com/OpenXiangShan/XiangShan</link>
-      <description/>
+      <description>&lt;p&gt;概要: 香山（XiangShan）是一个开源的高性能RISC-V处理器项目，采用敏捷开发方法构建，并包含完整的文档、多版本微架构设计和多种工具链支持，旨在加速芯片开发流程并鼓励基于其平台的学术创新。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;香山是一个开源的高性能RISC-V处理器项目&lt;/strong&gt;，采用敏捷开发方法进行设计与实现。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;文档资源丰富且支持多语言翻译&lt;/strong&gt;，涵盖设计文档、用户指南，并可通过Weblate参与翻译。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;包含多个稳定版本的微架构&lt;/strong&gt;，如Yanqihu（雁栖湖）、Nanhu（南湖），当前版本Kunminghu（昆明湖）仍在开发中。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;提供完整的开发与验证工具链&lt;/strong&gt;，包括Verilog生成、仿真脚本、difftest框架以及Python二进制运行支持。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;项目采用Mulan PSL v2许可证&lt;/strong&gt;，并受到多家科研机构的版权授权。&lt;/li&gt;  
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/OpenXiangShan/XiangShan</guid>
     </item>
     <item>
       <title>apache/kyuubi</title>
       <link>https://github.com/apache/kyuubi</link>
-      <description/>
+      <description>&lt;p&gt;概要: Apache Kyuubi 是一个分布式的多租户SQL网关，旨在提供无服务器的Spark SQL访问能力，支持数据仓库和湖仓环境，使得非技术用户能够通过标准SQL操作大数据，同时为系统管理员提供资源隔离、数据安全、高并发和高可用性等管理能力。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;提供无服务器SQL访问&lt;/strong&gt;：通过Thrift JDBC/ODBC接口，Kyuubi实现了一个纯SQL网关，允许用户无需Spark技术背景即可操作大数据。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持多租户架构&lt;/strong&gt;：Kyuubi的多租户模型有效实现了资源隔离、数据安全及高并发访问，提升了集群资源使用效率。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;兼容HiveServer2并优化性能&lt;/strong&gt;：Kyuubi基于HiveServer2的API设计，能够迁移原有工作负载至Spark SQL，同时增强资源管理和稳定性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持数据湖与湖仓统一管理&lt;/strong&gt;：Kyuubi旨在打造统一的数据访问平台，支持ETL处理、BI分析等多种工作负载，实现数据的一次存储、多端使用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;云原生部署能力&lt;/strong&gt;：Kyuubi支持在多种集群管理器如YARN和Kubernetes上运行，具备良好的云环境适应性和资源调度能力。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/apache/kyuubi</guid>
     </item>
