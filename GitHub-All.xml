@@ -8,77 +8,166 @@
     <item>
       <title>minio/minio</title>
       <link>https://github.com/minio/minio</link>
-      <description/>
+      <description>&lt;p&gt;概要: MinIO是一款基于GNU AGPLv3协议的高性能对象存储系统，完全兼容S3 API，专为AI/ML和分析等数据密集型工作负载设计。社区版已停止维护，仅提供源代码分发，建议通过Go编译或Docker构建方式部署；企业用户可选用提供商业支持的AIStor版本，该版本包含SLA保障和专业技术服务。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;许可证重大变更&lt;/strong&gt;：社区版转为纯源代码分发，不再提供预编译二进制文件，且AGPLv3协议要求衍生代码必须开源&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业级替代方案&lt;/strong&gt;：推出AIStor企业版提供商业许可、SLA保障和技术支持，满足生产环境需求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术特性优势&lt;/strong&gt;：具备S3全兼容、高性能架构和AI/ML工作负载优化三大核心能力&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署方式多样化&lt;/strong&gt;支持源码编译、Docker容器化及Kubernetes（Operator/Helm）多种部署方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区支持模式调整&lt;/strong&gt;：仅提供最佳努力支持，生产环境使用自编译版本需自行承担风险&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/minio/minio</guid>
     </item>
     <item>
       <title>tambo-ai/tambo</title>
       <link>https://github.com/tambo-ai/tambo</link>
-      <description/>
+      <description>&lt;p&gt;概要: Tambo是一款开源的React生成式UI工具包，通过Zod模式注册组件，AI智能选择并流式渲染界面元素，提供全栈解决方案，支持云端或自托管部署，内置MCP集成和本地工具执行，具备持久化状态组件管理等差异化功能，旨在帮助开发者构建自适应用户的智能应用界面。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;智能组件渲染引擎&lt;/strong&gt;：基于LLM自动识别用户意图并动态选择匹配的UI组件，实现自然语言到界面元素的直接转换&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全栈式架构设计&lt;/strong&gt;：整合React SDK与后端服务，统一处理对话状态、流式传输和错误恢复等复杂逻辑&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业级集成能力&lt;/strong&gt;：原生支持MCP协议实现多系统连接，同时提供客户端工具声明式调用机制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活的部署方案&lt;/strong&gt;：提供Tambo Cloud托管服务和MIT许可的自托管选项，支持Docker容器化部署&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;差异化竞争优势&lt;/strong&gt;：相比竞品具备AI驱动组件选择、持久化状态管理和完整的MCP集成等独特功能&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/tambo-ai/tambo</guid>
     </item>
     <item>
       <title>letta-ai/letta-code</title>
       <link>https://github.com/letta-ai/letta-code</link>
-      <description/>
+      <description>&lt;p&gt;概要: Letta Code是一款基于记忆优先理念的编程辅助工具，其核心价值在于通过持久化智能体实现跨会话的持续学习能力。与传统会话式编程工具不同，该工具支持多模型切换（包括Claude、GPT、Gemini等主流模型），提供记忆初始化、主动记忆引导和技能学习三大核心功能，可通过npm快速安装并支持自定义API密钥配置，为开发者提供类似协作同事的智能化编程体验。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;持久化智能体架构&lt;/strong&gt;：突破传统独立会话模式，实现跨会话记忆延续与持续学习&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多模型兼容性&lt;/strong&gt;：支持Claude/GPT/Gemini/GLM等主流大语言模型的无缝切换&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主动记忆管理机制&lt;/strong&gt;：通过/init、/remember、/skill等指令实现记忆系统初始化与定向优化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技能学习能力&lt;/strong&gt;：支持从当前工作轨迹中提取可复用技能模块，提升工具智能化水平&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活部署方案&lt;/strong&gt;：提供云端API与本地Docker两种部署方式，支持自定义API密钥配置&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/letta-ai/letta-code</guid>
     </item>
     <item>
       <title>SynkraAI/aios-core</title>
       <link>https://github.com/SynkraAI/aios-core</link>
-      <description/>
+      <description>&lt;p&gt;概要: Synkra AIOS是一个基于AI驱动的自修改开发框架，采用"CLI优先、可观测性次之、UI最后"的架构理念，通过11个专业化AI代理（包括分析师、产品经理、架构师、开发工程师等）实现端到端的全栈开发自动化。该系统通过双阶段创新工作流——代理规划阶段生成详细PRD和架构文档，工程化开发阶段将计划转化为包含完整上下文的开发故事，有效解决了AI辅助开发中的规划不一致和上下文丢失问题。框架支持跨平台部署，提供现代化交互式安装体验，并可通过Squads机制扩展到非技术领域。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CLI优先的三层架构设计&lt;/strong&gt; - 以命令行界面为智能核心，可观测性用于监控，UI仅辅助管理，确保系统操作不依赖图形界面&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;双阶段代理协作工作流&lt;/strong&gt; - 规划代理生成详细规格，开发代理执行上下文完整的开发任务，消除AI开发中的信息断层&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模块化Squads扩展机制&lt;/strong&gt; - 支持创建专业化AI团队，将框架能力扩展到软件开发之外的创意写作、商业策略等领域&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自主开发引擎(ADE)&lt;/strong&gt; - 包含7个核心模块的自动化系统，实现从需求到代码的完整转换流程，具备自我修复和记忆能力&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业级质量保障体系&lt;/strong&gt; - 三层验证机制（预提交、预推送、CI/CD）确保代码质量，支持团队协作和项目管理&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/SynkraAI/aios-core</guid>
     </item>
     <item>
       <title>rowboatlabs/rowboat</title>
       <link>https://github.com/rowboatlabs/rowboat</link>
-      <description/>
+      <description>&lt;p&gt;概要: Rowboat是一款开源AI工作助手，其核心价值在于通过构建长期积累的知识图谱来提升工作效率。该系统采用本地优先架构，将邮件、会议记录等日常工作数据转化为可编辑的Markdown格式知识图谱，支持智能生成会议简报、邮件草稿、PDF文档等实用功能，并允许用户自主选择AI模型及通过MCP协议集成外部工具，在保障数据隐私的同时实现知识的持续复合增长。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;长期记忆型知识图谱&lt;/strong&gt;：区别于传统AI工具的实时检索模式，通过持续积累的图谱关系实现上下文记忆的复利效应&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;本地化隐私保护设计&lt;/strong&gt;：所有数据以明文Markdown格式存储于用户本地设备，支持完整的数据审查与编辑权限&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模块化AI模型集成&lt;/strong&gt;：支持Ollama/LM Studio本地模型或第三方API，用户可随时更换模型而不影响数据存储&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动化背景代理机制&lt;/strong&gt;：可配置智能代理自动处理日常任务（如邮件回复、每日语音简报），实现被动式工作效率提升&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可扩展工具生态&lt;/strong&gt;：通过MCP协议集成Slack、GitHub等外部服务，形成定制化工作流解决方案&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/rowboatlabs/rowboat</guid>
     </item>
     <item>
       <title>alibaba/zvec</title>
       <link>https://github.com/alibaba/zvec</link>
-      <description/>
+      <description>&lt;p&gt;概要: Zvec是一款开源、轻量级、极速的进程内向量数据库，可直接嵌入应用运行，无需独立服务器。该产品基于阿里巴巴经过实战检验的Proxima向量搜索引擎构建，具备生产级的高性能、低延迟和可扩展的相似性搜索能力。其核心优势包括支持毫秒级检索数十亿向量、同时处理稠密和稀疏向量、提供混合搜索功能，并能无缝部署于笔记本、服务器及边缘设备等多种环境。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;进程内架构优势&lt;/strong&gt;：作为嵌入式数据库直接运行在应用进程中，无需独立服务器部署，显著降低运维复杂度&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业级技术基底&lt;/strong&gt;：基于阿里巴巴Proxima引擎构建，具备经过实战检验的生产环境可靠性和性能表现&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多模态向量支持&lt;/strong&gt;：原生同时支持稠密向量和稀疏向量处理，支持单次调用完成多向量查询&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;混合搜索能力&lt;/strong&gt;：结合语义相似性与结构化过滤，提供更精准的检索结果&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全平台部署灵活性&lt;/strong&gt;：支持从云端服务器到边缘设备的全场景部署，兼容主流操作系统和开发环境&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/alibaba/zvec</guid>
     </item>
     <item>
       <title>ChromeDevTools/chrome-devtools-mcp</title>
       <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <description/>
+      <description>&lt;p&gt;概要: 本文介绍了Chrome DevTools for coding agents的详细配置和使用指南。请参考官方文档以获取更多信息。
+
+&lt;/p&gt;</description>
       <pubDate/>
       <guid>https://github.com/ChromeDevTools/chrome-devtools-mcp</guid>
     </item>
     <item>
       <title>cinnyapp/cinny</title>
       <link>https://github.com/cinnyapp/cinny</link>
-      <description/>
+      <description>&lt;p&gt;概要: Cinny是一个专注于提供简洁、优雅且安全界面的Matrix即时通讯客户端，旨在打造易于使用且具有现代感的通信工具。该应用提供Web版、桌面版及多种自托管方案，支持通过Docker容器化部署和本地开发，具备灵活的路由配置和子目录部署能力，并通过PGP签名确保分发文件的安全性。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;产品定位清晰&lt;/strong&gt;：专注于简化Matrix协议的使用体验，强调界面简洁性、安全性和现代感&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多端部署灵活&lt;/strong&gt;：支持Web直接访问、桌面应用下载及自主服务器部署，提供Docker镜像和传统部署方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开发者友好&lt;/strong&gt;：提供完整的本地开发环境配置指南，支持Node.js多版本管理和容器化开发调试&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业级部署支持&lt;/strong&gt;：具备子目录部署、路由配置等高级功能，满足定制化部署需求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全机制完善&lt;/strong&gt;：通过PGP签名验证分发文件完整性，确保软件供应链安全&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/cinnyapp/cinny</guid>
     </item>
     <item>
       <title>ruvnet/wifi-densepose</title>
       <link>https://github.com/ruvnet/wifi-densepose</link>
-      <description/>
+      <description>&lt;p&gt;概要: InvisPose/WiFi DensePose是一款基于商用WiFi路由器的革命性人体姿态估计系统，通过分析信道状态信息实现无需摄像头的隐私保护型实时人体追踪，具备穿墙检测能力。该系统采用先进的机器学习和神经网络技术，支持高达10人的多目标实时追踪，延迟低于50毫秒，帧率达到30FPS。最新版本已采用Rust语言重构，性能提升达810倍，内存占用降低80%，并专门开发了WiFi-Mat灾难救援模块，可应用于地震、建筑倒塌等搜救场景的生命体征探测。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;突破性隐私保护技术&lt;/strong&gt;：利用商用WiFi路由器实现无需摄像头的人体姿态追踪，通过信道状态信息分析实现隐私保护型穿墙检测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;卓越的实时性能表现&lt;/strong&gt;：系统延迟低于50毫秒，帧率达到30FPS，支持多达10人的多目标同时追踪&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;革命性的技术架构升级&lt;/strong&gt;：采用Rust语言重构后性能提升810倍，内存占用降低80%，并专门开发了灾难救援模块&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;广泛的应用场景覆盖&lt;/strong&gt;：从医疗健康到智能安防，从健身追踪到灾难搜救，展现了技术的高度适应性和可扩展性&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ruvnet/wifi-densepose</guid>
     </item>
     <item>
       <title>Zipstack/unstract</title>
       <link>https://github.com/Zipstack/unstract</link>
-      <description/>
+      <description>&lt;p&gt;概要: Unstract是一个无代码LLM平台，专为构建智能工作流的数据层而设计，能够将近乎100%准确地将非结构化文档转化为结构化数据。该平台通过Prompt Studio提供可视化提示词开发环境，支持多LLM输出比对和成本控制，并具备灵活的部署选项（包括MCP服务器、API、ETL管道和n8n节点）。其企业版特性包含双LLM校验、单次提取优化（最高降低8倍token消耗）和人机回环验证，同时兼容主流的云服务、向量数据库及文件格式，支持云端试用和本地化部署。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;无代码文档结构化平台&lt;/strong&gt;：通过Prompt Studio实现可视化提示词工程，支持一键部署API和ETL管道，精准处理多类型非结构化文档。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业级精准度与成本优化&lt;/strong&gt;：采用LLMChallenge双模型校验保障输出可靠性，单次提取技术可降低最高8倍的LLM计算成本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多生态无缝集成&lt;/strong&gt;：支持MCP服务器、REST API、ETL流水线及低代码n8n节点四种部署模式，兼容主流LLM服务商与数据存储系统。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;混合部署灵活性&lt;/strong&gt;：提供云端14天免费试用与企业级功能，同时支持本地化部署（最低8GB内存），满足不同安全与合规需求。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Zipstack/unstract</guid>
     </item>
     <item>
       <title>ruby/ruby</title>
       <link>https://github.com/ruby/ruby</link>
-      <description/>
+      <description>&lt;p&gt;概要: Ruby是一种面向对象的解释型编程语言，以其简洁直观的语法和强大的脚本功能著称，广泛应用于Web开发和系统任务管理。该语言具备高阶面向对象特性、垃圾回收机制和跨平台可移植性，支持通过官方渠道或Git获取源码，并拥有活跃的社区邮件列表和问题反馈机制，由松本行弘于1995年设计开发。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;语言定位清晰&lt;/strong&gt;：面向对象的解释型语言，主打Web开发与脚本处理，强调简洁性和扩展性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术特性全面&lt;/strong&gt;：涵盖从基础语法到混合继承、操作符重载等高级特性，内置垃圾回收和异常处理机制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生态支持完善&lt;/strong&gt;：提供多平台支持、Git源码获取、多语言文档及邮件列表等开发者资源&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区驱动明确&lt;/strong&gt;：通过特定渠道收集问题反馈和代码贡献，由创始人松本行弘持续维护&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ruby/ruby</guid>
     </item>
