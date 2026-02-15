@@ -8,14 +8,15 @@
     <item>
       <title>microsoft/agent-lightning</title>
       <link>https://github.com/microsoft/agent-lightning</link>
-      <description>&lt;p&gt;概要: Agent Lightning 是一个专注于通过强化学习等算法实现AI代理高效训练的工具，支持几乎所有现有代理框架甚至无框架开发，且几乎无需代码修改即可进行优化，提供了一条从初始部署到持续改进的清晰路径。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;几乎零代码修改实现代理优化&lt;/strong&gt;：Agent Lightning 允许用户在不改变原有代码结构的前提下，使用强化学习等算法对AI代理进行训练和优化。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;兼容多种代理框架及无框架开发&lt;/strong&gt;：支持 LangChain、OpenAI Agent SDK、AutoGen、CrewAI、Microsoft Agent Framework 等主流框架，也可直接用于 Python OpenAI。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;支持多代理系统的选择性优化&lt;/strong&gt;：能够在多代理系统中单独或组合优化特定代理，提升整体系统效率。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;采用轻量级架构与集中式存储&lt;/strong&gt;：通过 agl.emit_xxx() 工具或追踪器收集代理交互数据，存储至 LightningStore，并与训练算法协同工作。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;符合Microsoft Responsible AI标准&lt;/strong&gt;：该项目已通过Microsoft Responsible AI的评估与认证，并承诺持续监测和维护以保障合规性。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Agent Lightning是微软开源的AI代理训练平台，通过近乎零代码修改的轻量化架构，支持跨所有主流框架（LangChain/AutoGen/自研等）的多代理系统优化，集成强化学习、自动提示优化等算法，提供从训练到部署的完整工具链，已验证支持128GPU规模的数学/代码训练场景，并通过MIT许可开放使用。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+  &lt;li&gt;&lt;strong&gt;零代码优化革命&lt;/strong&gt;：无需重构代码即可对任意AI代理框架（含无框架Python项目）实施强化学习等算法优化&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;全栈式多代理支持&lt;/strong&gt;：独创性支持单/多代理系统混合优化，兼容LangChain/OpenAI Agent SDK等全系框架&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;工业级算法集成&lt;/strong&gt;：内建强化学习、监督微调、自动提示优化等企业级训练算法，支持自定义算法扩展&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;规模化验证案例&lt;/strong&gt;：已实现128GPU并行训练的工业级案例（如Youtu-Agent），验证复杂任务（SQL生成/数学推理）的稳定收敛性&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;开放生态体系&lt;/strong&gt;：提供Discord社区/技术博客/论文(arXiv:2508.03680)三位一体的技术支持，MIT许可确保商业友好性&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/microsoft/agent-lightning</guid>
@@ -23,15 +24,14 @@
     <item>
       <title>Shubhamsaboo/awesome-llm-apps</title>
       <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>&lt;p&gt;概要: 该文本介绍了多个基于大型语言模型（LLM）的创新应用，涵盖AI代理、RAG（检索增强生成）和多种开源及商业模型的整合，展现了LLM在不同领域如数据分析、医疗影像、金融咨询、教育、娱乐等的广泛应用，并提供了丰富的教程和工具帮助开发者快速构建和优化LLM应用。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;多模型整合应用&lt;/strong&gt;：展示基于OpenAI、Anthropic、Gemini及开源模型如Qwen、Llama构建的LLM应用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI代理与团队协作&lt;/strong&gt;：提供多种AI代理及其团队形式，支持自动化任务、推理、多智能体交互等复杂功能。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;RAG技术多样化实现&lt;/strong&gt;：涵盖从基础RAG到高级优化如Agentic RAG、Corrective RAG、Vision RAG等多种形式的应用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;优化工具与成本控制&lt;/strong&gt;：包含多种LLM优化工具，如Toonify Token Optimization和Headroom Context Optimization，显著降低API使用成本。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;开源社区与教程支持&lt;/strong&gt;：鼓励开发者参与开源生态，提供详细的项目文档及教程，便于快速上手和扩展。&lt;/li&gt;
+      <description>&lt;p&gt;概要: 该项目集合展示了基于RAG、AI代理及多模型架构（涵盖OpenAI、Anthropic、Gemini及Qwen/Llama等开源模型）构建的LLM应用生态，覆盖医疗、金融、游戏等30+垂直领域。通过多代理协作、语音交互、本地化部署及成本优化工具（如Toonify/Headroom），提供可运行于本地或云端的端到端解决方案，并配套系统化教程与框架支持（Google ADK/OpenAI SDK），推动开源生态发展。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台模型整合&lt;/strong&gt;：支持OpenAI/Claude/Gemini等商业模型与Qwen/Llama等开源模型混合部署，实现本地与云端协同&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;多模态代理架构&lt;/strong&gt;：包含医疗影像分析、金融投研等30+垂直场景代理，首创多代理团队协作模式（如法律/招聘团队）及MCP协议集成&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;成本优化技术&lt;/strong&gt;：提供Toonify（API成本降低30-60%）和Headroom（压缩50-90%上下文）等专用优化工具链&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;工程化实践体系&lt;/strong&gt;：包含Gemma/Llama微调指南、多LLM共享记忆系统、RAG即服务架构等生产级实现方案&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;交互增强技术栈&lt;/strong&gt;：支持语音代理（OpenAI SDK/Wispr Flow）、多模态UI反馈、浏览器自动化等交互形态&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Shubhamsaboo/awesome-llm-apps</guid>
@@ -39,14 +39,15 @@
     <item>
       <title>open-webui/open-webui</title>
       <link>https://github.com/open-webui/open-webui</link>
-      <description>&lt;p&gt;概要: Open WebUI 是一款功能丰富、易于使用的自托管AI平台，支持离线运行，兼容多种大语言模型（如Ollama和OpenAI API），并内置RAG推理引擎，可实现多模型对话、高级数据存储、企业级权限控制以及跨平台访问，提供灵活部署与持续更新能力，适合需要定制化和安全性的AI应用。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;支持多模型与API集成&lt;/strong&gt;: 兼容Ollama和OpenAI兼容API，支持LMStudio、GroqCloud、Mistral等外部服务，实现灵活对话。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级安全与权限管理&lt;/strong&gt;: 提供RBAC和细粒度用户组权限，保障系统安全并支持定制化用户体验。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;离线与多平台兼容性&lt;/strong&gt;: 支持完全离线运行，具备响应式设计与PWA功能，适配桌面、笔记本及移动设备。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;强大的RAG支持&lt;/strong&gt;: 内置RAG推理引擎，支持9种向量数据库和多种内容提取工具，提升交互智能性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;易于部署与扩展&lt;/strong&gt;: 可通过Docker、Kubernetes等多种方式部署，支持GPU加速与云存储集成，具备水平扩展能力。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: Open WebUI是一款功能全面、支持离线运行的自托管AI平台，兼容Ollama和OpenAI API，内置RAG推理引擎和代码/函数调用能力，提供从模型部署到多模态交互的一站式解决方案。其支持Docker/Kubernetes灵活部署、企业级权限管理、多模型协同及9种向量数据库，结合PWA移动支持、Web搜索集成和SCIM/OAuth认证，满足企业级AI应用的可扩展性、安全性和全球化需求，持续更新增强功能并提供LTS版本保障。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+  &lt;li&gt;&lt;strong&gt;全栈自托管能力&lt;/strong&gt;：支持纯离线部署，集成Ollama/OpenAI API及本地CUDA加速，内置RAG引擎和Python函数调用工具，实现数据主权与模型灵活性平衡&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;企业级安全架构&lt;/strong&gt;：提供RBAC权限控制、SCIM 2.0用户生命周期管理、LDAP/AD集成及多租户隔离，确保AI应用符合企业合规要求&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;多模态扩展生态&lt;/strong&gt;：支持9种向量数据库优化RAG性能，集成DALL-E/Gemini图像生成、语音交互及15+搜索引擎实时注入，构建沉浸式交互场景&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;高可用部署方案&lt;/strong&gt;：通过Redis横向扩展、云原生存储(S3/Google Cloud)及Docker一键部署(含GPU/离线模式)，适配从单机到企业级集群的全场景&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;开发者友好体系&lt;/strong&gt;：提供Pipelines插件框架、BYOF(自带函数)功能及OpenTelemetry监控，支持Langfuse等第三方工具深度集成&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/open-webui/open-webui</guid>
@@ -54,14 +55,15 @@
     <item>
       <title>cheahjs/free-llm-api-resources</title>
       <link>https://github.com/cheahjs/free-llm-api-resources</link>
-      <description>&lt;p&gt;概要: 本文提供了多种提供免费或试用额度的LLM推理API资源列表，涵盖多个主流服务及模型，如OpenRouter、Google AI Studio、NVIDIA NIM、Mistral、HuggingFace、Groq、Cohere等，同时强调避免滥用以保持服务可用性，并明确排除非合法服务。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;多种免费LLM推理API选项&lt;/strong&gt;：包括OpenRouter、Google AI Studio、NVIDIA NIM、Mistral、HuggingFace、Groq、Cohere、Cloudflare Workers AI和Google Cloud Vertex AI，部分模型提供高并发和高吞吐访问权限。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;不同服务提供不等额的免费试用或积分&lt;/strong&gt;：如Scaleway提供100万免费tokens，AI21提供$10试用额度，NLP Cloud要求手机号验证并提供$15额度，提示用户需根据需求选择合适的平台。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;部分服务需手机号验证或支付限制&lt;/strong&gt;：如Mistral（La Plateforme）和Cohere，限制免费用户访问频率，并可能涉及数据训练或付费计算时间。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;风险提示与合规性说明&lt;/strong&gt;：明确警告用户不要滥用这些资源，以免服务被限制或取消，且排除了不合法的逆向工程平台。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;服务覆盖广泛且模型多样&lt;/strong&gt;：从小型模型如Llama 3.1 8B到大模型如Llama 3.3 70B和Qwen 3 235B，支持多种任务类型，包括文本生成、语音识别及多模态处理。&lt;/li&gt;  
+      <description>&lt;p&gt;概要: 本文档汇总了当前可用的免费大语言模型（LLM）API服务及试用资源，涵盖OpenRouter、Google AI Studio、NVIDIA NIM等22家平台，提供包括Gemma 3系列、Llama 3系列、Qwen等上百种开源与闭源模型的调用权限。各平台设置差异化使用限制（如请求频率/配额/验证要求），部分服务需绑定手机号或符合特定地区政策，同时明确警告禁止滥用行为，并排除非官方逆向工程类服务。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多层资源覆盖&lt;/strong&gt;：区分纯免费服务（如OpenRouter日限50次）与试用积分模式（如Baseten提供$30额度），满足不同规模需求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模型生态多样性&lt;/strong&gt;：支持从轻量级（Gemma 1B）到超大规模（Llama 3.1 405B）的跨量级模型，涵盖代码生成（Codestral）、语音识别（Whisper）、多模态等场景&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用限制差异化&lt;/strong&gt;：各平台配额差异显著（如Groq日限14,400次 vs Cohere月限1,000次），部分服务（如Google Vertex AI）需通过严格支付验证&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据合规警示&lt;/strong&gt;：明确提示非欧盟/英国地区使用数据可能被用于模型训练（Google AI Studio），部分服务需主动选择数据共享（Mistral La Plateforme）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术验证机制&lt;/strong&gt;：多数平台强制实施手机号验证（NVIDIA NIM/Mistral），部分限制模型上下文长度（NVIDIA NIM）或输入输出token（GitHub Models）&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/cheahjs/free-llm-api-resources</guid>
@@ -69,15 +71,15 @@
     <item>
       <title>karpathy/nanochat</title>
       <link>https://github.com/karpathy/nanochat</link>
-      <description>&lt;p&gt;概要: nanochat 是一个专为低成本训练和部署大型语言模型 (LLM) 设计的简洁实验框架，通过单个参数 --depth 控制模型复杂度，实现从预训练到微调、评估、推理和聊天界面的全流程自动化，使得原本需数十万美元训练的 GPT-2 模型可在不到 $100 的成本下完成，极大降低了微模型研究的门槛。&lt;/p&gt;
+      <description>&lt;p&gt;概要: nanochat是一款极简化的大型语言模型训练框架，支持在单GPU节点上完成从预训练到对话交互的全流程，通过自动化超参数配置和模型深度调节（如GPT-2级模型深度26层），实现计算最优模型的快速构建。其核心突破在于将GPT-2级模型训练成本从2019年的4.3万美元降至当前72美元（3小时8XH100 GPU），并建立社区协作的"速度赛"排行榜，通过优化预训练阶段将达标时间从168小时压缩至2.76小时，同时支持从CPU到高端GPU的多平台部署，显著降低技术门槛和研发成本。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;极低成本训练 LLM&lt;/strong&gt;: nanochat 可以在约 $72 的成本下训练出具备 GPT-2 能力的模型，主要依赖于优化的 GPU 利用率和高效的资源管理。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;单参数控制模型复杂度&lt;/strong&gt;: 通过 --depth 参数统一控制模型深度，自动调整所有超参数以实现计算最优，简化了模型训练与调优流程。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;集成完整的训练与评估流程&lt;/strong&gt;: 涵盖了 tokenization、预训练、微调、评估、推理和聊天界面，具备从零开始训练并使用模型的能力。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;社区与竞争激励机制&lt;/strong&gt;: 提供了 "GPT-2 speedrun" 领先板，鼓励开发者通过优化预训练阶段来提升模型训练速度和性能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灵活的运行环境支持&lt;/strong&gt;: 支持单 GPU、CPU、Apple Silicon 等多种硬件环境，具备一定的可扩展性和适应性。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;超低成本训练&lt;/strong&gt;：GPT-2级模型训练成本下降99.8%，单次训练仅需72美元（Spot实例低至20美元），较2019年技术成本下降超600倍&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;单参数深度控制&lt;/strong&gt;：首创通过调节模型层数(--depth)自动计算所有超参数的架构，实现从GPT-1到GPT-2级模型的无缝扩展，降低技术复杂度&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;极速预训练突破&lt;/strong&gt;：建立GPT-2速度赛排行榜，通过批量优化等技术将达标时间从168小时压缩至2.76小时，核心指标超越OpenAI基准&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全栈式工具链&lt;/strong&gt;：集成分词、预训练、微调、评估、推理及Web对话界面，支持单GPU/多GPU/CPU全硬件方案，提供端到端可定制化流程&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：采用MIT协议开源，建立开发者社区与贡献机制，通过标准化基准测试推动微模型技术的普惠化发展&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/karpathy/nanochat</guid>
@@ -85,15 +87,15 @@
     <item>
       <title>Jeffallan/claude-skills</title>
       <link>https://github.com/Jeffallan/claude-skills</link>
-      <description>&lt;p&gt;概要: 该文本介绍了为Claude Code量身打造的66项全栈开发专业技能，涵盖12个领域，结合9种工作流，通过上下文感知机制自动激活技能，并支持项目从需求到回顾的全流程管理，集成Jira和Confluence，同时提供了完整的文档、安装指南以及社区贡献机制，旨在提升开发效率与代码质量。&lt;/p&gt;
+      <description>&lt;p&gt;概要: 该工具扩展为全栈开发者提供66项覆盖12大技术领域的专业技能，通过上下文感知的自动激活机制与多技能协同工作流（如功能开发、安全加固等），结合Jira/Confluence深度集成实现项目全生命周期管理，并配备上下文工程功能验证AI隐藏假设，显著提升开发效率与准确性。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提供66项全栈开发技能，覆盖12大领域&lt;/strong&gt;，如语言、框架、基础设施、安全、数据/机器学习等，支持开发者高效完成各类任务。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;上下文感知技能激活机制&lt;/strong&gt;，根据用户的自然语言请求智能调用相应技能，提升开发协作与代码生成效率。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;集成9种工作流命令&lt;/strong&gt;，实现从项目发现到回顾的完整生命周期管理，支持Jira和Confluence集成，提升团队协作效率。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持Context Engineering&lt;/strong&gt;，提供工具（如/common-ground）帮助开发者识别和验证Claude对项目的隐含假设，增强沟通与对齐。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;包含完整文档体系和社区支持&lt;/strong&gt;，涵盖安装指南、技能参考、工作流说明、贡献指南、版本记录等，便于快速上手与持续优化。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+  &lt;li&gt;&lt;strong&gt;全栈技术全覆盖&lt;/strong&gt;：66项技能涵盖后端/前端框架、DevOps、安全工程等12大领域，满足全栈开发需求&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;智能上下文激活&lt;/strong&gt;：技能自动匹配开发场景（如JWT认证实现），无需手动切换，提升响应效率&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;多技能协同工作流&lt;/strong&gt;：复杂任务通过技能组合执行（如Feature Forge→架构设计→安全审查），保障系统性质量&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;企业级项目集成&lt;/strong&gt;：原生支持Jira/Confluence，实现需求分析到复盘的全流程闭环管理&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;AI假设验证机制&lt;/strong&gt;：通过/common-ground指令显式验证Claude的隐含项目假设，降低方案偏差风险&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Jeffallan/claude-skills</guid>
@@ -101,14 +103,14 @@
     <item>
       <title>HKUDS/RAG-Anything</title>
       <link>https://github.com/HKUDS/RAG-Anything</link>
-      <description>&lt;p&gt;概要: RAG-Anything是一款全面的多模态RAG框架，支持多种文档格式和内容类型（如文本、图片、表格、公式等）的处理与查询，通过智能解析、多模态分析及知识图谱构建实现跨模态语义理解和高效检索，提升学术研究、技术文档和企业知识管理等场景下的信息处理能力，并提供灵活的配置及扩展性。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: RAG-Anything是基于LightRAG构建的全栈式多模态文档处理框架，通过统一架构解决传统RAG系统对文本外内容处理能力不足的问题。其端到端流水线支持PDF、Office文档、图像等20+格式，配备视觉语言模型增强查询、数学公式解析等专用模块，采用多阶段处理流程实现文档结构分解、模态感知分析及知识图谱构建，支持混合检索模式，可直接插入预解析内容列表，显著提升学术研究、金融报告等混合内容场景下的知识管理效率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;支持多模态内容处理与统一查询&lt;/strong&gt;：集成文本、图片、表格、公式等多类型内容处理能力，提供单一接口支持跨模态检索。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;多模态知识图谱构建&lt;/strong&gt;：自动提取实体并建立跨模态语义关系，保留文档结构，增强理解与检索效率。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;灵活的解析与处理模式&lt;/strong&gt;：支持MinerU或Docling解析器，并允许自定义内容处理与注入方式，提升系统适应性。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;VLM增强查询功能&lt;/strong&gt;：可结合视觉语言模型对文档中的图表进行智能分析，增强非文本内容的语义理解。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;丰富的扩展与集成能力&lt;/strong&gt;：支持多种文档格式与内容类型，可通过插件架构扩展至其他模态，实现高度定制化。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全模态一体化处理&lt;/strong&gt;：唯一支持文本/图像/表格/公式/图表的端到端RAG框架，消除多工具依赖&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;VLM增强分析&lt;/strong&gt;：自动将文档图像接入视觉语言模型，实现图文联合语义理解与关系推理&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;动态知识图谱构建&lt;/strong&gt;：自动抽取多模态实体，建立跨模态关联关系并赋予权重评分&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化处理引擎&lt;/strong&gt;：支持MinerU/Docling双解析器切换，提供OCR加速、公式解析等12种专用处理器&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活内容接入&lt;/strong&gt;：既可解析原始文档，也可直接插入预处理内容列表，兼容外部系统数据迁移&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/HKUDS/RAG-Anything</guid>
@@ -116,14 +118,13 @@
     <item>
       <title>mvt-project/mvt</title>
       <link>https://github.com/mvt-project/mvt</link>
-      <description>&lt;p&gt;概要: Mobile Verification Toolkit（MVT）是由Amnesty International Security Lab于2021年7月开发并发布的开源工具，旨在通过自动化采集数字证据帮助识别Android和iOS设备是否受到间谍软件攻击。它适用于技术人员和调查员，而非普通用户自我评估，且依赖于专业数字取证知识与命令行工具操作。&lt;/p&gt;  
+      <description>&lt;p&gt;概要: MVT（Mobile Verification Toolkit）是国际特赦组织安全实验室开发的开源取证工具集，旨在自动化检测Android和iOS设备是否遭受间谍软件攻击。该工具通过扫描公开的威胁指标（IOC）识别潜在入侵痕迹，但强调仅依赖公开数据可能遗漏新型攻击痕迹，需结合非公开情报进行综合分析。其专为具备数字取证能力和命令行操作经验的技术人员设计，禁止普通用户自行检测设备安全，相关支持服务通过国际特赦组织及合作伙伴向公民社会提供。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;MVT是专为技术人员和调查员设计的数字取证工具&lt;/strong&gt;，用于检测移动设备是否被间谍软件入侵。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;MVT支持使用公共与非公共入侵指标&lt;/strong&gt;，但仅依赖公共指标可能无法准确判断设备是否被攻击。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;MVT提供Android和iOS专用的命令行工具&lt;/strong&gt;（mvt-android和mvt-ios），便于进行设备扫描与分析。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;工具由Amnesty International及其合作伙伴维护&lt;/strong&gt;，并面向公民社会，尤其是受监控风险较高的群体。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;安装方式包括源代码和PyPI&lt;/strong&gt;，需注意依赖项和潜在问题，建议参考官方文档。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;专业化取证工具&lt;/strong&gt;：由国际特赦组织开发，专为技术调查人员设计，需掌握数字取证技能与命令行操作，禁止非专业用户自检&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;威胁指标双刃剑&lt;/strong&gt;：支持扫描公开IOC识别已知间谍软件痕迹，但警告依赖公开数据可能导致误判，需结合非公开情报确保检测可靠性&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;技术生态闭环&lt;/strong&gt;：提供mvt-ios/mvt-android双平台命令行工具，通过PyPI安装，配套文档与GitHub社区维护技术适配&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;伦理许可框架&lt;/strong&gt;：采用特殊授权协议，明确禁止非授权隐私侵犯，聚焦保护公民社会及边缘群体的设备安全&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/mvt-project/mvt</guid>
@@ -131,15 +132,15 @@
     <item>
       <title>anthropics/claude-quickstarts</title>
       <link>https://github.com/anthropics/claude-quickstarts</link>
-      <description>&lt;p&gt;概要: Claude Quickstarts 是一套精心设计的项目集合，旨在帮助开发者快速构建可部署的应用程序，充分利用 Claude API 的自然语言处理、数据可视化、计算机控制以及自动化编程等功能，提供具体示例和定制化基础，便于开发者根据实际需求进行拓展与开发。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Anthropic推出Claude Quickstarts项目集，为开发者提供基于Claude API的即用型应用开发模板，涵盖客户服务、金融分析、计算机控制、浏览器自动化及自主编码等场景。每个项目均提供可扩展的代码框架、标准化开发流程（克隆仓库/API配置/依赖安装）及持续集成能力，配套官方文档、代码示例和社区支持，助力开发者快速构建企业级AI应用。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提供多种应用场景的快速启动模板&lt;/strong&gt;：涵盖客户支持、财务分析、计算机控制、浏览器自动化和自主编码等。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;基于 Claude API 实现功能扩展&lt;/strong&gt;：每个项目均展示如何利用 Claude 的能力和工具进行开发与集成。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多会话与持续开发&lt;/strong&gt;：如 Autonomous Coding Agent 项目，通过 git 保存进度并支持功能分步实现。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;包含详细的使用指南与资源链接&lt;/strong&gt;：每个项目附有 README 和设置说明，同时推荐 API 文档、教程课程和社区支持。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;鼓励社区贡献与协作&lt;/strong&gt;：开放源代码仓库，欢迎开发者提交新项目或改进现有项目。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多场景应用模板&lt;/strong&gt;：覆盖客户支持代理（NLP+知识库）、金融数据分析师（交互式可视化）、计算机控制（zoom操作支持）、浏览器自动化（DOM操作）及自主编码代理（双代理架构+Git持久化）五大核心场景&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工程化开发支持&lt;/strong&gt;：提供标准化开发流程、环境变量配置规范及模块化代码结构，支持快速部署与功能扩展&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自主代理架构创新&lt;/strong&gt;：首创双代理模式（初始化器+编码代理），实现跨会话应用开发与渐进式功能迭代&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全链路工具集成&lt;/strong&gt;：整合Playwright（浏览器自动化）、Git（版本控制）及MIT许可协议，构建完整开发生态&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：开放源代码贡献通道，配套API文档、Cookbook教程及Discord社区支持体系&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/anthropics/claude-quickstarts</guid>
@@ -147,15 +148,15 @@
     <item>
       <title>GetStream/Vision-Agents</title>
       <link>https://github.com/GetStream/Vision-Agents</link>
-      <description>&lt;p&gt;概要: Stream的Open Vision Agents提供了一套快速构建多模态、低延迟视频AI代理的解决方案，支持多种模型和视频提供商的集成，并通过其边缘网络实现超低延迟。该平台不仅适用于实时视频分析、安全监控、体育教练等应用场景，还具备SDK、语音识别与合成、RAG等功能，助力开发者高效创建智能视频体验。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Open Vision Agents是由Stream推出的实时视觉AI开发平台，通过边缘网络实现500ms快速接入和30ms超低音视频延迟，支持开发者灵活集成YOLO、Gemini等模型及自定义基础设施，提供React/Android/iOS等多平台SDK和20+预置插件（含OpenAI/Gemini/NVIDIA等），已落地运动教练、智能安防、隐形助手等场景，同时开放平台接口支持第三方扩展，当前技术需平衡图像精度与性能限制。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;低延迟实时视频AI处理&lt;/strong&gt;：基于Stream边缘网络实现500ms内接入，音频/视频延迟低于30ms，支持WebRTC和插件式处理器。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多模型与多平台兼容性&lt;/strong&gt;：支持YOLO、Roboflow、Gemini、OpenAI等多种模型，并兼容不同视频边缘网络，实现高度开放和可扩展性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;丰富的SDK支持&lt;/strong&gt;：提供React、Android、iOS、Flutter、React Native、Unity等多平台SDK，便于快速部署和集成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;集成语音与文本交互&lt;/strong&gt;：支持语音转文本（STT）、文本转语音（TTS）、语音活动检测（VAD）和语音双向流，提升真实自然的对话体验。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;内置RAG与智能语音助手机能&lt;/strong&gt;：通过TurboPuffer实现语音交互中的检索增强生成（RAG），支持电话集成、实时活动跟踪与上下文记忆。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+  &lt;li&gt;&lt;strong&gt;实时视觉AI架构&lt;/strong&gt;：WebRTC直连模型供应商，结合YOLO/Gemini等多模态处理，实现视频分析-决策-交互闭环（如高尔夫姿态捕捉延迟&lt;100ms）&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;开放生态兼容性&lt;/strong&gt;：自主模型/第三方API（20+插件）/边缘网络三重兼容，支持本地CUDA部署（如Moondream）与云端混合计算&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;场景化解决方案&lt;/strong&gt;：提供安防（包裹盗窃检测+X平台通缉令生成）、隐形教练（屏幕分析+文本反馈）、语音交互（Twilio电话+RAG知识库）等可复用方案&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;生产级部署能力&lt;/strong&gt;：0.3版本起支持HTTP API服务化部署，集成指标监控，GPU容器化方案适配Docker/K8s，提供333,000免费运行分钟数&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;技术边界与优化&lt;/strong&gt;：当前限制包括小字号文本识别失效、30秒以上视频记忆衰减，需通过多模型协同（轻量检测+大模型推理）和降分辨率/FPS优化性能&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/GetStream/Vision-Agents</guid>
@@ -163,15 +164,13 @@
     <item>
       <title>docling-project/docling</title>
       <link>https://github.com/docling-project/docling</link>
-      <description>&lt;p&gt;概要: Docling是一款专为通用人工智能（Gen AI）优化的文档处理工具，能够解析多种格式文件，包括高级PDF、图像、音频及LaTeX，并提供统一的数据表示格式和与主流AI框架的无缝集成，同时支持本地执行和OCR技术，适用于处理敏感数据和非结构化内容。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;支持多格式解析&lt;/strong&gt;，包括PDF、DOCX、PPTX、XLSX、HTML、音频、图像及LaTeX等。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供高级PDF解析能力&lt;/strong&gt;，涵盖布局、阅读顺序、表格结构、公式识别及图像分类。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持与主流AI框架集成&lt;/strong&gt;，如LangChain、LlamaIndex、Crew AI及Haystack，便于构建代理式AI应用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;具备本地执行与数据安全功能&lt;/strong&gt;，适用于空气隔离环境和敏感数据处理。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;开源且支持跨平台&lt;/strong&gt;，可在macOS、Linux与Windows上运行，并兼容x86_64和arm64架构。&lt;/li&gt;
+      <description>&lt;p&gt;概要: Docling是一款面向生成式AI的文档处理工具，支持PDF、DOCX、HTML、音频、图像等20+格式解析，通过高级PDF理解引擎实现版式、表格、公式等结构化提取，并提供统一文档表示格式与Markdown/JSON等多格式导出选项。其本地化部署能力满足敏感数据处理需求，已集成LangChain等主流AI框架，结合OCR、视觉语言模型及语音识别技术，可扩展支持化学结构解析与图表智能识别，助力企业高效构建智能文档处理流水线。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;多模态文档解析引擎&lt;/strong&gt;：唯一支持PDF/Office/音频/视频字幕/LaTeX等跨媒体格式的统一处理，内置Heron布局模型实现行业领先的PDF结构解析&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;生成式AI就绪架构&lt;/strong&gt;：原生集成MCP服务器与LangChain等四大AI框架，支持通过GraniteDocling等视觉语言模型实现文档多模态理解&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;企业级安全与性能&lt;/strong&gt;：提供本地化部署方案和MLX硬件加速，兼容Python 3.10+与全平台架构，满足离线环境与敏感数据处理合规要求&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;可扩展AI应用生态&lt;/strong&gt;：通过CLI工具链与IBM开源技术支持，实现从文档预处理到智能分析的全流程自动化，即将支持元数据提取与科学图表解析&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/docling-project/docling</guid>
@@ -179,15 +178,14 @@
     <item>
       <title>music-assistant/server</title>
       <link>https://github.com/music-assistant/server</link>
-      <description>&lt;p&gt;概要: Music Assistant 是一款免费且开源的媒体库管理工具，旨在连接流媒体服务和多种智能音箱，其核心服务器需运行在始终在线的设备上，如树莓派、NAS 或 Intel NUC。尽管它可以作为独立产品运行，但最佳实践是与 Home Assistant 配合使用，通过 Docker 容器或 Home Assistant 插件进行部署，以实现自动化控制。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Music Assistant是一款免费开源的媒体库管理工具，核心功能是整合流媒体服务与多品牌智能音箱设备，其服务器模块需部署在树莓派、NAS等持续在线的硬件设备上。系统支持独立运行，但深度适配Home Assistant生态，推荐通过Docker容器或Home Assistant插件方式安装，受限于对ffmpeg等外部组件的依赖，无法通过Python包直接部署，官方提供完整文档与测试版资源支持。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Music Assistant 是开源媒体库管理工具，支持连接流媒体服务和多种智能音箱&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;核心服务器必须运行在始终在线的硬件设备上，如树莓派、NAS 或 Intel NUC&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;推荐的部署方式是作为 Home Assistant 插件，以实现自动化功能&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;不支持直接作为独立的 PyPI 包运行，因其依赖多个外部组件&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供官方文档和问题跟踪系统以支持用户使用和反馈&lt;/strong&gt;&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;全栈开源生态&lt;/strong&gt;：提供完整媒体管理解决方案，支持跨平台流媒体服务与智能音箱设备整合&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;硬件部署约束&lt;/strong&gt;：必须运行在ARM/x86架构的持续在线设备，依赖特定硬件环境而非纯软件部署&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;智能家居深度集成&lt;/strong&gt;：虽支持独立运行，但核心设计优先适配Home Assistant自动化生态&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;容器化部署限制&lt;/strong&gt;：受制于系统级依赖（如ffmpeg），仅支持Docker容器或HA插件安装方式&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/music-assistant/server</guid>
@@ -195,15 +193,15 @@
     <item>
       <title>Zipstack/unstract</title>
       <link>https://github.com/Zipstack/unstract</link>
-      <description>&lt;p&gt;概要: Unstract 是一个无代码的 LLM 平台，支持通过 API 和 ETL 流程自动化处理和结构化非结构化文档，提供高精度的数据提取、多模型对比、成本优化及多种集成方式，适用于企业及开发者的不同需求，同时具备强大的生态系统支持和灵活的部署选项。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Unstract推出无代码LLM平台，通过Prompt Studio实现多模型对比开发通用提示模板，支持一键部署文档结构化API及ETL流水线，集成MCP服务器、n8n节点等多样化方案，结合LLMChallenge双模型验证、SinglePass降本8倍等核心技术，提供企业级文档自动化处理方案，兼容100+文件格式及主流数据生态，配备14天免费试用和自托管部署选项。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;支持无代码定义数据结构与提取流程&lt;/strong&gt;，通过 Prompt Studio 实现多模型对比、成本监控及一键部署 API。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多种集成方式提升灵活性和可扩展性&lt;/strong&gt;，包括 MCP Server、API 部署、ETL 流程嵌入以及 n8n 节点，适应不同团队和技术环境。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;提供企业级功能增强精度与效率&lt;/strong&gt;，如 LLMChallenge 确保可信输出、SinglePass 和 SummarizedExtraction 降低 LLM 使用成本。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;兼容广泛文件格式与数据源&lt;/strong&gt;，涵盖 Word、PDF、图像等多种类型，支持主流云存储和数据库平台。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支持自托管与云部署，确保安全性与数据隐私&lt;/strong&gt;，包括加密密钥管理和 SSO 认证功能，便于企业按需选择部署方式。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;多模态文档处理引擎&lt;/strong&gt;：支持PDF/Word/Excel/图像等100+文件格式，通过LLMWhisperer V2等技术实现接近100%准确率的非结构化数据解析&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全栈式集成能力&lt;/strong&gt;：提供API/MCP服务器/ETL流水线/n8n节点四类集成方案，覆盖开发者、数据工程师及低代码用户群体&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;成本优化技术矩阵&lt;/strong&gt;：SinglePass提取技术降低8倍token消耗，SummarizedExtraction在保持精度前提下节省6倍成本&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;企业级安全架构&lt;/strong&gt;：集成SSO认证、端到端加密及Human-In-The-Loop人工校验机制，满足金融/医疗等合规敏感行业需求&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;生态兼容性&lt;/strong&gt;：原生支持AWS/GCP/Azure等云存储，Snowflake/Redshift等12类数据仓库，以及OpenAI/Gemini等9大LLM平台&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/Zipstack/unstract</guid>
@@ -211,15 +209,15 @@
     <item>
       <title>ruvnet/wifi-densepose</title>
       <link>https://github.com/ruvnet/wifi-densepose</link>
-      <description>&lt;p&gt;概要: WiFi DensePose 是一款基于WiFi的隐私保护型人体姿态估计系统，能够通过商品化Mesh路由器实现穿透墙壁的实时全身体态追踪，具备多目标跟踪、高精度分析和跨平台部署能力，其Rust实现显著提升了性能并支持企业级功能，如API管理、实时流媒体和全面测试覆盖，尤其适用于医疗、健身、安防及灾难救援等场景。&lt;/p&gt;
+      <description>&lt;p&gt;概要: WiFi DensePose 是一款基于WiFi信道状态信息（CSI）的实时人体姿态追踪系统，通过商品化网状路由器实现穿墙全身体追踪。该系统采用机器学习技术，支持10人同时追踪（&lt;50ms延迟/30FPS），提供医疗、健身等场景的定制化分析，并推出高性能Rust版本，较Python版本提升810-5400倍处理速度且内存占用降低80%。配套灾难响应模块WiFi-Mat可穿透5米废墟检测生命体征，支持地震救援等场景，已通过数学精度验证并提供完整开发文档。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;隐私保护的实时人体姿态追踪&lt;/strong&gt;: 不依赖摄像头，利用WiFi信号和CSI数据进行人体姿态识别，支持穿透墙壁的全身体态估计。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高性能的Rust实现&lt;/strong&gt;: 相比Python版本大幅提升运行效率，内存占用降低，支持WASM，并具备可部署性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灾难响应模块WiFi-Mat&lt;/strong&gt;: 专为地震、建筑坍塌、雪崩等紧急情况设计，支持生命体征检测、三维定位及智能分类。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;企业级API与部署方案&lt;/strong&gt;: 提供REST和WebSocket接口，支持自动化配置、监控、认证及高并发场景下的可扩展部署。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;全面测试与优化&lt;/strong&gt;: 拥有100%测试覆盖，支持不同环境优化配置，如GPU加速、缓存机制及实时流式处理。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;隐私保护型感知技术&lt;/strong&gt;：无需摄像头，通过WiFi信号实现非接触式人体姿态估计，满足医疗/安防等敏感场景隐私需求&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;革命性性能突破&lt;/strong&gt;：Rust版本在CSI预处理等核心操作实现微秒级响应（如运动检测仅186ns），内存占用降至100MB且支持WASM&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;灾难应急解决方案&lt;/strong&gt;：WiFi-Mat模块可穿透废墟检测呼吸/心跳（4-60BPM），结合3D定位与自动检伤分类，适用于地震/矿难等救援场景&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全栈企业级能力&lt;/strong&gt;：提供生产级API、Websocket实时流、跌倒检测等分析引擎，支持Docker/K8s部署及Prometheus监控集成&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;硬件兼容性优势&lt;/strong&gt;：适配主流路由器（ASUS/Netgear等）和WiFi网卡，无需专用设备即可实现94.2%姿态检测准确率&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/ruvnet/wifi-densepose</guid>
@@ -227,15 +225,15 @@
     <item>
       <title>awslabs/agent-squad</title>
       <link>https://github.com/awslabs/agent-squad</link>
-      <description>&lt;p&gt;概要: Agent Squad 是一个灵活且功能强大的开源框架，用于协调多个 AI 代理以处理复杂对话，支持多语言、流式响应和跨平台部署，具备智能意图分类、上下文管理、可扩展架构及预置代理组件，特别引入 SupervisorAgent 实现多代理协作与任务分配。&lt;/p&gt;
+      <description>&lt;p&gt;概要: Agent Squad（前身为Multi-Agent Orchestrator）是一个轻量级开源框架，旨在高效管理多AI代理并处理复杂对话场景。该框架支持Python和TypeScript双语言开发，通过智能意图分类动态路由请求，结合上下文管理确保跨代理交互连贯性。其核心优势包括：引入SupervisorAgent实现多代理并行处理与动态任务分配，支持流式/非流式响应模式，提供预置代理组件加速部署，并可通过AWS、OpenAI等模块化集成实现全平台部署（本地至云端）。适用于客户服务、医疗协调、影视制作等多领域，配合示例项目和社区协作机制，显著降低多AI系统构建复杂度。&lt;/p&gt; 
 
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Agent Squad 是 Multi-Agent Orchestrator 项目的全新名称&lt;/strong&gt;，功能保持一致但更具吸引力。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;支持多语言和流式响应&lt;/strong&gt;，适用于 Python 和 TypeScript，可处理多样化和实时对话需求。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;具备智能意图分类与上下文管理能力&lt;/strong&gt;，能动态路由查询并维持多代理间的对话连贯性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;提供 SupervisorAgent 以实现多代理团队协作&lt;/strong&gt;，支持并行处理、动态任务分配及跨代理兼容性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模块化安装选项&lt;/strong&gt;，可根据需求选择 AWS、Anthropic、OpenAI 等集成方案，提升灵活性和部署效率。&lt;/li&gt;
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;SupervisorAgent智能协调架构&lt;/strong&gt;：首创"代理即工具"模式，支持主代理并行调度专业子代理，动态分配子任务并保持上下文一致性，显著提升复杂任务处理效率&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;双语言全栈开发能力&lt;/strong&gt;：唯一同时深度支持Python/TypeScript的多代理框架，提供AWS Bedrock、Lex、Anthropic等主流AI服务的原生集成接口&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;上下文感知的智能路由系统&lt;/strong&gt;：基于对话历史和代理特征的实时意图识别引擎，确保请求精准分发至最适配代理，支持多轮对话状态持久化&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;企业级部署灵活性&lt;/strong&gt;：模块化架构支持按需安装（AWS/OpenAI/Anthropic组件），兼容从Lambda函数到私有云的全场景部署，提供流式响应即时处理能力&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开箱即用解决方案库&lt;/strong&gt;：包含电商客服模拟器、AI影视工作室等12+行业模板，配合多语言聊天机器人快速构建方案，缩短80%开发周期&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
       <guid>https://github.com/awslabs/agent-squad</guid>
