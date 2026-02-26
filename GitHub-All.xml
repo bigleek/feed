@@ -6,168 +6,244 @@
     <description>Summarized RSS feed for GitHub-All</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>minio/minio</title>
-      <link>https://github.com/minio/minio</link>
-      <description>&lt;p&gt;概要: MinIO 是一款高性能、S3 兼容的对象存储解决方案，基于 GNU AGPLv3 协议开源，专为 AI/ML、大数据分析等数据密集型场景设计，提供行业领先的吞吐性能。官方宣布原仓库已停止维护，转向 AIStor 系列产品（含免费社区版与企业商业版）。社区版现仅提供源码分发，不再支持预编译二进制文件，用户需自建编译环境并遵循 AGPL 许可条款，商业用途需额外注意代码开源义务与风险。企业用户可选择付费获取 SLA 支持的 AIStor Enterprise 版本。部署支持源码构建、Docker 容器及 Kubernetes Helm Chart 等多种方式，但生产环境使用源码构建需自行承担无官方保障的风险。&lt;/p&gt;  
+      <title>liyupi/ai-guide</title>
+      <link>https://github.com/liyupi/ai-guide</link>
+      <description>&lt;p&gt;概要: 程序员鱼皮推出的开源AI知识平台「鱼皮AI导航」提供全面免费的AI学习资源，涵盖Vibe Coding零基础编程教程、主流大模型（DeepSeek/GPT/Gemini/Claude）选择指南、AI工具测评与实战项目，整合开发框架（Spring AI/LangChain）教程及产品变现策略，通过结构化知识体系与社区共建模式，助力用户快速掌握AI技术并实现商业化应用，推动技术普惠。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;高性能与场景优化&lt;/strong&gt;：专为 AI/大数据设计，实现 S3 API 全兼容，吞吐量达行业领先水平。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;产品线调整与分发模式&lt;/strong&gt;：原社区版仓库停更，仅提供源码分发；推出 AIStor 系列（免费版/企业版）替代方案。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;AGPLv3 许可约束&lt;/strong&gt;：修改代码需强制开源，商业用途需自担合规风险，官方不提供代码维护或商业保证。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;部署灵活性与限制&lt;/strong&gt;：支持源码编译、Docker 容器及 Kubernetes 部署，但旧版二进制文件已终止更新。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;企业级支持选项&lt;/strong&gt;：AIStor Enterprise 提供 SLA 背书的商业支持，覆盖生产环境高可用需求。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全栈式免费AI知识库&lt;/strong&gt;：整合工具测评、开发教程、行业资讯及变现指南，覆盖从入门到商业化的完整学习链。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;Vibe Coding零门槛实践体系&lt;/strong&gt;：10分钟快速上手教程+项目实战路径，支持非技术背景用户开发可盈利产品。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模型工具决策矩阵&lt;/strong&gt;：提供DeepSeek/GPT等主流大模型对比分析、部署方案及提示词优化策略，降低技术选型成本。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;商业化闭环指导&lt;/strong&gt;：独创产品架构设计、SEO优化及自媒体运营方法论，打通技术变现路径。&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源社区协作生态&lt;/strong&gt;：开放共建机制赋能知识沉淀，贡献者可获得品牌曝光与行业资源链接。&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/minio/minio</guid>
+      <guid>https://github.com/liyupi/ai-guide</guid>
     </item>
     <item>
-      <title>tambo-ai/tambo</title>
-      <link>https://github.com/tambo-ai/tambo</link>
-      <description>&lt;p&gt;概要: Tambo AI推出面向React的生成式UI开发工具包，通过AI代理动态渲染交互组件，实现自然语言驱动的界面操作。该工具支持Zod模式定义组件属性，内置LLM对话循环、流式数据传输及状态管理，提供云端托管与自建部署双模式，集成MCP协议支持跨平台工具调用，助力开发者构建适应性更强的企业级智能应用。&lt;/p&gt; 
+      <title>datawhalechina/hello-agents</title>
+      <link>https://github.com/datawhalechina/hello-agents</link>
+      <description>&lt;p&gt;概要: Datawhale社区推出《从零开始构建智能体》开源教程，聚焦AI原生智能体（Agent）的系统性构建，填补2025年"Agent元年"下理论实践结合的空白。项目覆盖智能体定义、LLM基础、框架开发、高级技术（记忆系统/协议/评估）及多场景实战案例，通过16章内容引导用户从理论认知进阶到自研框架开发，并配套开源代码库与社区支持，助力开发者转型为智能体系统构建者。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt; 
 &lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;全栈生成式UI框架&lt;/strong&gt;：首个支持AI代理动态选择并渲染React组件的开发套件，实现自然语言到界面的实时映射（如"显示区域销售数据"自动触发图表组件）&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;智能流式基础设施&lt;/strong&gt;：独有LLM生成流与组件状态同步机制，支持中断恢复、错误重试及客户端工具自动执行，确保复杂交互的连续性&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;企业级扩展能力&lt;/strong&gt;：深度集成MCP协议（支持Linear/Slack等第三方系统），提供本地工具声明式调用，兼容OpenAI/AWS等多模型供应商生态&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;灵活部署方案&lt;/strong&gt;：MIT协议开源SDK+自建Docker后端，对比Vercel CopilotKit等竞品，唯一同时提供云端托管与全自主部署选项&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;场景化开发加速&lt;/strong&gt;：预置可交互组件库（图表/看板等）与AI分析仪表盘模板，5分钟快速启动项目，支持状态持久化与用户上下文感知推荐&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;AI原生智能体专攻&lt;/strong&gt;：区别于流程驱动的低代码平台，专注LLM驱动的Agent架构设计与核心技术突破&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;自研框架HelloAgents&lt;/strong&gt;：提供基于OpenAI API从零构建的专属框架，兼具"用轮子"与"造轮子"能力&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全链路实战体系&lt;/strong&gt;：包含智能旅行助手、赛博小镇等跨领域综合案例，覆盖ReAct范式、Agentic-RL训练等前沿技术&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开源生态闭环&lt;/strong&gt;：配套免费PDF/在线课程/社区贡献机制，形成"学习-实践-反哺"的开发者成长生态&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/tambo-ai/tambo</guid>
+      <guid>https://github.com/datawhalechina/hello-agents</guid>
     </item>
     <item>
-      <title>letta-ai/letta-code</title>
-      <link>https://github.com/letta-ai/letta-code</link>
-      <description>&lt;p&gt;概要: Letta Code是基于Letta API开发的记忆优先型编码代理工具，突破传统会话式编码助手的局限，通过持久化智能代理实现跨会话的记忆延续与能力进化。该工具支持Claude Sonnet/Opus 4.5、GPT-5.2-Codex等多模型自由切换，提供用户自定义LLM API密钥的灵活性，并通过技能模块库（.skills目录）与自主技能学习机制，持续提升代码协作能力。其创新性体现在将代理记忆系统与开发工作流深度整合，使AI助手具备类似人类同事的学习积累特性。&lt;/p&gt; 
+      <title>D4Vinci/Scrapling</title>
+      <link>https://github.com/D4Vinci/Scrapling</link>
+      <description>&lt;p&gt;概要: Scrapling是一款自适应网络爬取框架，通过智能解析器自动适配网站结构变化，内置反爬虫绕过技术及多会话并发爬虫系统，支持从单次请求到大规模分布式采集的全流程处理。其AI集成实现元素智能定位，性能较主流库提升10-700倍，提供从命令行工具到Docker镜像的全栈解决方案，兼顾开发者效率与企业级扩展需求。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt; 
 &lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;记忆持续化架构&lt;/strong&gt;：独创的跨会话记忆保持机制，代理在交互中持续积累知识（/remember指令强化记忆），区别于传统会话式工具的信息孤岛模式&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;多模型动态适配&lt;/strong&gt;：支持主流代码大模型自由切换（/model指令），兼容用户自有API密钥（/connect指令），实现成本优化与性能平衡&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;技能演进体系&lt;/strong&gt;：通过预置技能模块库（.skills目录）与自主技能学习功能（/skill指令），使代理具备动态扩展技术栈的能力&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;自适应爬取引擎&lt;/strong&gt;：基于相似算法的智能元素追踪技术，可自动定位改版后页面元素位置，确保数据采集稳定性&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;反爬虫突破体系&lt;/strong&gt;：原生支持TLS指纹模拟、浏览器自动化及Cloudflare Turnstile绕过，动态网站抓取成功率提升至98%+&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;分布式爬虫架构&lt;/strong&gt;：支持千万级并发请求，集成自动代理轮换、断点续爬及实时流式处理，爬取效率较传统方案提升3-5倍&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;MCP-AI协同系统&lt;/strong&gt;：通过专用服务器实现AI预筛选内容提取，降低大模型token消耗达70%，加速智能数据解析流程&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;全场景性能优化&lt;/strong&gt;：JSON序列化速度达标准库10倍，内存占用降低40%，提供开箱即用的Docker镜像与交互式开发环境&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/letta-ai/letta-code</guid>
+      <guid>https://github.com/D4Vinci/Scrapling</guid>
     </item>
     <item>
-      <title>SynkraAI/aios-core</title>
-      <link>https://github.com/SynkraAI/aios-core</link>
-      <description>&lt;p&gt;概要: Synkra AIOS是面向全栈开发的AI编排系统，采用CLI优先的架构设计，通过双阶段代理工作流（代理规划+工程上下文开发）实现需求到代码的端到端转化。系统内置11个专业AI代理，支持软件开发、创意写作、商业策略等多领域应用，配套自主开发引擎（ADE）和可扩展Squads模块，提供从需求分析、架构设计到代码实现、质量验证的全流程自动化能力，并通过分层验证体系保障代码质量。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;CLI优先架构&lt;/strong&gt;：命令行界面作为核心交互层，所有智能决策和自动化流程均在CLI完成，UI仅用于辅助可视化&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;双阶段代理工作流&lt;/strong&gt;：规划代理（分析师/架构师）生成详尽PRD文档，开发代理（Scrum Master）输出含完整上下文的技术规格书，消除需求流失&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;自主开发引擎（ADE）&lt;/strong&gt;：集成7大核心模块（需求规约→执行引擎→质量验证→记忆存储），支持13步自动化代码生成与自修正机制&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;跨领域扩展能力&lt;/strong&gt;：通过Squads模块可扩展至非技术领域，提供教育、健康等定制化AI代理团队解决方案&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级开发支持&lt;/strong&gt;：预置多层验证体系（代码质量/故事卡验证/CI/CD）、智能IDE配置、一键式跨平台安装流程，兼容Windows/macOS/Linux&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/SynkraAI/aios-core</guid>
-    </item>
-    <item>
-      <title>rowboatlabs/rowboat</title>
-      <link>https://github.com/rowboatlabs/rowboat</link>
-      <description>&lt;p&gt;概要: Rowboat是一款开源的本地优先AI协作工具，通过整合邮件、会议记录等数据构建长期可编辑的知识图谱，实现上下文驱动的自动化任务处理（如文档生成、会议准备、语音摘要）。其核心差异在于基于Markdown的透明本地存储架构，支持用户自主控制数据、自定义模型（本地/云端）、扩展第三方工具（MCP协议），并配备后台代理自动执行重复性任务，确保隐私安全的同时提升工作效率。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;本地化知识图谱引擎&lt;/strong&gt;：以Markdown格式在设备端构建可编辑、可追溯的透明知识库，实现上下文长期积累而非临时检索。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;自动化工作流代理&lt;/strong&gt;：后台运行定制化AI代理，自动完成邮件草拟、每日语音摘要、项目更新等重复任务，减少人工干预。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;隐私优先架构&lt;/strong&gt;：所有数据存储于本地，支持自主选择模型（Ollama/LM Studio或API托管），避免云端锁定与数据泄露风险。&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台扩展生态&lt;/strong&gt;：通过MCP协议无缝集成Exa搜索、Slack、GitHub等第三方工具，同时兼容Obsidian等知识管理应用。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/rowboatlabs/rowboat</guid>
-    </item>
-    <item>
-      <title>alibaba/zvec</title>
-      <link>https://github.com/alibaba/zvec</link>
-      <description>&lt;p&gt;概要: Zvec是基于阿里巴巴Proxima引擎打造的开源嵌入式向量数据库，凭借轻量级架构实现毫秒级十亿级向量检索，支持密集/稀疏向量混合搜索及结构化过滤，通过零配置部署和跨平台兼容性（Linux/macOS）满足生产环境低延迟需求，提供Python/Node.js接口及完整基准测试验证性能，适用于边缘计算到企业级AI应用全场景。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;超高速向量检索&lt;/strong&gt;：依托Proxima引擎实现十亿级向量毫秒响应，满足生产环境低延迟要求&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;零依赖嵌入式架构&lt;/strong&gt;：无需独立服务器即可直接集成至应用，支持本地/云端/边缘设备全场景运行&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多模态向量支持&lt;/strong&gt;：原生兼容密集向量、稀疏向量及多向量联合查询，支持混合语义搜索与结构化过滤&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;开发者友好设计&lt;/strong&gt;：30秒完成部署，提供Python/Node.js接口及可视化基准测试工具链&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/alibaba/zvec</guid>
-    </item>
-    <item>
-      <title>ChromeDevTools/chrome-devtools-mcp</title>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <description>&lt;p&gt;概要: Chrome DevTools MCP是面向AI编码代理的Model-Context-Protocol服务器，通过集成Chrome DevTools核心能力，实现浏览器自动化控制、深度调试及性能分析。该工具支持Puppeteer驱动的可靠自动化操作，可记录性能轨迹并结合CrUX API提供真实用户数据，同时提供网络请求分析、控制台日志溯源等调试功能。用户可通过配置连接本地或远程Chrome实例，灵活控制浏览器启动模式及数据收集策略，兼容主流开发环境并遵循Google隐私政策。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;全栈浏览器控制能力&lt;/strong&gt;：覆盖输入自动化（点击/拖拽等8种操作）、导航控制（页面管理等6项功能）、性能追踪（实验室数据+真实用户CrUX数据双维度分析）及网络/调试工具链。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;数据安全与合规配置&lt;/strong&gt;：默认收集使用统计但可禁用（含CI环境自动屏蔽），CrUX数据上传可关闭，敏感信息需用户自主规避，支持隔离用户数据目录。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台灵活部署&lt;/strong&gt;：兼容Node.js 20.19+/Chrome稳定版，提供CLI/API双模式接入，支持Windows/Linux/macOS系统及VS Code/Cursor等15+开发工具集成。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;混合连接模式适配&lt;/strong&gt;：支持自动连接（Chrome 144+）与手动端口转发两种模式，满足沙箱环境对接及多配置文件管理需求，提供WebSocket认证头配置。&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;性能优化闭环&lt;/strong&gt;：通过性能轨迹分析生成可操作洞察，结合CrUX API补充真实用户体验数据，支持自定义视口尺寸、代理服务器等参数模拟真实场景。&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/ChromeDevTools/chrome-devtools-mcp</guid>
-    </item>
-    <item>
-      <title>cinnyapp/cinny</title>
-      <link>https://github.com/cinnyapp/cinny</link>
-      <description>&lt;p&gt;概要: Cinny是一款专注于简洁、优雅与安全性的Matrix即时通讯客户端，旨在通过现代化界面降低用户使用门槛。支持Web端（app.cinny.in）、桌面应用及Docker部署，提供自我托管方案并兼容主流服务器配置。开发者可通过GitHub获取源码，使用Node.js（推荐v20 LTS）或Docker进行本地开发与构建，同时提供PGP公钥验证确保软件分发安全性。&lt;/p&gt; 
+      <title>bytedance/deer-flow</title>
+      <link>https://github.com/bytedance/deer-flow</link>
+      <description>&lt;p&gt;概要: DeerFlow 2.0是完全重构的开源超级代理工具，通过子代理协同、沙箱环境、可扩展技能库及长期记忆系统，实现从研究到执行的全链路自动化。其内置文件系统与执行环境支持复杂任务分解与持久化处理，兼容多模型并优化上下文管理，适用于从单次查询到跨会话的深度工作流。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt; 
 &lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;轻量化安全通讯&lt;/strong&gt;：以极简设计为核心，集成端到端加密的Matrix协议，兼顾易用性与数据安全&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;全场景部署能力&lt;/strong&gt;：支持Web即用版、桌面客户端、Docker容器及私有服务器部署，适配子目录/哈希路由等复杂网络环境&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;开发者友好架构&lt;/strong&gt;：提供完整的CI/CD流程（npm+Docker），推荐版本管理工具（nvm/NVM）应对快速迭代需求&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;透明化验证机制&lt;/strong&gt;：通过PGP公钥签名确保GitHub分发的tarball文件完整性，强化供应链安全&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全栈重构的超级代理架构&lt;/strong&gt;：2.0版本完全重写，整合LangChain/LangGraph技术栈，提供开箱即用的文件系统、内存管理及分布式执行环境，超越传统框架的拼装模式。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;动态子代理协作机制&lt;/strong&gt;：主代理可按需生成隔离上下文的子代理，实现并行任务处理与结果聚合，支持分钟至小时级复杂任务的弹性扩展。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;安全沙箱与持久记忆双引擎&lt;/strong&gt;：每个任务运行于隔离Docker容器中确保执行安全，同时通过本地化长期记忆库持续优化用户画像与工作流适配。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;渐进式技能加载体系&lt;/strong&gt;：模块化技能库（研究/报告生成/媒体创作等）按需加载，结合MCP协议支持自定义工具扩展，兼顾轻量化上下文与功能无限扩展。&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/cinnyapp/cinny</guid>
+      <guid>https://github.com/bytedance/deer-flow</guid>
     </item>
     <item>
-      <title>ruvnet/wifi-densepose</title>
-      <link>https://github.com/ruvnet/wifi-densepose</link>
-      <description>&lt;p&gt;概要: WiFi DensePose是一款基于WiFi信号的实时密集人体姿态估计系统，利用信道状态信息（CSI）和机器学习技术实现无需摄像头的隐私保护型姿态追踪。该系统支持穿墙实时追踪（亚50ms延迟、30FPS）、最多10人同时追踪，并提供医疗、健身等领域的专用解决方案。通过Rust版本实现性能跃升（预处理速度提升810-5400倍，内存占用降低至100MB），配合灾难响应模块（WiFi-Mat）可实现废墟下的生命体征检测与三维定位，已具备企业级部署能力，支持标准WiFi设备和云原生架构。&lt;/p&gt;  
-&lt;h3&gt;核心要点:&lt;/h3&gt;  
-&lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;隐私优先的非视觉追踪&lt;/strong&gt;：采用WiFi信号替代摄像头，实现无需视觉数据的姿态检测，满足隐私敏感场景需求&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;实时处理性能突破&lt;/strong&gt;：Rust版本在CSI预处理、相位净化等核心流程提速800-5400倍，内存占用减少80%，支持WASM部署&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灾难应急响应扩展&lt;/strong&gt;：WiFi-Mat模块可穿透5米废墟检测呼吸/心跳（4-60BPM），实现自动伤员分级与三维定位&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;企业级功能矩阵&lt;/strong&gt;：包含REST/WebSocket双API、54,000FPS吞吐量、多环境监控及跌倒检测等12项生产级特性&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;硬件兼容性优势&lt;/strong&gt;：支持主流商用路由器（ASUS/Netgear等）及Intel/Atheros网卡，无需定制硬件即可部署&lt;/li&gt;  
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/ruvnet/wifi-densepose</guid>
-    </item>
-    <item>
-      <title>Zipstack/unstract</title>
-      <link>https://github.com/Zipstack/unstract</link>
-      <description>&lt;p&gt;概要: Unstract是一款无代码大型语言模型（LLM）平台，专为自动化处理非结构化文档设计，宣称可实现接近100%的准确性。其核心工具Prompt Studio支持多LLM输出对比、成本监控及一键部署API，提供MCP服务器、ETL流水线、n8n节点等多样化集成方案，满足开发者、数据工程师及低代码用户需求。平台支持云部署和自托管模式，企业版集成LLMChallenge双模型验证机制、SinglePass/SummarizedExtraction降本技术、人工审核功能及SSO认证，覆盖30+文件格式及主流LLM、数据库、存储系统生态，通过Quick Start指南实现10分钟快速启动。&lt;/p&gt; 
+      <title>abhigyanpatwari/GitNexus</title>
+      <link>https://github.com/abhigyanpatwari/GitNexus</link>
+      <description>&lt;p&gt;概要: GitNexus是一款基于浏览器的零服务器代码智能引擎，通过构建代码库的全关系知识图谱（包含依赖、调用链、执行流等），为AI代理提供深度代码认知能力。其创新性地采用预计算结构化分析技术，使代理能在单次调用中获取完整上下文，避免传统图RAG的多轮查询低效问题。支持CLI和Web双模式：CLI通过MCP协议深度集成Cursor/Claude Code等开发工具，实现全量代码库分析；Web端提供免安装的可视化探索。该工具解决了AI代码编辑中因结构认知缺失导致的误改依赖、破坏调用链等风险，使小型LLM也能获得与大模型相当的架构分析能力，且完全保障代码隐私安全。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt; 
 &lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;无代码文档自动化引擎&lt;/strong&gt;：基于LLM实现非结构化文档结构化处理，宣称接近100%准确率，支持PDF、Office、图像等30+文件格式&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;Prompt工程革命&lt;/strong&gt;：Prompt Studio提供多LLM横向对比、动态成本监控及一键生成REST API功能，降低开发复杂度&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;全场景集成矩阵&lt;/strong&gt;：提供MCP服务器（LLM生态对接）、ETL流水线（批量处理）、n8n节点（可视化编排）等企业级集成方案&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;企业级降本增效技术&lt;/strong&gt;：LLMChallenge双模型交叉验证确保输出可靠性，SinglePass技术降低8倍token消耗，SummarizedExtraction实现6倍成本优化&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;开箱即用生态体系&lt;/strong&gt;：预集成OpenAI/Google/Anthropic等主流LLM，Snowflake/Redshift等数据仓库，支持AWS S3/Google Drive等ETL源&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;零服务器架构&lt;/strong&gt;：客户端本地执行全量分析（CLI模式）或浏览器内运行（Web模式），代码数据永不上传，彻底消除隐私风险。&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;预计算关系智能&lt;/strong&gt;：通过知识图谱的结构化预处理（聚类/流程追踪/置信度评分），将传统需4+次查询的分析压缩至单次调用完成，提升效率300%+。&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;多代理工具链&lt;/strong&gt;：提供7种MCP工具（影响分析/智能重命名/流程追踪等）及4类自动化技能，支持Claude Code等主流AI开发工具的深度集成。&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;异构部署能力&lt;/strong&gt;：CLI处理无限规模代码库，Web端支持5k文件内即时分析，桥接模式实现本地索引与云端探索的无缝协同。&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;模型民主化&lt;/strong&gt;：通过工具层预处理降低对LLM参数规模的依赖，使小型模型（如gpt-4o-mini）可完成等效大模型分析任务，降低算力成本。&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/Zipstack/unstract</guid>
+      <guid>https://github.com/abhigyanpatwari/GitNexus</guid>
     </item>
     <item>
-      <title>ruby/ruby</title>
-      <link>https://github.com/ruby/ruby</link>
-      <description>&lt;p&gt;概要: Ruby是一种面向对象的解释型编程语言，专为Web开发设计，同时具备处理文本、系统任务等脚本功能。其核心优势在于简洁的语法、全面的面向对象特性（涵盖类/方法等基础功能及mix-in等高级机制）、跨平台兼容性（支持Unix/Windows/macOS等系统），并通过自动化内存管理、异常处理等机制提升开发效率。开发者可通过官方下载、Git仓库或第三方工具（如rvm）获取Ruby，活跃的社区资源（文档、邮件列表、问题反馈平台）及开放贡献机制进一步强化其生态可持续性。&lt;/p&gt;  
+      <title>shareAI-lab/learn-claude-code</title>
+      <link>https://github.com/shareAI-lab/learn-claude-code</link>
+      <description>&lt;p&gt;概要: Learn Claude Code 是一个从零构建类 Claude Code AI 代理的学习型项目，通过 12 个渐进式会话模块实现核心代理模式。其基础架构采用最小循环机制（LLM 响应→工具调用判断→执行反馈），在此框架上逐层叠加机制而不改变循环本身。项目强调上下文管理优化（如按需加载、战略遗忘）、自主代理协作（无协调器的自组织机制）、以及生产级模式的教学化简化（如状态持久化、异步通信），旨在通过模块化设计帮助开发者掌握 AI 代理构建的核心原理。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;全功能面向对象架构&lt;/strong&gt;：同时支持基础类/方法调用与mix-in、单例方法等高级特性，实现灵活的代码复用与扩展&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;跨平台可移植性&lt;/strong&gt;：兼容主流操作系统及架构，支持动态加载对象文件，适配多样化部署环境&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开发者友好设计&lt;/strong&gt;：通过简洁语法、自动化垃圾回收、迭代器闭包等特性降低开发复杂度&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：提供多语言文档、活跃的邮件列表及GitHub开源仓库，支持社区贡献与问题反馈&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;历史传承与创新&lt;/strong&gt;：由Yukihiro Matsumoto于1995年创立，持续演进并保持语言核心理念的连贯性&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;最小循环架构&lt;/strong&gt;：基于 LLM 响应与工具调用判断的闭环，构成所有 AI 代理的底层范式&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;渐进式机制叠加&lt;/strong&gt;：12 个独立模块逐层添加功能（规划、隔离、持久化等），保持核心循环不变&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;上下文优化策略&lt;/strong&gt;：通过按需加载知识注入、分层压缩及战略遗忘实现无限会话扩展&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;自主代理协作&lt;/strong&gt;：基于任务 ID 的目录隔离与工作流协调，支持无中心节点的自组织团队&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;教学导向设计&lt;/strong&gt;：简化生产级功能（如权限治理、完整 MCP 协议）以聚焦核心原理学习&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/ruby/ruby</guid>
+      <guid>https://github.com/shareAI-lab/learn-claude-code</guid>
+    </item>
+    <item>
+      <title>obra/superpowers</title>
+      <link>https://github.com/obra/superpowers</link>
+      <description>&lt;p&gt;概要: Superpowers是一个基于可组合技能框架的自动化软件开发系统，通过结构化流程提升代码代理的工程能力。其核心在于通过提问明确需求后，将设计分块验证并生成可执行计划，强制实施测试驱动开发（TDD）、YAGNI原则和代码简洁性，并通过子代理协作机制实现任务并行处理与双阶段质量审查，最终形成可验证的交付成果，所有流程均自动触发无需人工干预。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;系统化技能框架&lt;/strong&gt;：内置测试驱动开发、系统化调试、协作流程等30+标准化技能模块，覆盖全生命周期且自动触发关键流程&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;双阶段质量控制&lt;/strong&gt;：子代理执行任务时强制实施规范符合性审查（阶段一）和代码质量审查（阶段二），关键缺陷直接阻断流程&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;原子化任务分解&lt;/strong&gt;：将开发计划拆解为2-5分钟粒度任务，每个任务包含完整文件路径、实现代码及验证步骤，支持并行执行与人工检查点&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;防御性开发哲学&lt;/strong&gt;：强制执行"先写测试-最小实现-重构"的红绿重构循环，自动删除测试前编写的代码，杜绝过度设计&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开源协作生态&lt;/strong&gt;：提供技能开发规范与贡献指南，支持社区共建技能库并通过插件市场实现自动更新，采用MIT协议开放所有核心能力&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/obra/superpowers</guid>
+    </item>
+    <item>
+      <title>x1xhlol/system-prompts-and-models-of-ai-tools</title>
+      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
+      <description>&lt;p&gt;概要: 本文呈现了一个涵盖30余款AI编程工具（如Augment Code、Devin AI等）及开源系统提示词、内部工具与AI模型的资源库，提供超3万行结构与功能分析。强调AI初创企业需警惕数据泄露风险并推荐ZeroLeaks安全审计服务，同时提供加密货币捐赠、社区协作等支持渠道。配套背景编码代理平台Tembo支持自动化开发，并通过开源AI工程平台提升LLM生产稳定性，项目持续更新至2026年8月，需开发者参与反馈。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;行业级AI开发资源库&lt;/strong&gt;：整合30+主流AI编程工具及开源模型，覆盖代码生成、系统提示词等全链路开发场景&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;数据安全警示服务&lt;/strong&gt;：针对AI初创企业推出ZeroLeaks安全审计，防范系统指令与模型配置泄露风险&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;去中心化协作生态&lt;/strong&gt;：支持BTC/ETH等加密捐赠，集成GitHub星标激励机制，构建开发者社区生态&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;自动化开发解决方案&lt;/strong&gt;：Tembo平台实现后台编码代理服务，搭配VSCode/Xcode等IDE工具提升开发效能&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</guid>
+    </item>
+    <item>
+      <title>huggingface/skills</title>
+      <link>https://github.com/huggingface/skills</link>
+      <description>&lt;p&gt;概要: Hugging Face Skills是一套标准化的AI/ML任务定义工具，支持跨平台兼容OpenAI Codex、Claude Code、Gemini CLI等主流编码代理，通过自包含文件夹中的SKILL.md文件和脚本实现模型训练、数据集管理、论文发布等功能，提供多工具适配方案和可扩展的技能库，并支持用户自定义贡献技能。&lt;/p&gt;  
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;跨平台兼容性&lt;/strong&gt;：统一适配Claude的插件系统、Codex的Agent Skills标准、Gemini的扩展机制及Cursor插件，实现多工具链协同。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;模块化技能架构&lt;/strong&gt;：每个技能包含YAML元数据、操作指南及资源脚本，通过SKILL.md标准化定义，支持任务自动化调用与执行。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全场景技能覆盖&lt;/strong&gt;：提供Gradio应用构建、模型微调、数据集管理、论文发布等9大核心技能，覆盖AI开发全流程关键环节。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;灵活部署方案&lt;/strong&gt;：支持插件安装、目录映射、扩展集成等多路径部署，兼容不支持技能的代理工具作为AGENTS.md回退方案。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;开放贡献机制&lt;/strong&gt;：用户可自定义技能并通过marketplace.json注册，经脚本验证后纳入统一技能市场，促进生态扩展。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/huggingface/skills</guid>
+    </item>
+    <item>
+      <title>katanemo/plano</title>
+      <link>https://github.com/katanemo/plano</link>
+      <description>&lt;p&gt;概要: Plano是一款面向智能代理应用的AI原生交付基础设施，通过将路由编排、模型管理、安全过滤及可观测性等核心功能统一为外部化数据平面，使开发者专注于业务逻辑开发。其基于轻量级LLM的智能路由技术实现低延迟编排，支持多框架兼容、零代码追踪及自动化模型适配，显著降低生产环境部署复杂度，提供从开发测试到规模化部署的全生命周期解决方案。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;统一数据平面架构&lt;/strong&gt;：集成代理编排、模型路由、安全过滤及可观测性，消除重复性中间件开发&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;零代码智能编排&lt;/strong&gt;：通过YAML声明式配置实现多代理协作，自动处理意图识别与路由逻辑&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;轻量级LLM优化引擎&lt;/strong&gt;：采用4B参数专用路由模型，相较通用大模型降低90%以上推理成本&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全链路自动化观测&lt;/strong&gt;：内置OpenTelemetry追踪与Agentic Signals™，实现无需插桩的端到端监控&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;渐进式部署能力&lt;/strong&gt;：支持本地测试、混合架构集成及全托管模式，提供免费试用与API弹性扩展&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/katanemo/plano</guid>
+    </item>
+    <item>
+      <title>siteboon/claudecodeui</title>
+      <link>https://github.com/siteboon/claudecodeui</link>
+      <description>&lt;p&gt;概要: CloudCLI（Claude Code UI）是一款免费开源的跨平台工具，提供统一界面支持Claude Code、Cursor CLI和Codex的远程开发管理，覆盖桌面及移动端。其核心功能包括响应式设计适配全设备、内置交互式聊天与终端、实时文件编辑与Git操作、多会话管理及AI驱动的任务规划（TaskMaster集成），兼容Claude Sonnet 4.5/Opus 4.5/GPT-5.2模型。支持一键启动、全局安装及后台服务部署，采用React/Vite前端与Node.js后端架构，遵循GPLv3开源协议。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;全场景跨平台支持&lt;/strong&gt;：响应式设计覆盖移动端/桌面端，支持本地与远程开发，实现跨设备会话同步与PWA级移动体验。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;多工具集成中枢&lt;/strong&gt;：统一管理Claude Code/Cursor CLI/Codex，集成终端、文件系统、Git版本控制及AI任务规划（TaskMaster），提升开发效率。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;灵活部署方案&lt;/strong&gt;：提供零安装一键启动（npx）、全局安装及PM2后台服务部署，支持端口/数据库路径自定义。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;安全增强架构&lt;/strong&gt;：默认禁用CLI工具防止误操作，支持按需启用及环境变量配置，保障开发安全。&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开源生态兼容性&lt;/strong&gt;：基于GPLv3协议开放源码，支持社区贡献与私有化部署，集成React/Vite/CodeMirror等主流技术栈。&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/siteboon/claudecodeui</guid>
+    </item>
+    <item>
+      <title>muratcankoylan/Agent-Skills-for-Context-Engineering</title>
+      <link>https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering</link>
+      <description>&lt;p&gt;概要: 该文本系统阐述了面向AI代理系统的上下文工程技能体系，提出通过科学管理模型注意力预算（包括系统提示、工具定义、对话历史等）解决"中间信息丢失"等性能退化问题，构建包含基础理论、架构设计、操作优化等五大模块的技能框架，并提供跨平台的Claude Code插件实现路径及数字大脑等四个产业级应用案例，其动态演进技能架构已被北大等机构认证为领域基础性创新。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;上下文工程范式突破&lt;/strong&gt;：区别于传统提示工程，首创性地系统化管理模型全量上下文要素（达15+维度），解决注意力稀缺导致的U型性能曲线问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;五维技能体系架构&lt;/strong&gt;：构建包含基础理论（3项）、架构设计（5项）、操作优化（3项）、开发方法论（1项）、认知建模（1项）的完整能力矩阵，覆盖代理系统全生命周期。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动态演进机制&lt;/strong&gt;：基于渐进披露设计实现技能内容按需加载，支持平台无关的技能迁移（兼容Claude Code/Cursor等），并首创BDI心智状态建模提升可解释性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生产级解决方案&lt;/strong&gt;：提供包括数字大脑操作系统、X内容转书籍系统等即用方案，通过智能分段、提示多样性等创新技术实现8B模型的风格迁移训练（成本仅2美元）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;评估闭环体系&lt;/strong&gt;：建立LLM作为评估者的量化框架，包含直接评分、成对比较等4种方法论，解决代理系统效果验证的行业痛点。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering</guid>
+    </item>
+    <item>
+      <title>VectifyAI/PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>&lt;p&gt;概要: PageIndex是一种颠覆性的向量无关、推理驱动的RAG系统，通过构建文档的层次化树状索引（类似目录结构但适配LLM），利用大语言模型进行类人专家式的推理检索。该方案摒弃传统向量数据库和文档分块机制，采用树搜索实现上下文感知的精准定位，在金融文档分析中创下98.7%的行业最高准确率，特别适用于超长专业文档（如财报、法规）的复杂查询场景，提供可追溯的推理路径和页码定位，现已支持API集成及本地/云端部署。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;推理驱动检索&lt;/strong&gt;：通过LLM对树状索引进行多步推理定位，突破传统向量相似度检索的局限性，实现"相关性优先"的精准查询&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结构化索引创新&lt;/strong&gt;：将PDF文档转化为语义树结构（支持20000token/节点），天然适配专业文档的固有层级，避免信息割裂&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全链路可解释性&lt;/strong&gt;：检索结果附带完整推理路径及精确页码定位，支持监管合规场景下的审计追溯&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行业标杆表现&lt;/strong&gt;：驱动Mafin 2.5系统在FinanceBench基准测试中取得98.7%准确率，显著优于传统RAG方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多模态部署能力&lt;/strong&gt;：提供开源代码、Chat平台、API及企业私有化部署选项，支持OCR-Free视觉检索等创新场景&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/VectifyAI/PageIndex</guid>
+    </item>
+    <item>
+      <title>NVIDIA/Megatron-LM</title>
+      <link>https://github.com/NVIDIA/Megatron-LM</link>
+      <description>&lt;p&gt;概要: NVIDIA推出的Megatron-LM与Megatron Core是面向大规模Transformer模型训练的GPU优化工具库，前者提供预配置训练脚本，适用于研究团队和实验场景；后者作为可组合库，支持自定义训练框架开发，集成张量并行、混合精度（FP8/FP4等）、动态上下文并行等创新技术，可高效训练20亿至4620亿参数模型，在H100集群上实现47%的模型FLOP利用率，并通过Megatron Bridge实现与Hugging Face的模型互操作性，持续推动MoE架构、Blackwell架构优化等前沿方向。&lt;/p&gt;
+
+&lt;h3&gt;核心要点:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;双架构定位差异&lt;/strong&gt;：Megatron-LM面向快速实验（含预配置脚本），Megatron Core面向框架开发（提供模块化GPU优化组件）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能突破&lt;/strong&gt;：支持跨6144块H100 GPU训练4620亿参数模型，动态上下文并行技术实现1.48倍速度提升&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术覆盖全面&lt;/strong&gt;：支持MoE模型（DeepSeek-V3/Qwen3）、混合精度训练（FP8/FP4）、多模态训练及Blackwell架构优化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生态互通&lt;/strong&gt;：通过Megatron Bridge实现与Hugging Face双向模型转换，提供生产级转换方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可扩展性验证&lt;/strong&gt;：弱扩展下模型规模增大时MFU从41%提升至48%，强扩展支持GPT-3级模型多数据中心训练&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/NVIDIA/Megatron-LM</guid>
+    </item>
+    <item>
+      <title>NevaMind-AI/memU</title>
+      <link>https://github.com/NevaMind-AI/memU</link>
+      <description>&lt;p&gt;概要: memU是一款专为24/7主动代理设计的内存框架，通过结构化分层架构将交互数据转化为可搜索的主动智能，显著降低持续在线的LLM代币成本。其文件系统式内存管理支持自动分类、跨模态关联与预测性调用，实现信息推荐、邮件管理等场景的自主决策，并提供云服务与本地部署双模式，适配企业级持续学习需求。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;成本优化架构&lt;/strong&gt;：通过缓存洞察减少冗余LLM调用，降低7×24小时运行成本&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;三级内存体系&lt;/strong&gt;：资源层/项目层/分类层实现从原始数据到预测性上下文的全链路管理&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;预测性智能引擎&lt;/strong&gt;：自动关联记忆网络，提前预判用户意图并执行任务（如自动生成邮件回复、触发投资建议）&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模态支持&lt;/strong&gt;：兼容文本/图像/文档等多类型输入，构建跨模态知识图谱&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;企业级部署能力&lt;/strong&gt;：提供云API与本地化PostgreSQL方案，支持OpenRouter等多LLM供应商集成&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/NevaMind-AI/memU</guid>
+    </item>
+    <item>
+      <title>ruvnet/ruvector</title>
+      <link>https://github.com/ruvnet/ruvector</link>
+      <description/>
+      <pubDate/>
+      <guid>https://github.com/ruvnet/ruvector</guid>
     </item>
   </channel>
 </rss>
