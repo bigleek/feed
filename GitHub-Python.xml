@@ -6,237 +6,287 @@
     <description>Summarized RSS feed for GitHub-Python</description>
     <atom:link href="https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>microsoft/agent-lightning</title>
-      <link>https://github.com/microsoft/agent-lightning</link>
-      <description>&lt;p&gt;概要: Agent Lightning是微软开源的AI代理训练平台，通过近乎零代码修改的轻量化架构，支持跨所有主流框架（LangChain/AutoGen/自研等）的多代理系统优化，集成强化学习、自动提示优化等算法，提供从训练到部署的完整工具链，已验证支持128GPU规模的数学/代码训练场景，并通过MIT许可开放使用。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-  &lt;li&gt;&lt;strong&gt;零代码优化革命&lt;/strong&gt;：无需重构代码即可对任意AI代理框架（含无框架Python项目）实施强化学习等算法优化&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;全栈式多代理支持&lt;/strong&gt;：独创性支持单/多代理系统混合优化，兼容LangChain/OpenAI Agent SDK等全系框架&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;工业级算法集成&lt;/strong&gt;：内建强化学习、监督微调、自动提示优化等企业级训练算法，支持自定义算法扩展&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;规模化验证案例&lt;/strong&gt;：已实现128GPU并行训练的工业级案例（如Youtu-Agent），验证复杂任务（SQL生成/数学推理）的稳定收敛性&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;开放生态体系&lt;/strong&gt;：提供Discord社区/技术博客/论文(arXiv:2508.03680)三位一体的技术支持，MIT许可确保商业友好性&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/microsoft/agent-lightning</guid>
-    </item>
-    <item>
-      <title>Shubhamsaboo/awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>&lt;p&gt;概要: 该项目集合展示了基于RAG、AI代理及多模型架构（涵盖OpenAI、Anthropic、Gemini及Qwen/Llama等开源模型）构建的LLM应用生态，覆盖医疗、金融、游戏等30+垂直领域。通过多代理协作、语音交互、本地化部署及成本优化工具（如Toonify/Headroom），提供可运行于本地或云端的端到端解决方案，并配套系统化教程与框架支持（Google ADK/OpenAI SDK），推动开源生态发展。&lt;/p&gt;  
+      <title>TauricResearch/TradingAgents</title>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <description>&lt;p&gt;概要: TradingAgents是由Tauric Research开发的多智能体LLM金融交易框架，通过模拟真实交易公司架构，整合基本面分析、情绪分析、技术分析等专业智能体，结合牛熊研究员辩论机制与风险管理体系，实现动态市场决策。该框架支持GPT-5、Gemini 3等主流LLM，并采用开源模式提供灵活配置，但明确声明仅用于研究且不构成投资建议。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;跨平台模型整合&lt;/strong&gt;：支持OpenAI/Claude/Gemini等商业模型与Qwen/Llama等开源模型混合部署，实现本地与云端协同&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;多模态代理架构&lt;/strong&gt;：包含医疗影像分析、金融投研等30+垂直场景代理，首创多代理团队协作模式（如法律/招聘团队）及MCP协议集成&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;成本优化技术&lt;/strong&gt;：提供Toonify（API成本降低30-60%）和Headroom（压缩50-90%上下文）等专用优化工具链&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;工程化实践体系&lt;/strong&gt;：包含Gemma/Llama微调指南、多LLM共享记忆系统、RAG即服务架构等生产级实现方案&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;交互增强技术栈&lt;/strong&gt;：支持语音代理（OpenAI SDK/Wispr Flow）、多模态UI反馈、浏览器自动化等交互形态&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多智能体协同架构&lt;/strong&gt;：集成5类专业化角色（分析师、研究员、交易员、风控团队），通过动态讨论机制优化交易策略&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多LLM兼容性&lt;/strong&gt;：支持OpenAI、Google、Anthropic等6大主流大模型平台，允许混合使用复杂推理与快速决策模型&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开源与模块化设计&lt;/strong&gt;：基于LangGraph实现灵活扩展，提供CLI工具与Python API，支持自定义配置参数（如辩论轮次）&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;风险控制闭环&lt;/strong&gt;：独立的风险管理团队与投资组合经理分层决策机制，结合市场波动与流动性评估进行策略调整&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;研究导向声明&lt;/strong&gt;：明确交易表现受模型温度、数据质量等多因素影响，禁止将其视为实际投资依据&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/Shubhamsaboo/awesome-llm-apps</guid>
+      <guid>https://github.com/TauricResearch/TradingAgents</guid>
     </item>
     <item>
-      <title>open-webui/open-webui</title>
-      <link>https://github.com/open-webui/open-webui</link>
-      <description>&lt;p&gt;概要: Open WebUI是一款功能全面、支持离线运行的自托管AI平台，兼容Ollama和OpenAI API，内置RAG推理引擎和代码/函数调用能力，提供从模型部署到多模态交互的一站式解决方案。其支持Docker/Kubernetes灵活部署、企业级权限管理、多模型协同及9种向量数据库，结合PWA移动支持、Web搜索集成和SCIM/OAuth认证，满足企业级AI应用的可扩展性、安全性和全球化需求，持续更新增强功能并提供LTS版本保障。&lt;/p&gt; 
+      <title>muratcankoylan/Agent-Skills-for-Context-Engineering</title>
+      <link>https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering</link>
+      <description>&lt;p&gt;概要: 该文本介绍了一个面向AI代理系统的综合上下文工程技能库，涵盖从基础理论到生产实践的完整体系。核心聚焦于解决语言模型上下文窗口的注意力分配难题，通过结构化技能框架（含基础、架构、操作、认知等维度）帮助开发者优化代理系统效能，支持多平台动态部署，并提供可验证的实战案例（如数字脑系统、LLM评估工具链等），其创新性在于将静态技能架构升级为具备自主演进能力的动态体系。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt; 
 &lt;ul&gt; 
-  &lt;li&gt;&lt;strong&gt;全栈自托管能力&lt;/strong&gt;：支持纯离线部署，集成Ollama/OpenAI API及本地CUDA加速，内置RAG引擎和Python函数调用工具，实现数据主权与模型灵活性平衡&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;企业级安全架构&lt;/strong&gt;：提供RBAC权限控制、SCIM 2.0用户生命周期管理、LDAP/AD集成及多租户隔离，确保AI应用符合企业合规要求&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;多模态扩展生态&lt;/strong&gt;：支持9种向量数据库优化RAG性能，集成DALL-E/Gemini图像生成、语音交互及15+搜索引擎实时注入，构建沉浸式交互场景&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;高可用部署方案&lt;/strong&gt;：通过Redis横向扩展、云原生存储(S3/Google Cloud)及Docker一键部署(含GPU/离线模式)，适配从单机到企业级集群的全场景&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;开发者友好体系&lt;/strong&gt;：提供Pipelines插件框架、BYOF(自带函数)功能及OpenTelemetry监控，支持Langfuse等第三方工具深度集成&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;上下文工程的核心挑战&lt;/strong&gt;：突破传统提示工程局限，系统性管理模型注意力预算，解决"中间信息丢失"、注意力稀缺等现象，通过高信号令牌筛选提升模型输出质量&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;动态技能演进架构&lt;/strong&gt;：首创将静态技能体系升级为可自主进化的动态架构（Meta Context Engineering），实现人工技能工程与代理自主优化的融合，获北京大学等学术机构认可&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;四维技能矩阵&lt;/strong&gt;：构建包含基础认知（上下文原理/退化模式/压缩策略）、架构设计（多代理模式/记忆系统/工具开发）、运维优化（KV缓存/评估框架/LLM裁判技术）、认知建模（BDI心智状态转换）的完整技能图谱&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;平台无关性设计&lt;/strong&gt;：采用渐进披露机制与伪代码示例，确保技能体系可跨Claude Code、Cursor等主流平台实施，支持沙箱化代理部署与多客户端协作&lt;/li&gt; 
+  &lt;li&gt;&lt;strong&gt;生产验证案例库&lt;/strong&gt;：提供包含数字操作系统（6模块/4脚本）、X平台书籍生成系统、风格迁移训练流水线等工业级案例，完整披露架构决策与技能映射关系&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/open-webui/open-webui</guid>
+      <guid>https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering</guid>
     </item>
     <item>
-      <title>cheahjs/free-llm-api-resources</title>
-      <link>https://github.com/cheahjs/free-llm-api-resources</link>
-      <description>&lt;p&gt;概要: 本文档汇总了当前可用的免费大语言模型（LLM）API服务及试用资源，涵盖OpenRouter、Google AI Studio、NVIDIA NIM等22家平台，提供包括Gemma 3系列、Llama 3系列、Qwen等上百种开源与闭源模型的调用权限。各平台设置差异化使用限制（如请求频率/配额/验证要求），部分服务需绑定手机号或符合特定地区政策，同时明确警告禁止滥用行为，并排除非官方逆向工程类服务。&lt;/p&gt;
+      <title>lintsinghua/DeepAudit</title>
+      <link>https://github.com/lintsinghua/DeepAudit</link>
+      <description>&lt;p&gt;概要: DeepAudit 是国内首个开源的 AI 代码漏洞挖掘多智能体系统，通过模拟安全专家思维模式，采用 Multi-Agent 协作架构实现代码深度审计与自动化沙箱 PoC 验证。该平台攻克传统 SAST 工具误报率高、业务逻辑盲点、缺乏漏洞验证手段三大痛点，已成功发现 49 个 CVE 漏洞，支持 Ollama 本地部署保障数据安全，提供一键式部署、多项目管理及专业报告生成功能，显著降低安全审计成本与复杂度。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;多智能体协同架构&lt;/strong&gt;：首创 Orchestrator、Recon、Analysis、Verification 四智能体协作机制，实现漏洞挖掘全流程自动化，日均处理 16+ 技术栈项目。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;RAG+沙箱双验证技术&lt;/strong&gt;：结合代码语义理解与 Docker 沙箱攻击模拟，将误报率降低 76%，CVSS 9.0+ 高危漏洞验证准确率达 92%。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;实战化漏洞发现能力&lt;/strong&gt;：已攻破 Zentao、Dataease 等 16 个明星开源项目，覆盖 SSRF、反序列化等 12 类漏洞，单个漏洞验证耗时&lt;3分钟。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;全合规部署方案&lt;/strong&gt;：支持 Ollama 本地模型与 Llama3/DeepSeek 等私有化部署，满足金融/政企级代码不出网要求，通过 AGPL-3.0 开源协议保障技术可控。&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;DevSecOps 无缝集成&lt;/strong&gt;：提供 GitHub/GitLab 项目一键导入、CI/CD 流水线嵌入能力，审计报告支持 PDF/JSON 多格式导出，适配敏捷开发场景。&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/lintsinghua/DeepAudit</guid>
+    </item>
+    <item>
+      <title>datawhalechina/hello-agents</title>
+      <link>https://github.com/datawhalechina/hello-agents</link>
+      <description>&lt;p&gt;概要: Datawhale社区推出《从零开始构建智能体》系统性教程，针对2025年智能体技术爆发趋势，填补AI原生智能体系统性教学空白。该课程以"构建者思维"为核心，通过理论与实践结合的五阶段体系，帮助开发者从理解智能体原理到独立开发多智能体应用，覆盖ReAct范式、低代码平台、自研框架、高级通信协议等关键技术，并提供智能旅行助手、赛博小镇等真实项目实战机会。作为完全开源免费资源，其特色在于聚焦AI原生Agent而非流程驱动型工具，配套自研HelloAgents框架及全流程代码，助力用户从LLM使用者转型为智能体系统构建者。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;系统性教学定位&lt;/strong&gt;：首个覆盖智能体全生命周期的中文开源教程，从基础理论到多智能体系统开发分五阶段递进&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;AI原生技术聚焦&lt;/strong&gt;：区别于Dify等流程驱动型工具，专注真正AI驱动的Agent架构，涵盖Agentic RL、MCP协议等前沿技术&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;造轮子能力培养&lt;/strong&gt;：独家提供从零构建自研框架HelloAgents的完整实践路径，同时兼容LangGraph等主流框架&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;真实场景验证&lt;/strong&gt;：通过智能旅行助手、赛博小镇等跨领域案例，实现记忆系统、上下文工程等核心技术的场景化落地&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;职业发展闭环&lt;/strong&gt;：集成面试题库、社区贡献通道及后续《从零开始训练智能体》续作，构建学习-实践-就业完整生态&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/datawhalechina/hello-agents</guid>
+    </item>
+    <item>
+      <title>BerriAI/litellm</title>
+      <link>https://github.com/BerriAI/litellm</link>
+      <description>&lt;p&gt;概要: LiteLLM是一个支持调用100+主流大语言模型（LLM）的统一接口平台，提供Python SDK与AI网关（代理服务器）两种使用方式。通过标准化OpenAI格式接口，实现多LLM厂商的负载均衡、成本追踪、安全策略控制及日志管理，支持包括Azure、OpenAI、Anthropic等企业级厂商的全功能覆盖，同时提供A2A代理协议集成、MCP工具桥接能力，并通过企业级安全管控和8ms低延迟性能满足规模化部署需求。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;统一LLM接入平台&lt;/strong&gt;：支持100+大模型厂商（含Bedrock、VertexAI等）的标准化接口调用，覆盖文本生成、嵌入、图像、语音等10+API类型，降低多厂商集成复杂度&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;企业级AI网关能力&lt;/strong&gt;：提供负载均衡、成本分摊、虚拟密钥、安全策略等企业级功能，支持单点登录与定制化SLA，满足多租户管理需求&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全栈开发支持&lt;/strong&gt;：Python SDK支持本地代码直连，AI网关实现服务化部署，同步支持A2A代理协议与MCP工具集成，覆盖LangGraph/Bedrock等主流框架&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;高性能低延迟&lt;/strong&gt;：在1k请求/秒负载下保持8ms P95延迟，支持Docker容器化部署，已通过Netflix等企业级场景验证&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开源生态与商业化结合&lt;/strong&gt;：采用Google代码规范，通过自动化测试保障质量，提供商业版定制开发与优先支持服务&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/BerriAI/litellm</guid>
+    </item>
+    <item>
+      <title>yichuan-w/LEANN</title>
+      <link>https://github.com/yichuan-w/LEANN</link>
+      <description>&lt;p&gt;概要: LEANN是一款创新的轻量级向量数据库，通过图结构选择性重组和高阶剪枝技术，在个人设备上实现存储节省97%的高效RAG应用。其支持文档、邮件、浏览器历史、即时通讯记录等多源数据的本地化语义检索，兼顾零云成本、完全隐私保护及跨平台可移植性，已实现6000万文本块仅需6GB存储的突破性表现，并与Claude Code等开发工具深度集成。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;颠覆性存储效率&lt;/strong&gt;：采用动态嵌入计算替代传统存储方案，相较FAISS等方案实现95-97%存储空间压缩（如201GB→6GB），且无精度损失&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全本地隐私保护&lt;/strong&gt;：数据完全保留在本地设备，无需云端传输，规避OpenAI等第三方服务的隐私风险，符合高敏感数据合规要求&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全场景数据整合&lt;/strong&gt;：支持PDF/代码/邮件/社交媒体等20+数据格式，独创MCP协议实现实时Slack/Twitter数据接入，覆盖个人数字足迹全维度&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;工程级技术架构&lt;/strong&gt;：双后端（HNSW/DiskANN）适配不同场景，AST代码分块技术提升语义理解，动态批处理优化GPU利用率&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开发者友好生态&lt;/strong&gt;：预置Claude Code插件实现IDE内嵌集成，CLI工具支持Ollama/HuggingFace等多模型后端，提供端到端私有化RAG解决方案&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/yichuan-w/LEANN</guid>
+    </item>
+    <item>
+      <title>ComposioHQ/awesome-claude-skills</title>
+      <link>https://github.com/ComposioHQ/awesome-claude-skills</link>
+      <description>&lt;p&gt;概要: Claude Skills是Anthropic推出的定制化AI工作流解决方案，支持在Claude.ai、Claude Code及API平台实现跨1000+应用的自动化操作，涵盖文档处理、代码开发、数据分析等20+领域，通过预置技能库和可扩展框架，用户可快速构建标准化任务流程并实现跨平台复用，显著提升企业级AI应用的生产力。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;跨生态自动化能力&lt;/strong&gt;：深度集成Composio平台，一键连接500+企业应用（如Slack/GitHub/Notion），实现邮件发送、工单创建等真实业务操作&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全场景技能矩阵&lt;/strong&gt;：提供10大类200+预训练技能，覆盖从代码质量审查（AWS/SOLID规范）到商业智能（竞品广告分析）的全链路需求&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;可扩展开发框架&lt;/strong&gt;：标准化技能开发模板（YAML+多语言支持）和调试工具，支持企业构建私有化技能并无缝对接现有系统&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;智能工作流编排&lt;/strong&gt;：通过子代理协同（subagent-driven）和MCP协议，实现复杂任务的自动化拆解与执行监控&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;企业级安全架构&lt;/strong&gt;：多层认证机制、SQL注入防护及敏感数据擦除功能，确保自动化流程符合安全合规要求&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/ComposioHQ/awesome-claude-skills</guid>
+    </item>
+    <item>
+      <title>business-science/ai-data-science-team</title>
+      <link>https://github.com/business-science/ai-data-science-team</link>
+      <description>&lt;p&gt;概要: AI Data Science Team是一款基于Python的AI代理库及旗舰应用AI Pipeline Studio，旨在通过自动化数据加载、清洗、可视化和建模等流程，将数据科学任务效率提升10倍。其核心功能包括可视化可复现管道、手动与AI混合操作、多数据集融合及存储优化，支持OpenAI和本地大模型（如Ollama），当前处于Beta阶段需注意潜在变更。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;AI代理自动化全链路&lt;/strong&gt;：集成数据处理、特征工程、建模等10+专用AI代理，覆盖数据科学全流程&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;可视化管道引擎&lt;/strong&gt;：通过Pipeline-first工作区实现代码/图表/模型预测的可视化编排与可复现性&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模态数据治理&lt;/strong&gt;：支持多数据集智能融合、存储压缩控制及动态数据恢复机制&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;混合模型部署&lt;/strong&gt;：兼容云端（GPT-4.1-mini）与本地（Llama3.1）大模型，提供灵活算力选择&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开发者生态工具&lt;/strong&gt;：包含Pandas/SQL分析师应用及MLflow集成，支持自定义代理工作流&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/business-science/ai-data-science-team</guid>
+    </item>
+    <item>
+      <title>sansan0/TrendRadar</title>
+      <link>https://github.com/sansan0/TrendRadar</link>
+      <description/>
+      <pubDate/>
+      <guid>https://github.com/sansan0/TrendRadar</guid>
+    </item>
+    <item>
+      <title>D4Vinci/Scrapling</title>
+      <link>https://github.com/D4Vinci/Scrapling</link>
+      <description>&lt;p&gt;概要: Scrapling是一款自适应网页抓取框架，兼具单请求处理与全规模分布式爬取能力，其核心优势在于智能解析器可自动适配网站结构变化，内置反爬绕过技术（如Cloudflare防护），支持高并发多会话任务，并提供AI辅助数据提取、实时流式输出及断点续爬功能，通过优化架构实现超越主流库的性能表现（文本提取速度达2.02ms），配套Docker镜像与交互式工具链显著降低开发运维成本。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;智能自适应抓取&lt;/strong&gt;：解析器通过相似度算法动态定位变更元素，CSS/XPath等多选择器支持过滤/正则搜索，自动关联相似元素与DOM节点关系&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;反爬绕过体系&lt;/strong&gt;：集成TLS指纹伪装、浏览器自动化（Chromium/Chrome）、Cloudflare Turnstile破解，支持HTTP/3与动态加载场景&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;企业级性能架构&lt;/strong&gt;：单线程处理5000元素仅需2ms，JSON序列化速度提升10倍，内存优化设计支持百万级请求/秒吞吐&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;AI协同数据处理&lt;/strong&gt;：MCP服务器预处理目标内容，降低AI大模型token消耗成本，支持Claude/Cursor等主流模型对接&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全场景开发工具链&lt;/strong&gt;：包含交互式Shell、CLI命令行、自动选择器生成、浏览器可视化调试，提供Docker一键部署与类型安全API&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/D4Vinci/Scrapling</guid>
+    </item>
+    <item>
+      <title>huggingface/skills</title>
+      <link>https://github.com/huggingface/skills</link>
+      <description>&lt;p&gt;概要: Hugging Face Skills是一套标准化AI/ML任务工具包，支持跨平台互操作（兼容Claude Code、Codex、Gemini、Cursor等主流编码代理），通过自包含文件夹结构（含SKILL.md指令文件）实现数据集创建、模型训练、评估等任务的自动化执行。提供统一的技能注册中心和多模式安装方案，允许开发者通过YAML配置快速扩展自定义技能，并通过自然语言指令触发特定工作流（如模型微调、论文发布等），显著提升AI开发效率。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+&lt;li&gt;&lt;strong&gt;跨平台互操作性&lt;/strong&gt;：唯一兼容Claude/Codex/Gemini/Cursor的统一技能框架，支持Anthropic术语体系与Google扩展机制的双向适配&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;标准化技能架构&lt;/strong&gt;：基于SKILL.md的YAML声明式规范，集成指令脚本与资源文件的自包含目录结构，实现即插即用&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;生产级技能矩阵&lt;/strong&gt;：提供从模型训练（TRL框架支持SFT/DPO）、数据管理（SQL化操作）到成果发布（论文/模型联动）的全栈技能库&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多模式部署体系&lt;/strong&gt;：支持插件市场安装、符号链接集成、扩展配置等多种部署路径，兼容传统AGENTS.md回退方案&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;开放协作机制&lt;/strong&gt;：通过marketplace.json市场化管理与publish.sh自动化工具链，降低技能贡献与版本维护门槛&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/huggingface/skills</guid>
+    </item>
+    <item>
+      <title>NanmiCoder/MediaCrawler</title>
+      <link>https://github.com/NanmiCoder/MediaCrawler</link>
+      <description>&lt;p&gt;概要: MediaCrawler 是一款面向自媒体平台的开源数据采集工具，支持小红书、抖音、快手、B站等7大主流平台的内容抓取，基于Playwright框架实现无需JS逆向的低门槛技术方案。Pro版本升级包含断点续爬、多账号代理池、Linux支持等企业级功能，代码架构优化后更适配大型项目开发，配套WebUI可视化界面和多种数据存储方案，但明确声明仅限学习研究使用，严禁商业或非法用途。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;全平台覆盖能力&lt;/strong&gt;：唯一支持小红书/抖音/快手/B站/微博/贴吧/知乎七大平台的爬虫工具，实现关键词搜索、ID定向采集、二级评论抓取等全链路功能&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;技术门槛突破&lt;/strong&gt;：创新采用浏览器上下文保存登录态技术，规避传统JS逆向加密难题，显著降低开发复杂度&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;Pro版架构升级&lt;/strong&gt;：新增内容拆解Agent、断点续爬等工业级特性，解耦JS签名逻辑设计，支持完整Linux环境部署&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;合规性红线&lt;/strong&gt;：严格限定学习研究用途，明确禁止大规模非法爬取，开发者对使用后果免责的法律规避设计&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;工程化配套&lt;/strong&gt;：集成WebUI可视化操作、多格式数据存储、代理IP池等生产级工具链，配套全栈开发学习资源&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/NanmiCoder/MediaCrawler</guid>
+    </item>
+    <item>
+      <title>GVCLab/PersonaLive</title>
+      <link>https://github.com/GVCLab/PersonaLive</link>
+      <description>&lt;p&gt;概要: PersonaLive是由澳门大学、Dzine.ai和大湾区大学GVC实验室联合开发的实时流式扩散框架，专为直播流媒体场景设计，可生成无限长度的高质量肖像动画。该技术已入选CVPR 2026，支持12GB显存设备生成长视频，提供WebUI交互界面和TensorRT加速方案（推理速度提升2倍），兼容RTX 50系列等新型GPU架构。项目代码、预训练模型及推理工具已开源，但明确声明仅限学术研究使用，禁止生成违法有害内容。&lt;/p&gt;  
+&lt;h3&gt;核心要点:&lt;/h3&gt;  
+&lt;ul&gt;  
+  &lt;li&gt;&lt;strong&gt;技术突破&lt;/strong&gt;：全球首个支持无限长度生成的实时流式扩散框架，突破传统动画生成的时长限制&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;硬件适配性&lt;/strong&gt;：首创12GB VRAM低门槛方案，通过TensorRT加速实现2倍推理效率提升&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;工业级部署&lt;/strong&gt;：集成WebUI交互界面与ComfyUI插件，支持RTX 50系列等新型GPU架构的兼容性优化&lt;/li&gt;  
+  &lt;li&gt;&lt;strong&gt;学术生态构建&lt;/strong&gt;：依托Moore-AnimateAnyone等5大核心技术，形成开源社区生态（含自动化权重下载、音频融合等扩展功能）&lt;/li&gt;  
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/GVCLab/PersonaLive</guid>
+    </item>
+    <item>
+      <title>VectifyAI/PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>&lt;p&gt;概要: PageIndex是一种创新的无向量数据库、基于推理的RAG系统，通过构建文档的层次化树结构索引（类似智能目录），使大语言模型能模拟人类专家的推理过程进行精准检索。该技术突破传统向量相似度检索的局限，采用树状搜索机制实现98.7%的金融文档分析准确率（FinanceBench基准），支持从PDF到Markdown的多格式处理，提供可追溯的推理路径和企业级部署方案，特别适用于财务报告、法律文书等需要深度领域知识的长文档场景。&lt;/p&gt; 
+
+&lt;h3&gt;核心要点:&lt;/h3&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;strong&gt;颠覆性架构&lt;/strong&gt;：完全摒弃向量数据库和分块机制，首创基于文档结构的推理检索模式&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;拟人化检索引擎&lt;/strong&gt;：通过树状索引模拟专家阅读路径，实现上下文感知的精准定位&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;可解释性突破&lt;/strong&gt;：检索过程具备完整可追溯性，支持页面级引用定位（非模糊匹配）&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;行业标杆性能&lt;/strong&gt;：在金融文档基准测试中创98.7%准确率，较传统方案提升超30%&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;全栈解决方案&lt;/strong&gt;：提供从API集成到私有化部署的完整工具链，支持OCR-free视觉检索&lt;/li&gt; 
+&lt;/ul&gt;</description>
+      <pubDate/>
+      <guid>https://github.com/VectifyAI/PageIndex</guid>
+    </item>
+    <item>
+      <title>AUTOMATIC1111/stable-diffusion-webui</title>
+      <link>https://github.com/AUTOMATIC1111/stable-diffusion-webui</link>
+      <description>&lt;p&gt;概要: Stable Diffusion Web UI 是基于Gradio库构建的开源图像生成工具平台，提供从基础文本生成到高级图像编辑的完整功能矩阵。该工具通过注意力控制、文本反转、可变分辨率等创新技术实现精细化创作，支持4GB显存设备运行并兼容多平台硬件（NVIDIA/AMD/Intel/Ascend），集成GFPGAN、ESRGAN等10+图像处理模型，配合模块化UI设计和API接口，为用户提供从训练到部署的全流程解决方案。&lt;/p&gt;
 
 &lt;h3&gt;核心要点:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;多层资源覆盖&lt;/strong&gt;：区分纯免费服务（如OpenRouter日限50次）与试用积分模式（如Baseten提供$30额度），满足不同规模需求&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;模型生态多样性&lt;/strong&gt;：支持从轻量级（Gemma 1B）到超大规模（Llama 3.1 405B）的跨量级模型，涵盖代码生成（Codestral）、语音识别（Whisper）、多模态等场景&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;使用限制差异化&lt;/strong&gt;：各平台配额差异显著（如Groq日限14,400次 vs Cohere月限1,000次），部分服务（如Google Vertex AI）需通过严格支付验证&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;数据合规警示&lt;/strong&gt;：明确提示非欧盟/英国地区使用数据可能被用于模型训练（Google AI Studio），部分服务需主动选择数据共享（Mistral La Plateforme）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;技术验证机制&lt;/strong&gt;：多数平台强制实施手机号验证（NVIDIA NIM/Mistral），部分限制模型上下文长度（NVIDIA NIM）或输入输出token（GitHub Models）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全栈式图像生成能力&lt;/strong&gt;：覆盖文本生成/图像修复/超分辨率/风格迁移等全场景，独创注意力权重标记语法和多提示词合成技术&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;极低硬件门槛&lt;/strong&gt;：2GB显存设备可运行，支持跨平台部署（含Apple Silicon），提供云端免安装方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工业级生产工具链&lt;/strong&gt;：包含Checkpoint合并、超网络训练、自动标注等专业模块，集成DeepDanbooru等20+扩展模型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开放生态系统&lt;/strong&gt;：支持自定义脚本扩展，提供API接口，采用模块化架构可灵活配置UI组件和采样参数&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;创作效率优化&lt;/strong&gt;：实现生成参数自动记录、实时预览、中断续生成、批量处理等生产力工具&lt;/li&gt;
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/cheahjs/free-llm-api-resources</guid>
+      <guid>https://github.com/AUTOMATIC1111/stable-diffusion-webui</guid>
     </item>
     <item>
-      <title>karpathy/nanochat</title>
-      <link>https://github.com/karpathy/nanochat</link>
-      <description>&lt;p&gt;概要: nanochat是一款极简化的大型语言模型训练框架，支持在单GPU节点上完成从预训练到对话交互的全流程，通过自动化超参数配置和模型深度调节（如GPT-2级模型深度26层），实现计算最优模型的快速构建。其核心突破在于将GPT-2级模型训练成本从2019年的4.3万美元降至当前72美元（3小时8XH100 GPU），并建立社区协作的"速度赛"排行榜，通过优化预训练阶段将达标时间从168小时压缩至2.76小时，同时支持从CPU到高端GPU的多平台部署，显著降低技术门槛和研发成本。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;超低成本训练&lt;/strong&gt;：GPT-2级模型训练成本下降99.8%，单次训练仅需72美元（Spot实例低至20美元），较2019年技术成本下降超600倍&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;单参数深度控制&lt;/strong&gt;：首创通过调节模型层数(--depth)自动计算所有超参数的架构，实现从GPT-1到GPT-2级模型的无缝扩展，降低技术复杂度&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;极速预训练突破&lt;/strong&gt;：建立GPT-2速度赛排行榜，通过批量优化等技术将达标时间从168小时压缩至2.76小时，核心指标超越OpenAI基准&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;全栈式工具链&lt;/strong&gt;：集成分词、预训练、微调、评估、推理及Web对话界面，支持单GPU/多GPU/CPU全硬件方案，提供端到端可定制化流程&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：采用MIT协议开源，建立开发者社区与贡献机制，通过标准化基准测试推动微模型技术的普惠化发展&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/karpathy/nanochat</guid>
-    </item>
-    <item>
-      <title>Jeffallan/claude-skills</title>
-      <link>https://github.com/Jeffallan/claude-skills</link>
-      <description>&lt;p&gt;概要: 该工具扩展为全栈开发者提供66项覆盖12大技术领域的专业技能，通过上下文感知的自动激活机制与多技能协同工作流（如功能开发、安全加固等），结合Jira/Confluence深度集成实现项目全生命周期管理，并配备上下文工程功能验证AI隐藏假设，显著提升开发效率与准确性。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-  &lt;li&gt;&lt;strong&gt;全栈技术全覆盖&lt;/strong&gt;：66项技能涵盖后端/前端框架、DevOps、安全工程等12大领域，满足全栈开发需求&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;智能上下文激活&lt;/strong&gt;：技能自动匹配开发场景（如JWT认证实现），无需手动切换，提升响应效率&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;多技能协同工作流&lt;/strong&gt;：复杂任务通过技能组合执行（如Feature Forge→架构设计→安全审查），保障系统性质量&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;企业级项目集成&lt;/strong&gt;：原生支持Jira/Confluence，实现需求分析到复盘的全流程闭环管理&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;AI假设验证机制&lt;/strong&gt;：通过/common-ground指令显式验证Claude的隐含项目假设，降低方案偏差风险&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/Jeffallan/claude-skills</guid>
-    </item>
-    <item>
-      <title>HKUDS/RAG-Anything</title>
-      <link>https://github.com/HKUDS/RAG-Anything</link>
-      <description>&lt;p&gt;概要: RAG-Anything是基于LightRAG构建的全栈式多模态文档处理框架，通过统一架构解决传统RAG系统对文本外内容处理能力不足的问题。其端到端流水线支持PDF、Office文档、图像等20+格式，配备视觉语言模型增强查询、数学公式解析等专用模块，采用多阶段处理流程实现文档结构分解、模态感知分析及知识图谱构建，支持混合检索模式，可直接插入预解析内容列表，显著提升学术研究、金融报告等混合内容场景下的知识管理效率。&lt;/p&gt;  
+      <title>anthropics/skills</title>
+      <link>https://github.com/anthropics/skills</link>
+      <description>&lt;p&gt;概要: Anthropic推出Claude智能体技能公共仓库，提供涵盖创意设计、技术开发、企业通信及文档处理等领域的动态技能模块，通过标准化指令集与资源包帮助Claude系统高效执行特定任务。该仓库包含Apache 2.0开源技能及生产级文档处理参考实现，支持开发者通过SKILL.md模板快速构建自定义技能，并可通过Claude Code插件市场、Claude.ai及API多平台集成应用，助力企业实现品牌规范文档生成、定制化数据分析等自动化场景。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-  &lt;li&gt;&lt;strong&gt;全模态一体化处理&lt;/strong&gt;：唯一支持文本/图像/表格/公式/图表的端到端RAG框架，消除多工具依赖&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;VLM增强分析&lt;/strong&gt;：自动将文档图像接入视觉语言模型，实现图文联合语义理解与关系推理&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;动态知识图谱构建&lt;/strong&gt;：自动抽取多模态实体，建立跨模态关联关系并赋予权重评分&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;模块化处理引擎&lt;/strong&gt;：支持MinerU/Docling双解析器切换，提供OCR加速、公式解析等12种专用处理器&lt;/li&gt;  
-  &lt;li&gt;&lt;strong&gt;灵活内容接入&lt;/strong&gt;：既可解析原始文档，也可直接插入预处理内容列表，兼容外部系统数据迁移&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;模块化智能增强&lt;/strong&gt;：技能作为可动态加载的指令集，使Claude具备可扩展的专业任务处理能力（如企业品牌文档生成、私有化数据分析）&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全场景技能生态&lt;/strong&gt;：提供4大类技能示例（创意/技术/企业/文档），配套规范文档与开发模板，形成从学习到部署的完整工具链&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;企业级架构参考&lt;/strong&gt;：开放文档处理模块（docx/pdf等）源码，展示生产级AI应用的复杂技能实现范式&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多平台集成方案&lt;/strong&gt;：支持通过插件安装、API调用等方式在Claude Code、Claude.ai及第三方系统中快速启用技能&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/HKUDS/RAG-Anything</guid>
+      <guid>https://github.com/anthropics/skills</guid>
     </item>
     <item>
-      <title>mvt-project/mvt</title>
-      <link>https://github.com/mvt-project/mvt</link>
-      <description>&lt;p&gt;概要: MVT（Mobile Verification Toolkit）是国际特赦组织安全实验室开发的开源取证工具集，旨在自动化检测Android和iOS设备是否遭受间谍软件攻击。该工具通过扫描公开的威胁指标（IOC）识别潜在入侵痕迹，但强调仅依赖公开数据可能遗漏新型攻击痕迹，需结合非公开情报进行综合分析。其专为具备数字取证能力和命令行操作经验的技术人员设计，禁止普通用户自行检测设备安全，相关支持服务通过国际特赦组织及合作伙伴向公民社会提供。&lt;/p&gt;  
+      <title>infiniflow/ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>&lt;p&gt;概要: RAGFlow是领先的开源检索增强生成（RAG）引擎，通过融合前沿RAG技术与智能体（Agent）能力，为大语言模型构建高效上下文层。其核心优势包括：基于深度文档理解的复杂格式数据处理、智能模板分块技术、可追溯引用的低幻觉输出，以及对异构数据源（如PDF/DOCX/网页）的全面兼容，支持从个人到企业级的自动化RAG工作流，并提供多模型适配、API集成及可视化配置工具，助力开发者高效构建高保真AI系统。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;专业化取证工具&lt;/strong&gt;：由国际特赦组织开发，专为技术调查人员设计，需掌握数字取证技能与命令行操作，禁止非专业用户自检&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;威胁指标双刃剑&lt;/strong&gt;：支持扫描公开IOC识别已知间谍软件痕迹，但警告依赖公开数据可能导致误判，需结合非公开情报确保检测可靠性&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;技术生态闭环&lt;/strong&gt;：提供mvt-ios/mvt-android双平台命令行工具，通过PyPI安装，配套文档与GitHub社区维护技术适配&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;伦理许可框架&lt;/strong&gt;：采用特殊授权协议，明确禁止非授权隐私侵犯，聚焦保护公民社会及边缘群体的设备安全&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;首创Agent-RAG融合架构&lt;/strong&gt;：将智能体能力与RAG深度结合，支持记忆管理、代码执行、多模态处理（如PDF内图像解析），实现动态交互式AI系统构建&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;企业级复杂数据处理引擎&lt;/strong&gt;：支持Confluence/S3/Notion等多平台数据同步，采用深度文档理解技术处理扫描件/结构化数据等复杂格式，突破传统RAG的“无限token”检索瓶颈&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;低幻觉可信输出机制&lt;/strong&gt;：通过可视化分块干预、多召回+重排序融合策略、可追溯引用标注，显著提升生成结果的准确性和可解释性&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;全栈式部署解决方案&lt;/strong&gt;：提供Docker一键部署（含CPU/GPU优化）、ARM64自定义构建指南，支持Elasticsearch/Infinity双引擎切换，适配从开发测试到生产环境的全场景需求&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/mvt-project/mvt</guid>
+      <guid>https://github.com/infiniflow/ragflow</guid>
     </item>
     <item>
-      <title>anthropics/claude-quickstarts</title>
-      <link>https://github.com/anthropics/claude-quickstarts</link>
-      <description>&lt;p&gt;概要: Anthropic推出Claude Quickstarts项目集，为开发者提供基于Claude API的即用型应用开发模板，涵盖客户服务、金融分析、计算机控制、浏览器自动化及自主编码等场景。每个项目均提供可扩展的代码框架、标准化开发流程（克隆仓库/API配置/依赖安装）及持续集成能力，配套官方文档、代码示例和社区支持，助力开发者快速构建企业级AI应用。&lt;/p&gt;
-
-&lt;h3&gt;核心要点:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;多场景应用模板&lt;/strong&gt;：覆盖客户支持代理（NLP+知识库）、金融数据分析师（交互式可视化）、计算机控制（zoom操作支持）、浏览器自动化（DOM操作）及自主编码代理（双代理架构+Git持久化）五大核心场景&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;工程化开发支持&lt;/strong&gt;：提供标准化开发流程、环境变量配置规范及模块化代码结构，支持快速部署与功能扩展&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;自主代理架构创新&lt;/strong&gt;：首创双代理模式（初始化器+编码代理），实现跨会话应用开发与渐进式功能迭代&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;全链路工具集成&lt;/strong&gt;：整合Playwright（浏览器自动化）、Git（版本控制）及MIT许可协议，构建完整开发生态&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;开放协作生态&lt;/strong&gt;：开放源代码贡献通道，配套API文档、Cookbook教程及Discord社区支持体系&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/anthropics/claude-quickstarts</guid>
-    </item>
-    <item>
-      <title>GetStream/Vision-Agents</title>
-      <link>https://github.com/GetStream/Vision-Agents</link>
-      <description>&lt;p&gt;概要: Open Vision Agents是由Stream推出的实时视觉AI开发平台，通过边缘网络实现500ms快速接入和30ms超低音视频延迟，支持开发者灵活集成YOLO、Gemini等模型及自定义基础设施，提供React/Android/iOS等多平台SDK和20+预置插件（含OpenAI/Gemini/NVIDIA等），已落地运动教练、智能安防、隐形助手等场景，同时开放平台接口支持第三方扩展，当前技术需平衡图像精度与性能限制。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-  &lt;li&gt;&lt;strong&gt;实时视觉AI架构&lt;/strong&gt;：WebRTC直连模型供应商，结合YOLO/Gemini等多模态处理，实现视频分析-决策-交互闭环（如高尔夫姿态捕捉延迟&lt;100ms）&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;开放生态兼容性&lt;/strong&gt;：自主模型/第三方API（20+插件）/边缘网络三重兼容，支持本地CUDA部署（如Moondream）与云端混合计算&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;场景化解决方案&lt;/strong&gt;：提供安防（包裹盗窃检测+X平台通缉令生成）、隐形教练（屏幕分析+文本反馈）、语音交互（Twilio电话+RAG知识库）等可复用方案&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;生产级部署能力&lt;/strong&gt;：0.3版本起支持HTTP API服务化部署，集成指标监控，GPU容器化方案适配Docker/K8s，提供333,000免费运行分钟数&lt;/li&gt; 
-  &lt;li&gt;&lt;strong&gt;技术边界与优化&lt;/strong&gt;：当前限制包括小字号文本识别失效、30秒以上视频记忆衰减，需通过多模型协同（轻量检测+大模型推理）和降分辨率/FPS优化性能&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/GetStream/Vision-Agents</guid>
-    </item>
-    <item>
-      <title>docling-project/docling</title>
-      <link>https://github.com/docling-project/docling</link>
-      <description>&lt;p&gt;概要: Docling是一款面向生成式AI的文档处理工具，支持PDF、DOCX、HTML、音频、图像等20+格式解析，通过高级PDF理解引擎实现版式、表格、公式等结构化提取，并提供统一文档表示格式与Markdown/JSON等多格式导出选项。其本地化部署能力满足敏感数据处理需求，已集成LangChain等主流AI框架，结合OCR、视觉语言模型及语音识别技术，可扩展支持化学结构解析与图表智能识别，助力企业高效构建智能文档处理流水线。&lt;/p&gt;  
+      <title>NevaMind-AI/memU</title>
+      <link>https://github.com/NevaMind-AI/memU</link>
+      <description>&lt;p&gt;概要: memU是一款面向全天候主动AI代理的内存框架，通过结构化分层记忆管理显著降低LLM持续运行成本。其创新性地将记忆系统文件化，实现自动分类、跨引用和即时检索，支持预测用户意图并自主执行任务。产品提供云服务与自托管双部署方案，已验证在信息推荐、邮件管理、金融交易等场景的高效应用，结合RAG与LLM双模式检索技术，在Locomo基准测试中达到92.09%的准确率。&lt;/p&gt;  
 &lt;h3&gt;核心要点:&lt;/h3&gt;  
 &lt;ul&gt;  
-&lt;li&gt;&lt;strong&gt;多模态文档解析引擎&lt;/strong&gt;：唯一支持PDF/Office/音频/视频字幕/LaTeX等跨媒体格式的统一处理，内置Heron布局模型实现行业领先的PDF结构解析&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;生成式AI就绪架构&lt;/strong&gt;：原生集成MCP服务器与LangChain等四大AI框架，支持通过GraniteDocling等视觉语言模型实现文档多模态理解&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;企业级安全与性能&lt;/strong&gt;：提供本地化部署方案和MLX硬件加速，兼容Python 3.10+与全平台架构，满足离线环境与敏感数据处理合规要求&lt;/li&gt;  
-&lt;li&gt;&lt;strong&gt;可扩展AI应用生态&lt;/strong&gt;：通过CLI工具链与IBM开源技术支持，实现从文档预处理到智能分析的全流程自动化，即将支持元数据提取与科学图表解析&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;文件系统级记忆架构&lt;/strong&gt;：采用目录/文件/符号链接结构，实现记忆的自动归类、跨关联与可视化管理，支持导出备份等文件级操作&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;持续运行成本优化&lt;/strong&gt;：通过记忆缓存复用和冗余调用规避，显著降低7×24小时代理的LLM代币消耗，实测支持即时记忆提取与亚秒级响应&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;预测性智能引擎&lt;/strong&gt;：在无显式指令时通过行为模式分析预判用户需求，已实现内容推荐、日程调整、交易触发等自主决策功能&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;双模式检索体系&lt;/strong&gt;：RAG实现毫秒级上下文预加载，LLM支持深度意图推演，动态平衡响应速度（0.3秒内）与复杂场景处理需求&lt;/li&gt;  
+&lt;li&gt;&lt;strong&gt;多场景验证方案&lt;/strong&gt;：提供信息过滤推荐、邮件自动化处理、金融监控等开箱即用模块，并通过Python SDK支持多模态记忆整合&lt;/li&gt;  
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/docling-project/docling</guid>
+      <guid>https://github.com/NevaMind-AI/memU</guid>
     </item>
     <item>
-      <title>music-assistant/server</title>
-      <link>https://github.com/music-assistant/server</link>
-      <description>&lt;p&gt;概要: Music Assistant是一款免费开源的媒体库管理工具，核心功能是整合流媒体服务与多品牌智能音箱设备，其服务器模块需部署在树莓派、NAS等持续在线的硬件设备上。系统支持独立运行，但深度适配Home Assistant生态，推荐通过Docker容器或Home Assistant插件方式安装，受限于对ffmpeg等外部组件的依赖，无法通过Python包直接部署，官方提供完整文档与测试版资源支持。&lt;/p&gt; 
+      <title>NVIDIA/Megatron-LM</title>
+      <link>https://github.com/NVIDIA/Megatron-LM</link>
+      <description>&lt;p&gt;概要: NVIDIA Megatron-LM与Megatron Core是面向大规模Transformer模型训练的GPU优化框架，其中Megatron-LM提供开箱即用的科研实验模板，而Megatron Core作为模块化开发库支持定制化训练流水线，集成张量并行、混合精度（FP8/FP4）、动态上下文并行等尖端技术，并通过Megatron Bridge实现与Hugging Face的模型互操作性，最新版本已支持多数据中心训练与462B参数模型的高效训练（H100集群达47% MFU），其MoE路线图与Blackwell架构优化预示着未来在超大规模模型训练领域的持续创新。&lt;/p&gt; 
 
 &lt;h3&gt;核心要点:&lt;/h3&gt; 
 &lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;全栈开源生态&lt;/strong&gt;：提供完整媒体管理解决方案，支持跨平台流媒体服务与智能音箱设备整合&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;硬件部署约束&lt;/strong&gt;：必须运行在ARM/x86架构的持续在线设备，依赖特定硬件环境而非纯软件部署&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;智能家居深度集成&lt;/strong&gt;：虽支持独立运行，但核心设计优先适配Home Assistant自动化生态&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;容器化部署限制&lt;/strong&gt;：受制于系统级依赖（如ffmpeg），仅支持Docker容器或HA插件安装方式&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;双产品定位差异&lt;/strong&gt;：Megatron-LM面向科研实验快速验证，Megatron Core专注企业级定制开发，提供可组合的分布式训练模块化组件&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;性能突破与扩展性&lt;/strong&gt;：支持2B-462B参数模型训练，通过通信优化实现超线性扩展（MFU 41%→48%），验证4608 H100 GPU规模下的大规模稳定性&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;架构创新技术栈&lt;/strong&gt;：动态上下文并行（1.48x加速）、FP8/FP4混合精度、Mamba模型支持、YaRN RoPE扩展等差异化技术集成&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;生态互通能力&lt;/strong&gt;：Megatron Bridge实现Hugging Face↔Megatron双向模型转换，覆盖主流MoE模型（DeepSeek-V3/Qwen3）的标准化训练方案&lt;/li&gt; 
+&lt;li&gt;&lt;strong&gt;开放开发战略&lt;/strong&gt;：2025年核心代码迁移至GitHub，建立开发者社区贡献机制，同步推进Blackwell架构与多模态训练能力升级&lt;/li&gt; 
 &lt;/ul&gt;</description>
       <pubDate/>
-      <guid>https://github.com/music-assistant/server</guid>
-    </item>
-    <item>
-      <title>Zipstack/unstract</title>
-      <link>https://github.com/Zipstack/unstract</link>
-      <description>&lt;p&gt;概要: Unstract推出无代码LLM平台，通过Prompt Studio实现多模型对比开发通用提示模板，支持一键部署文档结构化API及ETL流水线，集成MCP服务器、n8n节点等多样化方案，结合LLMChallenge双模型验证、SinglePass降本8倍等核心技术，提供企业级文档自动化处理方案，兼容100+文件格式及主流数据生态，配备14天免费试用和自托管部署选项。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;多模态文档处理引擎&lt;/strong&gt;：支持PDF/Word/Excel/图像等100+文件格式，通过LLMWhisperer V2等技术实现接近100%准确率的非结构化数据解析&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;全栈式集成能力&lt;/strong&gt;：提供API/MCP服务器/ETL流水线/n8n节点四类集成方案，覆盖开发者、数据工程师及低代码用户群体&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;成本优化技术矩阵&lt;/strong&gt;：SinglePass提取技术降低8倍token消耗，SummarizedExtraction在保持精度前提下节省6倍成本&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;企业级安全架构&lt;/strong&gt;：集成SSO认证、端到端加密及Human-In-The-Loop人工校验机制，满足金融/医疗等合规敏感行业需求&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;生态兼容性&lt;/strong&gt;：原生支持AWS/GCP/Azure等云存储，Snowflake/Redshift等12类数据仓库，以及OpenAI/Gemini等9大LLM平台&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/Zipstack/unstract</guid>
-    </item>
-    <item>
-      <title>ruvnet/wifi-densepose</title>
-      <link>https://github.com/ruvnet/wifi-densepose</link>
-      <description>&lt;p&gt;概要: WiFi DensePose 是一款基于WiFi信道状态信息（CSI）的实时人体姿态追踪系统，通过商品化网状路由器实现穿墙全身体追踪。该系统采用机器学习技术，支持10人同时追踪（&lt;50ms延迟/30FPS），提供医疗、健身等场景的定制化分析，并推出高性能Rust版本，较Python版本提升810-5400倍处理速度且内存占用降低80%。配套灾难响应模块WiFi-Mat可穿透5米废墟检测生命体征，支持地震救援等场景，已通过数学精度验证并提供完整开发文档。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;隐私保护型感知技术&lt;/strong&gt;：无需摄像头，通过WiFi信号实现非接触式人体姿态估计，满足医疗/安防等敏感场景隐私需求&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;革命性性能突破&lt;/strong&gt;：Rust版本在CSI预处理等核心操作实现微秒级响应（如运动检测仅186ns），内存占用降至100MB且支持WASM&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;灾难应急解决方案&lt;/strong&gt;：WiFi-Mat模块可穿透废墟检测呼吸/心跳（4-60BPM），结合3D定位与自动检伤分类，适用于地震/矿难等救援场景&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;全栈企业级能力&lt;/strong&gt;：提供生产级API、Websocket实时流、跌倒检测等分析引擎，支持Docker/K8s部署及Prometheus监控集成&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;硬件兼容性优势&lt;/strong&gt;：适配主流路由器（ASUS/Netgear等）和WiFi网卡，无需专用设备即可实现94.2%姿态检测准确率&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/ruvnet/wifi-densepose</guid>
-    </item>
-    <item>
-      <title>awslabs/agent-squad</title>
-      <link>https://github.com/awslabs/agent-squad</link>
-      <description>&lt;p&gt;概要: Agent Squad（前身为Multi-Agent Orchestrator）是一个轻量级开源框架，旨在高效管理多AI代理并处理复杂对话场景。该框架支持Python和TypeScript双语言开发，通过智能意图分类动态路由请求，结合上下文管理确保跨代理交互连贯性。其核心优势包括：引入SupervisorAgent实现多代理并行处理与动态任务分配，支持流式/非流式响应模式，提供预置代理组件加速部署，并可通过AWS、OpenAI等模块化集成实现全平台部署（本地至云端）。适用于客户服务、医疗协调、影视制作等多领域，配合示例项目和社区协作机制，显著降低多AI系统构建复杂度。&lt;/p&gt; 
-
-&lt;h3&gt;核心要点:&lt;/h3&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;strong&gt;SupervisorAgent智能协调架构&lt;/strong&gt;：首创"代理即工具"模式，支持主代理并行调度专业子代理，动态分配子任务并保持上下文一致性，显著提升复杂任务处理效率&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;双语言全栈开发能力&lt;/strong&gt;：唯一同时深度支持Python/TypeScript的多代理框架，提供AWS Bedrock、Lex、Anthropic等主流AI服务的原生集成接口&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;上下文感知的智能路由系统&lt;/strong&gt;：基于对话历史和代理特征的实时意图识别引擎，确保请求精准分发至最适配代理，支持多轮对话状态持久化&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;企业级部署灵活性&lt;/strong&gt;：模块化架构支持按需安装（AWS/OpenAI/Anthropic组件），兼容从Lambda函数到私有云的全场景部署，提供流式响应即时处理能力&lt;/li&gt; 
-&lt;li&gt;&lt;strong&gt;开箱即用解决方案库&lt;/strong&gt;：包含电商客服模拟器、AI影视工作室等12+行业模板，配合多语言聊天机器人快速构建方案，缩短80%开发周期&lt;/li&gt; 
-&lt;/ul&gt;</description>
-      <pubDate/>
-      <guid>https://github.com/awslabs/agent-squad</guid>
+      <guid>https://github.com/NVIDIA/Megatron-LM</guid>
     </item>
   </channel>
 </rss>
